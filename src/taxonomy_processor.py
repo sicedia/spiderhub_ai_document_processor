@@ -1,89 +1,149 @@
-from typing import List, Dict, Any
-from fuzzywuzzy import fuzz
+import logging
+from typing import Dict, List, Tuple, Any
+from langchain_core.prompts import PromptTemplate
+from langchain_core.output_parsers import PydanticOutputParser
+from pydantic import BaseModel, Field
 
-def get_all_labels_from_taxonomy(taxonomy: Dict[str, List[Dict[str, str]]]) -> List[str]:
+# Import the tags and modules you need
+from src.tags import ACTORS_TAXONOMY
+
+logger = logging.getLogger(__name__)
+
+class TaxonomyMatch(BaseModel):
+    """Matched entity with taxonomy classification"""
+    entity: str = Field(description="Normalized entity name")
+    category: str = Field(description="Category from taxonomy or 'No clasificado'")
+    confidence: float = Field(description="Match confidence score (0-1)")
+
+def process_entities_with_taxonomy(
+    entities_by_folder: Dict[str, Dict[str, List[str]]],
+    llm,
+    threshold: float = 0.7
+) -> Tuple[Dict[str, Dict[str, List[Dict[str, Any]]]], Dict[str, Dict[str, List[str]]]]:
     """
-    Extracts all unique labels from a given taxonomy.
-
+    Filter and classify entities based on taxonomy using LLM.
+    
     Args:
-        taxonomy: The taxonomy dictionary, where keys are categories and values are lists
-                  of dictionaries, each containing a 'label' key.
-                  Example: {"Category": [{"label": "Label1", "description": "..."}]}
-
+        entities_by_folder: Dictionary with folders and their extracted entities
+        llm: Language model instance
+        threshold: Minimum confidence threshold for taxonomy matches
+        
     Returns:
-        A list of unique label strings from the taxonomy.
+        Tuple containing:
+        - Dictionary of filtered entities with taxonomy classification
+        - Dictionary of rejected entities
     """
-    all_labels = set()
-    for category_items in taxonomy.values():
-        for item in category_items:
-            if "label" in item:
-                all_labels.add(item["label"])
-    return list(all_labels)
+    filtered_entities = {}
+    rejected_entities = {}
+    
+    for folder, entities in entities_by_folder.items():
+        logger.info(f"Processing entities for folder: {folder}")
+        
+        # Process organizations
+        orgs = entities.get("organizations", [])
+        if orgs:
+            org_matches = match_entities_to_taxonomy(
+                orgs, 
+                ACTORS_TAXONOMY, 
+                llm, 
+                "Match organizations to actor categories",
+                threshold
+            )
+            
+            accepted_orgs = [match.model_dump() for match in org_matches if match.confidence >= threshold]
+            rejected_orgs = [org for org in orgs if org not in [match.entity for match in org_matches if match.confidence >= threshold]]
+            
+            if not folder in filtered_entities:
+                filtered_entities[folder] = {}
+            filtered_entities[folder]["organizations"] = accepted_orgs
+            
+            if rejected_orgs:
+                if not folder in rejected_entities:
+                    rejected_entities[folder] = {}
+                rejected_entities[folder]["organizations"] = rejected_orgs
+        
+        # Process geopolitical entities (these don't need taxonomy matching)
+        gpes = entities.get("geopolitical_entities", [])
+        if gpes:
+            if not folder in filtered_entities:
+                filtered_entities[folder] = {}
+            filtered_entities[folder]["geopolitical_entities"] = gpes
+    
+    return filtered_entities, rejected_entities
 
-def filter_entities_by_similarity(
-    entities_to_filter: List[str],
-    reference_labels: List[str],
-    similarity_threshold: int = 80
-) -> List[str]:
+def match_entities_to_taxonomy(
+    entities: List[str],
+    taxonomy: Dict[str, List[Dict[str, str]]],
+    llm,
+    instruction: str,
+    threshold: float
+) -> List[TaxonomyMatch]:
     """
-    Filters a list of entities based on their similarity to a list of reference labels.
-
+    Match a list of entities against a taxonomy using LLM.
+    
     Args:
-        entities_to_filter: A list of entity strings to be filtered.
-        reference_labels: A list of reference label strings (e.g., from a taxonomy).
-        similarity_threshold: An integer (0-100) representing the minimum similarity
-                              ratio for an entity to be considered a match.
-
+        entities: List of entity strings to match
+        taxonomy: Taxonomy dictionary
+        llm: Language model instance
+        instruction: Instructions for matching
+        threshold: Minimum confidence threshold
+        
     Returns:
-        A list of entities from `entities_to_filter` that meet the similarity
-        threshold with at least one of the `reference_labels`.
+        List of TaxonomyMatch objects
     """
-    if not entities_to_filter or not reference_labels:
+    # Format taxonomy for prompt
+    taxonomy_text = []
+    for category, items in taxonomy.items():
+        taxonomy_text.append(f"Category: {category}")
+        for item in items:
+            taxonomy_text.append(f"- {item['label']}: {item['description']}")
+    
+    taxonomy_formatted = "\n".join(taxonomy_text)
+    entities_formatted = "\n".join([f"- {entity}" for entity in entities])
+    
+    # Create output parser
+    parser = PydanticOutputParser(pydantic_object=List[TaxonomyMatch])
+    format_instructions = parser.get_format_instructions()
+    
+    # Create prompt
+    prompt = PromptTemplate(
+        template="""
+        You need to match these entities against a taxonomy.
+        
+        ENTITIES:
+        {entities}
+        
+        TAXONOMY:
+        {taxonomy}
+        
+        INSTRUCTIONS:
+        {instruction}
+        
+        For each entity:
+        1. Normalize spelling, capitalization, and aliases
+        2. Find the best matching category in the taxonomy
+        3. If no good match exists (below {threshold} confidence), use "No clasificado"
+        4. Assign a confidence score between 0 and 1
+        
+        Return a list of matches.
+        
+        {format_instructions}
+        """,
+        input_variables=["entities", "taxonomy", "instruction", "threshold"],
+        partial_variables={"format_instructions": format_instructions},
+    )
+    
+    # Run the prompt through the LLM
+    # This is a simplified example - you might want to add error handling
+    try:
+        chain = prompt | llm | parser
+        result = chain.invoke({
+            "entities": entities_formatted,
+            "taxonomy": taxonomy_formatted,
+            "instruction": instruction,
+            "threshold": threshold
+        })
+        return result
+    except Exception as e:
+        logger.error(f"Error matching entities to taxonomy: {e}")
         return []
-
-    matched_entities = []
-    for entity in entities_to_filter:
-        for label in reference_labels:
-            # Using token_set_ratio for more robust matching against phrases
-            score = fuzz.token_set_ratio(entity, label)
-            if score >= similarity_threshold:
-                matched_entities.append(entity)
-                break  # Found a match for this entity, move to the next
-    return matched_entities
-
-def filter_normalized_organizations_by_taxonomy(
-    normalized_entities_for_folder: Dict[str, List[str]],
-    organization_taxonomy_labels: List[str],
-    similarity_threshold: int = 80
-) -> Dict[str, List[str]]:
-    """
-    Filters the 'organizations' list within a normalized entities dictionary
-    for a single folder based on similarity to taxonomy labels.
-
-    Args:
-        normalized_entities_for_folder: Dictionary containing lists of normalized entities,
-                                       e.g., {"organizations": [...], "geopolitical_entities": [...]}.
-        organization_taxonomy_labels: List of reference labels for organizations.
-        similarity_threshold: Minimum similarity score for an entity to be kept.
-
-    Returns:
-        The normalized_entities_for_folder dictionary with the 'organizations' list
-        potentially filtered.
-    """
-    if "organizations" in normalized_entities_for_folder and normalized_entities_for_folder["organizations"]:
-        orgs_to_filter = normalized_entities_for_folder["organizations"]
-        
-        filtered_orgs = filter_entities_by_similarity(
-            entities_to_filter=orgs_to_filter,
-            reference_labels=organization_taxonomy_labels,
-            similarity_threshold=similarity_threshold
-        )
-        # Return a new dictionary or modify in place. Here, we update in place for simplicity,
-        # assuming the caller is aware or it's the intended behavior.
-        # For safety, you might return a modified copy:
-        # result = normalized_entities_for_folder.copy()
-        # result["organizations"] = filtered_orgs
-        # return result
-        normalized_entities_for_folder["organizations"] = filtered_orgs
-        
-    return normalized_entities_for_folder

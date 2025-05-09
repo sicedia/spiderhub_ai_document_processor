@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from .flow import run_analysis_pipeline
+from src.report_generator import DocumentReport
 
 # Configure logging
 logging.basicConfig(
@@ -62,6 +63,7 @@ def main():
     parser.add_argument("--output", default="reports", help="Output directory for reports")
     parser.add_argument("--provider", choices=["openai", "gemini"], default="openai", help="LLM provider")
     parser.add_argument("--model", default="openai/gpt-4o-mini", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
+    parser.add_argument("--output_dir", default="reports", help="Output directory for reports")
     args = parser.parse_args()
     
     
@@ -82,8 +84,10 @@ def main():
         documents_path=args.documents,
         llm=llm,
         use_parallel=args.parallel,
-        max_workers=args.workers
+        max_workers=args.workers,
+        output_dir=args.output
     )
+    
     
     logger.info("Analysis completed")
 if __name__ == "__main__":
