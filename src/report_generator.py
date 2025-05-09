@@ -11,6 +11,7 @@ from pydantic import BaseModel, Field
 
 from src.tags import MAIN_THEMES_TAXONOMY as TAG_THEMES
 from src.tags import ACTORS_TAXONOMY
+from src.score_calculation import calculate_faithfulness_score
 
 logger = logging.getLogger(__name__)
 
@@ -60,13 +61,13 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
 
     prompts["themes"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                f"Identify the main themes mentioned in the text. Assign each to a category from MAIN_THEMES_TAXONOMY: {theme_json}, Use the format: 'Theme: [theme], Sub-category: [sub-category]'. Explain the reasoning behind the classification. If no themes are found, output 'No themes found.'"),
+                f"Identify the main themes mentioned in the text. Assign each to a category from MAIN_THEMES_TAXONOMY: {theme_json}, Use the format: 'Theme: [theme], Sub-category: [sub-category]'.  If no themes are found, output 'No themes found.'"),
         ("human", "Source text:\n\n{text}\n\nMain themes:")
     ])
     
     prompts["actors_stakeholders"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                f"Identify the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}. Use the format: 'Actor: [name/organization], Category: [category from taxonomy]'. Explain the reasoning behind the classification.. If no actors are found, output 'No actors found.'"),
+                f"Identify the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}. Use the format: 'Actor: [name/organization], Category: [category from taxonomy]'. If no actors are found, output 'No actors found.'"),
         ("human", "Source text:\n\n{text}\n\nActors and Stakeholders:")
     ])
 
@@ -225,11 +226,13 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
             else:
                 results[field] = "Processing failed"
     
-    # Calculate faithfulness score (mock implementation - you would use langchain.evaluation)
+    # Calculate faithfulness score using proper evaluation
     try:
-        # In a real implementation, use the langchain evaluation module
-        # This is just a placeholder
-        results["faithfulness_score"] = 85  # Example score
+        results["faithfulness_score"] = calculate_faithfulness_score(
+            source_text=text,
+            generated_content=results,
+            llm=llm
+        )
     except Exception as e:
         logger.error(f"Error calculating faithfulness score: {e}")
         results["faithfulness_score"] = None
@@ -285,63 +288,38 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     md_lines.append(report.executive_summary)
     md_lines.append("")
     
-    # Add entities
-    md_lines.append("## Organizations")
-    if entity_data and "organizations" in entity_data:
-        md_lines.append("")
-        md_lines.append("| Organization | Category |")
-        md_lines.append("| --- | --- |")
-        for org in entity_data["organizations"]:
-            if isinstance(org, dict) and "entity" in org and "category" in org:
-                md_lines.append(f"| {org['entity']} | {org['category']} |")
-            else:
-                md_lines.append(f"| {org} | Not classified |")
-    else:
-        md_lines.append("")
-        md_lines.append("No organizations identified.")
-    
-    md_lines.append("")
-    md_lines.append("## Geopolitical Entities")
-    if entity_data and "geopolitical_entities" in entity_data:
-        entities_text = ", ".join(entity_data["geopolitical_entities"])
-        md_lines.append("")
-        md_lines.append(entities_text)
-    else:
-        md_lines.append("")
-        md_lines.append("No geopolitical entities identified.")
-    
-    
     # Add characteristics
     md_lines.append("")
-    md_lines.append("## Key Characteristics")
+    md_lines.append("## Characteristics")
     md_lines.append("")
     for char in report.characteristics:
         md_lines.append(f"- {char}")
     
-    # Add actors and stakeholders
-    md_lines.append("")
-    md_lines.append("## Actors and Stakeholders")
+    # Add actors and stakeholders (agrupados)
+    md_lines.append("## Actors")
     md_lines.append("")
     if report.actors_stakeholders:
-        md_lines.append("| Category | Actor |")
+        md_lines.append("| Category | Actors |")
         md_lines.append("| --- | --- |")
         for category, actors in report.actors_stakeholders.items():
-            for actor in actors:
-                md_lines.append(f"| {category} | {actor} |")
+            # limpiamos coma/trailing spaces de cada actor
+            cleaned = [actor.rstrip(",").strip() for actor in actors] 
+            actors_str = "; ".join(cleaned)
+            md_lines.append(f"| {category} | {actors_str} |")
         md_lines.append("")
     else:
         md_lines.append("No actors identified.")
         md_lines.append("")
 
-    # Add themes as table
+    # Add themes as table (agrupados)
     md_lines.append("## Main Themes")
     md_lines.append("")
     if report.themes:
-        md_lines.append("| Sub-category | Theme |")
+        md_lines.append("| Sub-category | Themes |")
         md_lines.append("| --- | --- |")
-        for subcat, themes in report.themes.items():
-            for theme in themes:
-                md_lines.append(f"| {subcat} | {theme} |")
+        for subcat, themes_list in report.themes.items():
+            themes_str = "; ".join(themes_list)
+            md_lines.append(f"| {subcat} | {themes_str} |")
         md_lines.append("")
     else:
         md_lines.append("No themes identified.")
