@@ -1,5 +1,5 @@
 import logging
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Tuple, Any, Optional
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
@@ -18,7 +18,8 @@ class TaxonomyMatch(BaseModel):
 def process_entities_with_taxonomy(
     entities_by_folder: Dict[str, Dict[str, List[str]]],
     llm,
-    threshold: float = 0.7
+    threshold: float = 0.7,
+    taxonomy: Optional[Dict[str, Dict[str, List[Dict[str, str]]]]] = None
 ) -> Tuple[Dict[str, Dict[str, List[Dict[str, Any]]]], Dict[str, Dict[str, List[str]]]]:
     """
     Filter and classify entities based on taxonomy using LLM.
@@ -27,24 +28,29 @@ def process_entities_with_taxonomy(
         entities_by_folder: Dictionary with folders and their extracted entities
         llm: Language model instance
         threshold: Minimum confidence threshold for taxonomy matches
+        taxonomy: Optional dictionary to pass any taxonomy mapping.
+                  For example, {'actors': ACTORS_TAXONOMY, 'themes': MAIN_THEMES_TAXONOMY}
+                  If not provided, defaults to using ACTORS_TAXONOMY for actors.
         
     Returns:
         Tuple containing:
         - Dictionary of filtered entities with taxonomy classification
         - Dictionary of rejected entities
     """
+        
     filtered_entities = {}
     rejected_entities = {}
     
     for folder, entities in entities_by_folder.items():
         logger.info(f"Processing entities for folder: {folder}")
         
-        # Process organizations
+        # Process organizations using the appropriate taxonomy mapping, e.g. 'actors'
         orgs = entities.get("organizations", [])
         if orgs:
+            org_taxonomy = taxonomy.get('actors', {})
             org_matches = match_entities_to_taxonomy(
                 orgs, 
-                ACTORS_TAXONOMY, 
+                org_taxonomy, 
                 llm, 
                 "Match organizations to actor categories",
                 threshold
@@ -53,19 +59,19 @@ def process_entities_with_taxonomy(
             accepted_orgs = [match.model_dump() for match in org_matches if match.confidence >= threshold]
             rejected_orgs = [org for org in orgs if org not in [match.entity for match in org_matches if match.confidence >= threshold]]
             
-            if not folder in filtered_entities:
+            if folder not in filtered_entities:
                 filtered_entities[folder] = {}
             filtered_entities[folder]["organizations"] = accepted_orgs
             
             if rejected_orgs:
-                if not folder in rejected_entities:
+                if folder not in rejected_entities:
                     rejected_entities[folder] = {}
                 rejected_entities[folder]["organizations"] = rejected_orgs
         
         # Process geopolitical entities (these don't need taxonomy matching)
         gpes = entities.get("geopolitical_entities", [])
         if gpes:
-            if not folder in filtered_entities:
+            if folder not in filtered_entities:
                 filtered_entities[folder] = {}
             filtered_entities[folder]["geopolitical_entities"] = gpes
     
@@ -134,7 +140,6 @@ def match_entities_to_taxonomy(
     )
     
     # Run the prompt through the LLM
-    # This is a simplified example - you might want to add error handling
     try:
         chain = prompt | llm | parser
         result = chain.invoke({
