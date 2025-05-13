@@ -13,22 +13,29 @@ Processing failed
 ## Characteristics
 
 - Processing failed
+
 ## Actors
 
 | Category | Actors |
 | --- | --- |
 | Error | Processing failed |
 
+### Main Actors Descriptions 
+
+Processing failed
+
 ## Main Themes
 
-| Sub-category | Themes |
-| --- | --- |
-| Error | Processing failed |
+No themes identified.
+
+### Main Themes Description
+
+No themes description generated.
 
 ## Practical Applications
 
 - Processing failed
 
-## Future Commitments
+## Commitments
 
 - Processing failed

@@ -35,11 +35,8 @@ def get_llm(provider: str, model: str):
         # Extract model name from format like "openai/gpt-4o-mini"
         model_name = model.split("/")[-1] if "/" in model else model
         
-        # Check if it's a chat model
-        if model_name.startswith("gpt-"):
-            return ChatOpenAI(model=model, api_key=api_key, base_url=base_url, temperature=0)
-        else:
-            return OpenAI(model_name=model_name, temperature=0,api_key=api_key, base_url=base_url,)
+        return ChatOpenAI(model=model, api_key=api_key, base_url=base_url, temperature=0)
+
     
     elif provider == "gemini":
         try:
@@ -62,7 +59,7 @@ def main():
     parser.add_argument("--workers", type=int, default=None, help="Number of parallel workers")
     parser.add_argument("--output", default="reports", help="Output directory for reports")
     parser.add_argument("--provider", choices=["openai", "gemini"], default="openai", help="LLM provider")
-    parser.add_argument("--model", default="openai/gpt-4o-mini", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
+    parser.add_argument("--model", default="gemini/gemini-2.5-flash-preview-04-17", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
     parser.add_argument("--output_dir", default="reports", help="Output directory for reports")
     args = parser.parse_args()
     

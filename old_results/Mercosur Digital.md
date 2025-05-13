@@ -9,86 +9,81 @@
 
 ## Executive Summary
 
-The report "Fueling Digital Trade in Mercosur: A Regulatory Roadmap" by Kati Suominen highlights the rapid growth of digital economies within Mercosur, where online sales have outpaced traditional trade. Brazil leads Latin America in e-commerce, while Argentina and Uruguay are emerging as startup hubs. However, most digital transactions remain domestic, hindered by inconsistent regulations across member countries regarding data privacy, taxation, and online services. The report emphasizes the need for regulatory coherence to facilitate cross-border digital trade, particularly for small and medium enterprises (SMEs). Key recommendations include creating interoperable regulations, modernizing customs procedures, and fostering public-private partnerships to enhance digital skills and access to finance. Establishing a regional Digital Dialogue is proposed to align policies and promote a vibrant digital market, ultimately driving economic growth and job creation in the region.
+The report "Fueling Digital Trade in Mercosur: A Regulatory Roadmap" by Kati Suominen highlights the rapid growth of digital economies within Mercosur, where online sales have outpaced traditional trade. Brazil leads Latin America in e-commerce, while Argentina and Uruguay are emerging as tech hubs. However, most digital transactions remain domestic due to fragmented regulations across member countries, particularly concerning data privacy, taxation, and online service regulations. The report emphasizes the need for regulatory coherence to facilitate cross-border digital trade, particularly for small and medium enterprises (SMEs). Key recommendations include creating interoperable regulations, modernizing customs procedures, and fostering public-private partnerships to enhance digital skills and access to finance. Establishing a regional Digital Dialogue is also proposed to align policies and promote a cohesive digital market, ultimately driving economic growth and job creation across the region.
 
 
 ## Characteristics
 
 - Mercosur has emerged as a digital leader in Latin America, with significant growth in e-commerce, particularly in Brazil and Argentina.
-- The region's digital trade is still primarily domestic, highlighting the need for regulatory coherence to facilitate cross-border transactions.
-- Key challenges for small businesses include access to finance, logistics, customs procedures, and complex digital regulations.
+- Digital trade is growing faster than overall trade, but most transactions remain domestic due to regulatory inconsistencies.
+- Companies that engage in online sales are more likely to export and grow, with online sellers showing greater market diversification.
+- Key challenges for SMEs include access to finance, logistics, customs procedures, and complex digital regulations.
 - Improving the regulatory environment could boost revenues and exports by nearly 30% annually for Mercosur companies.
-- Recommendations include creating smart digital regulations, modernizing customs procedures, and fostering public-private partnerships for skills development and finance.
+- A coherent regional digital market is essential for scaling businesses and enhancing competitiveness in the global market.
 
 ## Actors
 
 | Category | Actors |
 | --- | --- |
-| Political Actors | Inter-American Development Bank; Mercosur governments; Regulatory bodies |
-| Research and Innovation Actors | Kati Suominen; Academic institutions |
-| Economic Actors | SMEs (Small and Medium Enterprises); Digital companies; Online sellers; E-commerce companies; Private sector; Export promotion agencies; Technology companies; Digital service providers; Logistics companies; Financial institutions |
-| Civil Society Actors | Consumers |
+| [Political Actors] | [Mercosur governments]; [Inter-American Development Bank]; [Brazilian Central Bank]; [Uruguay XXI]; [Apex (Brazil's export promotion agency)]; [ProChile] |
+| [Research and Innovation Actors] | [Kati Suominen] |
+| [Economic Actors] | [B2W]; [Mercado Libre]; [Small and Medium Enterprises (SMEs)]; [Mercado Crédito]; [Export-Import banks]; [Social impact investors]; [Digital companies]; [Ecommerce platforms] |
+| [Civil Society Actors] | [Private sector representatives] |
+
+### Main Actors Descriptions 
+
+- **Governments**: National administrative bodies of Mercosur member countries responsible for creating and implementing digital trade regulations.
+- **Government Officials**: Individuals in positions of authority within the Mercosur governments involved in policymaking for digital trade.
+- **Policy Level Representatives**: Officials engaged in the formulation and execution of policies related to digital trade and ecommerce.
+- **Inter-American Development Bank (IDB)**: An international financial institution that supports development projects in Latin America, including those related to digital trade.
+- **Small and Medium Enterprises (SMEs)**: Businesses in the Mercosur region that are crucial for driving online sales and exports, facing challenges in accessing finance and navigating regulations.
+- **Ecommerce Companies**: Businesses operating online platforms for selling goods and services, significantly contributing to the region's digital economy.
+- **Tech Startups**: Innovative companies in the Mercosur region, such as Mercado Libre and B2W, that are leading the digital transformation and ecommerce growth.
+- **Digital Payment Providers**: Companies facilitating online transactions, which are essential for ecommerce operations in the region.
+- **Logistics and Customs Agencies**: Entities responsible for managing the movement of goods across borders, facing challenges in adapting to the rise of ecommerce.
+- **Consumer Protection Organizations**: Groups advocating for the rights of consumers in the digital marketplace, ensuring fair practices in online transactions.
+- **Private Sector Representatives**: Individuals representing business interests in discussions about digital trade regulations and policies.
+- **Research and Academic Institutions**: Organizations conducting studies and providing data on the impact of digital trade and ecommerce in the region.
+- **International Organizations**: Entities like the United Nations and the Organisation for Economic Cooperation and Development (OECD) that influence global standards and practices in digital trade.
 
 ## Main Themes
 
-| Themes | Sub-category |
-| --- | --- |
-| Digital Transformation & Strategy | Digital Trade |
-| Digital Transformation & Strategy | Digital Policy |
-| Digital Transformation & Strategy | Digital Regulation |
-| Digital Transformation & Strategy | Digital Ecosystem |
-| Technology & Innovation | ICT Innovation |
-| Technology & Innovation | Cloud Computing |
-| Data & Governance | Data Protection |
-| Data & Governance | Data Privacy |
-| Data & Governance | Digital Rights |
-| Data & Governance | Cybersecurity |
-| Inclusion & Social Development | Digital Inclusion |
-| Inclusion & Social Development | Digital Education |
-| Regional & International Cooperation | Bi-regional Cooperation |
-| Regional & International Cooperation | Global Digital Cooperation |
+No themes identified.
 
 ### Main Themes Description
 
 - **Digital Transformation in Mercosur**: 
-  - Mercosur countries have emerged as digital leaders in Latin America, with significant growth in e-commerce outpacing traditional trade.
+  - Mercosur countries have rapidly evolved into digital leaders in Latin America, with significant growth in e-commerce outpacing traditional trade.
   - Brazil accounts for 60% of Latin America's e-commerce, while Argentina has produced successful tech startups like Mercado Libre.
 
 - **Need for Regional Integration**: 
   - Most digital sales remain domestic; regional integration is essential for scaling e-commerce across borders.
-  - Regulatory coherence is lacking, with differing national regulations on data privacy, taxation, and online services hindering cross-border trade.
+  - Regulatory coherence among Mercosur countries is necessary to facilitate seamless online transactions and reduce barriers for digital companies.
 
-- **Regulatory Roadmap for Digital Trade**: 
-  - The report outlines a roadmap for policymakers to enhance digital trade, focusing on frameworks that support SMEs in e-commerce.
-  - Recommendations include creating smart digital regulations, mutual recognition of online service providers, and modernizing customs procedures.
+- **Regulatory Challenges**: 
+  - Divergent regulations on data privacy, taxation, and online services create obstacles for businesses, particularly small and medium enterprises (SMEs).
+  - Companies express concerns over intellectual property protections, over-the-top (OTT) regulations, and legal liabilities.
 
-- **Challenges for SMEs**: 
-  - Small businesses face significant barriers, including access to finance, logistics, customs procedures, and complex digital regulations.
-  - Regulatory concerns include IP protections, taxes, and legal liabilities, which disproportionately affect smaller firms.
+- **Impact of Digital Trade on SMEs**: 
+  - Online sellers are more likely to export and grow faster than those without an online presence.
+  - Digital trade enhances access to international markets, allowing SMEs to diversify their export destinations.
 
-- **Impact of Digital Regulations**: 
-  - Improving digital regulations could increase revenues and exports by nearly 30% annually for Mercosur companies.
-  - Companies report that removing top regulatory constraints could lead to substantial revenue gains in both domestic and international markets.
+- **Recommendations for Policy Improvements**: 
+  - Create smart digital regulations that promote interoperability and reduce compliance costs for businesses.
+  - Establish mutual recognition of online service providers to facilitate cross-border operations.
+  - Modernize customs procedures to streamline trade for small shipments and improve logistics.
 
-- **Importance of Internet Access**: 
-  - Internet connectivity is crucial for productivity; companies that sell online are more likely to export and grow faster.
-  - A significant percentage of firms believe that limiting internet access would severely impact their productivity.
+- **Investment in Skills and Finance**: 
+  - There is a need for training programs to enhance digital skills among SMEs and larger companies.
+  - Public-private partnerships can help address financing challenges faced by small online sellers.
 
-- **Logistics and Customs Issues**: 
-  - Inefficient customs procedures and high logistics costs are major obstacles for cross-border e-commerce.
-  - Recommendations include simplifying customs processes and improving logistics services to facilitate trade.
+- **Establishment of a Digital Dialogue**: 
+  - A regional Digital Dialogue is proposed to foster collaboration between governments and the private sector, focusing on regulatory frameworks and best practices.
+  - This dialogue aims to create actionable regulatory roadmaps and monitor the impact of regulations on businesses.
 
-- **Public-Private Partnerships for Skills Development**: 
-  - There is a need for training programs to help SMEs develop digital skills and navigate e-commerce.
-  - Innovative funding mechanisms, such as social impact bonds, could support these initiatives.
-
-- **Establishing a Digital Dialogue**: 
-  - A proposed "Digital Dialogue" would facilitate ongoing discussions between governments and the private sector to shape effective digital regulations.
-  - This dialogue aims to create a collaborative environment for addressing regulatory challenges and promoting digital trade.
-
-- **Future of Digital Trade in Mercosur**: 
-  - The report emphasizes the urgency for Mercosur governments to harmonize regulations to foster a vibrant digital economy.
-  - Successful integration and coherent regulatory frameworks are vital for competing in the global digital marketplace.
+- **Potential Economic Gains**: 
+  - Improving the regulatory environment could lead to significant revenue and export growth for Mercosur companies.
+  - Removing top regulatory constraints could result in annual revenue gains of 34% domestically and 35% internationally for companies.
 
 ## Practical Applications
 
@@ -96,18 +91,20 @@ The report "Fueling Digital Trade in Mercosur: A Regulatory Roadmap" by Kati Suo
 - Argentina is finalizing a data protection draft bill that has been open to public consultation, aiming to establish a good international data transfer regime.
 - Brazil's Marco Civil da Internet, approved in 2014, defines Internet users’ rights and includes a "safe harbor" provision that limits the responsibility of Internet service providers for third-party content.
 - Uruguay has a data protection law in place since 2008, which requires companies capturing personal data to register and provide privacy policies.
-- The Chile-Uruguay Free Trade Agreement includes provisions for interoperable electronic signatures, acceptance of electronically filed trade documents, and cooperation on consumer protections online.
+- The Chile-Uruguay Free Trade Agreement includes provisions for interoperable electronic signatures, acceptance of electronically filed trade documents, and cooperation on consumer protection online.
 - Brazil's Apex has created training programs for SMEs to use ecommerce to export.
-- Chile's export promotion agency ProChile has comprehensive "Digital Exports" seminars on ecommerce, digital marketing, and international promotional campaigns.
-- Mexico's export promotion agency Proméxico has organized seminars and training for SMEs on digital marketing strategies and online sales.
-- Uruguay's export promotion agency Uruguay XXI has a Proexport+ program that supports both new and existing exporters with funding for product development and market research.
+- Chile's export promotion agency ProChile has comprehensive “Digital Exports” seminars on ecommerce, digital marketing, and international promotional campaigns.
+- Mexico's export promotion agency Proméxico has organized seminars and training for SMEs, created a B2B platform for selling to overseas markets, and offers consulting services for digital marketing strategies.
 - The Exporta Fácil program in Latin America simplifies customs clearance for SMEs for shipments typically weighing less than 30 kilograms and valued under US$5,000.
-- The proposal for a "Trusted eTrader" program aims to facilitate and secure trade by fast-tracking customs for SMEs that consistently comply with trade regulations.
-- The establishment of a Digital Dialogue (Dialogo Digital) to bring together government officials and businesses quarterly to discuss regulatory frameworks and digital economy benefits.
+- The proposal for a "Trusted eTrader" program to facilitate and secure trade by fast-tracking shipments for SMEs that consistently comply with trade regulations.
+- The establishment of a Digital Dialogue (Dialogo Digital) to bring together government officials and businesses to discuss regulatory frameworks and optimize trade and investment in the digital economy.
 
 ## Commitments
 
 - Brazil's data protection law, Lei Geral de Proteção de Dados (LGPD), passed in 2018, will go into effect in 2020.
 - Mercosur companies estimate that improving digital regulations would enable them to increase their revenues and exports by almost 30 percent annually.
-- If the top-3 constraints to doing ecommerce were removed, Mercosur companies would score annual revenue gains of 34 percent in their domestic markets and 35 percent in international markets.
-- A "Trusted eTrader" program could incentivize SMEs’ trade compliance through simplified and digitized trade compliance, allowing SMEs that consistently comply for a period of 18 months to become Trusted eTraders whose shipments are fast-tracked through customs.
+- If the top-3 constraints to doing ecommerce were removed, Mercosur companies would score annual revenue gains of 34 percent in domestic markets and 35 percent in international markets.
+- The proposal for a "Trusted eTrader" program includes a period of 18 months for SMEs to consistently comply with trade regulations to become fast-tracked through customs.
+- The Chile-Uruguay FTA includes provisions for interoperable electronic signatures and acceptance of electronically filed trade documents, which are to be implemented as part of the agreement.
+- The Pacific Alliance countries adopted a Digital Agenda in 2017, pledging to work toward a regional digital market and regional cybersecurity.
+- The report suggests that Mercosur governments should establish a Digital Dialogue that meets quarterly to discuss regulatory frameworks and their impacts.

@@ -55,10 +55,16 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
         ("human", "Source text:\n\n{text}\n\nMain Themes Description (bullet points):")
     ])
     
-    prompts["actors_stakeholders"] = ChatPromptTemplate.from_messages([
+    prompts["actors"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
                 f"Identify the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}. Use the format: 'Actor: [name/organization], Category: [category from taxonomy]'. If no actors are found, output 'No actors found.'"),
         ("human", "Source text:\n\n{text}\n\nActors and Stakeholders:")
+    ])
+    
+    prompts["actors_description"] = ChatPromptTemplate.from_messages([
+        ("system", common_instruction +
+                f"Generate a bullet-point list that succinctly describes the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}."),
+        ("human", "Source text:\n\n{text}\n\nActors and Stakeholders Description (bullet points):")
     ])
 
     prompts["practical_applications"] = ChatPromptTemplate.from_messages([

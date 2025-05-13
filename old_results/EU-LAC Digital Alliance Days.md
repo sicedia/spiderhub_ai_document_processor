@@ -16,9 +16,9 @@ The EU-LAC Digital Alliance Days, held from November 27-29, 2023, in Cartagena d
 
 - The EU-LAC Digital Alliance Days took place from November 27-29, 2023, in Cartagena de Indias, Colombia, gathering over 150 representatives from various sectors.
 - Key discussions focused on digital cooperation, including AI, data governance, digital government, inclusive connectivity, and cybersecurity.
-- Participants identified joint collaboration areas, such as cybersecurity frameworks, inclusive connectivity strategies, and interoperable digital identity mechanisms.
-- The event emphasized a human-centric approach to digital transformation and marked a milestone in strengthening bi-regional partnerships.
-- Follow-up dialogues on cybersecurity and other digital topics are scheduled for 2024, leading up to the next EU-CELAC Summit in 2025.
+- Participants identified joint collaboration areas such as cybersecurity frameworks, inclusive connectivity strategies, and digital identity mechanisms.
+- The event emphasized a human-centric approach to technology, aligning with the goals of the Global Gateway initiative in Latin America and the Caribbean.
+- A follow-up dialogue on cybersecurity is scheduled for February 2024 in the Dominican Republic, with additional discussions planned throughout the year.
 
 ## Actors
 
@@ -28,24 +28,47 @@ The EU-LAC Digital Alliance Days, held from November 27-29, 2023, in Cartagena d
 | Research and Innovation Actors | 3.  Digital for Development (D4D) Hub |
 | Government Officials | 4.  Félix Fernández-Shaw; 5.  Saul Kattan; 6.  Miguel González Gullón |
 
+### Main Actors Descriptions 
+
+- **European Commission** (Political Actors: Government Officials)
+  - Co-organizer of the EU-LAC Digital Alliance Days, represented by Félix Fernández-Shaw, Director for Latin America.
+
+- **Spanish Agency for International Development (AECID)** (Political Actors: Government Officials)
+  - Co-organizer of the event, involved in training and development initiatives.
+
+- **Digital for Development (D4D) Hub** (Research and Innovation Actors)
+  - Co-organizer of the event, focusing on promoting digital solutions for development.
+
+- **Senior Government Representatives from Latin America and the Caribbean (LAC)** (Political Actors: Government Officials)
+  - Over 150 representatives participated in the event to discuss digital cooperation.
+
+- **European Union (EU) and its Member States** (Political Actors: EU Member States)
+  - Participated in the event to strengthen digital partnerships with LAC countries.
+
+- **Saul Kattan** (Political Actors: Government Officials)
+  - Presidential Adviser on Digital Transformation in Colombia, spoke at the event.
+
+- **Miguel González Gullón** (Political Actors: Government Officials)
+  - Head of the AECID Training Center in Cartagena, also spoke at the event.
+
+- **Participants from Civil Society, Academia, and Private Sector** (Civil Society Actors)
+  - Engaged in discussions on digital cooperation and shared best practices.
+
+- **Dominican Republic** (Political Actors: Government Officials)
+  - Scheduled to host a follow-up dialogue on cybersecurity in February 2024.
+
+- **German Federal Ministry for Economic Cooperation and Development (BMZ)** (Political Actors: Government Officials)
+  - Co-financed the policy dialogue component of the event.
+
 ## Main Themes
 
-| Themes | Sub-category |
+| Main Theme | Subthemes |
 | --- | --- |
-| Digital Transformation & Strategy | Digital Agenda |
-| Digital Transformation & Strategy | Digital Policy |
-| Digital Transformation & Strategy | Digital Ecosystem |
-| Technology & Innovation | Artificial Intelligence |
-| Technology & Innovation | Tech-Driven Solutions |
-| Technology & Innovation | Cybersecurity |
-| Data & Governance | Data Governance |
-| Data & Governance | Cyber Risk Management |
-| Data & Governance | Digital Identity Management |
-| Inclusion & Social Development | Digital Inclusion |
-| Inclusion & Social Development | Connectivity |
-| Regional & International Cooperation | EU-LAC Digital Alliance |
-| Regional & International Cooperation | EU-CELAC Digital Partnership |
-| Regional & International Cooperation | Bi-regional Cooperation |
+| Digital Transformation & Strategy | Digital Agenda; Digital Policy; Digital Ecosystem |
+| Technology & Innovation | Artificial Intelligence; Cybersecurity |
+| Data & Governance | Data Governance; Cybersecurity; Digital Identity Management |
+| Inclusion & Social Development | Digital Inclusion; Connectivity |
+| Regional & International Cooperation | EU-LAC Digital Alliance; EU-CELAC Digital Partnership; Bi-regional Cooperation |
 
 ### Main Themes Description
 
@@ -69,19 +92,18 @@ The EU-LAC Digital Alliance Days, held from November 27-29, 2023, in Cartagena d
 
 - **Political Commitment**: The event underscored the political will of partner countries to enhance collaboration on digital issues through shared dialogue and initiatives.
 
-- **Milestone for Bi-Regional Partnership**: Marked a significant step in strengthening the EU-LAC digital partnership, following a Joint Declaration at the third EU-CELAC Summit in July 2023, with a focus on the upcoming 2025 Summit in Colombia.
+- **Milestone for Bi-Regional Partnership**: The event marked a significant step in strengthening the EU-LAC digital partnership, following a Joint Declaration from the third EU-CELAC Summit in July 2023, with a focus on the upcoming 2025 Summit in Colombia.
 
-- **Follow-Up Dialogues**: Planned follow-up discussions on cybersecurity, connectivity, digital inclusion, data governance, and e-governance throughout 2024.
+- **Future Dialogues**: Plans for follow-up dialogues on cybersecurity, connectivity, digital inclusion, data governance, and e-governance are scheduled throughout 2024, starting with a cybersecurity dialogue in February hosted by the Dominican Republic.
 
-- **Global Gateway Initiative**: The EU-LAC Digital Alliance is part of the EU's strategy to foster trusted and sustainable connections with Latin America and the Caribbean, supported by the German Federal Ministry for Economic Cooperation and Development.
+- **Global Gateway Initiative**: The EU-LAC Digital Alliance is part of the EU's strategy to foster trusted and sustainable connections with Latin America and the Caribbean, contributing to the ambitions of the Global Gateway initiative.
 
 ## Practical Applications
 
-- Co-organized the EU-LAC Digital Alliance Days in Cartagena de Indias, Colombia, focusing on advancing digital cooperation between the EU and LAC regions.
-- Established joint areas for collaboration including alignment of cybersecurity frameworks, implementation of inclusive and secure connectivity policies, development of interoperable digital identity mechanisms, and improved data flow strategies.
-- Determined co-leading partnerships between the EU, EU Member States, and LAC countries in five thematic areas: AI, data governance, digital government, inclusive connectivity, and cybersecurity.
-- Planned a follow-up dialogue on cybersecurity in February 2024 in the Dominican Republic, with additional dialogues on connectivity, digital inclusion, data governance, and e-governance scheduled for later in the year.
-- Supported by the German Federal Ministry for Economic Cooperation and Development (BMZ) through co-financing of the policy dialogue component of the TEI.
+- Co-leading partnerships established between the EU, EU Member States, and LAC countries in five thematic areas: cybersecurity frameworks, inclusive and secure connectivity, interoperable digital identity mechanisms, free and safe data flows, and AI risk mitigation strategies.
+- A Joint Declaration endorsed at the third EU-CELAC Summit in July 2023, marking a commitment to strengthen bi-regional digital partnerships.
+- A follow-up dialogue on cybersecurity scheduled for February 2024 in the Dominican Republic, with additional dialogues planned for connectivity, digital inclusion, data governance, and e-governance later in the year.
+- The policy dialogue component of the TEI (Team Europe Initiative) co-financed by the German Federal Ministry for Economic Cooperation and Development (BMZ).
 
 ## Commitments
 
