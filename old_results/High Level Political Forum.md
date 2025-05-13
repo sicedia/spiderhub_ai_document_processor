@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-The High-Level Political Forum (HLPF) on Sustainable Development, convened under the Economic and Social Council, has focused on the urgent need for recovery from the COVID-19 pandemic while advancing the 2030 Agenda for Sustainable Development. The 2023 session emphasized the interconnected challenges of poverty, food insecurity, and climate change, with 38 countries presenting Voluntary National Reviews (VNRs) to share progress and strategies. Key messages highlighted the necessity for increased financing, innovative partnerships, and a commitment to leaving no one behind, particularly for vulnerable groups. The forum underscored the importance of multilateral cooperation and the role of science, technology, and innovation in achieving the Sustainable Development Goals (SDGs). As the world approaches the 2023 SDG Summit, there is a collective call for transformative actions to address ongoing crises and ensure sustainable, inclusive recovery efforts.
+The High-Level Political Forum (HLPF) on Sustainable Development, convened under the Economic and Social Council, has faced significant challenges due to the COVID-19 pandemic, geopolitical tensions, and climate change, which have hindered progress towards the Sustainable Development Goals (SDGs). The 2023 session emphasized the need for urgent, transformative actions to accelerate recovery and implementation of the 2030 Agenda. Key discussions highlighted the importance of inclusive financing, multi-stakeholder partnerships, and local engagement to address vulnerabilities, particularly for Least Developed Countries (LDCs) and Small Island Developing States (SIDS). The forum underscored the necessity of integrating climate action, gender equality, and technological innovation into recovery strategies. With 38 countries presenting Voluntary National Reviews, the HLPF called for renewed global commitment and collaboration to ensure no one is left behind, particularly vulnerable populations. The upcoming SDG Summit is seen as a pivotal opportunity to reaffirm commitments and mobilize resources for sustainable development.
 
 
 ## Characteristics
@@ -18,85 +18,105 @@ The High-Level Political Forum (HLPF) on Sustainable Development, convened under
 - Emphasis on multilateral cooperation, innovative financing, and partnerships to achieve the 2030 Agenda.
 - Key themes include climate action, gender equality, and the need for inclusive policies that leave no one behind.
 - Countries present Voluntary National Reviews (VNRs) to share progress and challenges in implementing the SDGs.
-- The forums highlight the importance of localizing the SDGs and engaging vulnerable populations in decision-making processes.
-- Calls for urgent action to address systemic inequalities and enhance data collection for effective monitoring of SDG progress.
+- The importance of localizing the SDGs and engaging communities in decision-making processes is highlighted.
+- Calls for urgent action to address inequalities, enhance data collection, and improve access to resources for vulnerable populations.
+
 ## Actors
 
 | Category | Actors |
 | --- | --- |
-| Political Actors | 1.  Economic and Social Council (ECOSOC); 2.  United Nations; 3.  Secretary-General of the United Nations; 4.  Heads of State and Government; 5.  Ministers and Vice Ministers; 6.  European Union; 10.  Local authorities; 14.  Small Island Developing States (SIDS); 15.  Least Developed Countries (LDCs); 16.  Landlocked Developing Countries (LLDCs); 17.  Middle-Income Countries (MICs); 18.  International organizations; 20.  United Nations Environment Programme (UNEP); 23.  World Trade Organization (WTO); 25.  UN Women; 26.  Food and Agriculture Organization (FAO); 27.  International Labour Organization (ILO) |
-| Civil Society Actors | 7.  Major Groups and other stakeholders; 8.  Youth representatives; 9.  Women and girls; 12.  Civil society organizations; 13.  Indigenous peoples; 19.  Non-governmental stakeholders |
+| Political Actors | 1.  Economic and Social Council (ECOSOC); 2.  United Nations; 3.  Secretary-General of the United Nations; 4.  Heads of State and Government; 5.  Ministers and Vice Ministers; 6.  European Union; 10.  Local authorities; 14.  Small Island Developing States (SIDS); 15.  Least Developed Countries (LDCs); 16.  Landlocked Developing Countries (LLDCs); 17.  Middle-Income Countries (MICs); 18.  International organizations; 20.  United Nations Environment Programme (UNEP); 23.  World Trade Organization (WTO) |
+| Civil Society Actors | 7.  Major Groups and other stakeholders; 8.  Youth representatives; 9.  Women and girls; 12.  Civil society organizations; 13.  Indigenous peoples; 19.  Non-governmental stakeholders; 25.  Technology providers |
 | Economic Actors | 11.  Private sector; 21.  World Bank; 22.  International Monetary Fund (IMF) |
 | Research and Innovation Actors | 24.  International Resource Panel |
 
 ## Main Themes
 
-| Sub-category | Themes |
+| Themes | Sub-category |
 | --- | --- |
-| Digital Policy | 1.  Digital Transformation & Strategy |
-| Digital Skills Development | 2.  Digital Transformation & Strategy |
-| Data Governance | 3.  Data & Governance |
-| Cybersecurity | 4.  Data & Governance; 44.  Data & Governance |
-| Gender Equality in Tech | 5.  Inclusion & Social Development |
-| Digital Inclusion | 6.  Inclusion & Social Development |
-| Social Cohesion | 7.  Inclusion & Social Development |
-| Global Digital Cooperation | 8.  Regional & International Cooperation |
-| Multilateralism | 9.  Regional & International Cooperation |
-| ICT Innovation | 10.  Technology & Innovation |
-| Sustainable Tech | 11.  Technology & Innovation |
-| Innovation in Computing | 12.  Technology & Innovation |
-| Artificial Intelligence | 13.  Technology & Innovation |
-| Cloud Computing | 14.  Technology & Innovation |
-| Blockchain | 15.  Technology & Innovation |
-| High-Performance Computing | 16.  Technology & Innovation |
-| Quantum Technologies | 17.  Technology & Innovation |
-| Data Protection | 18.  Data & Governance; 43.  Data & Governance |
-| Digital Rights | 19.  Data & Governance; 42.  Data & Governance |
-| Digital Ethics | 20.  Data & Governance; 49.  Data & Governance |
-| Digital Governance | 21.  Data & Governance; 41.  Data & Governance |
-| Data Privacy | 22.  Data & Governance |
-| Internet Governance | 23.  Data & Governance; 48.  Data & Governance |
-| Digital Identity Management | 24.  Data & Governance; 47.  Data & Governance |
-| Digital Access | 25.  Data & Governance; 46.  Data & Governance |
-| Cyber Risk Management | 26.  Data & Governance; 45.  Data & Governance |
-| Digital Regulation | 27.  Data & Governance; 39.  Data & Governance; 50.  Data & Governance |
-| Digital Sustainability | 28.  Data & Governance; 51.  Data & Governance |
-| Digital Trade | 29.  Data & Governance; 52.  Data & Governance |
-| Digital Infrastructure | 30.  Data & Governance; 53.  Data & Governance |
-| Digital Ecosystem | 31.  Data & Governance; 54.  Data & Governance |
-| Digital Investment | 32.  Data & Governance; 55.  Data & Governance |
-| Digital Acceleration | 33.  Data & Governance; 56.  Data & Governance |
-| Digital Platforms | 34.  Data & Governance; 57.  Data & Governance |
-| Digital Transitions | 35.  Data & Governance; 58.  Data & Governance |
-| Digital Research | 36.  Data & Governance; 59.  Data & Governance |
-| Digital Decade | 37.  Data & Governance; 60.  Data & Governance |
-| Digital Agenda | 38.  Data & Governance; 61.  Data & Governance |
-| Digital Economy | 40.  Data & Governance |
+| Digital Transformation & Strategy | Digital Agenda |
+| Digital Transformation & Strategy | Digital Acceleration |
+| Digital Transformation & Strategy | Digital Infrastructure |
+| Digital Transformation & Strategy | Digital Policy |
+| Digital Transformation & Strategy | Digital Skills Development |
+| Technology & Innovation | Tech-Driven Solutions |
+| Technology & Innovation | ICT Innovation |
+| Technology & Innovation | Sustainable Tech |
+| Technology & Innovation | Cloud Computing |
+| Technology & Innovation | Innovation in Computing |
+| Data & Governance | Data Governance |
+| Data & Governance | Digital Rights |
+| Data & Governance | Data Protection |
+| Data & Governance | Cybersecurity |
+| Data & Governance | Data Privacy |
+| Inclusion & Social Development | Digital Inclusion |
+| Inclusion & Social Development | Gender Equality in Tech |
+| Inclusion & Social Development | Digital Education |
+| Inclusion & Social Development | Connectivity |
+| Regional & International Cooperation | Global Digital Cooperation |
+| Regional & International Cooperation | Multilateralism |
+| Regional & International Cooperation | Digital & Technological Partnerships |
+
+### Main Themes Description
+
+- **Impact of COVID-19 on Sustainable Development**:
+  - The pandemic has severely disrupted progress towards the Sustainable Development Goals (SDGs), exacerbating issues like poverty, food insecurity, and health crises.
+  - Urgent action is needed to recover lost ground and ensure equitable access to resources, particularly vaccines.
+
+- **Global Solidarity and Cooperation**:
+  - Emphasis on the necessity of multilateralism and international cooperation to address the interconnected crises affecting the SDGs.
+  - Calls for innovative partnerships and financing mechanisms to support developing countries, especially those in special situations (LDCs, LLDCs, SIDS).
+
+- **Financing for Development**:
+  - Access to affordable financing remains a critical challenge, with many countries facing high debt burdens and limited fiscal space.
+  - Proposals for debt relief, reallocation of Special Drawing Rights (SDRs), and increased development financing to support recovery efforts.
+
+- **Gender Equality and Social Inclusion**:
+  - Gender equality is highlighted as essential for achieving all SDGs, with calls for policies that empower women and girls and address gender-based violence.
+  - The need for inclusive approaches that engage marginalized groups, including youth and indigenous peoples, in decision-making processes.
+
+- **Climate Action and Environmental Sustainability**:
+  - Urgent need to address climate change and biodiversity loss as integral to achieving the SDGs.
+  - Calls for enhanced commitments to the Paris Agreement and the implementation of nature-based solutions to combat environmental degradation.
+
+- **Digital Transformation and Technology**:
+  - Recognition of the role of science, technology, and innovation (STI) in driving sustainable development and bridging the digital divide.
+  - Emphasis on the need for technology transfer and capacity building, particularly for developing countries.
+
+- **Local Action and Community Engagement**:
+  - Importance of localizing the SDGs and empowering local authorities to implement sustainable development initiatives.
+  - Engagement of civil society and grassroots organizations is crucial for effective SDG implementation and accountability.
+
+- **Voluntary National Reviews (VNRs)**:
+  - Countries presented VNRs to assess progress on the SDGs, highlighting successes and challenges in their implementation.
+  - VNRs serve as a tool for stocktaking and fostering collaboration among stakeholders to accelerate SDG progress.
+
+- **Urgency for Transformative Action**:
+  - Calls for bold, coordinated, and urgent global action to overcome current challenges and achieve the SDGs by 2030.
+  - The upcoming SDG Summit is seen as a pivotal moment to renew commitments and take concrete actions towards sustainable development.
 
 ## Practical Applications
 
-- **10-Year Framework of Programmes on Sustainable Consumption and Production Patterns**: A universal framework adopted in 2012 to accelerate the shift to sustainable consumption and production at regional and national levels, with ongoing reporting and initiatives.
-- **Sustainable Public Procurement Programme**: Launched to leverage public procurement as a tool for advancing sustainable consumption and production, including a flagship initiative to mainstream circularity in the construction sector.
-- **Consumer Information for Sustainable Consumption and Production Programme**: Promotes consumer protection policies and sustainability information, including the EcoAdvance project in Latin America to create incentives for cleaner production.
-- **Sustainable Lifestyles and Education Programme**: Supported the development of G20 High Level Principles on Lifestyles for Sustainable Development, emphasizing stakeholder engagement for sustainable production and consumption.
-- **Sustainable Food Systems Programme**: Convened a global conference to discuss food systems transformation and launched a Food Systems Knowledge Hub for guidance and tools.
-- **Glasgow Declaration on Climate Action in Tourism**: Engages the tourism sector in climate action, with 80 new signatories in 2023 committing to sustainability measures.
-- **Global Circularity Protocol for Business**: A business-led initiative to provide a framework for companies to report and disclose their circularity performance.
-- **Building Circularity into Nationally Determined Contributions**: A practical toolbox launched to help countries integrate circular economy approaches into their climate action plans.
-- **Tech Access Partnership**: An initiative to increase access to health technologies in least developed countries, launched by the UN Technology Bank, UNDP, and WHO.
-- **Voluntary National Reviews (VNRs)**: 38 countries presented VNRs in 2023, showcasing their actions and commitments towards the SDGs, with a focus on inclusive participation and stakeholder engagement.
-- **Multidimensional Vulnerability Index (MVI)**: Proposed as a tool to assess vulnerabilities of countries, particularly for Small Island Developing States (SIDS) and Least Developed Countries (LDCs), to improve development finance allocation.
-- **Global Water Conference Outcomes**: Emphasized the need for improved water management and financing for water and sanitation systems, following the success of the UN Water Conference in March 2023.
-- **SDG Stimulus Proposal**: A call for an annual investment of $500 billion to support sustainable development and climate action, particularly for developing countries facing financial constraints.
+- **10-Year Framework of Programmes on Sustainable Consumption and Production Patterns**: A universal framework adopted in 2012 to accelerate the shift to sustainable consumption and production at regional and national levels, with ongoing implementation and reporting by Member States.
+- **Sustainable Public Procurement Programme**: Launched to strengthen public demand for sustainable consumption and production, including circular economy approaches, with initiatives like "Mainstreaming Circularity in the Construction Sector" initiated in 2023.
+- **Consumer Information for Sustainable Consumption and Production Programme**: Implemented outreach initiatives in 2023 to raise awareness of sustainability information among stakeholders, including a global conference and workshops.
+- **Sustainable Food Systems Programme**: Convened a global conference in 2023 focused on transforming food systems to overcome interlinked crises, with initiatives for multi-stakeholder collaboration and knowledge sharing.
+- **Global Circularity Protocol for Business**: Launched in 2023 to provide a voluntary framework for businesses to report and disclose their circularity performance, promoting standardized metrics and accountability.
+- **Building Circularity into Nationally Determined Contributions**: A practical toolbox launched in 2023 to help countries integrate circular economy approaches into their climate action plans, with pilot implementations in Ecuador, Viet Nam, and Zimbabwe.
+- **Tech Access Partnership**: An initiative to increase access to health technologies for least developed countries (LDCs) and strengthen local protection capacities, launched by the UN Technology Bank, UNDP, and WHO.
+- **Voluntary National Reviews (VNRs)**: 38 countries presented their VNRs in 2023, showcasing national actions and commitments towards the implementation of the 2030 Agenda and the SDGs.
+- **Ministerial Declaration from the 2022 HLPF**: Adopted to reaffirm commitment to the 2030 Agenda and provide guidance on actions needed to recover from COVID-19 while advancing the SDGs.
+- **Global Strategy for Sustainable Consumption and Production 2023-2030**: Identifies pathways for the international community to accelerate the 2030 Agenda, emphasizing the need for multi-stakeholder collaboration.
+- **SDG Stimulus**: A call for an annual investment of $500 billion to support sustainable development and climate action, particularly for countries in special situations.
 
-## Future Commitments
+## Commitments
 
-- A call for an SDG Stimulus of $500 billion per year needed for investments in sustainable development and climate action by 2025.
-- A commitment to increase development financing by at least USD 500 billion by 2025.
-- A pledge to mobilize an additional USD 1.3 trillion by 2025 and an additional USD 3.5 trillion by 2030 for climate action in emerging and developing country economies.
-- A commitment to ensure universal access to clean and affordable energy, particularly for least developed countries and sub-Saharan Africa.
-- A proposal for the establishment of a Multidimensional Vulnerability Index (MVI) to improve the allocation of global financial flows to developing countries.
-- A commitment to achieve net-zero emissions by 2050 through deep energy decarbonization.
-- A call for countries to adopt a national sustainable consumption and production roadmap, with specific components to be developed by 2024.
-- A commitment to increase the number of countries reporting on their sustainable consumption and production policies to 64 by 2024.
-- A pledge to enhance the use of the digital toolbox for building circularity into nationally determined contributions, with pilot implementations in three countries (Ecuador, Viet Nam, and Zimbabwe) by the end of 2023.
+- Countries are called to ramp up financing flows by at least USD 500 billion by 2025.
+- The Secretary-General's report indicates that an additional USD 1.3 trillion by 2025 and an additional USD 3.5 trillion by 2030 is required for climate action in emerging and developing country economies.
+- The Heads of WHO, IMF, and WTO called for a $50 billion upfront investment in vaccinating at least 60% of the global population by the middle of 2022.
+- The 10-Year Framework of Programmes reported an increase of 7.7% in policy instruments to accelerate the transition to sustainable consumption and production patterns from 2022 to 2023.
+- Mozambique launched a 20-year national development plan to promote sustainable management of natural resources, conservation of biodiversity, and progress towards a circular economy.
+- The digital toolbox for building circularity into nationally determined contributions was launched in October 2023, with over 1,400 unique visitors and 4,380 site visits in the first two months.
+- The Glasgow Declaration on Climate Action in Tourism secured 80 new signatories in 2023, bringing the total to 868.
+- The Global Roadmap for Food Waste Reduction in the Tourism Sector was launched to promote sustainable management of food, with specific strategies outlined for implementation.
+- The 2024 One Planet Network Forum is scheduled to be held in Rio de Janeiro, Brazil, in September 2024, focusing on reducing inequalities and achieving just transitions for all through sustainable consumption and production.

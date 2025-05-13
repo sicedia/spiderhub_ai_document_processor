@@ -4,11 +4,11 @@ import os
 import subprocess
 from typing import Dict, List, Any, Optional
 from pydantic import BaseModel, Field
-from typing import List, Dict, Optional
 from src.score_calculation import calculate_faithfulness_score
 from src.prompts import build_prompts
-logger = logging.getLogger(__name__)
+from src.themes_processor import process_text_with_themes  # Usado para extraer themes
 
+logger = logging.getLogger(__name__)
 
 class DocumentReport(BaseModel):
     """Structure for the document report."""
@@ -18,6 +18,10 @@ class DocumentReport(BaseModel):
     executive_summary: str = Field(description="Executive summary of the document")
     characteristics: List[str] = Field(description="Key characteristics as bullet points")
     themes: Dict[str, List[str]] = Field(description="Main themes categorized")
+    themes_description: Optional[str] = Field(
+        description="Bullet-point list describing the most important main themes",
+        default=None
+    )
     actors_stakeholders: Dict[str, List[str]] = Field(description="Key actors and stakeholders categorized")
     practical_applications: List[str] = Field(description="Existing practical applications")
     commitments: List[str] = Field(description="Future quantifiable commitments")
@@ -39,42 +43,18 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
     
     logger.info("Applying prompts to document text...")
     
-    # Process each prompt
+    # Process each prompt (except themes, which se procesa por separado)
     for field, prompt in prompts.items():
+        # Saltamos "themes_description", será procesado de forma separada
+        if field == "themes_description":
+            continue
+
         try:
             logger.info(f"Extracting {field}...")
             chain = prompt | llm
             response = chain.invoke({"text": text})
             
-            if field == "themes":
-                theme_dict = {}
-                lines = response.content.strip().split("\n")
-                current_category = None
-
-                for raw in lines:
-                    line = raw.strip()
-                    # 1) Inline format: "Theme: X, Sub-category: Y"
-                    if "Theme:" in line and "Sub-category:" in line:
-                        parts = line.split("Sub-category:")
-                        theme_name = parts[0].replace("Theme:", "").replace(",", "").strip()
-                        subcat = parts[1].strip()
-                        theme_dict.setdefault(subcat, []).append(theme_name)
-
-                    # 2) Bloque con cabecera y viñetas
-                    elif line.endswith(":") and not line.startswith("-"):
-                        current_category = line.rstrip(":")
-                        theme_dict[current_category] = []
-                    elif current_category and line.startswith("-"):
-                        theme_dict[current_category].append(line[2:].strip())
-
-                # Fallback si sigue vacío
-                if not theme_dict:
-                    logger.warning("No themes parsed, raw response:\n" + response.content)
-                    theme_dict["Unclassified"] = ["No themes found or parsing failed"]
-
-                results[field] = theme_dict
-            
-            elif field == "actors_stakeholders":
+            if field == "actors_stakeholders":
                 # Parse actors into the expected dictionary structure
                 actors_dict = {}
                 try:
@@ -87,7 +67,7 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
                             actors_dict[current_category] = []
                         elif current_category and line.strip().startswith("- "):
                             actors_dict[current_category].append(line.strip()[2:])
-                        # Handle flat list format with "Actor: X, Category: Y" pattern
+                        # Handle flat list format with "Actor:" and "Category:" pattern
                         elif "Actor:" in line and "Category:" in line:
                             parts = line.split("Category:")
                             if len(parts) > 1:
@@ -99,7 +79,7 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
                                 
                                 actors_dict[category_part].append(actor_part)
                     
-                    # If parsing failed to find categories, create "Unclassified" category
+                    # Fallback si no se encontró ninguna categoría
                     if not actors_dict:
                         actors_dict["Unclassified"] = [
                             line.strip() for line in lines 
@@ -109,11 +89,9 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
                     results[field] = actors_dict
                 except Exception as e:
                     logger.error(f"Error parsing actors: {e}")
-                    # Fallback
                     results[field] = {"Unclassified": ["Actor parsing error"]}
             
             elif field in ["characteristics", "practical_applications", "commitments"]:
-                # Convert to list of bullet points
                 bullet_points = []
                 for line in response.content.strip().split("\n"):
                     line = line.strip()
@@ -123,21 +101,51 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
                         bullet_points.append(line)
                 
                 results[field] = bullet_points
-            
             else:
-                # For other fields, just take the text response
                 results[field] = response.content.strip()
                 
         except Exception as e:
             logger.error(f"Error processing {field}: {e}")
-            if field in ["themes", "actors_stakeholders"]:
+            if field in ["actors_stakeholders"]:
                 results[field] = {"Error": ["Processing failed"]}
             elif field in ["characteristics", "practical_applications", "commitments"]:
                 results[field] = ["Processing failed"]
             else:
                 results[field] = "Processing failed"
     
-    # Calculate faithfulness score using proper evaluation
+    # Procesar themes de manera separada usando themes_processor (ya que ya no está en build_prompts)
+    try:
+        logger.info("Extracting themes via themes_processor...")
+        theme_matches = process_text_with_themes(text, llm)
+        theme_dict = {}
+        for tm in theme_matches:
+            if tm.subthemes:
+                for sub in tm.subthemes:
+                    key = sub.label
+                    if key not in theme_dict:
+                        theme_dict[key] = []
+                    theme_dict[key].append(tm.theme)
+            else:
+                key = "Unclassified"
+                if key not in theme_dict:
+                    theme_dict[key] = []
+                theme_dict[key].append(tm.theme)
+        results["themes"] = theme_dict
+    except Exception as e:
+        logger.error(f"Error processing themes: {e}")
+        results["themes"] = {"Error": ["Processing failed"]}
+    
+    # Procesar el prompt themes_description por separado
+    try:
+        logger.info("Extracting main themes description via themes_description prompt...")
+        themes_desc_prompt = prompts["themes_description"]
+        chain = themes_desc_prompt | llm
+        response = chain.invoke({"text": text})
+        results["themes_description"] = response.content.strip()
+    except Exception as e:
+        logger.error(f"Error processing themes_description: {e}")
+        results["themes_description"] = "No themes description generated."
+    
     try:
         results["faithfulness_score"] = calculate_faithfulness_score(
             source_text=text,
@@ -148,7 +156,6 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         logger.error(f"Error calculating faithfulness score: {e}")
         results["faithfulness_score"] = None
     
-    # Create and return the report model
     return DocumentReport(
         title=results.get("title", "Untitled Document"),
         date=results.get("date", "No date available"),
@@ -156,6 +163,7 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         executive_summary=results.get("executive_summary", "No summary available"),
         characteristics=results.get("characteristics", []),
         themes=results.get("themes", {}),
+        themes_description=results.get("themes_description"),
         actors_stakeholders=results.get("actors_stakeholders", {}),
         practical_applications=results.get("practical_applications", []),
         commitments=results.get("commitments", []),
@@ -205,15 +213,15 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     md_lines.append("")
     for char in report.characteristics:
         md_lines.append(f"- {char}")
+    md_lines.append("")
     
-    # Add actors and stakeholders (agrupados)
+    # Add actors and stakeholders
     md_lines.append("## Actors")
     md_lines.append("")
     if report.actors_stakeholders:
         md_lines.append("| Category | Actors |")
         md_lines.append("| --- | --- |")
         for category, actors in report.actors_stakeholders.items():
-            # limpiamos coma/trailing spaces de cada actor
             cleaned = [actor.rstrip(",").strip() for actor in actors] 
             actors_str = "; ".join(cleaned)
             md_lines.append(f"| {category} | {actors_str} |")
@@ -221,21 +229,28 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     else:
         md_lines.append("No actors identified.")
         md_lines.append("")
-
+    
     # Add themes as table (agrupados)
     md_lines.append("## Main Themes")
     md_lines.append("")
     if report.themes:
-        md_lines.append("| Sub-category | Themes |")
+        # La primera columna muestra los themes y la segunda la sub-categoría
+        md_lines.append("| Themes | Sub-category |")
         md_lines.append("| --- | --- |")
         for subcat, themes_list in report.themes.items():
             themes_str = "; ".join(themes_list)
-            md_lines.append(f"| {subcat} | {themes_str} |")
+            md_lines.append(f"| {themes_str} | {subcat} |")
         md_lines.append("")
     else:
         md_lines.append("No themes identified.")
         md_lines.append("")
-
+    
+    # Add main themes description (nuevo)
+    md_lines.append("### Main Themes Description")
+    md_lines.append("")
+    md_lines.append(report.themes_description or "No themes description provided.")
+    md_lines.append("")
+    
     # Add practical applications
     md_lines.append("## Practical Applications")
     md_lines.append("")
@@ -247,7 +262,7 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     
     # Add commitments
     md_lines.append("")
-    md_lines.append("## Future Commitments")
+    md_lines.append("## Commitments")
     md_lines.append("")
     if report.commitments:
         for commit in report.commitments:
@@ -307,12 +322,7 @@ def generate_report(text: str, entities: Dict[str, Any], llm, output_dir: str, f
     Returns:
         Dictionary with paths to created files
     """
-    # Process with prompts
     logger.info(f"Generating report for {folder_name}...")
     report = process_text_with_prompts(text, llm)
-    
-    # Generate markdown
     markdown = generate_markdown_report(report, entities)
-    
-    # Save files
     return save_report(markdown, output_dir, folder_name)

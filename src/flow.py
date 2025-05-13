@@ -5,7 +5,7 @@ from typing import Dict, Any
 from src.pdf_loader import load_pdfs_from_documents
 from src.nlp import extract_entities_from_folder
 from src.entity_processor import process_all_entities
-from src.taxonomy_processor import process_entities_with_taxonomy
+from src.actors_taxonomy_processor import process_entities_with_taxonomy
 from src.report_generator import generate_report
 
 logger = logging.getLogger(__name__)
@@ -62,26 +62,21 @@ def run_analysis_pipeline(
             )
 
         # Step 2: Extract entities from loaded documents
-        #logger.info(f"  → Extracting entities in {folder}")
-        #raw_entities = extract_entities_from_folder(texts)
+        logger.info(f"  → Extracting entities in {folder}")
+        raw_entities = extract_entities_from_folder(texts)
         
-        # Step 3: Process and normalize entities
-        #processed_entities = process_all_entities(raw_entities, llm)
-        #entities_by_folder[folder] = processed_entities
+        # Step 3: Process and normalize entities with a LLM
+        processed_entities = process_all_entities(raw_entities, llm)
+        entities_by_folder[folder] = processed_entities
         
         # Step 4: Filter entities using taxonomy
         logger.info(f"  → Applying taxonomy classification for {folder}")
-        #filtered_entities, _ = process_entities_with_taxonomy(
-        #    {folder: processed_entities}, 
-        #    llm, 
-        #    taxonomy_threshold
-        #)
-        #send a filtered_entities empty dict for testing purposes
-        filtered_entities = {}
-        filtered_entities = {}
-        filtered_entities[folder] = {}
-        processed_entities = {}
-        processed_entities[folder] = {}
+        filtered_entities, _ = process_entities_with_taxonomy(
+            {folder: processed_entities}, 
+            llm, 
+            taxonomy_threshold
+        )
+        
         
         
         

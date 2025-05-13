@@ -47,11 +47,12 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
                 "Summarise the main characteristics in 3‑6 bullet points (≤30 words each)."),
         ("human", "Source text:\n\n{text}\n\nCharacteristics:")
     ])
-
-    prompts["themes"] = ChatPromptTemplate.from_messages([
+    
+    # Nuevo prompt para generar la descripción de los temas principales en bullet points
+    prompts["themes_description"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                f"Identify the main themes mentioned in the text. Assign each to a category from MAIN_THEMES_TAXONOMY: {theme_json}, Use the format: 'Theme: [theme], Sub-category: [sub-category]'.  If no themes are found, output 'No themes found.'"),
-        ("human", "Source text:\n\n{text}\n\nMain themes:")
+            "Generate a bullet-point list that succinctly describes the most important main themes discussed in the text. Focus on key topics and insights for each main theme."),
+        ("human", "Source text:\n\n{text}\n\nMain Themes Description (bullet points):")
     ])
     
     prompts["actors_stakeholders"] = ChatPromptTemplate.from_messages([

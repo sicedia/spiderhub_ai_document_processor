@@ -47,7 +47,13 @@ def process_entities_with_taxonomy(
         # Process organizations using the appropriate taxonomy mapping, e.g. 'actors'
         orgs = entities.get("organizations", [])
         if orgs:
-            org_taxonomy = taxonomy.get('actors', {})
+            # Determine the organization taxonomy to use
+            if taxonomy and 'actors' in taxonomy:
+                org_taxonomy = taxonomy['actors']
+            else:
+                # Default to ACTORS_TAXONOMY if not provided or 'actors' key is missing
+                org_taxonomy = ACTORS_TAXONOMY 
+            
             org_matches = match_entities_to_taxonomy(
                 orgs, 
                 org_taxonomy, 

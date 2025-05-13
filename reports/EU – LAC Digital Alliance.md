@@ -9,25 +9,23 @@
 
 ## Executive Summary
 
-On July 17, 2023, the European Union (EU) and various Latin American and Caribbean (LAC) nations established the EU-LAC Digital Alliance, a cooperative framework aimed at enhancing digital collaboration. This informal alliance promotes dialogue on digital policies, internet governance, data protection, and emerging technologies, while emphasizing human rights and inclusivity. Key initiatives include the BELLA fibre-optic cable project, regional Copernicus data centers, and the EU-LAC Digital Accelerator to foster joint ventures. The alliance seeks to close digital gaps, empower citizens, and ensure that digital transformation benefits all, particularly marginalized groups. Regular meetings will facilitate the identification of joint priorities and the adaptation of strategies to evolving needs. The partnership underscores a commitment to a human-centric digital economy that prioritizes security, privacy, and sustainable development.
+On July 17, 2023, the European Union (EU) and multiple Latin American and Caribbean (LAC) nations established the EU-LAC Digital Alliance, a cooperative framework aimed at enhancing digital collaboration. This informal alliance promotes dialogue on various digital issues, including internet governance, cybersecurity, and digital skills development, while emphasizing human rights and inclusivity. It seeks to close digital divides and foster socio-economic growth through shared values and mutual investment in digital infrastructure. Key initiatives include extending the BELLA fibre-optic cable, implementing a regional Copernicus Strategy, and launching an EU-LAC Digital Accelerator to stimulate joint ventures. The alliance will regularly review priorities and progress, ensuring adaptability to evolving digital landscapes.
 
 
 ## Characteristics
 
-- The EU-LAC Digital Alliance is a cooperative framework for digital partnership between the EU and Latin American/Caribbean countries, promoting shared values and mutual benefits.
-- It focuses on a wide range of digital issues, including governance, cybersecurity, AI, and digital skills development, aiming for inclusive and sustainable digital economies.
+- The EU-LAC Digital Alliance is a cooperative framework for digital partnership between the EU and Latin American/Caribbean countries, focusing on shared values and mutual benefits.
+- It promotes dialogue on various digital issues, including governance, cybersecurity, AI, and digital skills development, aiming for inclusive and sustainable digital economies.
 - The Alliance emphasizes human rights, privacy, and data protection, ensuring that digitalization benefits all citizens, particularly marginalized groups.
-- Regular dialogues and meetings will facilitate information exchange and the identification of joint priorities, adapting to evolving digital needs.
-- Key initiatives include enhancing digital infrastructure, such as the BELLA fibre-optic cable and regional Copernicus data centers, to foster innovation and connectivity.
+- Regular meetings and dialogues will facilitate the exchange of best practices and the convergence of digital policies between the regions.
+- Key initiatives include extending digital infrastructure, establishing data centers, and fostering innovation through joint ventures and investment agendas.
 
 ## Actors
 
 | Category | Actors |
 | --- | --- |
-| Political Actors | 1.  European Union; 2.  Argentina; 3.  The Bahamas; 4.  Barbados; 5.  Belize; 6.  Brazil; 7.  Chile; 8.  Colombia; 9.  Costa Rica; 10.  Dominican Republic; 11.  Ecuador; 12.  El Salvador; 13.  Grenada; 14.  Guatemala; 15.  Guyana; 16.  Honduras; 17.  Jamaica; 18.  Mexico; 19.  Panama; 20.  Paraguay; 21.  Peru; 22.  Suriname; 23.  Trinidad and Tobago; 24.  Uruguay; 25.  European Commission |
-| Research and Innovation Actors | 26.  Digital4Development Hub; 27.  Latin American and Caribbean Space Agency (ALCE); 31.  Academia |
-| Civil Society Actors | 28.  Non-governmental organisations; 30.  Civil society |
-| Economic Actors | 29.  Private stakeholders |
+| Political Actors | European Union; Argentina; The Bahamas; Barbados; Belize; Brazil; Chile; Colombia; Costa Rica; Dominican Republic; Ecuador; El Salvador; Grenada; Guatemala; Guyana; Honduras; Jamaica; Mexico; Panama; Paraguay; Peru; Suriname; Trinidad and Tobago; Uruguay; European Commission; United Nations |
+| Research and Innovation Actors | Digital4Development Hub; Latin American and Caribbean Space Agency (ALCE); BELLA programme; Copernicus Centres; LAC Cyber Competence Centre; EL PAcCTO programme |
 
 ## Main Themes
 
@@ -38,7 +36,8 @@ On July 17, 2023, the European Union (EU) and various Latin American and Caribbe
 | Digital Transformation & Strategy | Digital Infrastructure |
 | Digital Transformation & Strategy | Digital Policy |
 | Digital Transformation & Strategy | Digital Investment |
-| Digital Transformation & Strategy | Digital Ecosystem |
+| Digital Transformation & Strategy | Digital Economy |
+| Digital Transformation & Strategy | Digital Skills Development |
 | Technology & Innovation | Artificial Intelligence |
 | Technology & Innovation | Tech-Driven Solutions |
 | Technology & Innovation | ICT Innovation |
@@ -48,6 +47,7 @@ On July 17, 2023, the European Union (EU) and various Latin American and Caribbe
 | Data & Governance | Digital Rights |
 | Data & Governance | Digital Governance |
 | Inclusion & Social Development | Digital Inclusion |
+| Inclusion & Social Development | Social Cohesion |
 | Inclusion & Social Development | Gender Equality in Tech |
 | Inclusion & Social Development | Digital Education |
 | Inclusion & Social Development | Connectivity |
@@ -57,7 +57,7 @@ On July 17, 2023, the European Union (EU) and various Latin American and Caribbe
 
 ### Main Themes Description
 
-- **Establishment of the EU-LAC Digital Alliance**: A collaborative framework aimed at enhancing digital cooperation between the EU and Latin American and Caribbean (LAC) countries, promoting shared values and mutual benefits.
+- **Establishment of the EU-LAC Digital Alliance**: A collaborative framework aimed at enhancing digital cooperation between the EU and Latin American and Caribbean countries, promoting shared values and mutual benefits.
 
 - **Values-Based Cooperation**: The Alliance emphasizes a human-centric approach to digitalization, focusing on universal human rights, democratic principles, and the importance of cybersecurity and data protection.
 
@@ -69,11 +69,11 @@ On July 17, 2023, the European Union (EU) and various Latin American and Caribbe
 
 - **Focus on Inclusivity and Digital Skills**: There is a strong commitment to closing digital gaps, promoting gender and racial equality, and enhancing digital literacy and skills, particularly for marginalized groups.
 
-- **Implementation Framework**: A structured approach to dialogue and collaboration involving various stakeholders, including governments, NGOs, and academia, to align digital policies and regulatory frameworks.
+- **Implementation Framework**: A structured approach to dialogue and collaboration involving various stakeholders, including governments, NGOs, and the private sector, to align digital policies and practices.
 
-- **Specific Initiatives for 2023**: Key projects include extending the BELLA fibre-optic cable, implementing a regional Copernicus Strategy, and establishing an EU-LAC Digital Accelerator to foster innovation and joint ventures.
+- **Specific Initiatives for 2023**: Key projects include extending the BELLA fibre-optic cable, implementing a regional Copernicus Strategy, and establishing an EU-LAC Digital Accelerator to foster innovation and joint ventures. 
 
-- **Annual Progress Review**: The Alliance will conduct annual assessments to evaluate progress and adapt strategies as necessary to ensure effective cooperation and development.
+- **Annual Progress Review**: The Alliance will conduct annual assessments to evaluate progress and adapt strategies as necessary.
 
 ## Practical Applications
 
@@ -88,6 +88,6 @@ On July 17, 2023, the European Union (EU) and various Latin American and Caribbe
 ## Commitments
 
 - Facilitate and accelerate at least 40 joint ventures for bi-regional innovation and digital transformation by the establishment of an EU-LAC Digital Accelerator.
-- Review progress on the commitments on an annual basis.
 - Implement a regional Copernicus Strategy including two regional Copernicus data centres in Panama and Chile.
-- Extend the BELLA fibre-optic cable to interested countries to enhance digital connectivity.
+- Extend the BELLA fibre-optic cable to interested countries to build secure digital backbone connectivity.
+- Review progress on the commitments on an annual basis.
