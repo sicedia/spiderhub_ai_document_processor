@@ -27,12 +27,12 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
 
     prompts["date"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                   "Extract the exact date (YYYY-MM-DD), output 'YYYY-MM-DD'. If only month/year present, output 'YYYY-MM'. If none: 'No information available.'"),
+                   "Extract the exact date (YYYY-MM-DD), output 'YYYY-MM-DD' in format iso-8601. If only month/year present, output 'YYYY-MM'. If none: 'No information available.'"),
         ("human", "Source text:\n\n{text}\n\nDate:")
     ])
 
     prompts["principal_location"] = ChatPromptTemplate.from_messages([
-        ("system", "Identify the principal location (country or city) where the event/document originates."),
+        ("system", "Identify the principal location (city, country) where the event/document originates. If no location is found, output 'No location found.'"),
         ("human", "Source text:\n\n{text}\n\nPrincipal location:")
     ])
 
@@ -49,23 +49,23 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
     ])
     
     # Nuevo prompt para generar la descripción de los temas principales en bullet points
-    prompts["themes_description"] = ChatPromptTemplate.from_messages([
-        ("system", common_instruction +
-            "Generate a bullet-point list that succinctly describes the most important main themes discussed in the text. Focus on key topics and insights for each main theme."),
-        ("human", "Source text:\n\n{text}\n\nMain Themes Description (bullet points):")
-    ])
+    #prompts["themes_description"] = ChatPromptTemplate.from_messages([
+    #    ("system", common_instruction +
+    #        "Generate a bullet-point list that succinctly describes the most important main themes discussed in the text. Focus on key topics and insights for each main theme."),
+    #    ("human", "Source text:\n\n{text}\n\nMain Themes Description (bullet points):")
+    #])
     
     prompts["actors"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                f"Identify the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}. Use the format: 'Actor: [name/organization], Category: [category from taxonomy]'. If no actors are found, output 'No actors found.'"),
+                f"Identify the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}. Use the format: 'Actor: [top level from taxonomy], Category: [label from taxonomy]'. If no actors are found, output 'No actors found.'"),
         ("human", "Source text:\n\n{text}\n\nActors and Stakeholders:")
     ])
     
-    prompts["actors_description"] = ChatPromptTemplate.from_messages([
-        ("system", common_instruction +
-                f"Generate a bullet-point list that succinctly describes the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}."),
-        ("human", "Source text:\n\n{text}\n\nActors and Stakeholders Description (bullet points):")
-    ])
+    #prompts["actors_description"] = ChatPromptTemplate.from_messages([
+    #    ("system", common_instruction +
+    #            f"Generate a bullet-point list that succinctly describes the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}."),
+    #    ("human", "Source text:\n\n{text}\n\nActors and Stakeholders Description (bullet points):")
+    #])
 
     prompts["practical_applications"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +

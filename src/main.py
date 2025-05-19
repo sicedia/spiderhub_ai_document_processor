@@ -59,7 +59,7 @@ def main():
     parser.add_argument("--workers", type=int, default=None, help="Number of parallel workers")
     parser.add_argument("--output", default="reports", help="Output directory for reports")
     parser.add_argument("--provider", choices=["openai", "gemini"], default="openai", help="LLM provider")
-    parser.add_argument("--model", default="gemini/gemini-2.5-flash-preview-04-17", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
+    parser.add_argument("--model", default="openai/gpt-4o-mini", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
     parser.add_argument("--output_dir", default="reports", help="Output directory for reports")
     args = parser.parse_args()
     
