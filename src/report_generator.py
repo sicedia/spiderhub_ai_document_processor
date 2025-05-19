@@ -8,10 +8,11 @@ from src.score_calculation import calculate_faithfulness_score
 from src.prompts import build_prompts
 from src.themes_processor import process_text_with_themes  # Used to extract themes
 from src.actor_processor import process_text_with_actors  # Used to extract actors
+from src.extra_metadata import ExtraMetadata, enrich_report_with_metadata  # Import the new module
 
 logger = logging.getLogger(__name__)
 
-# Modificar el modelo DocumentReport para incluir actor_descriptions
+# Modificar el modelo DocumentReport para incluir extra_metadata
 class DocumentReport(BaseModel):
     """Structure for the document report."""
     title: str = Field(description="Document title")
@@ -24,6 +25,7 @@ class DocumentReport(BaseModel):
     practical_applications: List[str] = Field(description="Existing practical applications")
     commitments: List[str] = Field(description="Future quantifiable commitments")
     faithfulness_score: Optional[int] = Field(description="Faithfulness score (0-100)", default=None)
+    extra_metadata: Optional[Dict[str, Any]] = Field(description="Additional strategic metadata extracted for analysis", default=None)
     # Nuevo campo para almacenar las descripciones de actores
     
 
@@ -99,6 +101,17 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
     except Exception as e:
         logger.error(f"Error calculating faithfulness score: {e}")
         results["faithfulness_score"] = None
+
+    # Enriquecer con metadatos adicionales estratégicos
+    try:
+        logger.info("Enriching report with extra metadata...")
+        # pass the interim results dict, the full text, and llm
+        enriched = enrich_report_with_metadata(results, text, llm)
+        # the helper returns the full report dict with an "extra_metadata" key
+        results["extra_metadata"] = enriched.get("extra_metadata", {})
+    except Exception as e:
+        logger.error(f"Error enriching report with metadata: {e}")
+        results["extra_metadata"] = {}
     
     return DocumentReport(
         title=results.get("title", "Untitled Document"),
@@ -110,7 +123,8 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         actors=results.get("actors", {}),
         practical_applications=results.get("practical_applications", []),
         commitments=results.get("commitments", []),
-        faithfulness_score=results.get("faithfulness_score")
+        faithfulness_score=results.get("faithfulness_score"),
+        extra_metadata=results.get("extra_metadata", {})
     )
 
 # Modificar la función generate_markdown_report para que utilice el campo actor_descriptions del reporte
@@ -144,8 +158,84 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     md_lines.append(f"**Location**: {report.location}")
     md_lines.append("")
     
+    # Add strategic metadata if available
+    if report.extra_metadata:
+        md_lines.append("## Strategic Metadata")
+        md_lines.append("")
+        
+        # Add document classification
+        md_lines.append("### Document Classification")
+        md_lines.append("")
+        md_lines.append("| Attribute | Value |")
+        md_lines.append("| --- | --- |")
+        if report.extra_metadata.get("agreement_type"):
+            md_lines.append(f"| Agreement Type | {report.extra_metadata['agreement_type']} |")
+        if report.extra_metadata.get("legal_bindingness"):
+            md_lines.append(f"| Legal Status | {report.extra_metadata['legal_bindingness']} |")
+        if report.extra_metadata.get("lead_country_iso"):
+            md_lines.append(f"| Leading Country | {report.extra_metadata['lead_country_iso']} |")
+        if report.extra_metadata.get("coverage_scope"):
+            md_lines.append(f"| Geographic Scope | {report.extra_metadata['coverage_scope']} |")
+        if report.extra_metadata.get("review_schedule"):
+            md_lines.append(f"| Review Schedule | {report.extra_metadata['review_schedule']} |")
+        md_lines.append("")
+        
+        # Add implementation timeline
+        if report.extra_metadata.get("start_date") or report.extra_metadata.get("end_date"):
+            md_lines.append("### Implementation Timeline")
+            md_lines.append("")
+            md_lines.append("| Start Date | End Date |")
+            md_lines.append("| --- | --- |")
+            start_date = report.extra_metadata.get("start_date", "Not specified")
+            end_date = report.extra_metadata.get("end_date", "Not specified")
+            md_lines.append(f"| {start_date} | {end_date} |")
+            md_lines.append("")
+        
+        # Add budget information if available
+        if report.extra_metadata.get("budget_amount_eur") or report.extra_metadata.get("financing_instrument"):
+            md_lines.append("### Financial Information")
+            md_lines.append("")
+            md_lines.append("| Budget (EUR) | Financing Instrument |")
+            md_lines.append("| --- | --- |")
+            budget = report.extra_metadata.get("budget_amount_eur", "Not specified")
+            instrument = report.extra_metadata.get("financing_instrument", "Not specified")
+            md_lines.append(f"| {budget} | {instrument} |")
+            md_lines.append("")
+        
+        # Add commitment classification if available
+        if report.extra_metadata.get("commitment_details"):
+            md_lines.append("### Commitment Analysis")
+            md_lines.append("")
+            md_lines.append("| Commitment | Classification | Implementation Status |")
+            md_lines.append("| --- | --- | --- |")
+            for commitment in report.extra_metadata.get("commitment_details", []):
+                commitment_text = commitment.get("text", "")
+                classification = commitment.get("commitment_class", "Unclassified")
+                status = commitment.get("implementation_status", "Unknown")
+                md_lines.append(f"| {commitment_text[:50]}... | {classification} | {status} |")
+            md_lines.append("")
+        
+        # Add EU policy alignment
+        if report.extra_metadata.get("eu_policy_alignment"):
+            policies = ", ".join(report.extra_metadata.get("eu_policy_alignment", []))
+            md_lines.append("### EU Policy Alignment")
+            md_lines.append("")
+            md_lines.append(f"Aligned with: {policies}")
+            md_lines.append("")
+        
+        # Add KPIs if available
+        if report.extra_metadata.get("kpi_list"):
+            md_lines.append("### Key Performance Indicators")
+            md_lines.append("")
+            md_lines.append("| KPI | Target |")
+            md_lines.append("| --- | --- |")
+            for kpi in report.extra_metadata.get("kpi_list", []):
+                kpi_text = kpi.get("kpi", "")
+                target = kpi.get("target", "Not specified")
+                md_lines.append(f"| {kpi_text} | {target} |")
+            md_lines.append("")
+    
     # Add executive summary
-    md_lines.append("")
     md_lines.append("## Executive Summary")
     md_lines.append("")
     md_lines.append(report.executive_summary)
@@ -266,6 +356,14 @@ def generate_report(text: str, entities: Dict[str, Any], llm, output_dir: str, f
     """
     logger.info(f"Generating report for {folder_name}...")
     report = process_text_with_prompts(text, llm)
+    
+    # Enrich the report with extra metadata
+    logger.info("Enriching report with additional strategic metadata...")
+    report_dict = report.model_dump()
+    enriched_report_dict = enrich_report_with_metadata(report_dict, text, llm)
+    
+    # Update the report with the enriched data
+    report.extra_metadata = enriched_report_dict.get("extra_metadata")
     
     # Generate markdown from the report
     markdown = generate_markdown_report(report, entities)
