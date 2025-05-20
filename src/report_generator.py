@@ -47,9 +47,6 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
     
     # Process each prompt (except themes and actors, which are processed separately)
     for field, prompt in prompts.items():
-        if field == "actors":
-            # Skip actors as they will be processed separately
-            continue
             
         try:
             logger.info(f"Extracting {field}...")
@@ -141,99 +138,19 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     """
     md_lines = []
     
-    # Add faithfulness score
+    # Add faithfulness score and title
     if report.faithfulness_score is not None:
         score = report.faithfulness_score
         rating = "Excellent" if score >= 80 else "Regular" if score >= 60 else "Poor"
         md_lines.append(f"**Faithfulness Score**: {score}/100 - {rating}")
         md_lines.append("")
     
-    # Add title
     md_lines.append(f"# {report.title}")
     md_lines.append("")
-    
-    # Add date and location
     md_lines.append(f"**Date**: {report.date}")
     md_lines.append("")
     md_lines.append(f"**Location**: {report.location}")
     md_lines.append("")
-    
-    # Add strategic metadata if available
-    if report.extra_metadata:
-        md_lines.append("## Strategic Metadata")
-        md_lines.append("")
-        
-        # Add document classification
-        md_lines.append("### Document Classification")
-        md_lines.append("")
-        md_lines.append("| Attribute | Value |")
-        md_lines.append("| --- | --- |")
-        if report.extra_metadata.get("agreement_type"):
-            md_lines.append(f"| Agreement Type | {report.extra_metadata['agreement_type']} |")
-        if report.extra_metadata.get("legal_bindingness"):
-            md_lines.append(f"| Legal Status | {report.extra_metadata['legal_bindingness']} |")
-        if report.extra_metadata.get("lead_country_iso"):
-            md_lines.append(f"| Leading Country | {report.extra_metadata['lead_country_iso']} |")
-        if report.extra_metadata.get("coverage_scope"):
-            md_lines.append(f"| Geographic Scope | {report.extra_metadata['coverage_scope']} |")
-        if report.extra_metadata.get("review_schedule"):
-            md_lines.append(f"| Review Schedule | {report.extra_metadata['review_schedule']} |")
-        md_lines.append("")
-        
-        # Add implementation timeline
-        if report.extra_metadata.get("start_date") or report.extra_metadata.get("end_date"):
-            md_lines.append("### Implementation Timeline")
-            md_lines.append("")
-            md_lines.append("| Start Date | End Date |")
-            md_lines.append("| --- | --- |")
-            start_date = report.extra_metadata.get("start_date", "Not specified")
-            end_date = report.extra_metadata.get("end_date", "Not specified")
-            md_lines.append(f"| {start_date} | {end_date} |")
-            md_lines.append("")
-        
-        # Add budget information if available
-        if report.extra_metadata.get("budget_amount_eur") or report.extra_metadata.get("financing_instrument"):
-            md_lines.append("### Financial Information")
-            md_lines.append("")
-            md_lines.append("| Budget (EUR) | Financing Instrument |")
-            md_lines.append("| --- | --- |")
-            budget = report.extra_metadata.get("budget_amount_eur", "Not specified")
-            instrument = report.extra_metadata.get("financing_instrument", "Not specified")
-            md_lines.append(f"| {budget} | {instrument} |")
-            md_lines.append("")
-        
-        # Add commitment classification if available
-        if report.extra_metadata.get("commitment_details"):
-            md_lines.append("### Commitment Analysis")
-            md_lines.append("")
-            md_lines.append("| Commitment | Classification | Implementation Status |")
-            md_lines.append("| --- | --- | --- |")
-            for commitment in report.extra_metadata.get("commitment_details", []):
-                commitment_text = commitment.get("text", "")
-                classification = commitment.get("commitment_class", "Unclassified")
-                status = commitment.get("implementation_status", "Unknown")
-                md_lines.append(f"| {commitment_text[:50]}... | {classification} | {status} |")
-            md_lines.append("")
-        
-        # Add EU policy alignment
-        if report.extra_metadata.get("eu_policy_alignment"):
-            policies = ", ".join(report.extra_metadata.get("eu_policy_alignment", []))
-            md_lines.append("### EU Policy Alignment")
-            md_lines.append("")
-            md_lines.append(f"Aligned with: {policies}")
-            md_lines.append("")
-        
-        # Add KPIs if available
-        if report.extra_metadata.get("kpi_list"):
-            md_lines.append("### Key Performance Indicators")
-            md_lines.append("")
-            md_lines.append("| KPI | Target |")
-            md_lines.append("| --- | --- |")
-            for kpi in report.extra_metadata.get("kpi_list", []):
-                kpi_text = kpi.get("kpi", "")
-                target = kpi.get("target", "Not specified")
-                md_lines.append(f"| {kpi_text} | {target} |")
-            md_lines.append("")
     
     # Add executive summary
     md_lines.append("## Executive Summary")
@@ -242,7 +159,6 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     md_lines.append("")
     
     # Add characteristics
-    md_lines.append("")
     md_lines.append("## Characteristics")
     md_lines.append("")
     for char in report.characteristics:
@@ -262,7 +178,7 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
     else:
         md_lines.append("No actors identified.")
         md_lines.append("")
-
+    
     # Add themes as table (agrupados)
     md_lines.append("## Main Themes")
     md_lines.append("")
@@ -295,6 +211,131 @@ def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List
             md_lines.append(f"- {commit}")
     else:
         md_lines.append("No specific commitments identified.")
+    
+    # Add extra metadata
+    if report.extra_metadata:
+        md_lines.append("")
+        md_lines.append("## Strategic Metadata")
+        md_lines.append("")
+
+        # Document Classification
+        md_lines.append("### Document Classification")
+        md_lines.append("")
+        md_lines.append("| Attribute | Value |")
+        md_lines.append("| --- | --- |")
+        if report.extra_metadata.get("agreement_type"):
+            md_lines.append(f"| Agreement Type | {report.extra_metadata['agreement_type']} |")
+        if report.extra_metadata.get("legal_bindingness"):
+            md_lines.append(f"| Legal Status | {report.extra_metadata['legal_bindingness']} |")
+        if report.extra_metadata.get("lead_country_iso"):
+            md_lines.append(f"| Leading Country | {report.extra_metadata['lead_country_iso']} |")
+        if report.extra_metadata.get("coverage_scope"):
+            md_lines.append(f"| Geographic Scope | {report.extra_metadata['coverage_scope']} |")
+        if report.extra_metadata.get("review_schedule"):
+            md_lines.append(f"| Review Schedule | {report.extra_metadata['review_schedule']} |")
+        md_lines.append("")
+        
+        # Implementation Timeline
+        if report.extra_metadata.get("start_date") or report.extra_metadata.get("end_date"):
+            md_lines.append("### Implementation Timeline")
+            md_lines.append("")
+            md_lines.append("| Start Date | End Date |")
+            md_lines.append("| --- | --- |")
+            start_date = report.extra_metadata.get("start_date", "Not specified")
+            end_date = report.extra_metadata.get("end_date", "Not specified")
+            md_lines.append(f"| {start_date} | {end_date} |")
+            md_lines.append("")
+        
+        # Financial Information
+        if report.extra_metadata.get("budget_amount_eur") is not None or report.extra_metadata.get("financing_instrument"):
+            md_lines.append("### Financial Information")
+            md_lines.append("")
+            md_lines.append("| Budget (EUR) | Financing Instrument |")
+            md_lines.append("| --- | --- |")
+            budget = report.extra_metadata.get("budget_amount_eur", "Not specified")
+            instrument = report.extra_metadata.get("financing_instrument", "Not specified")
+            md_lines.append(f"| {budget} | {instrument} |")
+            md_lines.append("")
+        
+        # Commitment Analysis
+        if report.extra_metadata.get("commitment_details"):
+            md_lines.append("### Commitment Analysis")
+            md_lines.append("")
+            md_lines.append("| Commitment | Classification | Implementation Status |")
+            md_lines.append("| --- | --- | --- |")
+            for commitment in report.extra_metadata.get("commitment_details", []):
+                commitment_text = commitment.get("text", "")
+                classification = commitment.get("commitment_class", "Unclassified")
+                status = commitment.get("implementation_status", "Unknown")
+                md_lines.append(f"| {commitment_text[:50]}... | {classification} | {status} |")
+            md_lines.append("")
+        
+        # EU Policy Alignment
+        if report.extra_metadata.get("eu_policy_alignment"):
+            policies = ", ".join(report.extra_metadata.get("eu_policy_alignment", []))
+            md_lines.append("### EU Policy Alignment")
+            md_lines.append("")
+            md_lines.append(f"Aligned with: {policies}")
+            md_lines.append("")
+        
+        # SDG Alignment
+        if report.extra_metadata.get("sdg_alignment"):
+            sdgs = ", ".join(report.extra_metadata.get("sdg_alignment", []))
+            if sdgs:
+                md_lines.append("### SDG Alignment")
+                md_lines.append("")
+                md_lines.append(f"Aligned with: {sdgs}")
+                md_lines.append("")
+        
+        # Synthesis & Governance Data
+        md_lines.append("### Synthesis & Governance")
+        md_lines.append("")
+        if report.extra_metadata.get("implementation_degree_pct") is not None:
+            md_lines.append(f"- Implementation Degree: {report.extra_metadata['implementation_degree_pct']}%")
+        if report.extra_metadata.get("actionability_score") is not None:
+            md_lines.append(f"- Actionability Score: {report.extra_metadata['actionability_score']}/100")
+        if report.extra_metadata.get("monitoring_body"):
+            md_lines.append(f"- Monitoring Body: {report.extra_metadata['monitoring_body']}")
+        if report.extra_metadata.get("financing_source"):
+            md_lines.append(f"- Financing Source: {report.extra_metadata['financing_source']}")
+        md_lines.append("")
+
+        # Beneficiary Groups (normalizados)
+        if report.extra_metadata.get("beneficiary_group"):
+            md_lines.append("### Beneficiary Groups")
+            md_lines.append("")
+            md_lines.append("| Category           | Label               |")
+            md_lines.append("| ------------------ | ------------------- |")
+            for bg in report.extra_metadata["beneficiary_group"]:
+                md_lines.append(f"| {bg['category']} | {bg['label']} |")
+            md_lines.append("")
+
+        # Beneficiary Groups (raw)
+        if report.extra_metadata.get("beneficiary_group_raw"):
+            raw = ", ".join(report.extra_metadata["beneficiary_group_raw"])
+            md_lines.append(f"- Raw Beneficiary Groups: {raw}")
+            md_lines.append("")
+
+        # Additional Quantifiable KPIs (new section)
+        if report.extra_metadata.get("kpi_list"):
+            md_lines.append("### Quantifiable KPIs")
+            md_lines.append("")
+            md_lines.append("| KPI Description | Target Value | Unit |")
+            md_lines.append("| --- | --- | --- |")
+            for kpi in report.extra_metadata.get("kpi_list", []):
+                desc = kpi.get("kpi", "")
+                target = kpi.get("target_value", "")
+                unit = kpi.get("unit", "")
+                md_lines.append(f"| {desc} | {target} | {unit} |")
+            md_lines.append("")
+        
+        # Countries Mentioned (new section)
+        if report.extra_metadata.get("country_list_iso"):
+            md_lines.append("### Countries Mentioned")
+            md_lines.append("")
+            countries = ", ".join(report.extra_metadata.get("country_list_iso", []))
+            md_lines.append(countries)
+            md_lines.append("")
     
     return "\n".join(md_lines)
 

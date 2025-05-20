@@ -135,3 +135,104 @@ ACTORS_TAXONOMY = {
         {"label": "Technology Providers", "description": "Companies supplying technological products and services."},
     ],
 }
+
+BENEFICIARIES_TAXONOMY = {
+    "SMEs / Businesses": [
+        {"label": "Small and Medium Enterprises", "description": "Companies with fewer than 250 employees."},
+        {"label": "Entrepreneurs", "description": "Individuals who create or operate businesses."},
+        {"label": "Companies", "description": "Commercial business organizations."},
+        {"label": "Private Sector Organizations", "description": "Businesses owned by private individuals or groups."},
+        {"label": "Business Associations", "description": "Groups representing business interests."},
+    ],
+    "Start-ups / Innovators": [
+        {"label": "Start-ups", "description": "Newly established businesses focused on innovation."},
+        {"label": "Scale-ups", "description": "Growing start-ups expanding their operations."},
+        {"label": "Tech Hubs", "description": "Centers fostering technological innovation and entrepreneurship."},
+        {"label": "Incubators", "description": "Organizations supporting early-stage business development."},
+        {"label": "Digital Innovators", "description": "Individuals or groups creating novel digital solutions."},
+    ],
+    "Large Corporations": [
+        {"label": "Telecommunication Companies", "description": "Organizations providing communication services."},
+        {"label": "Multinational Corporations", "description": "Companies operating in multiple countries."},
+        {"label": "Tech Giants", "description": "Large influential technology companies."},
+        {"label": "Industry Leaders", "description": "Major companies that dominate specific sectors."},
+    ],
+    "Researchers & Academia": [
+        {"label": "Researchers", "description": "Individuals conducting scholarly or scientific investigations."},
+        {"label": "Universities", "description": "Higher education institutions involved in research."},
+        {"label": "Research and Development Centers", "description": "Organizations dedicated to research and innovation."},
+        {"label": "Academic Institutions", "description": "Educational establishments involved in higher learning."},
+        {"label": "Scientific Community", "description": "Network of professionals in scientific fields."},
+    ],
+    "Students & Youth": [
+        {"label": "Youth", "description": "Young people, typically between ages 15-24."},
+        {"label": "Students", "description": "Individuals engaged in formal education."},
+        {"label": "Young Professionals", "description": "Early-career workers typically under 30."},
+        {"label": "Digital Natives", "description": "Individuals who grew up with digital technology."},
+        {"label": "Youth Organizations", "description": "Groups representing young people's interests."},
+        {"label": "Children", "description": "Individuals under 18 years old."},
+    ],
+    "Migrants & Refugees": [
+        {"label": "Migrants", "description": "People who have moved to a different country or region."},
+        {"label": "Refugees", "description": "Individuals forced to flee their country due to conflict, persecution or disaster."}
+    ],
+    "Women & Girls": [
+        {"label": "Women in Tech", "description": "Females working in or studying technology fields."},
+        {"label": "Gender Equality Initiatives", "description": "Programs promoting equal opportunities across genders."},
+        {"label": "Female Entrepreneurs", "description": "Women who start or operate businesses."},
+        {"label": "Women's Networks", "description": "Professional groups supporting women in various sectors."},
+    ],
+    "Rural & Remote Communities": [
+        {"label": "Rural Populations", "description": "People living in non-urban areas."},
+        {"label": "Remote Area Citizens", "description": "Individuals in isolated geographical locations."},
+        {"label": "Rural Cooperatives", "description": "Collaborative organizations in rural settings."},
+        {"label": "Underserved Communities", "description": "Groups with limited access to resources and services."},
+    ],
+    "Indigenous Peoples & Ethnic Groups": [
+        {"label": "Indigenous Communities", "description": "Original inhabitants of a region."},
+        {"label": "Afro-descendant Groups", "description": "People of African ancestry."},
+        {"label": "Minority Groups", "description": "Ethnically or culturally distinct groups."},
+        {"label": "Traditional Communities", "description": "Groups maintaining traditional cultural practices."},
+    ],
+    "Persons with Disabilities": [
+        {"label": "Persons with Disabilities", "description": "Individuals with physical, mental, or sensory impairments."},
+        {"label": "Accessibility Beneficiaries", "description": "People who benefit from accessible design and services."},
+        {"label": "Inclusive Technology Users", "description": "Users of technology designed for accessibility."},
+    ],
+    "General Citizens / Consumers": [
+        {"label": "Citizens", "description": "Members of the general public."},
+        {"label": "Consumers", "description": "People who purchase goods and services."},
+        {"label": "Digital Users", "description": "Individuals using digital products and services."},
+        {"label": "General Public", "description": "The broader population."},
+    ],
+    "Public Sector / Governments": [
+        {"label": "Ministries", "description": "Government departments headed by ministers."},
+        {"label": "Local Authorities", "description": "Governmental bodies at local or regional level."},
+        {"label": "Public Institutions", "description": "Organizations funded or controlled by government."},
+        {"label": "Public Servants", "description": "Employees of government or public institutions."},
+    ],
+    "Civil Society / NGOs": [
+        {"label": "Civil Society Organizations", "description": "Non-governmental, non-profit entities."},
+        {"label": "NGOs", "description": "Non-governmental organizations addressing social issues."},
+        {"label": "Advocacy Groups", "description": "Organizations promoting specific causes or policies."},
+        {"label": "Community Organizations", "description": "Local groups addressing community needs."},
+    ],
+    "Farmers & Primary Producers": [
+        {"label": "Farmers", "description": "People who cultivate land and raise crops or livestock."},
+        {"label": "Fisheries", "description": "Entities involved in catching, processing, or selling fish."},
+        {"label": "Agricultural Cooperatives", "description": "Farmer-owned collective businesses."},
+        {"label": "Rural Producers", "description": "Those producing goods in rural areas."},
+    ],
+    "Health Sector": [
+        {"label": "Patients", "description": "Recipients of healthcare services."},
+        {"label": "Health Professionals", "description": "Workers in medical and healthcare fields."},
+        {"label": "Healthcare Institutions", "description": "Organizations providing medical services."},
+        {"label": "Public Health Stakeholders", "description": "Entities involved in population health."},
+    ],
+    "Investors & Financial Actors": [
+        {"label": "Investors", "description": "Individuals or entities that allocate capital for profit."},
+        {"label": "Development Banks", "description": "Financial institutions focused on promoting development."},
+        {"label": "Venture Capital Firms", "description": "Companies providing funding to early-stage businesses."},
+        {"label": "Financial Institutions", "description": "Organizations involved in financial transactions."},
+    ],
+}

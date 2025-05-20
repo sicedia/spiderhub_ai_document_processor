@@ -12,11 +12,6 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
         "from the most recent document, but also consider the context of previous documents.\n"
     )
 
-    # Format theme taxonomy for prompt
-    theme_json = json.dumps(TAG_THEMES).replace("{", "{{").replace("}", "}}").replace("\n", " ")
-    # Format actors taxonomy for prompt
-    actors_json = json.dumps(ACTORS_TAXONOMY).replace("{", "{{").replace("}", "}}").replace("\n", " ")
-
     prompts = {}
 
     prompts["title"] = ChatPromptTemplate.from_messages([
@@ -47,25 +42,6 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
                 "Summarise the main characteristics in 3‑6 bullet points (≤30 words each)."),
         ("human", "Source text:\n\n{text}\n\nCharacteristics:")
     ])
-    
-    # Nuevo prompt para generar la descripción de los temas principales en bullet points
-    #prompts["themes_description"] = ChatPromptTemplate.from_messages([
-    #    ("system", common_instruction +
-    #        "Generate a bullet-point list that succinctly describes the most important main themes discussed in the text. Focus on key topics and insights for each main theme."),
-    #    ("human", "Source text:\n\n{text}\n\nMain Themes Description (bullet points):")
-    #])
-    
-    prompts["actors"] = ChatPromptTemplate.from_messages([
-        ("system", common_instruction +
-                f"Identify the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}. Use the format: 'Actor: [top level from taxonomy], Category: [label from taxonomy]'. If no actors are found, output 'No actors found.'"),
-        ("human", "Source text:\n\n{text}\n\nActors and Stakeholders:")
-    ])
-    
-    #prompts["actors_description"] = ChatPromptTemplate.from_messages([
-    #    ("system", common_instruction +
-    #            f"Generate a bullet-point list that succinctly describes the key actors and stakeholders mentioned in the text. Assign each to a category from ACTORS_TAXONOMY: {actors_json}."),
-    #    ("human", "Source text:\n\n{text}\n\nActors and Stakeholders Description (bullet points):")
-    #])
 
     prompts["practical_applications"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
