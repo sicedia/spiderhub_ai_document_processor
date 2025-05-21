@@ -3,7 +3,10 @@ from pydantic import BaseModel, Field
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.runnables import RunnableSequence
+import logging
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 class NormalizedEntities(BaseModel):
     """Esquema de salida: listas únicas y limpias"""
@@ -43,11 +46,17 @@ def normalize_entities_with_llm(
         {fmt}
         """
     )
-    # Componemos prompt y llm en un RunnableSequence
     pipeline = prompt | llm
-    # Ejecutamos y parseamos con nuestro parser
-    raw = pipeline.invoke({"orgs": orgs, "gpes": gpes, "fmt": fmt})
-    return parser.parse(raw.content)
+    try:
+        raw = pipeline.invoke({"orgs": orgs, "gpes": gpes, "fmt": fmt})
+        return parser.parse(raw.content)
+    except Exception as e:
+        logger.error(f"Error normalizing entities: {e}")
+        # Devuelve sin normalizar para continuar el flujo
+        return NormalizedEntities(
+            organizations=[],
+            geopolitical_entities=[]
+        )
 
 
 def process_folder_entities(

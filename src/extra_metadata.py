@@ -4,7 +4,7 @@ import re
 from typing import Dict, List, Any, Optional, Union
 
 from pydantic import BaseModel, Field
-from langchain_core.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
 from typing import List  # ensure List is imported
@@ -12,6 +12,16 @@ from typing import List  # ensure List is imported
 from src.tags import BENEFICIARIES_TAXONOMY  # add this import at the top if not already present
 
 logger = logging.getLogger(__name__)
+
+
+# ——— Constantes de valores por defecto ————————————————————————————
+DEFAULT_STRING: Optional[str] = None
+DEFAULT_LIST: List[Any] = []
+DEFAULT_FLOAT: Optional[float] = None
+
+def _or_default(value, default):
+    return value if value is not None else default
+
 
 # -----------------------------------------------------------------------------
 # 1.  DATA MODELS
@@ -214,7 +224,7 @@ Text: {text}
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     result = _invoke(prompt, llm, parser, text=text[:8000])
-    return (result.review_schedule if result else None) or "None"
+    return _or_default(result.review_schedule if result else None, DEFAULT_STRING)
 
 
 def extract_eu_policy_alignment(text: str, llm) -> List[str]:
@@ -290,8 +300,8 @@ Text: {text}
     )
     result = _invoke(prompt, llm, parser, text=financial_text)
     return {
-        "budget_amount_eur": (result.budget_amount_eur if result else 0.0),
-        "financing_instrument": (result.financing_instrument if result else "Unspecified"),
+        "budget_amount_eur": _or_default(result.budget_amount_eur if result else None, DEFAULT_FLOAT),
+        "financing_instrument": _or_default(result.financing_instrument if result else None, DEFAULT_STRING),
     }
 
 
@@ -328,7 +338,7 @@ Text: {text}
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     result = _invoke(prompt, llm, parser, text=text[:8000])
-    return result.monitoring_body if result and result.monitoring_body else "Unspecified"
+    return _or_default(result.monitoring_body if result else None, DEFAULT_STRING)
 
 
 def extract_beneficiary_group(text: str, llm) -> List[str]:
@@ -360,7 +370,7 @@ Text: {text}
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     result = _invoke(prompt, llm, parser, text=text[:10000])
-    return result.country_list_iso if result else []
+    return _or_default(result.country_list_iso if result else None, DEFAULT_LIST)
 
 # -----------------------------------------------------------------------------
 # 3.5  TIMELINE, KPIs, COVERAGE (prompts mostly unchanged but stricter format)
@@ -439,25 +449,33 @@ Text: {text}
 def extract_sdg_alignment(text: str, llm) -> List[str]:
     """Detect mentions of Sustainable Development Goals (SDGs)."""
     parser = PydanticOutputParser(pydantic_object=SDGAlignmentOutput)
-    prompt = PromptTemplate(
-        template="""
-System: Extract explicit references to UN Sustainable Development Goals (SDGs).
-User: Identify all mentions of SDGs in the text. Look for:
-- Direct references like "SDG 7" or "Sustainable Development Goal 13"
-- Goal descriptions such as "Zero Hunger" (SDG 2) or "Climate Action" (SDG 13)
-- Policy alignments that explicitly mention SDGs
 
-Return a JSON array of SDG codes in the format ["SDG 1","SDG 2",...]. 
-Only include goals 1-17 that are explicitly mentioned or clearly referenced.
-If no SDGs are mentioned, return an empty array.
+    chat_prompt = ChatPromptTemplate.from_messages([
+        SystemMessagePromptTemplate.from_template(
+            "You are a JSON-output assistant that finds explicit SDG mentions."
+        ),
+        HumanMessagePromptTemplate.from_template(
+            """
+Text:
+{text}
 
-Text: {text}
+Return ONLY valid JSON in the form:
 {format_instructions}
-""",
-        input_variables=["text"],
-        partial_variables={"format_instructions": parser.get_format_instructions()},
+
+- Do NOT include any extra keys or commentary.
+- If no SDG is found, return an empty array.
+"""
+        ),
+    ])
+
+    # Delegate to our [_invoke](http://_vscodecontentref_/3) helper, passing both variables
+    result = _invoke(
+        chat_prompt,
+        llm,
+        parser,
+        text=text[:10000],
+        format_instructions=parser.get_format_instructions()
     )
-    result = _invoke(prompt, llm, parser, text=text[:10000])
     return result.sdg_alignment if result else []
 
 # -----------------------------------------------------------------------------
@@ -491,46 +509,93 @@ def _compute_actionability(impl_pct: float, budget_eur: Optional[float], kpis: L
 # -----------------------------------------------------------------------------
 
 def process_document_for_extra_metadata(text: str, title: str, commitments: List[str], llm) -> ExtraMetadata:
-    """Extract enriched metadata from a document."""
     logger.info("Starting extraction of extra metadata")
+
     title_and_preamble = f"{title}\n{text[:2000]}"
 
     # ---- core fields
+    logger.info("Extracting lead_country...")
     lead_country = extract_lead_country(title_and_preamble, llm)
+    logger.debug("lead_country -> %s", lead_country)
+
+    logger.info("Extracting agreement_type...")
     agreement_type = extract_agreement_type(title_and_preamble, llm)
+    logger.debug("agreement_type -> %s", agreement_type)
+
+    logger.info("Extracting legal_bindingness...")
     legal_bindingness = extract_legal_bindingness(text, llm)
+    logger.debug("legal_bindingness -> %s", legal_bindingness)
+
+    logger.info("Extracting coverage_scope...")
     coverage_scope = extract_coverage_scope(text, llm)
+    logger.debug("coverage_scope -> %s", coverage_scope)
 
     # ---- alignment & governance
+    logger.info("Extracting review_schedule...")
     review_schedule = extract_review_schedule(text, llm)
+    logger.debug("review_schedule -> %s", review_schedule)
+
+    logger.info("Extracting eu_policy_alignment...")
     eu_policy_alignment = extract_eu_policy_alignment(text, llm)
+    logger.debug("eu_policy_alignment -> %s", eu_policy_alignment)
+
+    logger.info("Extracting monitoring_body...")
     monitoring_body = extract_monitoring_body(text, llm)
+    logger.debug("monitoring_body -> %s", monitoring_body)
 
     # ---- commitments
+    logger.info("Analyzing commitments...")
     commitment_details = analyze_commitments(commitments, llm)
+    logger.debug("commitment_details -> %s", commitment_details)
 
     # ---- finance
+    logger.info("Extracting budget_info...")
     budget_info = extract_budget_info(text, llm)
+    logger.debug("budget_info -> %s", budget_info)
+
+    logger.info("Extracting financing_source...")
     financing_source = extract_financing_source(text, llm)
+    logger.debug("financing_source -> %s", financing_source)
 
     # ---- timeline & KPIs
+    logger.info("Extracting timeline...")
     timeline = extract_timeline(text, llm)
+    logger.debug("timeline -> %s", timeline)
+
+    logger.info("Extracting kpis...")
     kpis = extract_kpis(text, llm)
+    logger.debug("kpi_list -> %s", kpis)
 
     # ---- beneficiaries & reach
+    logger.info("Extracting beneficiary_group_raw...")
     beneficiary_group_raw = extract_beneficiary_group(text, llm)
+    logger.debug("beneficiary_group_raw -> %s", beneficiary_group_raw)
+
+    logger.info("Normalizing beneficiary_group...")
     beneficiary_group = normalize_beneficiary_group(beneficiary_group_raw, llm)
+    logger.debug("beneficiary_group -> %s", beneficiary_group)
+
+    logger.info("Extracting country_list_iso...")
     country_list_iso = extract_country_list(text, llm)
-    
+    logger.debug("country_list_iso -> %s", country_list_iso)
+
     # ---- derived metrics
+    logger.info("Computing implementation_degree_pct...")
     implementation_pct = _compute_implementation_degree(commitment_details)
+    logger.debug("implementation_degree_pct -> %s", implementation_pct)
+
+    logger.info("Computing actionability_score...")
     actionability = _compute_actionability(implementation_pct, budget_info["budget_amount_eur"], kpis)
-    
-    # Set budget_detected flag based on extracted budget amount
-    budget_detected = False if (budget_info["budget_amount_eur"] == 0.0) else True
-    
+    logger.debug("actionability_score -> %s", actionability)
+
+    # Set budget_detected flag
+    budget_detected = budget_info["budget_amount_eur"] != 0.0
+    logger.debug("budget_detected -> %s", budget_detected)
+
     # ─── extract SDG alignment ────────────────────────────────
-    sdg_alignment       = extract_sdg_alignment(text, llm)
+    logger.info("Extracting sdg_alignment...")
+    sdg_alignment = extract_sdg_alignment(text, llm)
+    logger.debug("sdg_alignment -> %s", sdg_alignment)
 
     metadata = ExtraMetadata(
         lead_country_iso=lead_country,
@@ -553,11 +618,11 @@ def process_document_for_extra_metadata(text: str, title: str, commitments: List
         actionability_score=actionability,
         country_list_iso=country_list_iso,
         budget_detected=budget_detected,
-        # ─── include new SDG field ─────────────────────────────
         sdg_alignment=sdg_alignment
     )
 
     logger.info("Completed extraction of extra metadata")
+    logger.debug("Extracted metadata: %s", metadata.dict())
     return metadata
 
 # -----------------------------------------------------------------------------

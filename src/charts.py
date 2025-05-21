@@ -5,6 +5,16 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+# 0) Asegúrate de que exista la carpeta de salida
+out_dir = os.path.join(os.path.dirname(__file__), 'charts')
+os.makedirs(out_dir, exist_ok=True)
+
+# helper para guardar siempre en charts/
+def save(fig, filename):
+    path = os.path.join(out_dir, filename)
+    fig.write_html(path)
+    print(f"Saved: {path}")
+
 # 1. Load all JSON reports
 reports_dir = os.path.join(os.path.dirname(__file__), '..', 'reports')
 files = glob.glob(os.path.join(reports_dir, '*.json'))
@@ -59,25 +69,25 @@ cd.rename(columns={'text':'commitment','commitment_class':'class','implementatio
 # Chart 1: Choropleth of lead_country
 fig1 = px.choropleth(df, locations='lead_country', color='lead_country',
                      title='Map of Lead Countries')
-fig1.write_html('chart1_choropleth.html')
+save(fig1, 'chart1_choropleth.html')
 
 # Chart 2: Gantt / timeline
 fig2 = px.timeline(df, x_start='start_date', x_end='end_date',
                    y='agreement_type', color='agreement_type',
                    title='Timeline of Agreements')
 fig2.update_yaxes(autorange="reversed")
-fig2.write_html('chart2_timeline.html')
+save(fig2, 'chart2_timeline.html')
 
 # Chart 3: Stacked bar Commitment Class × Implementation Status
 fig3 = px.histogram(cd, x='class', color='status', barmode='stack',
                     title='Commitment Class vs Implementation Status')
-fig3.write_html('chart3_stacked_commitments.html')
+save(fig3, 'chart3_stacked_commitments.html')
 
 # Chart 4: Scatter Budget vs Implementation Degree
 fig4 = px.scatter(df, x='budget', y='impl_degree', size='actionability',
                   hover_data=['title'],
                   title='Budget vs Implementation Degree (size=Actionability)')
-fig4.write_html('chart4_budget_vs_impl.html')
+save(fig4, 'chart4_budget_vs_impl.html')
 
 # Chart 5: Sankey Financing Source → Instrument → Commitment Class
 # -------------------------------------------------------------------
@@ -135,7 +145,7 @@ fig5.update_layout(
     title_text="Sankey: Financing Source → Instrument → Commitment Class",
     font_size=10
 )
-fig5.write_html('chart5_sankey.html')
+save(fig5, 'chart5_sankey.html')
 
 # Chart 6: Heatmap Theme × Beneficiary Category
 df_theme    = df[['idx','themes']].explode('themes')
@@ -144,7 +154,7 @@ df_ben_cat  = df[['idx','beneficiary_categories']].explode('beneficiary_categori
 pairs       = df_theme.merge(df_ben_cat, on='idx')
 th_be       = pd.crosstab(pairs['themes'], pairs['beneficiary_category'])
 fig6 = px.imshow(th_be, title='Heatmap: Theme vs Beneficiary Category')
-fig6.write_html('chart6_heatmap.html')
+save(fig6, 'chart6_heatmap.html')
 
 # Chart 7: Radar / Spider of EU Policy Alignment
 pol_counts = df_pols['eu_policies'].value_counts().reset_index()
@@ -156,11 +166,11 @@ categories += categories[:1]
 values += values[:1]
 fig7 = go.Figure(data=go.Scatterpolar(r=values, theta=categories, fill='toself'))
 fig7.update_layout(polar=dict(radialaxis=dict(visible=True)), title="EU Policy Alignment Radar")
-fig7.write_html('chart7_radar.html')
+save(fig7, 'chart7_radar.html')
 
 # Chart 8: Treemap of country_list per agreement
 fig8 = px.treemap(df_countries, path=['title','country_list'], title='Treemap of Countries per Agreement')
-fig8.write_html('charts/chart8_treemap.html')
+save(fig8, 'chart8_treemap.html')
 
 # Chart 9: Bar of Beneficiary Category (count)
 ben_count = df_bens_cat['beneficiary_categories'] \
@@ -170,7 +180,7 @@ fig9 = px.bar(ben_count,
               x='beneficiary_category',
               y='count',
               title='Beneficiary Category Counts')
-fig9.write_html('charts/chart9_beneficiary_bar.html')
+save(fig9, 'chart9_beneficiary_bar.html')
 
 # Chart 10: Time series of # of agreements & total budget per year
 df['year'] = pd.to_datetime(df['start_date'], errors='coerce').dt.year
@@ -178,14 +188,14 @@ ts = df.groupby('year').agg({'title':'count','budget':'sum'}).reset_index()
 fig10 = px.line(ts, x='year', y=['title','budget'], markers=True,
                 labels={'value':'Count/Budget','variable':'Metric'},
                 title='Agreements & Budget Over Time')
-fig10.write_html('charts/chart10_timeseries.html')
+save(fig10, 'chart10_timeseries.html')
 
 # Chart 11: Bar of Agreements by Main Theme
 theme_counts = df_themes['themes'].value_counts().reset_index()
 theme_counts.columns = ['theme','count']
 fig11 = px.bar(theme_counts, x='theme', y='count',
                title='Number of Agreements by Main Theme')
-fig11.write_html('charts/chart11_theme_bar.html')
+save(fig11, 'chart11_theme_bar.html')
 
 # Chart 12: Bar of Agreements by Actor Type
 df_actor_types = df.explode('actor_types')
@@ -193,7 +203,7 @@ actor_counts = df_actor_types['actor_types'].value_counts().reset_index()
 actor_counts.columns = ['actor_type','count']
 fig12 = px.bar(actor_counts, x='actor_type', y='count',
                title='Number of Agreements by Actor Type')
-fig12.write_html('charts/chart12_actor_bar.html')
+save(fig12, 'chart12_actor_bar.html')
 
 # Chart 13: Sankey Theme → Actor Type
 # replace the faulty merge/select with an explicit join of only the needed cols
@@ -215,26 +225,26 @@ fig13 = go.Figure(data=[go.Sankey(
     link=dict(source=sources, target=targets, value=values)
 )])
 fig13.update_layout(title_text='Sankey: Theme → Actor Type', font_size=10)
-fig13.write_html('charts/chart13_theme_actor_sankey.html')
+save(fig13, 'chart13_theme_actor_sankey.html')
 
 # Chart 14: Pie of Legal Bindingness
 fig14 = px.pie(df, names='legal_bindingness',
                title='Legal Bindingness Distribution')
-fig14.write_html('charts/chart14_legal_bindingness_pie.html')
+save(fig14, 'chart14_legal_bindingness_pie.html')
 
 # Chart 15: Bar of Coverage Scope
 scope_counts = df['coverage_scope'].value_counts().reset_index()
 scope_counts.columns = ['coverage_scope','count']
 fig15 = px.bar(scope_counts, x='coverage_scope', y='count',
                title='Coverage Scope of Agreements')
-fig15.write_html('charts/chart15_coverage_scope_bar.html')
+save(fig15, 'chart15_coverage_scope_bar.html')
 
 # Chart 16: Timeline by Review Schedule
 fig16 = px.timeline(df, x_start='start_date', x_end='end_date',
                     y='review_schedule', color='review_schedule',
                     title='Timeline of Agreements by Review Schedule')
 fig16.update_yaxes(autorange="reversed")
-fig16.write_html('charts/chart16_review_timeline.html')
+save(fig16, 'chart16_review_timeline.html')
 
 
 if __name__ == '__main__':

@@ -125,13 +125,12 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
     )
 
 # Modificar la función generate_markdown_report para que utilice el campo actor_descriptions del reporte
-def generate_markdown_report(report: DocumentReport, entity_data: Dict[str, List]) -> str:
+def generate_markdown_report(report: DocumentReport) -> str:
     """
     Generate a markdown report from the extracted information.
     
     Args:
         report: DocumentReport object with extracted information
-        entity_data: Dictionary containing entities extracted from the document
         
     Returns:
         Markdown formatted report
@@ -381,13 +380,12 @@ def save_report(markdown_content: str, report: DocumentReport, output_dir: str, 
         "json": json_path
     }
 
-def generate_report(text: str, entities: Dict[str, Any], llm, output_dir: str, folder_name: str) -> Dict[str, str]:
+def generate_report(text: str, llm, output_dir: str, folder_name: str) -> Dict[str, str]:
     """
     Process text, generate report and save to files.
     
     Args:
         text: Text content extracted from PDF
-        entities: Dictionary of extracted entities
         llm: Language model instance
         output_dir: Output directory path
         folder_name: Name of the folder/document
@@ -407,7 +405,7 @@ def generate_report(text: str, entities: Dict[str, Any], llm, output_dir: str, f
     report.extra_metadata = enriched_report_dict.get("extra_metadata")
     
     # Generate markdown from the report
-    markdown = generate_markdown_report(report, entities)
+    markdown = generate_markdown_report(report)
     
     # Pass both markdown content and report object to save_report
     return save_report(markdown, report, output_dir, folder_name)

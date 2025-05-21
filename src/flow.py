@@ -59,33 +59,13 @@ def run_analysis_pipeline(
                 f"=== START {filename} ===\n"
                 f"{content}\n"
                 f"=== END {filename} ===\n\n"
-            )
-
-        # Step 2: Extract entities from loaded documents
-        logger.info(f"  → Extracting entities in {folder}")
-        raw_entities = extract_entities_from_folder(texts)
-        
-        # Step 3: Process and normalize entities with a LLM
-        processed_entities = process_all_entities(raw_entities, llm)
-        entities_by_folder[folder] = processed_entities
-        
-        # Step 4: Filter entities using taxonomy
-        logger.info(f"  → Applying taxonomy classification for {folder}")
-        filtered_entities, _ = process_entities_with_taxonomy(
-            {folder: processed_entities}, 
-            llm, 
-            taxonomy_threshold
-        )
-        
-        
-        
+            )     
         
         # Step 5: Generate report from extracted text and entities
         logger.info(f"  → Generating report for {folder}")
         # Combine all texts from this folder into one document
         report_paths = generate_report(
             text=combined_text,
-            entities=filtered_entities.get(folder, processed_entities),
             llm=llm,
             output_dir=output_dir,
             folder_name=folder
@@ -95,7 +75,6 @@ def run_analysis_pipeline(
         logger.info(f"  → Report generated for {folder}: {report_paths}")
 
     return {
-        "entities": entities_by_folder,
         "reports": reports_paths
     }
 
