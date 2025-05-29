@@ -3,9 +3,6 @@ import os
 from typing import Dict, Any
 
 from src.pdf_loader import load_pdfs_from_documents
-from src.nlp import extract_entities_from_folder
-from src.entity_processor import process_all_entities
-from src.actors_taxonomy_processor import process_entities_with_taxonomy
 from src.report_generator import generate_report
 
 logger = logging.getLogger(__name__)

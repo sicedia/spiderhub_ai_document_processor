@@ -22,8 +22,8 @@ records = []
 for f in files:
     with open(f, encoding='utf-8') as r:
         data = json.load(r)
-        # flatten extra_metadata into top‐level
-        em = data.get('extra_metadata', {})
+        # flatten extra_data into top‐level
+        em = data.get('extra_data', {})
         rec = {
             'title': data.get('title'),
             'start_date': em.get('start_date'),
@@ -40,6 +40,7 @@ for f in files:
             'themes': list(data.get('themes', {}).keys()),
             'actor_types': list(data.get('actors', {}).keys()),
             'eu_policies': em.get('eu_policy_alignment', []),
+            'sdg_alignment': em.get('sdg_alignment', []),
             'commitment_details': em.get('commitment_details', []),
             'legal_bindingness': em.get('legal_bindingness'),
             'coverage_scope': em.get('coverage_scope'),
@@ -78,10 +79,10 @@ fig2 = px.timeline(df, x_start='start_date', x_end='end_date',
 fig2.update_yaxes(autorange="reversed")
 save(fig2, 'chart2_timeline.html')
 
-# Chart 3: Stacked bar Commitment Class × Implementation Status
-fig3 = px.histogram(cd, x='class', color='status', barmode='stack',
-                    title='Commitment Class vs Implementation Status')
-save(fig3, 'chart3_stacked_commitments.html')
+# Chart 3: Bar Plot of Commitment Class Counts
+fig3 = px.histogram(cd, x='class',
+                    title='Commitment Class Counts')
+save(fig3, 'chart3_commitment_counts.html')
 
 # Chart 4: Scatter Budget vs Implementation Degree
 fig4 = px.scatter(df, x='budget', y='impl_degree', size='actionability',
@@ -156,17 +157,15 @@ th_be       = pd.crosstab(pairs['themes'], pairs['beneficiary_category'])
 fig6 = px.imshow(th_be, title='Heatmap: Theme vs Beneficiary Category')
 save(fig6, 'chart6_heatmap.html')
 
-# Chart 7: Radar / Spider of EU Policy Alignment
-pol_counts = df_pols['eu_policies'].value_counts().reset_index()
-pol_counts.columns = ['policy','count']
-categories = pol_counts['policy'].tolist()
-values = pol_counts['count'].tolist()
-# close the loop
-categories += categories[:1]
-values += values[:1]
-fig7 = go.Figure(data=go.Scatterpolar(r=values, theta=categories, fill='toself'))
-fig7.update_layout(polar=dict(radialaxis=dict(visible=True)), title="EU Policy Alignment Radar")
-save(fig7, 'chart7_radar.html')
+# Chart 7: Radar of SDG Alignment
+df_sdg = df.explode('sdg_alignment')
+sdg_counts = df_sdg['sdg_alignment'].value_counts().reset_index()
+sdg_counts.columns = ['sdg','count']
+fig7 = px.line_polar(sdg_counts, r='count', theta='sdg', line_close=True,
+                    title='SDG Alignment Distribution',
+                    template='plotly_dark')
+save(fig7, 'chart7_sdg_radar.html')
+
 
 # Chart 8: Treemap of country_list per agreement
 fig8 = px.treemap(df_countries, path=['title','country_list'], title='Treemap of Countries per Agreement')

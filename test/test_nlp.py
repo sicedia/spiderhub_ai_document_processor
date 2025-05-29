@@ -2,7 +2,7 @@ import os
 import pytest
 from unittest import mock
 from src.pdf_loader import load_pdfs_from_documents
-from src.nlp import extract_entities, extract_entities_from_documents
+from utils_old.nlp import extract_entities, extract_entities_from_documents
 
 # Paths to actual documents
 DOCUMENTS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "documents")

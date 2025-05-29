@@ -38,16 +38,6 @@ def get_llm(provider: str, model: str):
         return ChatOpenAI(model=model, api_key=api_key, base_url=base_url, temperature=0)
 
     
-    elif provider == "gemini":
-        try:
-            from langchain_google_genai import ChatGoogleGenerativeAI
-            # Extract model name from format like "gemini/gemini-2.5-flash-preview-04-17"
-            model_name = model.split("/")[-1] if "/" in model else model
-            return ChatGoogleGenerativeAI(model=model_name, temperature=0)
-        except ImportError:
-            logger.error("langchain-google-genai package not installed. Install with: pip install langchain-google-genai")
-            raise
-    
     else:
         raise ValueError(f"Unsupported LLM provider: {provider}")
 
@@ -59,7 +49,7 @@ def main():
     parser.add_argument("--workers", type=int, default=None, help="Number of parallel workers")
     parser.add_argument("--output", default="reports", help="Output directory for reports")
     parser.add_argument("--provider", choices=["openai", "gemini"], default="openai", help="LLM provider")
-    parser.add_argument("--model", default="openai/gpt-4.1", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
+    parser.add_argument("--model", default="openai/gpt-4o-mini", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
     parser.add_argument("--output_dir", default="reports", help="Output directory for reports")
     args = parser.parse_args()
     
