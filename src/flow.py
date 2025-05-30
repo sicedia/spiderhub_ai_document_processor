@@ -13,7 +13,8 @@ def run_analysis_pipeline(
     use_parallel: bool = False,
     max_workers: int | None = None,
     taxonomy_threshold: float = 0.7,
-    output_dir: str = "reports"
+    output_dir: str = "reports",
+    template_path: str | None = None
 ) -> Dict[str, Any]:
     """
     Run the complete analysis pipeline including entity extraction and classification.
@@ -65,7 +66,8 @@ def run_analysis_pipeline(
                 text=combined_text,
                 llm=llm,
                 output_dir=output_dir,
-                folder_name=folder
+                folder_name=folder,
+                template_path=template_path
             )
             
             reports_paths[folder] = report_paths

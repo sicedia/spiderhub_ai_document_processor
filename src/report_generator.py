@@ -10,25 +10,11 @@ from src.themes_processor import process_text_with_themes  # Used to extract the
 from src.actor_processor import process_text_with_actors  # Used to extract actors
 from src.extra_data import ExtraData, enrich_report_with_extradata  # Import the new module
 from src.score_calculation import get_quality_assessment
-
+from src.template_generator import generate_word_from_template
+from src.documentReport import DocumentReport
 logger = logging.getLogger(__name__)
 
-# Modificar el modelo DocumentReport para incluir extra_data
-class DocumentReport(BaseModel):
-    """Structure for the document report."""
-    title: Optional[str] = Field(description="Document title", default=None)
-    date: Optional[str] = Field(description="Document date in YYYY-MM-DD or YYYY-MM format", default=None)
-    location: Optional[str] = Field(description="Principal location", default=None) 
-    executive_summary: Optional[str] = Field(description="Executive summary of the document", default=None)
-    characteristics: List[str] = Field(description="Key characteristics as bullet points", default_factory=list)
-    themes: Dict[str, List[str]] = Field(description="Main themes categorized", default_factory=dict)
-    actors: Dict[str, List[str]] = Field(description="Key actors and stakeholders categorized", default_factory=dict)
-    practical_applications: List[str] = Field(description="Existing practical applications", default_factory=list)
-    commitments: List[str] = Field(description="Future quantifiable commitments", default_factory=list)
-    score: Optional[int] = Field(description="Faithfulness score (0-100)", default=None)
-    quality_breakdown: Optional[Dict[str, Any]] = Field(description="Detailed quality assessment breakdown", default=None)
-    extra_data: Optional[Dict[str, Any]] = Field(description="Additional strategic extra data extracted for analysis", default=None)
-    
+
 def process_text_with_prompts(text: str, llm) -> DocumentReport:
     """
     Process document text with various prompts to extract structured information.
@@ -250,15 +236,17 @@ def generate_markdown_report(report: DocumentReport) -> str:
    
     return "\n".join(md_lines)
 
-def save_report(markdown_content: str, report: DocumentReport, output_dir: str, filename_base: str) -> Dict[str, str]:
+def save_report(markdown_content: str, report: DocumentReport, output_dir: str, filename_base: str, 
+               template_path: str = None) -> Dict[str, str]:
     """
-    Save report in markdown, convert to Word, and save structured data as JSON.
+    Save report in markdown, convert to Word using template, and save structured data as JSON.
     
     Args:
         markdown_content: Report content in markdown format
         report: DocumentReport object with structured data
         output_dir: Directory to save the report
         filename_base: Base filename without extension
+        template_path: Optional path to Word template
         
     Returns:
         Dictionary with paths to created files
@@ -276,21 +264,28 @@ def save_report(markdown_content: str, report: DocumentReport, output_dir: str, 
     
     # Save JSON with structured data
     with open(json_path, 'w', encoding='utf-8') as f:
-        # Convert report to dict and save as JSON
         report_dict = report.model_dump()
-        
-        # Ensure quality assessment is included
         if report.quality_breakdown:
             logger.info(f"Quality breakdown included in JSON: {report.quality_breakdown}")
-        
         json.dump(report_dict, f, ensure_ascii=False, indent=2)
     
-    # Convert to Word using Pandoc
+    # Generate Word document using template
     try:
-        subprocess.run(['pandoc', md_path, '-o', docx_path], check=True)
-        logger.info(f"Successfully converted to Word: {docx_path}")
+        generated_docx = generate_word_from_template(
+            report=report,
+            template_path=template_path,
+            output_path=output_dir,
+            filename_base=filename_base
+        )
+        logger.info(f"Successfully generated Word document: {generated_docx}")
     except Exception as e:
-        logger.error(f"Error converting to Word: {e}")
+        logger.error(f"Error generating Word document with template: {e}")
+        # Fallback to pandoc conversion
+        try:
+            subprocess.run(['pandoc', md_path, '-o', docx_path], check=True)
+            logger.info(f"Fallback: Successfully converted to Word using Pandoc: {docx_path}")
+        except Exception as pandoc_error:
+            logger.error(f"Error with Pandoc fallback: {pandoc_error}")
     
     return {
         "markdown": md_path,
@@ -298,7 +293,8 @@ def save_report(markdown_content: str, report: DocumentReport, output_dir: str, 
         "json": json_path
     }
 
-def generate_report(text: str, llm, output_dir: str, folder_name: str) -> Dict[str, str]:
+def generate_report(text: str, llm, output_dir: str, folder_name: str, 
+                   template_path: str = None) -> Dict[str, str]:
     """
     Process text, generate report and save to files.
     
@@ -307,6 +303,7 @@ def generate_report(text: str, llm, output_dir: str, folder_name: str) -> Dict[s
         llm: Language model instance
         output_dir: Output directory path
         folder_name: Name of the folder/document
+        template_path: Optional path to Word template
         
     Returns:
         Dictionary with paths to created files
@@ -325,5 +322,5 @@ def generate_report(text: str, llm, output_dir: str, folder_name: str) -> Dict[s
     # Generate markdown from the report
     markdown = generate_markdown_report(report)
     
-    # Pass both markdown content and report object to save_report
-    return save_report(markdown, report, output_dir, folder_name)
+    # Pass template_path to save_report
+    return save_report(markdown, report, output_dir, folder_name, template_path)

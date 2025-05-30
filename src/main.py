@@ -51,6 +51,7 @@ def main():
     parser.add_argument("--provider", choices=["openai", "gemini"], default="openai", help="LLM provider")
     parser.add_argument("--model", default="openai/gpt-4o-mini", help="Model name (e.g., openai/gpt-4o-mini, gemini/gemini-2.5-flash-preview-04-17)")
     parser.add_argument("--output_dir", default="reports", help="Output directory for reports")
+    parser.add_argument("--template", type=str, default="templates/SPIDER Deliverable Template.docx", help="Path to custom report template (optional)")
     args = parser.parse_args()
     
     
@@ -72,7 +73,8 @@ def main():
         llm=llm,
         use_parallel=args.parallel,
         max_workers=args.workers,
-        output_dir=args.output
+        output_dir=args.output,
+        template_path=args.template
     )
     
     
