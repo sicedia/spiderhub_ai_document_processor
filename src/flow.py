@@ -43,33 +43,40 @@ def run_analysis_pipeline(
     reports_paths: dict[str, dict[str, str]] = {}
     
     for folder, texts in docs.items():
-        logger.info(f"→ Processing folder: {folder}")
+        try:
+            logger.info(f"→ Processing folder: {folder}")
 
-        # Listado de archivos
-        file_names = list(texts.keys())
-        files_info = f"Files in folder '{folder}': " + ", ".join(file_names)
+            # Listado de archivos
+            file_names = list(texts.keys())
+            files_info = f"Files in folder '{folder}': " + ", ".join(file_names)
 
-        # Combinar texto con delimitadores por archivo
-        combined_text = files_info + "\n\n"
-        for filename, content in texts.items():
-            combined_text += (
-                f"=== START {filename} ===\n"
-                f"{content}\n"
-                f"=== END {filename} ===\n\n"
-            )     
-        
-        # Step 5: Generate report from extracted text and entities
-        logger.info(f"  → Generating report for {folder}")
-        # Combine all texts from this folder into one document
-        report_paths = generate_report(
-            text=combined_text,
-            llm=llm,
-            output_dir=output_dir,
-            folder_name=folder
-        )
-        
-        reports_paths[folder] = report_paths
-        logger.info(f"  → Report generated for {folder}: {report_paths}")
+            # Combinar texto con delimitadores por archivo
+            combined_text = files_info + "\n\n"
+            for filename, content in texts.items():
+                combined_text += (
+                    f"=== START {filename} ===\n"
+                    f"{content}\n"
+                    f"=== END {filename} ===\n\n"
+                )     
+            
+            # Step 5: Generate report from extracted text and entities
+            logger.info(f"  → Generating report for {folder}")
+            report_paths = generate_report(
+                text=combined_text,
+                llm=llm,
+                output_dir=output_dir,
+                folder_name=folder
+            )
+            
+            reports_paths[folder] = report_paths
+            logger.info(f"  → Report generated for {folder}: {report_paths}")
+            
+        except Exception as e:
+            logger.error(f"Error processing folder {folder}: {str(e)}")
+            # Opcionalmente, puedes agregar el error al resultado
+            reports_paths[folder] = {"error": str(e)}
+            # El flujo continúa con la siguiente carpeta
+            continue
 
     return {
         "reports": reports_paths

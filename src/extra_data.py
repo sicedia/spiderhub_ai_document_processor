@@ -40,7 +40,6 @@ class KPI(BaseModel):
     target_value: Optional[float] = Field(description="Numeric target value (null for qualitative KPIs)", default=None)
     target_description: Optional[str] = Field(description="Textual description of the target or goal", default=None)
     unit: Optional[str] = Field(description="Unit of measurement (e.g., 'percentage', 'millions USD', 'qualitative milestone')", default=None)
-    baseline_value: Optional[float] = Field(description="Starting or reference value if mentioned", default=None)
     timeframe: Optional[str] = Field(description="Timeline for achieving the target (e.g., 'by 2030', 'within 5 years')", default=None)
     measurement_method: Optional[str] = Field(description="How success will be measured or evaluated", default=None)
     responsible_entity: Optional[str] = Field(description="Entity responsible for delivering this KPI", default=None)
@@ -451,7 +450,6 @@ INSTRUCTIONS:
    - target_value: Numeric value (only for quantitative KPIs)
    - target_description: Clear description of what should be achieved
    - unit: Measurement unit or "qualitative milestone" for non-numeric KPIs
-   - baseline_value: Starting point if mentioned
    - timeframe: When this should be achieved
    - measurement_method: How success will be evaluated
    - responsible_entity: Who is accountable for delivery
