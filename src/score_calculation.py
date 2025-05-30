@@ -406,13 +406,13 @@ def get_quality_assessment(source_text: str, generated_content: Dict[str, Any],
         # Identify issues for manual review including extra_data issues
         issues = []
         if faithfulness < 70:
-            issues.append("Low faithfulness - check for hallucinations in basic or strategic data")
+            issues.append("Low faithfulness - check for hallucinations in basic or strategic extra data")
         if consistency < 70:
             issues.append("Internal inconsistencies detected across data sections")
         if completeness < 70:
             issues.append("Missing important information in extraction or strategic analysis")
         if accuracy < 70:
-            issues.append("Potential factual errors in basic content or strategic metadata")
+            issues.append("Potential factual errors in basic content or strategic extra data")
         
         # Check for specific extra_data issues
         extra_data = generated_content.get("extra_data", {})

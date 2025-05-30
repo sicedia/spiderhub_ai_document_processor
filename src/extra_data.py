@@ -33,10 +33,18 @@ class CommitmentWithClass(BaseModel):
 
 
 class KPI(BaseModel):
-    """Key‑Performance Indicator with target value."""
-    kpi: str = Field(description="KPI description")
-    target_value: float = Field(description="Target value as number")
-    unit: str = Field(description="Unit, incl. reference year if present")
+    """Enhanced Key Performance Indicator model supporting both quantitative and qualitative metrics."""
+    kpi_text: str = Field(description="Full KPI description as found in the document")
+    kpi_type: str = Field(description="Type of KPI: 'quantitative' or 'qualitative'")
+    metric_name: str = Field(description="Standardized name of the metric being measured")
+    target_value: Optional[float] = Field(description="Numeric target value (null for qualitative KPIs)", default=None)
+    target_description: Optional[str] = Field(description="Textual description of the target or goal", default=None)
+    unit: Optional[str] = Field(description="Unit of measurement (e.g., 'percentage', 'millions USD', 'qualitative milestone')", default=None)
+    baseline_value: Optional[float] = Field(description="Starting or reference value if mentioned", default=None)
+    timeframe: Optional[str] = Field(description="Timeline for achieving the target (e.g., 'by 2030', 'within 5 years')", default=None)
+    measurement_method: Optional[str] = Field(description="How success will be measured or evaluated", default=None)
+    responsible_entity: Optional[str] = Field(description="Entity responsible for delivering this KPI", default=None)
+    sector: Optional[str] = Field(description="Sector or domain this KPI belongs to", default=None)
 
 
 class ExtraData(BaseModel):
@@ -149,23 +157,25 @@ def extract_lead_country(text: str, llm) -> Optional[str]:
     parser = PydanticOutputParser(pydantic_object=LeadCountryOutput)
     prompt = PromptTemplate(
         template="""
-System: You are an expert in multilingual legal‑political analysis. Return only an ISO‑3 oficial country code.
+You are an expert in multilingual legal‑political analysis. 
+Identify the host country or the country presiding over this agreement. Return only an ISO‑3 country code.
+If several appear, choose the one labelled *chair*, *host* or *president* in the preamble.
 If no clear lead country is found, return 'null'.
-User: Identify the host country or the country presiding over this agreement. If several appear, choose the one labelled *chair*, *host* or *president* in the preamble.
+
 Text: {text}
+
 {format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:5000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.lead_country_iso if result else None
     return normalize_empty_values(raw_value)
 
 
 def extract_agreement_type(full_text: str, llm) -> List[str]:
     parser = PydanticOutputParser(pydantic_object=AgreementTypeOutput)
-    # corregir backreference para capturar cada START/END
     segments = re.findall(
         r"=== START (.*?) ===\n(.*?)=== END \1 ===",
         full_text,
@@ -176,16 +186,17 @@ def extract_agreement_type(full_text: str, llm) -> List[str]:
     if segments:
         for filename, segment in segments:
             prompt = PromptTemplate(
-                template="""
-                System: You are an expert in legal-political analysis.
-                Identify the document type for the text between START/END for "{filename}".
-                Common types include: "Declaration", "MoU", "Roadmap", "Ministerial Communiqué", "Investment Programme", "Legal Treaty"
-                But you're not limited to these - return the most accurate document type based on the content and structure.
-                If no clear type can be determined, return 'null'.
-                Text:
-                {segment}
+                template=""":
+You are an expert in legal-political analysis.
+Identify the document type for the text between START/END for "{filename}".
+Common types include: "Declaration", "MoU", "Roadmap", "Ministerial Communiqué", "Investment Programme", "Legal Treaty"
+But you're not limited to these - return the most accurate document type based on the content and structure.
+If no clear type can be determined, return 'null'.
 
-                {format_instructions}
+Text:
+{segment}
+
+{format_instructions}
                 """,
                 input_variables=["filename", "segment"],
                 partial_variables={"format_instructions": parser.get_format_instructions()},
@@ -199,15 +210,16 @@ def extract_agreement_type(full_text: str, llm) -> List[str]:
 
     # fallback único
     prompt = PromptTemplate(
-        template="""
-            System: Classify the type of legal instrument or agreement.
-            Common examples include ["Declaration","MoU","Roadmap","Ministerial Communiqué","Investment Programme","Legal Treaty"]
-            but you're not limited to these options. Return the most accurate document type based on the content and structure.
-            If no clear type can be determined, return 'null'.
-            Text:
-            {text}
+        template=""":
+Classify the type of legal instrument or agreement.
+Common examples include ["Declaration","MoU","Roadmap","Ministerial Communiqué","Investment Programme","Legal Treaty"]
+but you're not limited to these options. Return the most accurate document type based on the content and structure.
+If no clear type can be determined, return 'null'.
 
-            {format_instructions}
+Text:
+{text}
+
+{format_instructions}
             """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
@@ -222,17 +234,19 @@ def extract_agreement_type(full_text: str, llm) -> List[str]:
 def extract_legal_bindingness(full_text: str, llm) -> Optional[str]:
     parser = PydanticOutputParser(pydantic_object=LegalBindingnessOutput)
     prompt = PromptTemplate(
-        template="""
-            System: You are an international‑law expert.
-            User: Using modal verbs, classify bindingness as "Non-binding", "Politically-binding", or "Legally-binding".
-            If bindingness cannot be determined, return 'null'.
-            Text: {text}
-            {format_instructions}
-                    """,
+        template=""":
+You are an international‑law expert.
+Using modal verbs, classify bindingness as "Non-binding", "Politically-binding", or "Legally-binding".
+If bindingness cannot be determined, return 'null'.
+
+Text: {text}
+
+{format_instructions}
+        """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=full_text[:12000])
+    result = _invoke(prompt, llm, parser, text=full_text)  # <-- CAMBIO: text=full_text
     raw_value = result.legal_bindingness if result else None
     return normalize_empty_values(raw_value)
 
@@ -240,18 +254,20 @@ def extract_legal_bindingness(full_text: str, llm) -> Optional[str]:
 def extract_review_schedule(text: str, llm) -> Optional[str]:
     parser = PydanticOutputParser(pydantic_object=ReviewScheduleOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Extract the document's review frequency.
-            User: Return one of ["Annual","Biennial","Triennial","Quarterly","None"].
-                Map phrases like "every two years" or "mid-term review" to "Biennial".
-                If no review schedule is found, return 'null'.
-            Text: {text}
-            {format_instructions}
+        template=""":
+Extract the document's review frequency.
+Return one of ["Annual","Biennial","Triennial","Quarterly","None"].
+Map phrases like "every two years" or "mid-term review" to "Biennial".
+If no review schedule is found, return 'null'.
+
+Text: {text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:8000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.review_schedule if result else None
     return normalize_empty_values(raw_value)
 
@@ -260,19 +276,21 @@ def extract_eu_policy_alignment(text: str, llm) -> List[str]:
     """Extract references to EU policies mentioned in the text."""
     parser = PydanticOutputParser(pydantic_object=EUPolicyAlignmentOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Extract references to EU policies.
-            User: Return an array of EU policies detected from this fixed list:
-            ["Global Gateway","NDICI-Global Europe","Digital Decade","Horizon Europe","EU Cyber Strategy"]
+        template=""":
+Extract references to EU policies.
+Return an array of EU policies detected from this fixed list:
+["Global Gateway","NDICI-Global Europe","Digital Decade","Horizon Europe","EU Cyber Strategy"]
 
-            If none are found, return empty array: []
-            Text: {text}
-            {format_instructions}
+If none are found, return empty array: []
+
+Text: {text}
+
+{format_instructions}
             """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:12000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.eu_policy_alignment if result else []
     normalized = normalize_empty_values(raw_value)
     return normalized if isinstance(normalized, list) else []
@@ -286,14 +304,16 @@ def analyze_commitments(commitments: List[str], llm) -> List[CommitmentWithClass
         return []
     parser = PydanticOutputParser(pydantic_object=CommitmentsOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Classify commitments.
-            User: For each commitment in the JSON list below, return:
-            * commitment_class → "Declarative","Programmatic","Financed","Implemented"
-            Commitments JSON: {commitments}
-            
-            If no commitments are found, return empty array: []
-            {format_instructions}
+        template=""":
+Classify commitments.
+For each commitment in the JSON list below, return:
+* commitment_class → "Declarative","Programmatic","Financed","Implemented"
+
+Commitments JSON: {commitments}
+
+If no commitments are found, return empty array: []
+
+{format_instructions}
         """,
         input_variables=["commitments"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
@@ -312,17 +332,19 @@ def analyze_commitments(commitments: List[str], llm) -> List[CommitmentWithClass
 def extract_beneficiary_group(text: str, llm) -> List[str]:
     parser = PydanticOutputParser(pydantic_object=BeneficiaryGroupOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Detect explicit beneficiary groups (e.g. SMEs, women, rural communities).
-            User: Return an array with up to 5 distinct groups; use nouns, singular.
-            If no beneficiary groups are found, return empty array: []
-            Text: {text}
-            {format_instructions}
+        template=""":
+Detect explicit beneficiary groups (e.g. SMEs, women, rural communities).
+Return an array with up to 5 distinct groups; use nouns, singular.
+If no beneficiary groups are found, return empty array: []
+
+Text: {text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:8000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.beneficiary_group_raw if result else []
     normalized = normalize_empty_values(raw_value)
     return normalized if isinstance(normalized, list) else []
@@ -331,39 +353,40 @@ def extract_beneficiary_group(text: str, llm) -> List[str]:
 def extract_country_list(text: str, llm) -> List[str]:
     parser = PydanticOutputParser(pydantic_object=CountryListOutput)
     prompt = PromptTemplate(
-        template="""
-            System: List all countries explicitly mentioned in the document.
-            User: Return an array of ISO‑3 oficial codes, max 50, sorted alphabetically, no regions, no duplicates, exclude lead country.
-            If no countries are found, return empty array: []
-            Text: {text}
-            {format_instructions}
+        template=""":
+List all countries explicitly mentioned in the document.
+Return an array of ISO‑3 oficial codes, max 50, sorted alphabetically, no regions, no duplicates, exclude lead country.
+If no countries are found, return empty array: []
+
+Text: {text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:10000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.country_list_iso if result else []
     normalized = normalize_empty_values(raw_value)
     return normalized if isinstance(normalized, list) else []
 
-# -----------------------------------------------------------------------------
-# 3.5  TIMELINE, KPIs, COVERAGE
-# -----------------------------------------------------------------------------
 
 def extract_responsible_entity(text: str, llm) -> Optional[str]:
     parser = PydanticOutputParser(pydantic_object=ResponsibleEntityOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Extract the OFFICIAL entity primarily responsible for implementation (one entity).
-            User: Look for phrases "will lead", "shall coordinate", "is responsible".
-            If no responsible entity is found, return 'null'.
-            Text: {text}
-            {format_instructions}
+        template=""":
+Extract the OFFICIAL entity primarily responsible for implementation (one entity).
+Look for phrases "will lead", "shall coordinate", "is responsible".
+If no responsible entity is found, return 'null'.
+
+Text: {text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:6000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.responsible_entity if result else None
     return normalize_empty_values(raw_value)
 
@@ -371,17 +394,19 @@ def extract_responsible_entity(text: str, llm) -> Optional[str]:
 def extract_timeline(text: str, llm) -> Dict[str, Optional[str]]:
     parser = PydanticOutputParser(pydantic_object=TimelineOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Extract start and end dates in ISO‑8601.
-            User: Return {{"start_date":"YYYY-MM-DD","end_date":"YYYY-MM-DD"}}.
-            If only year is present, use YYYY-01-01. If missing → null.
-            Text: {text}
-            {format_instructions}
+        template=""":
+Extract start and end dates in ISO‑8601 format.
+Return {{"start_date":"YYYY-MM-DD","end_date":"YYYY-MM-DD"}}.
+If only year is present, use YYYY-01-01. If missing → null.
+
+Text: {text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:10000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     
     start_date = normalize_empty_values(result.start_date if result else None)
     end_date = normalize_empty_values(result.end_date if result else None)
@@ -393,50 +418,124 @@ def extract_timeline(text: str, llm) -> Dict[str, Optional[str]]:
 
 
 def extract_kpis(text: str, llm) -> List[KPI]:
+    """
+    Extract comprehensive Key Performance Indicators including both quantitative and qualitative metrics.
+    """
     parser = PydanticOutputParser(pydantic_object=KPIListOutput)
+    
     prompt = PromptTemplate(
-        template="""
-        System: Extract up to 5 KPIs, including both quantitative and qualitative metrics.
-        User: For each KPI, return:
-        - kpi: The KPI description
-        - target_value: Numeric value (use 1.0 for qualitative KPIs without specific numbers)
-        - unit: Unit of measurement (use "qualitative" for non-numeric KPIs)
-        
-        The output MUST be a valid JSON object containing a list of KPIs, conforming to the provided schema.
-        Do NOT include any comments or explanatory text within the JSON output.
-        If no KPIs are found, return empty array: []
-        Look for both:
-        - Measurable metrics with numbers
-        - Qualitative goals that can serve as success indicators
-        
-        Text: {text}
-        {format_instructions}
+        template=""":
+You are an expert policy analyst specializing in extracting Key Performance Indicators (KPIs) from policy documents.
+
+Your task is to identify and extract ALL measurable outcomes, targets, goals, and success indicators from the text, including both quantitative metrics (with numbers) and qualitative milestones (without specific numbers but with clear success criteria).
+
+INSTRUCTIONS:
+1. Look for QUANTITATIVE KPIs such as:
+   - Numerical targets (e.g., "reduce emissions by 50%", "invest €100 million", "train 1000 people")
+   - Financial commitments and allocations
+   - Percentage improvements or reductions
+   - Specific quantities, volumes, or counts
+   - Timelines with measurable deadlines
+
+2. Look for QUALITATIVE KPIs such as:
+   - Strategic milestones (e.g., "establish framework", "strengthen cooperation")
+   - Process improvements (e.g., "enhance transparency", "improve coordination")
+   - Capacity building goals (e.g., "develop capabilities", "build institutional capacity")
+   - Policy implementation targets (e.g., "adopt standards", "implement regulations")
+   - Partnership and collaboration objectives
+
+3. For EACH KPI identified, extract:
+   - kpi_text: The exact text as it appears in the document
+   - kpi_type: "quantitative" or "qualitative"
+   - metric_name: A clear, standardized name for what's being measured
+   - target_value: Numeric value (only for quantitative KPIs)
+   - target_description: Clear description of what should be achieved
+   - unit: Measurement unit or "qualitative milestone" for non-numeric KPIs
+   - baseline_value: Starting point if mentioned
+   - timeframe: When this should be achieved
+   - measurement_method: How success will be evaluated
+   - responsible_entity: Who is accountable for delivery
+   - sector: Which domain/sector this belongs to
+
+EXAMPLES OF GOOD KPI EXTRACTION:
+
+Quantitative Example:
+- Text: "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure"
+- kpi_type: "quantitative"
+- metric_name: "Digital Infrastructure Investment"
+- target_value: 300.0
+- unit: "billion EUR"
+- timeframe: "by 2027"
+
+Qualitative Example:
+- Text: "Establish a robust cybersecurity framework for critical infrastructure protection"
+- kpi_type: "qualitative"
+- metric_name: "Cybersecurity Framework Establishment"
+- target_description: "Establish robust cybersecurity framework for critical infrastructure"
+- unit: "qualitative milestone"
+- measurement_method: "Framework establishment and implementation"
+
+CRITICAL REQUIREMENTS:
+- Extract up to 10 KPIs maximum
+- Include both obvious numerical targets AND strategic qualitative goals
+- Be comprehensive but avoid duplication
+- If no clear KPIs exist, return empty array
+- Ensure JSON output is valid and follows the exact schema
+
+Text to analyze:
+{text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:10000])
-    raw_value = result.kpi_list if result else []
-    normalized = normalize_empty_values(raw_value)
-    return normalized if isinstance(normalized, list) else []
+    
+    try:
+        result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
+        raw_value = result.kpi_list if result else []
+        normalized = normalize_empty_values(raw_value)
+        
+        if isinstance(normalized, list):
+            validated_kpis = []
+            for kpi in normalized:
+                if isinstance(kpi, dict):
+                    if kpi.get('kpi_text') and kpi.get('metric_name'):
+                        validated_kpis.append(kpi)
+                elif hasattr(kpi, 'kpi_text') and hasattr(kpi, 'metric_name'):
+                    if kpi.kpi_text and kpi.metric_name:
+                        validated_kpis.append(kpi)
+            
+            logger.info(f"Successfully extracted {len(validated_kpis)} KPIs ({len([k for k in validated_kpis if (k.get('kpi_type') if isinstance(k, dict) else k.kpi_type) == 'quantitative'])} quantitative, {len([k for k in validated_kpis if (k.get('kpi_type') if isinstance(k, dict) else k.kpi_type) == 'qualitative'])} qualitative)")
+            return validated_kpis
+        
+        return []
+        
+    except Exception as e:
+        logger.error(f"Error extracting KPIs: {str(e)}")
+        return []
 
 
 def extract_coverage_scope(text: str, llm) -> Optional[str]:
     parser = PydanticOutputParser(pydantic_object=CoverageScopeOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Determine the geographic coverage scope.
-            User: Return one of ["Bilateral","Sub-regional","Regional","Multilateral","Global","Unknown"].
-            If scope cannot be determined, return 'null'.
-            Text: {text}
-            {format_instructions}
+        template=""":
+Determine the geographic coverage scope.
+Return one of ["Bilateral","Sub-regional","Regional","Multilateral","Global"].
+If scope is not explicitly mentioned, infer from context.
+If scope cannot be determined, return 'null'.
+
+Text: {text}
+
+{format_instructions}
         """,
         input_variables=["text"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text[:6000])
+    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
     raw_value = result.coverage_scope if result else None
     return normalize_empty_values(raw_value)
+
 
 def extract_sdg_alignment(text: str, llm) -> List[str]:
     """Detect mentions of Sustainable Development Goals (SDGs)."""
@@ -448,10 +547,10 @@ def extract_sdg_alignment(text: str, llm) -> List[str]:
         ),
         HumanMessagePromptTemplate.from_template(
             """
-            Given the following text, identify any **explicit** or **implicit** references to the SDGs.  
-            Use the official SDG list below for both exact and paraphrased matches (e.g. "zero hunger" → SDG 2):
+Given the following text, identify any **explicit** or **implicit** references to the SDGs.  
+Use the official SDG list below for both exact and paraphrased matches (e.g. "zero hunger" → SDG 2):
 
-            {sdg_list_json}
+{sdg_list_json}
 
             {text}
 
@@ -470,7 +569,7 @@ def extract_sdg_alignment(text: str, llm) -> List[str]:
             llm,
             parser,
             sdg_list_json=json.dumps(SDG_TAXONOMY, ensure_ascii=False),
-            text=text[:10000],
+            text=text,
             format_instructions=parser.get_format_instructions()
         )
         raw_value = result.sdg_alignment if result else []
@@ -479,6 +578,7 @@ def extract_sdg_alignment(text: str, llm) -> List[str]:
     except Exception as e:
         logger.error(f"Error extracting SDG alignment: {str(e)}")
         return []
+
 
 def normalize_beneficiary_group(beneficiary_raw: List[str], llm) -> List[Dict[str, str]]:
     """
@@ -490,25 +590,30 @@ def normalize_beneficiary_group(beneficiary_raw: List[str], llm) -> List[Dict[st
     if not beneficiary_raw:
         return []
     
+    norm_parser = PydanticOutputParser(pydantic_object=NormalizedBeneficiaryGroupOutput)
     prompt = PromptTemplate(
-        template="""
-            System: Normalize beneficiary group terms.
-            User: You have this taxonomy (category → labels):
-            {taxonomy}
+        template=""":
+Normalize beneficiary group terms.
+You have this taxonomy (category → labels):
+{taxonomy}
 
-            For each item in the JSON array `beneficiary_group_raw`:
-            • find the label it matches under the taxonomy,
-            • return an object {{ "category": top_level_category, "label": matched_label }}.
-            If it does not match any label, create a new category with format {{ "category": "<matched_category>", "label": "<matched_label>" }}, choose the better matched_category and matched_label.
+For each item in the JSON array `beneficiary_group_raw`:
+• find the label it matches under the taxonomy,
+• return an object {{ "category": top_level_category, "label": matched_label }}.
+If it does not match any label, create a new category with format {{ "category": "<matched_category>", "label": "<matched_label>" }}, choose the better matched_category and matched_label.
 
-            If no beneficiaries can be normalized, return empty array: []
-            Input JSON: {beneficiary_group_raw}
-            Output must be JSON with key "normalized_beneficiary_group".
+If no beneficiaries can be normalized, return empty array: []
+
+Input JSON: {beneficiary_group_raw}
+
+{format_instructions}
         """,
         input_variables=["beneficiary_group_raw"],
-        partial_variables={"taxonomy": json.dumps(BENEFICIARIES_TAXONOMY, ensure_ascii=False)},
+        partial_variables={
+            "taxonomy": json.dumps(BENEFICIARIES_TAXONOMY, ensure_ascii=False),
+            "format_instructions": norm_parser.get_format_instructions()
+        },
     )
-    norm_parser = PydanticOutputParser(pydantic_object=NormalizedBeneficiaryGroupOutput)
     result = _invoke(prompt, llm, norm_parser, beneficiary_group_raw=json.dumps(beneficiary_raw))
     
     raw_value = result.normalized_beneficiary_group if result else []
@@ -574,6 +679,11 @@ def process_document_for_extra_data(text: str, title: str, commitments: List[str
     logger.info("Extracting country_list_iso...")
     country_list_iso = extract_country_list(text, llm)
     logger.debug("country_list_iso -> %s", country_list_iso)
+    
+    # ---- responsible entity
+    logger.info("Extracting responsible_entity...")
+    responsible_entity = extract_responsible_entity(text, llm)
+    logger.debug("responsible_entity -> %s", responsible_entity)
 
     # ─── extract SDG alignment ────────────────────────────────
     logger.info("Extracting sdg_alignment...")
@@ -594,6 +704,7 @@ def process_document_for_extra_data(text: str, title: str, commitments: List[str
         commitment_details=commitment_details,
         kpi_list=kpis,
         country_list_iso=country_list_iso,
+        responsible_entity=responsible_entity,  
         sdg_alignment=sdg_alignment
     )
 

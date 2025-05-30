@@ -26,11 +26,9 @@ class DocumentReport(BaseModel):
     practical_applications: List[str] = Field(description="Existing practical applications", default_factory=list)
     commitments: List[str] = Field(description="Future quantifiable commitments", default_factory=list)
     score: Optional[int] = Field(description="Faithfulness score (0-100)", default=None)
-    extra_data: Optional[Dict[str, Any]] = Field(description="Additional strategic extra data extracted for analysis", default=None)
     quality_breakdown: Optional[Dict[str, Any]] = Field(description="Detailed quality assessment breakdown", default=None)
+    extra_data: Optional[Dict[str, Any]] = Field(description="Additional strategic extra data extracted for analysis", default=None)
     
-    
-
 def process_text_with_prompts(text: str, llm) -> DocumentReport:
     """
     Process document text with various prompts to extract structured information.
@@ -106,7 +104,7 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         logger.error(f"Error processing actors: {e}")
         results["actors"] = {}
     
-    # Enriquecer con metadatos adicionales estratégicos
+    # Enriquecer con datos adicionales estratégicos
     try:
         logger.info("Enriching report with extra data...")
         # pass the interim results dict, the full text, and llm
@@ -170,13 +168,6 @@ def generate_markdown_report(report: DocumentReport) -> str:
         Markdown formatted report
     """
     md_lines = []
-    
-    # Add faithfulness score and title
-    if report.score is not None:
-        score = report.score
-        rating = "Excellent" if score >= 80 else "Regular" if score >= 60 else "Poor"
-        md_lines.append(f"**Faithfulness Score**: {score}/100 - {rating}")
-        md_lines.append("")
     
     # Handle title with fallback message
     title = report.title or "Document Title Not Available"
