@@ -359,7 +359,7 @@ def extract_country_list(text: str, llm, lead_iso: str) -> List[str]:
         template=""":
         You are a geopolitical expert with ISO-3166 knowledge.
 1. Scan the text and detect every explicit country mention
-   • A mention can be the full name (“Dominican Republic”), the short name (“Germany”), or an official demonym (“Spanish”, “Colombian”).
+   • A mention can be the full name ("Dominican Republic"), the short name ("Germany"), or an official demonym ("Spanish", "Colombian").
 2. Ignore macro-regions, organisations, acronyms (EU, LAC, OECD), and continents.
 3. Convert each valid country to its ISO-3 code.
 4. Remove duplicates and the lead_country_iso = {lead_iso}.
@@ -370,10 +370,10 @@ Text: {text}
 
 {format_instructions}
         """,
-        input_variables=["text"],
+        input_variables=["text", "lead_iso"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
-    result = _invoke(prompt, llm, parser, text=text)  # <-- CAMBIO: text=text
+    result = _invoke(prompt, llm, parser, text=text, lead_iso=lead_iso)
     raw_value = result.country_list_iso if result else []
     normalized = normalize_empty_values(raw_value)
     return normalized if isinstance(normalized, list) else []
