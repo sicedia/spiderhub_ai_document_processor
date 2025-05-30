@@ -16,30 +16,36 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
 
     prompts["title"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                   "You are an expert summariser. Provide a concise, descriptive title."),
+                   "You are an expert summariser. Provide a concise, descriptive title. "
+                   "If no clear title can be determined, return 'null'."),
         ("human", "Source text:\n\n{text}\n\nTitle:")
     ])
 
     prompts["date"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                   "Extract the exact date (YYYY-MM-DD), output 'YYYY-MM-DD' in format iso-8601. If only month/year present, output 'YYYY-MM'. If none: 'No information available.'"),
+                   "Extract the exact date (YYYY-MM-DD), output 'YYYY-MM-DD' in format iso-8601. "
+                   "If only month/year present, output 'YYYY-MM'. If no date found: return 'null'."),
         ("human", "Source text:\n\n{text}\n\nDate:")
     ])
 
     prompts["principal_location"] = ChatPromptTemplate.from_messages([
-        ("system", "Identify the principal location (city, country) where the event/document originates. If no location is found, output 'No location found.'"),
+        ("system", common_instruction +
+                   "Identify the principal location (city, country) where the event/document originates. "
+                   "If no location is found, return 'null'."),
         ("human", "Source text:\n\n{text}\n\nPrincipal location:")
     ])
 
     prompts["executive_summary"] = ChatPromptTemplate.from_messages([
         ("system", common_instruction +
-                   "Create a concise executive summary of no more than 150 words."),
+                   "Create a concise executive summary of no more than 150 words. "
+                   "If insufficient content for summary, return 'null'."),
         ("human", "Source text:\n\n{text}\n\nExecutive summary:")
     ])
 
     prompts["characteristics"] = ChatPromptTemplate.from_messages([
-        ("system",  common_instruction +
-                "Summarise the main characteristics in 3‑6 bullet points (≤30 words each)."),
+        ("system", common_instruction +
+                   "Summarise the main characteristics in 3‑6 bullet points (≤60 words each). "
+                   "If no characteristics found, return empty array: []"),
         ("human", "Source text:\n\n{text}\n\nCharacteristics:")
     ])
 
@@ -52,7 +58,8 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
             - Current funding mechanisms
             - Active pilots and projects
             - Implemented policy frameworks
-            Format each application as a bullet point. If no practical applications are found, output 'No practical applications identified.'"""),
+            Format each application as a bullet point. 
+            If no practical applications are found, return empty array: []"""),
         ("human", "Source text:\n\n{text}\n\nExisting practical applications:")
     ])
 
@@ -65,7 +72,8 @@ def build_prompts() -> Dict[str, ChatPromptTemplate]:
             - Concrete deadlines for implementation
             - Specific percentage increases or reductions
             - Measurable goals with clear metrics
-            Format each commitment as a bullet point. If no specific commitments are found, output 'No specific commitments identified.'"""),
+            Format each commitment as a bullet point. 
+            If no specific commitments are found, return empty array: []"""),
         ("human", "Source text:\n\n{text}\n\nSpecific quantifiable commitments:")
     ])
 

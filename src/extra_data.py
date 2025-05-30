@@ -17,10 +17,17 @@ logger = logging.getLogger(__name__)
 # ——— Constantes de valores por defecto ————————————————————————————
 DEFAULT_STRING: Optional[str] = None
 DEFAULT_LIST: List[Any] = []
-DEFAULT_FLOAT: Optional[float] = None
+DEFAULT_DICT: Dict[str, Any] = {}
 
 def _or_default(value, default):
-    return value if value is not None else default
+    """Utility to handle None/empty values consistently."""
+    if value is None:
+        return default
+    if isinstance(value, str) and value.lower() in ['null', 'none', 'no information available', '']:
+        return None if default is None else default
+    if isinstance(value, list) and not value:
+        return []
+    return value
 
 
 # -----------------------------------------------------------------------------
