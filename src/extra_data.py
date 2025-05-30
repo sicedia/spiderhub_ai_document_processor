@@ -79,6 +79,10 @@ class ExtraData(BaseModel):
     # --- reach
     country_list_iso: List[str] = Field(description="All countries mentioned (ISO-3)", default_factory=list)
     # ─── new SDG alignment field ────────────────────────────────────────────
+    
+    # --- responsible entity 
+    responsible_entity: Optional[str] = Field(description="Entity responsible for implementation", default=None)
+    
     sdg_alignment: List[str] = Field(
         description="Detected SDG mentions (e.g., ['ODS 9','ODS 17'])",
         default_factory=list
@@ -349,13 +353,18 @@ Text: {text}
     return normalized if isinstance(normalized, list) else []
 
 
-def extract_country_list(text: str, llm) -> List[str]:
+def extract_country_list(text: str, llm, lead_iso: str) -> List[str]:
     parser = PydanticOutputParser(pydantic_object=CountryListOutput)
     prompt = PromptTemplate(
         template=""":
-List all countries explicitly mentioned in the document.
-Return an array of ISO‑3 oficial codes, max 50, sorted alphabetically, no regions, no duplicates, exclude lead country.
-If no countries are found, return empty array: []
+        You are a geopolitical expert with ISO-3166 knowledge.
+1. Scan the text and detect every explicit country mention
+   • A mention can be the full name (“Dominican Republic”), the short name (“Germany”), or an official demonym (“Spanish”, “Colombian”).
+2. Ignore macro-regions, organisations, acronyms (EU, LAC, OECD), and continents.
+3. Convert each valid country to its ISO-3 code.
+4. Remove duplicates and the lead_country_iso = {lead_iso}.
+5. Return a JSON array of codes, **alphabetically sorted**, max 50.
+6. If none found ⇒ return [] exactly.
 
 Text: {text}
 
@@ -675,7 +684,7 @@ def process_document_for_extra_data(text: str, title: str, commitments: List[str
     logger.debug("beneficiary_group -> %s", beneficiary_group)
 
     logger.info("Extracting country_list_iso...")
-    country_list_iso = extract_country_list(text, llm)
+    country_list_iso = extract_country_list(text, llm, lead_country)
     logger.debug("country_list_iso -> %s", country_list_iso)
     
     # ---- responsible entity
