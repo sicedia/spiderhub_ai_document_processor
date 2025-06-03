@@ -17,9 +17,38 @@ A Python 3.12 pipeline using LangChain and spaCy to process batches of PDFs grou
 - Python 3.12+
 - Install dependencies:
     ```sh
+    conda create --name spiderai python
+    conda activate spiderai
     pip install -r requirements.txt
     python -m spacy download en_core_web_sm
     ```
+
+### Troubleshooting Installation Issues
+
+If you encounter the following error:
+
+> Collecting workspace information  
+> This error is occurring because your current C compiler (Visual Studio 15.9.51) doesn’t support the C11 standard required by NumPy 2.0.2’s Meson build.
+
+To resolve this:
+
+1. **Upgrade your build tooling:**  
+   Update your Visual Studio Build Tools (or install Visual Studio 2022 Build Tools) to one that supports C11. You can download the latest Build Tools from [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/).
+
+2. **Upgrade pip and related tools:**  
+   Run the following command in your environment to ensure that pip, setuptools, and wheel are up-to-date so pip can install prebuilt wheels if available.
+
+    ```sh
+    python -m pip install --upgrade pip setuptools wheel
+    ```
+
+After upgrading your compiler and build tools, try installing the requirements again:
+
+```sh
+pip install -r requirements.txt
+```
+
+This should allow pip to install NumPy (and subsequently spaCy) without attempting to build from source.
 
 ## Installation
 
