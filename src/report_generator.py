@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import re
 import subprocess
 from typing import Dict, List, Any, Optional
 from pydantic import BaseModel, Field
@@ -253,6 +254,40 @@ def generate_markdown_report(report: DocumentReport) -> str:
    
     return "\n".join(md_lines)
 
+def sanitize_filename(name: str, max_length: int = 150) -> str:
+    """
+    Reemplaza barras, caracteres inválidos y limita longitud del nombre de archivo.
+    
+    Args:
+        name: Nombre original
+        max_length: Longitud máxima del nombre (sin extensión)
+        
+    Returns:
+        Nombre sanitizado y truncado
+    """
+    # Remover caracteres inválidos para Windows
+    sanitized = re.sub(r'[\\/:"*?<>|]+', '_', name)
+    
+    # Remover caracteres de control y espacios extra
+    sanitized = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', sanitized)
+    sanitized = re.sub(r'\s+', ' ', sanitized).strip()
+    
+    # Remover puntos al final (problemático en Windows)
+    sanitized = sanitized.rstrip('.')
+    
+    # Truncar si es muy largo, preservando palabras completas
+    if len(sanitized) > max_length:
+        sanitized = sanitized[:max_length].rsplit(' ', 1)[0]
+        # Si queda muy corto, usar los primeros caracteres
+        if len(sanitized) < 10:
+            sanitized = name[:max_length]
+    
+    # Fallback si queda vacío
+    if not sanitized:
+        sanitized = "unnamed_document"
+        
+    return sanitized
+
 def save_report(markdown_content: str, report: DocumentReport, output_dir: str, filename_base: str, 
                template_path: str = None) -> Dict[str, str]:
     """
@@ -268,46 +303,80 @@ def save_report(markdown_content: str, report: DocumentReport, output_dir: str, 
     Returns:
         Dictionary with paths to created files
     """
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Paths
-    md_path = os.path.join(output_dir, f"{filename_base}.md")
-    docx_path = os.path.join(output_dir, f"{filename_base}.docx")
-    json_path = os.path.join(output_dir, f"{filename_base}.json")
-    
-    # Save markdown
-    with open(md_path, 'w', encoding='utf-8') as f:
-        f.write(markdown_content)
-    
-    # Save JSON with structured data
-    with open(json_path, 'w', encoding='utf-8') as f:
-        report_dict = report.model_dump()
-        if report.quality_breakdown:
-            logger.info(f"Quality breakdown included in JSON: {report.quality_breakdown}")
-        json.dump(report_dict, f, ensure_ascii=False, indent=2)
-    
-    # Generate Word document using template
     try:
-        generated_docx = generate_word_from_template(
-            report=report,
-            template_path=template_path,
-            output_path=output_dir,
-            filename_base=filename_base
-        )
-        logger.info(f"Successfully generated Word document: {generated_docx}")
+        os.makedirs(output_dir, exist_ok=True)
     except Exception as e:
-        logger.error(f"Error generating Word document with template: {e}")
-        # Fallback to pandoc conversion
-        try:
-            subprocess.run(['pandoc', md_path, '-o', docx_path], check=True)
-            logger.info(f"Fallback: Successfully converted to Word using Pandoc: {docx_path}")
-        except Exception as pandoc_error:
-            logger.error(f"Error with Pandoc fallback: {pandoc_error}")
+        logger.error(f"Error creating output directory {output_dir}: {e}")
+        raise
     
+    # Sanear el filename_base para evitar problemas
+    safe_base = sanitize_filename(filename_base, max_length=150)
+    
+    # Verificar que el path completo no sea demasiado largo
+    max_path_length = 260  # Límite de Windows
+    sample_path = os.path.join(output_dir, f"{safe_base}.docx")
+    
+    if len(sample_path) > max_path_length:
+        # Reducir más el nombre si el path completo es muy largo
+        available_length = max_path_length - len(output_dir) - 10  # margen de seguridad
+        safe_base = sanitize_filename(filename_base, max_length=available_length)
+        logger.warning(f"Filename truncated due to path length: {safe_base}")
+    
+    # Paths finales
+    md_path = os.path.join(output_dir, f"{safe_base}.md")
+    docx_path = os.path.join(output_dir, f"{safe_base}.docx")
+    json_path = os.path.join(output_dir, f"{safe_base}.json")
+    
+    try:
+        # Save markdown
+        with open(md_path, 'w', encoding='utf-8') as f:
+            f.write(markdown_content)
+        logger.info(f"Markdown saved: {md_path}")
+        
+    except Exception as e:
+        logger.error(f"Error saving markdown to {md_path}: {e}")
+        raise
+    
+    try:
+        # Save JSON with structured data
+        with open(json_path, 'w', encoding='utf-8') as f:
+            report_dict = report.model_dump()
+            json.dump(report_dict, f, ensure_ascii=False, indent=2)
+        logger.info(f"JSON saved: {json_path}")
+        
+    except Exception as e:
+        logger.error(f"Error saving JSON to {json_path}: {e}")
+        # No lanzar error aquí, continuar con Word
+    
+    try:
+        # Generate Word document using pandoc
+        logger.info("Generating Word document using pandoc...")
+        result = subprocess.run(
+            ["pandoc", md_path, "-o", docx_path],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+        logger.info(f"Word document saved: {docx_path}")
+        
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Error generating Word document: {e}")
+        logger.error(f"Pandoc stderr: {e.stderr}")
+        # Crear un archivo de error en lugar del docx
+        error_path = docx_path.replace('.docx', '_error.txt')
+        with open(error_path, 'w', encoding='utf-8') as f:
+            f.write(f"Error generating Word document:\n{e}\n\nStderr:\n{e.stderr}")
+        docx_path = error_path
+        
+    except FileNotFoundError:
+        logger.error("Pandoc not found. Please install pandoc to generate Word documents.")
+        docx_path = None
+   
     return {
         "markdown": md_path,
         "docx": docx_path,
-        "json": json_path
+        "json": json_path,
+        "safe_filename": safe_base
     }
 
 def generate_report(text: str, llm, output_dir: str, folder_name: str, 
