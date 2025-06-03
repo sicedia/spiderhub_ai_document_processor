@@ -12,6 +12,7 @@ from src.extra_data import ExtraData, enrich_report_with_extradata  # Import the
 from src.score_calculation import get_quality_assessment
 from src.template_generator import generate_word_from_template
 from src.documentReport import DocumentReport
+from src.ranking_processor import get_top_actors, get_top_themes
 logger = logging.getLogger(__name__)
 
 
@@ -128,6 +129,20 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         logger.error(f"Error calculating score: {e}")
         results["score"] = None
     
+    # After processing themes and actors, get top rankings
+    logger.info("Ranking top actors and themes...")
+    try:
+        top_actors = get_top_actors(text, results.get("actors", {}), llm, top_n=3)
+        top_themes = get_top_themes(text, results.get("themes", {}), llm, top_n=3)
+        
+        results["top_actors"] = top_actors
+        results["top_themes"] = top_themes
+        
+    except Exception as e:
+        logger.error(f"Error ranking actors/themes: {e}")
+        results["top_actors"] = []
+        results["top_themes"] = []
+    
     return DocumentReport(
         title=results.get("title"),  # Permitir None
         date=results.get("date"),    # Permitir None
@@ -140,7 +155,9 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         commitments=results.get("commitments", []),
         extra_data=results.get("extra_data", {}),
         score=results.get("score"),
-        quality_breakdown=results.get("quality_breakdown", {})
+        quality_breakdown=results.get("quality_breakdown", {}),
+        top_actors=results.get("top_actors", []),
+        top_themes=results.get("top_themes", [])
     )
 
 def generate_markdown_report(report: DocumentReport) -> str:
@@ -294,33 +311,12 @@ def save_report(markdown_content: str, report: DocumentReport, output_dir: str, 
     }
 
 def generate_report(text: str, llm, output_dir: str, folder_name: str, 
-                   template_path: str = None) -> Dict[str, str]:
-    """
-    Process text, generate report and save to files.
-    
-    Args:
-        text: Text content extracted from PDF
-        llm: Language model instance
-        output_dir: Output directory path
-        folder_name: Name of the folder/document
-        template_path: Optional path to Word template
-        
-    Returns:
-        Dictionary with paths to created files
-    """
-    logger.info(f"Generating report for {folder_name}...")
-    report = process_text_with_prompts(text, llm)
+                    template_path: str = None) -> Dict[str, str]:
+     logger.info(f"Generating report for {folder_name}...")
+     report = process_text_with_prompts(text, llm)
 
-    # Enrich the report with extra data
-    logger.info("Enriching report with additional strategic extra data...")
-    report_dict = report.model_dump()
-    enriched_report_dict = enrich_report_with_extradata(report_dict, text, llm)
-    
-    # Update the report with the enriched data
-    report.extra_data = enriched_report_dict.get("extra_data")
-    
-    # Generate markdown from the report
-    markdown = generate_markdown_report(report)
-    
-    # Pass template_path to save_report
-    return save_report(markdown, report, output_dir, folder_name, template_path)
+     # Generate markdown from the report
+     markdown = generate_markdown_report(report)
+     
+     # Pass template_path to save_report
+     return save_report(markdown, report, output_dir, folder_name, template_path)
