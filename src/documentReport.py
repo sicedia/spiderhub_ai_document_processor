@@ -16,4 +16,11 @@ class DocumentReport(BaseModel):
     score: Optional[int] = Field(description="Faithfulness score (0-100)", default=None)
     quality_breakdown: Optional[Dict[str, Any]] = Field(description="Detailed quality assessment breakdown", default=None)
     extra_data: Optional[Dict[str, Any]] = Field(description="Additional strategic extra data extracted for analysis", default=None)
-    
+    top_actors: List[Dict[str, Any]] = Field(
+        description="Top 3 most relevant actors with scores",
+        default_factory=list
+    )
+    top_themes: List[Dict[str, Any]] = Field(
+        description="Top 3 most important themes with scores", 
+        default_factory=list
+    )
