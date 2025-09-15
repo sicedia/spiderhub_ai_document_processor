@@ -104,28 +104,14 @@ def process_text_with_prompts(text: str, llm) -> DocumentReport:
         results["extra_data"] = {}
         
     try:
-        results["score"] = calculate_score(
-            source_text=text,
-            generated_content=results,
-            llm=llm
-        )
-        # Get detailed quality assessment for manual review
-
+        # Ejecutar UNA sola vez todas las evaluaciones de calidad
         quality_assessment = get_quality_assessment(text, results, llm)
-        
-        # Log quality issues for manual review
+        results["score"] = quality_assessment.overall_score
         if quality_assessment.issues:
             logger.warning(f"Quality issues detected: {quality_assessment.issues}")
-            
-        # Store detailed scores in extra_data for review
-        results["quality_breakdown"] = {
-            "faithfulness": quality_assessment.faithfulness,
-            "consistency": quality_assessment.consistency,
-            "completeness": quality_assessment.completeness,
-            "accuracy": quality_assessment.accuracy,
-            "issues": quality_assessment.issues
-        }
-        
+        results["quality_breakdown"] = quality_assessment.dict(
+            include={"faithfulness","consistency","completeness","accuracy","issues"}
+        )
     except Exception as e:
         logger.error(f"Error calculating score: {e}")
         results["score"] = None

@@ -73,11 +73,28 @@ fig1 = px.choropleth(df, locations='lead_country', color='lead_country',
 save(fig1, 'chart1_choropleth.html')
 
 # Chart 2: Gantt / timeline
-fig2 = px.timeline(df, x_start='start_date', x_end='end_date',
-                   y='agreement_type', color='agreement_type',
-                   title='Timeline of Agreements')
-fig2.update_yaxes(autorange="reversed")
-save(fig2, 'chart2_timeline.html')
+# Filter out rows with invalid or placeholder dates
+valid_dates_mask = (
+    pd.to_datetime(df['start_date'], errors='coerce').notna() & 
+    pd.to_datetime(df['end_date'], errors='coerce').notna() &
+    ~df['start_date'].str.contains('YYYY', na=False) &
+    ~df['end_date'].str.contains('YYYY', na=False)
+)
+df_timeline = df[valid_dates_mask].copy()
+
+if not df_timeline.empty:
+    # Convert agreement_type list to string for visualization
+    df_timeline['agreement_type_str'] = df_timeline['agreement_type'].apply(
+        lambda x: ', '.join(x) if isinstance(x, list) and x else 'Unknown'
+    )
+    
+    fig2 = px.timeline(df_timeline, x_start='start_date', x_end='end_date',
+                       y='agreement_type_str', color='agreement_type_str',
+                       title='Timeline of Agreements')
+    fig2.update_yaxes(autorange="reversed")
+    save(fig2, 'chart2_timeline.html')
+else:
+    print("No valid dates found for timeline chart")
 
 # Chart 3: Bar Plot of Commitment Class Counts
 fig3 = px.histogram(cd, x='class',
@@ -168,8 +185,18 @@ save(fig7, 'chart7_sdg_radar.html')
 
 
 # Chart 8: Treemap of country_list per agreement
-fig8 = px.treemap(df_countries, path=['title','country_list'], title='Treemap of Countries per Agreement')
-save(fig8, 'chart8_treemap.html')
+# Filter out rows with empty or null country_list
+df_countries_filtered = df_countries[
+    df_countries['country_list'].notna() & 
+    (df_countries['country_list'] != '')
+]
+
+if not df_countries_filtered.empty:
+    fig8 = px.treemap(df_countries_filtered, path=['title','country_list'], 
+                      title='Treemap of Countries per Agreement')
+    save(fig8, 'chart8_treemap.html')
+else:
+    print("No valid country data found for treemap chart")
 
 # Chart 9: Bar of Beneficiary Category (count)
 ben_count = df_bens_cat['beneficiary_categories'] \
@@ -239,13 +266,36 @@ fig15 = px.bar(scope_counts, x='coverage_scope', y='count',
 save(fig15, 'chart15_coverage_scope_bar.html')
 
 # Chart 16: Timeline by Review Schedule
-fig16 = px.timeline(df, x_start='start_date', x_end='end_date',
-                    y='review_schedule', color='review_schedule',
-                    title='Timeline of Agreements by Review Schedule')
-fig16.update_yaxes(autorange="reversed")
-save(fig16, 'chart16_review_timeline.html')
+# Apply the same date filtering as Chart 2
+df_review_timeline = df[valid_dates_mask].copy()
 
+if not df_review_timeline.empty:
+    fig16 = px.timeline(df_review_timeline, x_start='start_date', x_end='end_date',
+                        y='review_schedule', color='review_schedule',
+                        title='Timeline of Agreements by Review Schedule')
+    fig16.update_yaxes(autorange="reversed")
+    save(fig16, 'chart16_review_timeline.html')
+else:
+    print("No valid dates found for review schedule timeline chart")
+
+# Chart 17: Heatmap of Lead Countries
+# Count agreements by lead country
+country_counts = df['lead_country'].value_counts().reset_index()
+country_counts.columns = ['country', 'count']
+
+# Create a matrix format for heatmap (single row)
+heatmap_data = country_counts.set_index('country').T
+
+fig17 = px.imshow(heatmap_data, 
+                  title='Heatmap: Number of Agreements by Lead Country',
+                  labels=dict(x="Country", y="Metric", color="Count"),
+                  aspect="auto")
+fig17.update_layout(
+    xaxis_title="Lead Country",
+    yaxis_title="Agreement Count"
+)
+save(fig17, 'chart17_country_heatmap.html')
 
 if __name__ == '__main__':
-    for i in range(1,17):
+    for i in range(1,18):
         print(f'Chart {i} saved as charts/chart{i}_*.html')
