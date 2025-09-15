@@ -1,4 +1,5 @@
-# Spider Backend
+# Spider AI Document Processor
+
 
 A Python 3.12 pipeline using LangChain and spaCy to process batches of PDFs grouped by folders, extract entities, classify them against taxonomies, and generate high-fidelity reports in Markdown, DOCX and JSON formats.
 
