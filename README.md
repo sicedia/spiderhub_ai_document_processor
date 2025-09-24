@@ -17,7 +17,7 @@ A Python 3.12 pipeline using LangChain and spaCy to process batches of PDFs grou
 Clone:
 
 ```sh
-git clone https://github.com/your-org/spider_backend.git
+git clone https://github.com/sicedia/spiderhub_ai_document_processor
 ```
 
 ## Requirements
