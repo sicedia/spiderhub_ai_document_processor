@@ -102,13 +102,6 @@ result = run_analysis_pipeline(
 print(result["reports"])
 ```
 
-## Running Tests
-
-```sh
-pytest --maxfail=1 --disable-warnings -q
-```
-
-Integration tests marked with `@pytest.mark.integration` will process real PDFs under `documents/`.
 
 ## Project Structure
 
