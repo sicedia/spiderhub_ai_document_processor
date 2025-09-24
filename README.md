@@ -28,8 +28,10 @@ git clone https://github.com/your-org/spider_backend.git
     conda create --name spiderai python
     conda activate spiderai
     pip install -r requirements.txt
+    copy .env.example .env
     python -m spacy download en_core_web_sm
     ```
+
 
 ### Troubleshooting Installation Issues
 
