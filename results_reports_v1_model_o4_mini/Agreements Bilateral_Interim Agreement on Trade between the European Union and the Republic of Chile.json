@@ -1,0 +1,71 @@
+{
+  "title": "Interim Agreement on Trade between the European Union and the Republic of Chile",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Member States"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 44,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 44,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "CHL",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Union is the primary actor in the agreement, driving the negotiations and setting the framework for trade relations with Chile."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "EU Member States play a crucial role in supporting the EU's initiatives and decisions regarding the trade agreement, influencing the overall direction and implementation."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-CELAC Digital Partnership",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it outlines the collaborative efforts between the EU and CELAC countries, emphasizing the importance of digital cooperation in enhancing trade and economic relations."
+    }
+  ]
+}

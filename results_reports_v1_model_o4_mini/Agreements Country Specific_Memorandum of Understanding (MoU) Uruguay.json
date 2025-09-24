@@ -1,0 +1,69 @@
+{
+  "title": "Memorandum of Understanding (MoU) with Uruguay",
+  "date": null,
+  "location": "Uruguay",
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "Artificial Intelligence"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "E-Governance"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 47,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 47,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "URY",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "E-Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "E-Governance is central to the document as it likely outlines the framework for digital interactions between government and citizens, which is a key objective of the Memorandum of Understanding."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Digital Governance supports the overarching goals of the MoU by ensuring that data management and governance practices are aligned with technological advancements, making it strategically important."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.7,
+      "justification": "Artificial Intelligence is relevant as it represents the technological innovation aspect that can enhance both E-Governance and Digital Governance, although it may not be as central as the governance themes."
+    }
+  ]
+}

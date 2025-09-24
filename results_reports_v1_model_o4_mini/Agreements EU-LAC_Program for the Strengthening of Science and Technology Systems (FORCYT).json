@@ -1,0 +1,263 @@
+{
+  "title": "Strengthening Science and Technology Systems in Ibero-America: FORCYT Program Overview and Indicator Assessment",
+  "date": "2022-01",
+  "location": "Madrid, España",
+  "executive_summary": "The FORCYT program aims to enhance science and technology systems in Ibero-America by improving the production of indicators related to higher education, science, and technology. The report highlights significant progress in the region's statistical capabilities, driven by national efforts and regional cooperation since the 1990s. Despite advancements, challenges remain, including the heterogeneity of national systems, limited resources, and the need for better institutional relationships to access primary data. The report emphasizes the importance of developing new indicators, particularly in innovation and public perception of science, while also addressing the need for improved communication of statistical information to diverse audiences. Overall, the program seeks to foster a more robust statistical framework to support informed decision-making in science and technology policy across Ibero-America.",
+  "characteristics": [
+    "The FORCYT program aims to strengthen science and technology systems in Ibero-America through improved statistical indicators and data production capabilities.",
+    "It highlights the progress in producing better science and technology indicators in Latin America, driven by national efforts and regional cooperation.",
+    "The report identifies heterogeneity in national statistical systems, influenced by economic and social development levels, and emphasizes the need for standardized methodologies.",
+    "It discusses the challenges faced by statistical offices, including limited resources, institutional support, and the need for better training and stability of personnel.",
+    "The communication of statistical data is prioritized, with a focus on accessibility and the use of digital platforms to disseminate information effectively."
+  ],
+  "themes": {
+    "Data & Governance": [
+      "Data Governance",
+      "Digital Governance",
+      "Data Protection",
+      "Data Privacy"
+    ],
+    "Technology & Innovation": [
+      "ICT Innovation",
+      "Innovation in Computing"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "Ibero-American General Secretariat",
+      "Organisation of Ibero-American States"
+    ],
+    "Research and Innovation Actors": [
+      "Universities",
+      "Research Performing Organisations",
+      "Academic Institutions"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the Program for the Strengthening of Science and Technology Systems (FORCYT) aimed at enhancing the production of indicators in higher education, science, and technology in Ibero-America.",
+    "Establishment of the RICYT (Red Iberoamericana de Indicadores de Ciencia y Tecnología) as a collaborative network to improve the production and dissemination of science and technology indicators across Latin America.",
+    "Development of new indicators beyond the Frascati family, including innovation indicators and public perception of science, to enhance the statistical framework in the region.",
+    "Annual publication of the report \"El estado de la ciencia\" by RICYT, providing a comprehensive analysis of trends in science and technology indicators.",
+    "Creation of a community of practice among officials from national statistics offices, specialists, researchers, and decision-makers to foster collaboration and improve statistical capacities.",
+    "Implementation of a digital platform by RICYT that allows users to access a wide range of indicators, including comparative tables and dynamic reports, enhancing data accessibility and usability.",
+    "Regular training and capacity-building initiatives for personnel involved in the production of science and technology indicators to improve methodological skills and data processing capabilities.",
+    "Establishment of institutional relationships to facilitate the collection of primary data necessary for the construction of indicators, particularly in education and research sectors."
+  ],
+  "commitments": [],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "ESP",
+    "agreement_type": [
+      "Investment Programme"
+    ],
+    "legal_bindingness": null,
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": "Annual",
+    "beneficiary_group_raw": [
+      "investigador",
+      "funcionario",
+      "estudiante",
+      "comunidad",
+      "organización"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Researchers & Academia",
+        "label": "Researchers"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Servants"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Students"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      }
+    ],
+    "start_date": "2022-01-01",
+    "end_date": "2022-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Los países y la RICYT producen más y mejores indicadores, con una dinámica de mejora sostenida.",
+        "kpi_type": "qualitative",
+        "metric_name": "Mejora en la Producción de Indicadores",
+        "target_value": null,
+        "target_description": "Aumentar la cantidad y calidad de indicadores producidos por los países y la RICYT.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de la cantidad y calidad de indicadores producidos anualmente.",
+        "responsible_entity": "RICYT y países participantes",
+        "sector": "Ciencia y Tecnología"
+      },
+      {
+        "kpi_text": "La participación de las oficinas nacionales de estadísticas en ciencia y tecnología en la RICYT es la principal correa de transmisión de los estándares internacionales.",
+        "kpi_type": "qualitative",
+        "metric_name": "Transmisión de Estándares Internacionales",
+        "target_value": null,
+        "target_description": "Fortalecer la participación de oficinas nacionales en la RICYT para mejorar la calidad de los indicadores.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoreo de la participación y aplicación de estándares internacionales.",
+        "responsible_entity": "Oficinas nacionales de estadísticas",
+        "sector": "Ciencia y Tecnología"
+      },
+      {
+        "kpi_text": "Algunos países con series de más de 20 años.",
+        "kpi_type": "qualitative",
+        "metric_name": "Continuidad de Relevamientos",
+        "target_value": null,
+        "target_description": "Mantener la continuidad de los relevamientos estadísticos a lo largo del tiempo.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Revisión de la continuidad de los relevamientos en los países.",
+        "responsible_entity": "Oficinas de estadísticas nacionales",
+        "sector": "Ciencia y Tecnología"
+      },
+      {
+        "kpi_text": "El 85% de los respondientes lo consideró alto o muy alto.",
+        "kpi_type": "quantitative",
+        "metric_name": "Conocimiento Técnico y Metodológico",
+        "target_value": 85.0,
+        "target_description": null,
+        "unit": "percentage",
+        "timeframe": "Anualmente",
+        "measurement_method": "Encuestas de percepción sobre el conocimiento técnico y metodológico.",
+        "responsible_entity": "Oficinas de estadísticas",
+        "sector": "Ciencia y Tecnología"
+      },
+      {
+        "kpi_text": "Los organismos tratan de proponer nuevos usos para los indicadores existentes.",
+        "kpi_type": "qualitative",
+        "metric_name": "Propuesta de Nuevos Usos de Indicadores",
+        "target_value": null,
+        "target_description": "Desarrollar y proponer nuevos usos para los indicadores existentes.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de propuestas y su implementación.",
+        "responsible_entity": "Organismos de estadísticas",
+        "sector": "Ciencia y Tecnología"
+      },
+      {
+        "kpi_text": "La mayoría de los países de la región informaron contar con un servicio de soporte para los usuarios.",
+        "kpi_type": "qualitative",
+        "metric_name": "Servicio de Soporte a Usuarios",
+        "target_value": null,
+        "target_description": "Establecer un servicio de soporte efectivo para los usuarios de información estadística.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de la efectividad del servicio de soporte.",
+        "responsible_entity": "Oficinas de estadísticas",
+        "sector": "Ciencia y Tecnología"
+      },
+      {
+        "kpi_text": "Los indicadores de ES se generan con periodicidad anual en todos los países.",
+        "kpi_type": "quantitative",
+        "metric_name": "Periodicidad de Generación de Indicadores",
+        "target_value": 1.0,
+        "target_description": null,
+        "unit": "year",
+        "timeframe": "Anualmente",
+        "measurement_method": "Revisión de la periodicidad de generación de indicadores.",
+        "responsible_entity": "Oficinas de estadísticas",
+        "sector": "Educación Superior"
+      },
+      {
+        "kpi_text": "Se señala la necesidad de capacitar a los usuarios en la interpretación de los datos.",
+        "kpi_type": "qualitative",
+        "metric_name": "Capacitación en Interpretación de Datos",
+        "target_value": null,
+        "target_description": "Desarrollar programas de capacitación para usuarios en la interpretación de datos estadísticos.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de la implementación de programas de capacitación.",
+        "responsible_entity": "Oficinas de estadísticas",
+        "sector": "Educación Superior"
+      },
+      {
+        "kpi_text": "Se menciona la necesidad de contar con especialistas para promover una comunicación más efectiva.",
+        "kpi_type": "qualitative",
+        "metric_name": "Comunicación Efectiva de Indicadores",
+        "target_value": null,
+        "target_description": "Contratar especialistas para mejorar la comunicación de indicadores estadísticos.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de la efectividad de la comunicación de indicadores.",
+        "responsible_entity": "Oficinas de estadísticas",
+        "sector": "Educación Superior"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "BRA",
+      "CHL",
+      "COL",
+      "ESP",
+      "MEX",
+      "URY"
+    ],
+    "responsible_entity": "Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI)",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Organisation of Ibero-American States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The Organisation of Ibero-American States is prominently mentioned as a key player in the development and dissemination of science and technology indicators in Ibero-America, reflecting its significant role in regional cooperation and policy-making."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The European Union is highlighted as a financial supporter of the initiatives discussed in the document, indicating its influence on the funding and direction of science and technology systems in the region."
+    },
+    {
+      "name": "Universities",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.7,
+      "justification": "Universities are crucial for the production of indicators and the development of research capabilities, making them essential stakeholders in the context of education and innovation in Ibero-America."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Data governance is central to the document's focus on improving the production and use of indicators in science and technology systems. It encompasses the frameworks and policies necessary for effective data management, which is crucial for the success of the FORCYT program."
+    },
+    {
+      "name": "ICT Innovation",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.8,
+      "justification": "ICT innovation is significant as it relates to the technological advancements that can enhance data collection, processing, and dissemination. The document emphasizes the need for improved technological infrastructure to support the production of reliable indicators."
+    },
+    {
+      "name": "Data Privacy",
+      "category": "Data & Governance",
+      "relevance_score": 0.7,
+      "justification": "Data privacy is important in the context of ensuring that the data collected for indicators is handled responsibly and ethically. This theme aligns with the document's commitment to transparency and accessibility of data while protecting individual rights."
+    }
+  ]
+}

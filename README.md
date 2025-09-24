@@ -13,6 +13,13 @@ A Python 3.12 pipeline using LangChain and spaCy to process batches of PDFs grou
 - CLI interface (`src/main.py`)
 - Unit & integration tests with pytest (`test/`)
 
+
+Clone:
+
+```sh
+git clone https://github.com/your-org/spider_backend.git
+```
+
 ## Requirements
 
 - Python 3.12+
@@ -51,18 +58,6 @@ pip install -r requirements.txt
 
 This should allow pip to install NumPy (and subsequently spaCy) without attempting to build from source.
 
-## Installation
-
-Clone and install:
-
-```sh
-git clone https://github.com/your-org/spider_backend.git
-cd spider_backend
-python -m venv .venv
-source .venv/bin/activate     # Unix/macOS
-.\.venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-```
 
 ## Usage
 
@@ -76,6 +71,9 @@ python -m src.main \
     [--workers 4] \
     --provider openai \
     --model openai/gpt-4o-mini
+
+or with default values:
+python -m src.main
 ```
 
 - `--documents`: path to input folders (default: documents/)

@@ -1,0 +1,53 @@
+{
+  "title": "Forum of the Countries of Latin America and the Caribbean on Sustainable Development 2024: 7th Meeting Summary",
+  "date": "2024-04-15",
+  "location": "Santiago, Chile",
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 49,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 49,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "CHL",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2024-04-15",
+    "end_date": "2024-04-18",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Digital Alliance is central to the document's main message, emphasizing the importance of digital cooperation between Europe and Latin America. It aligns with key objectives of enhancing connectivity and fostering sustainable development in the region."
+    }
+  ]
+}

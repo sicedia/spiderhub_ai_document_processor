@@ -1,0 +1,221 @@
+{
+  "title": "Belize and European Union Initiate Partnership Dialogue in 2024",
+  "date": "2024-05-27",
+  "location": "Placencia, Belize",
+  "executive_summary": "On May 27, 2024, Belize and the European Union conducted their inaugural Partnership Dialogue in Placencia, marking a new phase under the Samoa Agreement. The discussions focused on enhancing their multifaceted relationship, emphasizing shared values and global issues such as multilateralism, good governance, and human rights. Key topics included development cooperation, updates on the EU's Global Gateway Investment Agenda, and Belize's interest in the Schengen visa waiver. The dialogue also addressed regional integration efforts and the ongoing territorial dispute with Guatemala, with the EU supporting confidence-building measures. Co-chaired by Belize's Foreign Minister Francis Fonseca and EU Ambassador Marianne Van Steen, the meeting underscored a commitment to strengthen partnerships at both regional and multilateral levels.",
+  "characteristics": [
+    "The first Partnership Dialogue between Belize and the EU took place on May 27, 2024, in Placencia, under the Samoa Agreement.",
+    "Discussions focused on development cooperation, including projects under the 11th European Development Fund and new initiatives for green growth and border management.",
+    "The dialogue addressed the EU's Global Gateway Investment Agenda, aiming to enhance investment in various sectors in Belize.",
+    "Topics included good governance, human rights, regional integration, and Belize's interest in the Schengen visa waiver.",
+    "The meeting was co-chaired by Belize's Minister of Foreign Affairs and the EU Ambassador, with participation from various EU member state ambassadors."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Multilateralism",
+      "Digital & Technological Partnerships"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Good Governance"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Investment",
+      "Digital Policy"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Belize",
+      "European Union",
+      "Honourable Francis Fonseca",
+      "H.E. Marianne Van Steen",
+      "H.E. Amalia Mai",
+      "Ayesha Borland",
+      "Alfonso Gahona",
+      "Luis Salazar",
+      "Andy Sutherland",
+      "Ambassador Johan Verkammen",
+      "Zdenĕk Kubánek",
+      "Maeve von Heynitz",
+      "Alessandro Modiano",
+      "Wilfred Mohr",
+      "Manuel Carvalho",
+      "María Clara Girbau Ronda",
+      "Anders Bengtcen",
+      "Mr. Sébastien Bulot"
+    ],
+    "European Union": [
+      "Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and Caicos Islands and Cayman Islands"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the Partnership Dialogue under the 'Samoa Agreement' between Belize and the European Union, focusing on development cooperation and shared values.",
+    "Ongoing projects funded by the 11th European Development Fund, with new initiatives under the Neighbourhood, Development and International Cooperation Instrument (NDICI) targeting green growth and border management in Belize.",
+    "Updates on regional programs addressing Environment and Climate Change, Trade, and Good Governance that benefit Belize and the Caribbean.",
+    "Implementation of the EU’s Global Gateway Investment Agenda aimed at boosting investment in Belize across sectors such as digital transformation, climate and energy, transport, health, and education.",
+    "Ongoing discussions regarding the EU-Economic Partnership Agreement, including its challenges and opportunities for Belize.",
+    "Support for confidence-building measures in the Adjacency Zone between Belize and Guatemala in relation to the ongoing case before the International Court of Justice."
+  ],
+  "commitments": [],
+  "score": 85,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 85,
+    "completeness": 85,
+    "accuracy": 62,
+    "issues": [
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "BLZ",
+    "agreement_type": [
+      "Ministerial Communiqué"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [
+      "NDICI-Global Europe",
+      "Global Gateway"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "Belize",
+      "EU",
+      "Caribbean",
+      "Central America",
+      "SIDS"
+    ],
+    "beneficiary_group": [],
+    "start_date": "2024-05-27",
+    "end_date": "2024-09-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Strengthen their partnership at the multilateral level, particularly in the ongoing Fourth International Conference on Small Islands Developing States (SIDS) in Antigua and Barbuda and the UNGA Summit of the Future in September 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Multilateral Partnership Strengthening",
+        "target_value": null,
+        "target_description": "Strengthen partnership at multilateral level",
+        "unit": "qualitative milestone",
+        "timeframe": "by September 2024",
+        "measurement_method": "Participation and engagement in multilateral events",
+        "responsible_entity": "Belize and the European Union",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "Boost investment in Belize in digital transformation, climate and energy, transport, health, and education.",
+        "kpi_type": "qualitative",
+        "metric_name": "Investment Boost in Key Sectors",
+        "target_value": null,
+        "target_description": "Increase investment in specified sectors",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Investment agreements and project implementations",
+        "responsible_entity": "European Union",
+        "sector": "Economic Development"
+      },
+      {
+        "kpi_text": "Belize's interest in being added to the list of countries benefiting from the Schengen visa waiver was also discussed.",
+        "kpi_type": "qualitative",
+        "metric_name": "Schengen Visa Waiver Inclusion",
+        "target_value": null,
+        "target_description": "Achieve inclusion in Schengen visa waiver list",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Official recognition and inclusion in the Schengen visa waiver",
+        "responsible_entity": "Belize Government",
+        "sector": "Immigration"
+      },
+      {
+        "kpi_text": "The EU also provided updates on its regional programs, such as Environment and Climate Change, Trade, and Good Governance, benefiting Belize.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regional Program Updates",
+        "target_value": null,
+        "target_description": "Provide updates on regional programs",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Documentation and reporting of program updates",
+        "responsible_entity": "European Union",
+        "sector": "Regional Development"
+      },
+      {
+        "kpi_text": "Assessing the progress of ongoing projects under the 11th European Development Fund and new initiatives under the Neighbourhood, Development and International Cooperation Instrument (NDICI).",
+        "kpi_type": "qualitative",
+        "metric_name": "Project Progress Assessment",
+        "target_value": null,
+        "target_description": "Evaluate ongoing projects and new initiatives",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Progress reports and evaluations",
+        "responsible_entity": "Belize and the European Union",
+        "sector": "Development Cooperation"
+      }
+    ],
+    "country_list_iso": [
+      "BEL",
+      "CZE",
+      "DMA",
+      "FRA",
+      "GTM",
+      "IRL",
+      "ITA",
+      "JAM",
+      "NLD",
+      "PLW",
+      "PRT",
+      "SWE",
+      "SPM",
+      "UKR"
+    ],
+    "responsible_entity": "Honourable Francis Fonseca, Minister of Foreign Affairs and Foreign Trade",
+    "sdg_alignment": [
+      "SDG 13: Climate Action",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Belize",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Belize is a central actor in the dialogue, representing the country in discussions with the EU and addressing key issues such as governance, regional integration, and international legal matters."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The EU is a primary participant in the dialogue, providing updates on development cooperation and investment initiatives, and influencing the partnership's direction and priorities."
+    },
+    {
+      "name": "Honourable Francis Fonseca",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "As the Minister of Foreign Affairs and co-chair of the dialogue, Fonseca plays a crucial role in representing Belize's interests and shaping the discussions on key topics."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "Multilateralism is central to the document as it emphasizes the commitment of Belize and the EU to work together on global issues, reflecting their shared values and interests. The dialogue's focus on multilateral cooperation highlights its strategic importance in addressing international challenges."
+    },
+    {
+      "name": "Digital Investment",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "Digital Investment is a key theme as the document discusses the EU's Global Gateway Investment Agenda, which aims to enhance investment in various sectors in Belize. This theme is crucial for Belize's development and aligns with the EU's strategic objectives in promoting digital transformation."
+    },
+    {
+      "name": "Good Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Good Governance is highlighted in the discussions, indicating its importance in the partnership dialogue. The focus on governance issues reflects the commitment of both parties to uphold democratic values and human rights, which are essential for sustainable development and regional stability."
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "title": "Ibero-American Cooperation Quadrennial Action Plan 2023-2026",
+  "date": "2023-03-25",
+  "location": "Santo Domingo, Dominican Republic",
+  "executive_summary": "The III Ibero-American Cooperation Quadrennial Action Plan (PACCI) 2023-2026, approved at the XXVIII Ibero-American Summit, aims to enhance regional cooperation among 22 countries to address challenges such as COVID-19, climate change, and the Sustainable Development Goals (SDGs). The plan focuses on eight strategic axes: strengthening cooperation, social cohesion, knowledge, gender equality, cultural diversity, environmental sustainability, justice, and sustainable development. It emphasizes cross-cutting approaches like bilingualism, gender, and non-discrimination. The PACCI seeks to innovate implementation mechanisms and improve the quality of cooperation through enhanced governance, visibility, and communication strategies. It also includes specific actions to support vulnerable groups and promote public innovation, aiming for a more inclusive and sustainable Ibero-American community by 2026.",
+  "characteristics": [
+    "The III Ibero-American Cooperation Quadrennial Action Plan (PACCI) 2023-2026 aims to enhance regional cooperation, focusing on sustainable development and the 2030 Agenda.",
+    "It emphasizes eight strategic axes, including social cohesion, gender equality, environmental sustainability, and cultural diversity, while promoting cross-cutting approaches like bilingualism and non-discrimination.",
+    "The plan incorporates innovative mechanisms for implementation and monitoring, ensuring alignment with the needs of Ibero-American countries and their development priorities.",
+    "It seeks to strengthen partnerships among various stakeholders, including governments, civil society, and international organizations, to foster collaborative solutions to shared challenges.",
+    "The PACCI includes specific actions to address vulnerable groups, promote public innovation, and enhance the visibility of Ibero-American cooperation efforts."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation",
+      "Multilateralism"
+    ],
+    "Inclusion & Social Development": [
+      "Social Cohesion",
+      "Gender Equality in Tech"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Data Protection"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Policy",
+      "Digital Economy"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Ibero-American General Secretariat",
+      "Governments",
+      "Community of Latin American and Caribbean States",
+      "Organisation of Ibero-American States",
+      "United Nations"
+    ],
+    "Research and Innovation Actors": [
+      "Universities",
+      "Technology Organisations",
+      "Research Performing Organisations",
+      "Academic Institutions"
+    ],
+    "Civil Society Actors": [
+      "Civil Society Organisations",
+      "Non-governmental Institutions"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the Ibero-American Cooperation Quadrennial Action Plan (PACCI) for 2023-2026, which includes specific actions across eight strategic axes: Cooperation System, Social Cohesion, Knowledge, Gender, Culture, Environment, Justice, and Sustainable Development.",
+    "Establishment of the Ibero-American Epidemiological Observatory (OEPI) to enhance countries' response capacity in health, particularly in the context of global health emergencies.",
+    "Ongoing support for the Ibero-American Program for the Access to Justice (PIAJ), which aims to improve access to justice for vulnerable groups.",
+    "Promotion of the Ibero-American Strategy for Culture and Sustainable Development (EICDS) to align cultural policies with the 2030 Agenda.",
+    "Strengthening of the Ibero-American System for Quality Assurance in Higher Education (SIACES) to enhance the quality and recognition of higher education across member countries.",
+    "Development of the Ibero-American Framework for Academic Mobility (Campus Iberoamérica) to facilitate academic exchanges and enhance educational cooperation.",
+    "Implementation of the Ibero-American Innovation Strategy (EII) to promote innovation and digital transformation in the region.",
+    "Establishment of the Strategic Management Committee of Ibero-American Organizations (CODEI) to enhance coordination among various Ibero-American organizations.",
+    "Promotion of South-South and Triangular Cooperation through the Ibero-American Program for the Strengthening of South-South Cooperation (PIFCSS).",
+    "Launch of the Ibero-American Digital Agenda to address digital transformation and reduce the digital divide among member countries."
+  ],
+  "commitments": [
+    "By 2026, Ibero-American Cooperation aims to be consolidated as a benchmark regional mechanism for achieving the Sustainable Development Goals (SDGs).",
+    "The III PACCI includes two Biennial Operating Plans (POB): 2023-2024 and 2025-2026.",
+    "The Ibero-American Epidemiological Observatory (OEPI) will be launched to improve countries' response capacity in health by generating, exchanging, and disseminating knowledge on health matters.",
+    "The Ibero-American Strategy for the Digital Transformation of Higher Education (EITDES) will be implemented, with biennial plans prepared and adopted for activities.",
+    "The Ibero-American Innovation Strategy (EII) will be promoted through the establishment of a Technical Committee and the design and implementation of five innovation missions: food, climate change and environment, digitalization and artificial intelligence, health, and energy transition.",
+    "The Ibero-American Charter on Digital Rights was approved at the XXVIII Ibero-American Summit in 2023.",
+    "The Ibero-American Environmental Charter was approved at the XXVIII Ibero-American Summit in 2023.",
+    "The III PACCI will include indicators for lines of action, results, and axes to measure progress and achievements over the next four years."
+  ],
+  "score": 86,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 86,
+    "completeness": 86,
+    "accuracy": 63,
+    "issues": [
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "DOM",
+    "agreement_type": [
+      "Roadmap"
+    ],
+    "legal_bindingness": "Non-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "woman",
+      "indigenous people",
+      "afro-descendant",
+      "person with disability",
+      "elderly"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women in Tech"
+      },
+      {
+        "category": "Indigenous Peoples & Ethnic Groups",
+        "label": "Indigenous Communities"
+      },
+      {
+        "category": "Indigenous Peoples & Ethnic Groups",
+        "label": "Afro-descendant Groups"
+      },
+      {
+        "category": "Persons with Disabilities",
+        "label": "Persons with Disabilities"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      }
+    ],
+    "start_date": "2023-01-01",
+    "end_date": "2026-01-01",
+    "commitment_details": [
+      {
+        "text": "By 2026, Ibero-American Cooperation aims to be consolidated as a benchmark regional mechanism for achieving the Sustainable Development Goals (SDGs).",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The III PACCI includes two Biennial Operating Plans (POB): 2023-2024 and 2025-2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "The Ibero-American Epidemiological Observatory (OEPI) will be launched to improve countries' response capacity in health by generating, exchanging, and disseminating knowledge on health matters.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "The Ibero-American Strategy for the Digital Transformation of Higher Education (EITDES) will be implemented, with biennial plans prepared and adopted for activities.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "The Ibero-American Innovation Strategy (EII) will be promoted through the establishment of a Technical Committee and the design and implementation of five innovation missions: food, climate change and environment, digitalization and artificial intelligence, health, and energy transition.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "The Ibero-American Charter on Digital Rights was approved at the XXVIII Ibero-American Summit in 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The Ibero-American Environmental Charter was approved at the XXVIII Ibero-American Summit in 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The III PACCI will include indicators for lines of action, results, and axes to measure progress and achievements over the next four years.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "By 2026, Ibero-American Cooperation will be consolidated as a benchmark regional mechanism of intergovernmental, multi-stakeholder and multi-level articulation that enhances the role of the Ibero-American Community for the achievement of the SDGs.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ibero-American Cooperation Benchmark",
+        "target_value": null,
+        "target_description": "Consolidate Ibero-American Cooperation as a benchmark for achieving SDGs.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2026",
+        "measurement_method": "Evaluation of cooperation mechanisms and stakeholder engagement",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Cooperation"
+      },
+      {
+        "kpi_text": "Strengthen the visibility of Ibero-American Cooperation, promoting it as a cross-cutting approach in all actions.",
+        "kpi_type": "qualitative",
+        "metric_name": "Visibility of Ibero-American Cooperation",
+        "target_value": null,
+        "target_description": "Enhance visibility of cooperation initiatives across sectors.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of communication strategies and outreach activities",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Communication"
+      },
+      {
+        "kpi_text": "Promote the use of both languages (Spanish and Portuguese) across its eight axes.",
+        "kpi_type": "qualitative",
+        "metric_name": "Bilingualism Promotion",
+        "target_value": null,
+        "target_description": "Integrate bilingualism into all actions of the III PACCI.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of language use in documentation and events",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Cultural Cooperation"
+      },
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure.",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": null,
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Tracking investment flows and project funding",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Digital Transformation"
+      },
+      {
+        "kpi_text": "Strengthen the capacities of Technical Units and/or Intergovernmental Councils in planning, follow-up, and evaluation mechanisms.",
+        "kpi_type": "qualitative",
+        "metric_name": "Capacity Building for Technical Units",
+        "target_value": null,
+        "target_description": "Enhance the operational effectiveness of Technical Units.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of training programs and capacity assessments",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Capacity Building"
+      },
+      {
+        "kpi_text": "Promote gender equality and gender mainstreaming as an essential aspect of Ibero-American Cooperation.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Equality Promotion",
+        "target_value": null,
+        "target_description": "Integrate gender perspectives in all cooperation actions.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of gender-related initiatives and outcomes",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "Implement the Ibero-American Strategy for the Digital Transformation of Higher Education.",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Transformation in Education",
+        "target_value": null,
+        "target_description": "Advance digital transformation initiatives in higher education.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of digital initiatives and educational outcomes",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Generate knowledge and analysis of public policies to support MSMEs and entrepreneurs.",
+        "kpi_type": "qualitative",
+        "metric_name": "Support for MSMEs",
+        "target_value": null,
+        "target_description": "Develop policies that enhance the capabilities of MSMEs.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Analysis of policy impacts and MSME performance",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Economic Development"
+      },
+      {
+        "kpi_text": "Promote actions that help countries diagnose and respond to the impact of climate change on women.",
+        "kpi_type": "qualitative",
+        "metric_name": "Climate Change Impact on Women",
+        "target_value": null,
+        "target_description": "Address gender-specific impacts of climate change.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of gender-responsive climate initiatives",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "Strengthen the work of the Registry of Ibero-American Networks.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ibero-American Networks Registry",
+        "target_value": null,
+        "target_description": "Enhance the visibility and effectiveness of registered networks.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of network activities and collaborations",
+        "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+        "sector": "Networking"
+      }
+    ],
+    "country_list_iso": [
+      "COL",
+      "DOM",
+      "ESP",
+      "GTM",
+      "MEX",
+      "PAN",
+      "SLV",
+      "URY"
+    ],
+    "responsible_entity": "Ibero-American General Secretariat (SEGIB)",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 14: Life Below Water",
+      "SDG 15: Life on Land",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Ibero-American General Secretariat",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The Ibero-American General Secretariat (SEGIB) is central to the coordination and implementation of the Ibero-American Cooperation Quadrennial Action Plan, making it a key player in the governance and strategic direction of the cooperation efforts."
+    },
+    {
+      "name": "Governments",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Governments of the 22 Ibero-American countries are crucial as they are the primary stakeholders in the cooperation initiatives, responsible for decision-making and implementation of policies aligned with the 2030 Agenda."
+    },
+    {
+      "name": "Civil Society Organisations",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.8,
+      "justification": "Civil Society Organisations play a significant role in promoting inclusivity and addressing the needs of vulnerable groups, thus influencing the effectiveness and reach of the cooperation initiatives outlined in the PACCI."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Social Cohesion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "Social cohesion is a central theme in the document, emphasizing the need for inclusive public policies and dialogue to address inequalities and promote the rights of vulnerable groups. A significant portion of the content is dedicated to this theme, highlighting its strategic importance in achieving the 2030 Agenda."
+    },
+    {
+      "name": "Gender Equality in Tech",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.85,
+      "justification": "Gender equality is a critical focus area in the document, with multiple references to promoting women's rights and participation in various sectors, including technology. The theme is strategically important for achieving sustainable development and is well-supported by specific commitments outlined in the PACCI."
+    },
+    {
+      "name": "Digital Policy",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.8,
+      "justification": "Digital policy is essential for the document's objectives related to innovation, economic transformation, and the digital economy. The emphasis on digital transformation as a means to enhance productivity and competitiveness reflects its strategic importance in the context of Ibero-American cooperation."
+    }
+  ]
+}

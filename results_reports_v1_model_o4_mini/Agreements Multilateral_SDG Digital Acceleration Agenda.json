@@ -1,0 +1,359 @@
+{
+  "title": "SDG Digital Acceleration Agenda: Harnessing Digital Technologies for Sustainable Development Goals",
+  "date": "2023-01-01",
+  "location": null,
+  "executive_summary": "The SDG Digital Acceleration Agenda, launched by the ITU and UNDP, emphasizes the transformative potential of digital technologies in achieving the Sustainable Development Goals (SDGs). With 2.6 billion people still offline, the agenda aims to ensure universal connectivity and meaningful access to digital tools. It identifies three critical roles for digital technologies: as channels for vital services, as tools for data-driven insights, and as catalysts for broader progress. The agenda showcases 34 innovative digital solutions that demonstrate how technology can address various SDG targets, while also highlighting the need for inclusive approaches to mitigate risks such as inequality and digital divides. It calls for a collaborative, whole-of-society effort to harness digital transformation, emphasizing the importance of governance, funding, and capacity-building to ensure that no one is left behind in the digital revolution.",
+  "characteristics": [
+    "The SDG Digital Acceleration Agenda emphasizes the role of digital technologies in achieving the Sustainable Development Goals (SDGs), highlighting their potential to improve access to services, enhance data collection, and drive economic growth.",
+    "It identifies 34 digital solutions that demonstrate how technology can address various SDG targets, showcasing successful implementations across different regions and sectors.",
+    "The agenda stresses the importance of inclusivity, urging that digital transformation must prioritize marginalized groups to avoid exacerbating existing inequalities.",
+    "It outlines key enablers for digital transformation, including governance frameworks, digital infrastructure, and collaborative partnerships among stakeholders.",
+    "The document calls for urgent action to harness digital tools effectively, addressing challenges such as cybersecurity risks and the digital divide, particularly in developing countries.",
+    "It advocates for a holistic approach to digital transformation, integrating efforts across government, private sector, and civil society to ensure sustainable and equitable outcomes."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Agenda",
+      "Digital Acceleration"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Digital Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "International Telecommunication Union (ITU)",
+      "United Nations Development Programme (UNDP)",
+      "Inter-American Development Bank (IDB)",
+      "Boston Consulting Group (BCG)",
+      "United Nations"
+    ],
+    "Economic Actors": [
+      "Inter-American Development Bank",
+      "World Bank"
+    ],
+    "Civil Society Actors": [
+      "Digital Cooperation Organization"
+    ]
+  },
+  "practical_applications": [
+    "**M-Pesa**: A mobile money service that allows users to send, withdraw, and deposit money via mobile phones, significantly improving financial inclusion in Kenya and other countries.",
+    "**GiveDirectly**: An NGO that delivers unconditional cash transfers to impoverished individuals using digital technology to identify and send funds to those in need.",
+    "**Jiva**: A platform providing smallholder farmers in Indonesia and India access to microfinancing, market prices, and agronomy advice.",
+    "**CODA**: A digital solution that customizes nutrition programs and tracks individual data using mobile devices and smartcards, implemented in countries like South Sudan and Afghanistan.",
+    "**DHIS2**: A health-care management system used for data collection and analysis in health sectors, implemented in countries like Haiti and Uganda.",
+    "**OpenIMIS**: An open-source software for managing health and employment injury insurance, social cash transfers, and voucher schemes, used in various African countries.",
+    "**Atingi**: An online learning platform that offers free access to high-quality educational content, implemented in countries like Zimbabwe and Egypt.",
+    "**UNICEF Learning Passport**: A mobile platform for continuous access to quality education, operational in multiple countries.",
+    "**Audiopedia**: An audio education app for women with low literacy levels, providing information on health and gender rights.",
+    "**USAID/Microsoft Airband Initiative**: A program aimed at addressing the gender digital divide by providing Internet access and digital training to women in remote areas.",
+    "**Gybe**: A satellite imagery and ground sensor solution for managing water systems, implemented in various countries.",
+    "**CityTaps**: A smart prepaid water meter system that allows users to top up their water balance via mobile phones, implemented in several African countries.",
+    "**Nithio**: An AI-enabled financing solution for off-grid solar energy access, operational in countries like Rwanda.",
+    "**COMET**: A community energy toolkit for assessing electricity demand for mini-grids, implemented in various countries.",
+    "**Mobile Innovation Hub**: An accelerator program supporting local digital innovation ecosystems, implemented in Tunisia and Indonesia.",
+    "**SkillLab**: An AI-driven software that maps and matches people's skills to job requirements, operational in several countries.",
+    "**Giga**: An initiative to connect every school to the Internet, implemented in over 20 countries.",
+    "**Digital Family Card**: A government e-service in Kazakhstan that streamlines access to social support for vulnerable families.",
+    "**Balady**: A digital city platform in Saudi Arabia that offers over 200 government services to enhance urban living.",
+    "**WIPO GREEN**: An online platform for technology exchange to support climate action, operational globally.",
+    "**CounterMEASURE**: A project aimed at reducing water pollution through geographic analysis and data sharing, implemented in several countries.",
+    "**Rainforest Connection**: An AI-based monitoring system to protect rainforests from illegal logging, operational in countries like Peru and Brazil.",
+    "**Partner2Connect**: A multistakeholder alliance to foster connectivity for schools and communities, operational in various countries.",
+    "**Data4SDGs**: A partnership aimed at improving data access and decision-making for sustainable development, operational in over 40 countries.",
+    "**eyeWitness to Atrocities**: An app designed to document human rights violations for accountability, used in several countries including Nigeria and Ukraine."
+  ],
+  "commitments": [
+    "By 2030, connect every school and ultimately every community in the world to the Internet through the Giga initiative.",
+    "Mobilize between USD 3.7 to 4.2 trillion annually to fill the funding gap needed to achieve the SDGs by 2030.",
+    "Increase adult digital literacy in Rwanda to 35% by 2023, up from 8% in 2017.",
+    "Provide free internet service in 3,390 geographically isolated and disadvantaged areas in the Philippines by 2023.",
+    "Save the government of India approximately USD 10 billion over 2.5 years through the Aadhaar digital ID initiative.",
+    "Achieve a total investment of USD 13.2 billion for the Argentina Conectada project to connect over 22 million Argentines by the end of 2023.",
+    "Ensure that 99% of public services in Estonia are conducted online through the X-Road system.",
+    "Facilitate partnerships and mobilize resources to narrow the connectivity funding gap by 10% through the Partner2Connect initiative, with a total of USD 33 billion in pledges."
+  ],
+  "score": 93,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 90,
+    "completeness": 93,
+    "accuracy": 90,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "RWA",
+    "agreement_type": [
+      "Roadmap"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [
+      "Global Gateway",
+      "NDICI-Global Europe",
+      "Digital Decade",
+      "Horizon Europe",
+      "EU Cyber Strategy"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "women",
+      "farmers",
+      "communities",
+      "youth",
+      "entrepreneurs"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Farmers & Primary Producers",
+        "label": "Farmers"
+      },
+      {
+        "category": "Rural & Remote Communities",
+        "label": "Underserved Communities"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Entrepreneurs"
+      }
+    ],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [
+      {
+        "text": "By 2030, connect every school and ultimately every community in the world to the Internet through the Giga initiative.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Mobilize between USD 3.7 to 4.2 trillion annually to fill the funding gap needed to achieve the SDGs by 2030.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Increase adult digital literacy in Rwanda to 35% by 2023, up from 8% in 2017.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Provide free internet service in 3,390 geographically isolated and disadvantaged areas in the Philippines by 2023.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "Save the government of India approximately USD 10 billion over 2.5 years through the Aadhaar digital ID initiative.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Achieve a total investment of USD 13.2 billion for the Argentina Conectada project to connect over 22 million Argentines by the end of 2023.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Ensure that 99% of public services in Estonia are conducted online through the X-Road system.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "Facilitate partnerships and mobilize resources to narrow the connectivity funding gap by 10% through the Partner2Connect initiative, with a total of USD 33 billion in pledges.",
+        "commitment_class": "Financed"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize investment for digital infrastructure",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Investment tracking and reporting",
+        "responsible_entity": "Governments and private sector",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Ensure that 70% of SDG targets benefit from digital technologies",
+        "kpi_type": "quantitative",
+        "metric_name": "SDG Targets Benefiting from Digital Technologies",
+        "target_value": 70.0,
+        "target_description": "Percentage of SDG targets that benefit from digital technologies",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "SDG progress reports",
+        "responsible_entity": "UN and member states",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "Increase the number of people with digital skills by 50% by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Development",
+        "target_value": 50.0,
+        "target_description": "Increase in the number of individuals with digital skills",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Surveys and assessments of digital skills",
+        "responsible_entity": "Governments and educational institutions",
+        "sector": "Education and Training"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish a framework to protect critical infrastructure from cyber threats",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "National cybersecurity agencies",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Achieve universal and meaningful connectivity for all by 2030",
+        "kpi_type": "qualitative",
+        "metric_name": "Universal Connectivity",
+        "target_value": null,
+        "target_description": "Ensure that all individuals have access to meaningful digital connectivity",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Connectivity assessments and surveys",
+        "responsible_entity": "Governments and telecom providers",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "Reduce the gender digital divide by 25% by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Gender Digital Divide Reduction",
+        "target_value": 25.0,
+        "target_description": "Reduction in the gap between male and female Internet users",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Internet usage statistics",
+        "responsible_entity": "Governments and NGOs",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "Train 1 million people in digital skills by 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Training",
+        "target_value": 1000000.0,
+        "target_description": "Number of individuals trained in digital skills",
+        "unit": "people",
+        "timeframe": "by 2025",
+        "measurement_method": "Training program enrollment data",
+        "responsible_entity": "Educational institutions and NGOs",
+        "sector": "Education and Training"
+      },
+      {
+        "kpi_text": "Implement regulations to ensure data privacy and protection by 2024",
+        "kpi_type": "qualitative",
+        "metric_name": "Data Privacy Regulations Implementation",
+        "target_value": null,
+        "target_description": "Establish regulations to protect personal data and privacy",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Regulatory framework establishment",
+        "responsible_entity": "National governments",
+        "sector": "Data Protection"
+      },
+      {
+        "kpi_text": "Increase public awareness of digital rights by 40% by 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Rights Awareness",
+        "target_value": 40.0,
+        "target_description": "Increase in public awareness regarding digital rights",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Public surveys and awareness campaigns",
+        "responsible_entity": "Civil society organizations",
+        "sector": "Digital Rights"
+      },
+      {
+        "kpi_text": "Strengthen partnerships for digital transformation by establishing 50 new collaborations by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Partnerships for Digital Transformation",
+        "target_value": null,
+        "target_description": "Establish new partnerships to enhance digital transformation efforts",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Partnership agreements and collaborations",
+        "responsible_entity": "Governments and private sector",
+        "sector": "Partnerships"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "BRA",
+      "COL",
+      "DEU",
+      "DOM",
+      "KEN",
+      "NGA",
+      "RWA",
+      "USA"
+    ],
+    "responsible_entity": "International Telecommunication Union (ITU)",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 14: Life Below Water",
+      "SDG 15: Life on Land",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "International Telecommunication Union (ITU)",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "ITU is prominently mentioned throughout the document as a key player in driving digital transformation and achieving the SDGs. Its role as a knowledge partner and its involvement in various initiatives highlight its influence and importance in the context of digital acceleration."
+    },
+    {
+      "name": "United Nations Development Programme (UNDP)",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "UNDP is frequently referenced as a leading organization in the digital transformation agenda, emphasizing its critical role in supporting sustainable development and addressing global challenges. Its partnership with ITU and involvement in key initiatives further solidify its relevance."
+    },
+    {
+      "name": "Inter-American Development Bank (IDB)",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "IDB is mentioned as a significant partner in various initiatives aimed at promoting digital solutions for sustainable development. Its role in financing and supporting digital transformation efforts in Latin America and the Caribbean underscores its importance in the context of the document."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Acceleration",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.95,
+      "justification": "Digital Acceleration is central to the document's main message, emphasizing the urgent need for digital technologies to drive progress towards the SDGs. A significant portion of the content is dedicated to showcasing how digital solutions can accelerate development outcomes."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Digital Governance is crucial for ensuring that digital technologies are implemented responsibly and inclusively. The document discusses the importance of governance frameworks to manage risks and promote equitable access, highlighting its strategic importance in achieving the SDGs."
+    },
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.85,
+      "justification": "Data Governance is vital for the effective use of data in driving digital transformation and achieving the SDGs. The document emphasizes the need for reliable data collection and management to inform decision-making and track progress, making it a key objective in the context of digital transformation."
+    }
+  ]
+}

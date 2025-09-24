@@ -1,0 +1,275 @@
+{
+  "title": "\"Agreed Conclusions of the 66th Session on the Commission on the Status of Women: Gender Equality and Women's Empowerment in the Context of Climate Change\"",
+  "date": "2022-03-29",
+  "location": "New York, United States",
+  "executive_summary": "The 66th Session of the Commission on the Status of Women, held from March 14-25, 2022, focused on achieving gender equality and empowering women and girls in the context of climate change and disaster risk reduction. The Commission reaffirmed commitments from the Beijing Declaration and emphasized the need for gender-responsive policies that integrate women's participation in climate action. It highlighted the disproportionate impacts of climate change on women, particularly in developing countries, and called for enhanced legal frameworks, financial resources, and data collection to support gender equality. The session underscored the importance of women's leadership in decision-making processes and the need for a just transition towards sustainable development, ensuring that women's rights and needs are prioritized in climate and disaster policies. The Commission urged member states to take comprehensive actions to eliminate discrimination and violence against women and girls, recognizing their critical role as agents of change in environmental sustainability.",
+  "characteristics": [
+    "The document emphasizes the importance of achieving gender equality and empowering women and girls, particularly in the context of climate change and disaster risk reduction.",
+    "It reaffirms commitments to international human rights frameworks and the Beijing Declaration, highlighting their role in sustainable development.",
+    "The Commission calls for the integration of gender perspectives in climate action and disaster management, recognizing women's critical roles as agents of change.",
+    "It stresses the need for inclusive participation of women, especially those from marginalized groups, in decision-making processes related to climate and environmental policies.",
+    "The document highlights the disproportionate impacts of climate change on women and girls, particularly in developing countries, and calls for targeted actions to address these challenges.",
+    "It advocates for increased investments in gender-responsive policies and programs to enhance women's resilience and adaptive capacities in the face of climate change and environmental degradation."
+  ],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Gender Equality in Tech"
+    ],
+    "Data & Governance": [
+      "Digital Rights",
+      "Data Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations",
+      "United Nations Officials"
+    ],
+    "Civil Society Actors": [
+      "Civil Society Organisations"
+    ]
+  },
+  "practical_applications": [
+    "The adoption of the enhanced Lima work programme on gender and its gender action plan by the Conference of the Parties to the United Nations Framework Convention on Climate Change.",
+    "The integration of gender perspectives into the design, funding, implementation, monitoring, and evaluation of policies and programmes on climate change mitigation, adaptation, and resilience, as well as disaster risk reduction.",
+    "The recognition of the importance of women's and girls' full, equal, effective, and meaningful participation in climate action and disaster risk reduction efforts.",
+    "The commitment to mobilize adequate financial resources from all sources, including domestic and international, to achieve gender equality and the empowerment of all women and girls in the context of climate change.",
+    "The emphasis on strengthening the capacity of national gender equality mechanisms to ensure their participation in climate, environmental, and disaster risk governance.",
+    "The call for increased public and private financing to women's civil society organizations for climate change, environmental, and disaster risk reduction initiatives.",
+    "The promotion of gender-responsive education and training, particularly in science, technology, engineering, and mathematics, to empower women and girls in the context of climate change.",
+    "The establishment of multi-stakeholder efforts to combat discrimination and promote the participation of women and girls in climate change and disaster risk reduction policies and programmes."
+  ],
+  "commitments": [
+    "Reduce global carbon dioxide emissions by 45% by 2030 relative to the 2010 level and achieve net zero around mid-century.",
+    "Urge developed countries to fully implement their official development assistance commitments, including the target of 0.7% of their gross national income for official development assistance to developing countries and the target of 0.15 to 0.20% for the least developed countries.",
+    "Mobilize climate finance from all sources to exceed $100 billion per year to achieve the goals of the Paris Agreement, with an emphasis on transparency in the implementation of these pledges through to 2025."
+  ],
+  "score": 92,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 92,
+    "completeness": 92,
+    "accuracy": 88,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "woman",
+      "girl",
+      "indigenous",
+      "community",
+      "youth"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women in Tech"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Indigenous Peoples & Ethnic Groups",
+        "label": "Indigenous Communities"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth Organizations"
+      }
+    ],
+    "start_date": "2022-03-14",
+    "end_date": "2022-03-25",
+    "commitment_details": [
+      {
+        "text": "Reduce global carbon dioxide emissions by 45% by 2030 relative to the 2010 level and achieve net zero around mid-century.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Urge developed countries to fully implement their official development assistance commitments, including the target of 0.7% of their gross national income for official development assistance to developing countries and the target of 0.15 to 0.20% for the least developed countries.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Mobilize climate finance from all sources to exceed $100 billion per year to achieve the goals of the Paris Agreement, with an emphasis on transparency in the implementation of these pledges through to 2025.",
+        "commitment_class": "Financed"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Reduce global carbon dioxide emissions by 45 per cent by 2030 relative to the 2010 level.",
+        "kpi_type": "quantitative",
+        "metric_name": "Carbon Dioxide Emissions Reduction",
+        "target_value": 45.0,
+        "target_description": "Reduce carbon dioxide emissions to mitigate climate change.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Comparison of emissions data from 2010 and 2030",
+        "responsible_entity": "Member States",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "Mobilize adequate financial resources from all sources, including domestic and international resource mobilization and allocation.",
+        "kpi_type": "qualitative",
+        "metric_name": "Financial Resource Mobilization",
+        "target_value": null,
+        "target_description": "Mobilize financial resources to support gender equality and women's empowerment.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of financial mobilization efforts",
+        "responsible_entity": "Governments and international organizations",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "Ensure universal access to sexual and reproductive health-care services, including for family planning.",
+        "kpi_type": "qualitative",
+        "metric_name": "Access to Sexual and Reproductive Health Services",
+        "target_value": null,
+        "target_description": "Provide comprehensive sexual and reproductive health services to all women and girls.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring access and availability of services",
+        "responsible_entity": "Health Ministries",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "Increase the full, meaningful and equal participation of women in climate action.",
+        "kpi_type": "qualitative",
+        "metric_name": "Women's Participation in Climate Action",
+        "target_value": null,
+        "target_description": "Enhance women's involvement in decision-making processes related to climate change.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of participation rates in climate initiatives",
+        "responsible_entity": "Governments and NGOs",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "Achieve gender balance in decision-making bodies related to climate change by setting specific targets and timelines.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Balance in Decision-Making",
+        "target_value": null,
+        "target_description": "Establish gender balance in climate-related decision-making processes.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Review of gender representation in decision-making bodies",
+        "responsible_entity": "Member States",
+        "sector": "Governance"
+      },
+      {
+        "kpi_text": "Strengthen the capacity of national gender equality mechanisms at all levels.",
+        "kpi_type": "qualitative",
+        "metric_name": "Capacity Building for Gender Equality Mechanisms",
+        "target_value": null,
+        "target_description": "Enhance the effectiveness of national mechanisms for gender equality.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of capacity-building initiatives",
+        "responsible_entity": "National Governments",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "Increase public and private financing to women’s civil society organizations for climate change initiatives.",
+        "kpi_type": "qualitative",
+        "metric_name": "Financing for Women's Civil Society Organizations",
+        "target_value": null,
+        "target_description": "Support women's organizations in climate action through increased funding.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring funding allocations to women's organizations",
+        "responsible_entity": "Governments and private sector",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "Promote and protect the rights of all women and girls with disabilities.",
+        "kpi_type": "qualitative",
+        "metric_name": "Rights of Women and Girls with Disabilities",
+        "target_value": null,
+        "target_description": "Ensure the rights and participation of women and girls with disabilities in all areas.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of policies and programs for inclusivity",
+        "responsible_entity": "Governments and NGOs",
+        "sector": "Disability Rights"
+      },
+      {
+        "kpi_text": "Ensure gender-responsive water and sanitation services and infrastructure.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender-Responsive Water and Sanitation",
+        "target_value": null,
+        "target_description": "Provide equitable access to water and sanitation facilities for women and girls.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of water and sanitation services",
+        "responsible_entity": "Local Governments",
+        "sector": "Water and Sanitation"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "United Nations Entity for Gender Equality and the Empowerment of Women (UN-Women)",
+    "sdg_alignment": [
+      "SDG 5: Gender Equality",
+      "SDG 13: Climate Action",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 1: No Poverty",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 10: Reduced Inequalities",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 0.95,
+      "justification": "The United Nations is the primary body referenced throughout the document, emphasizing its role in promoting gender equality and addressing climate change, making it central to the discussions and initiatives outlined."
+    },
+    {
+      "name": "Civil Society Organisations",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.85,
+      "justification": "Civil society organizations are highlighted as crucial players in advocating for women's rights and participation in climate action, reflecting their significant influence and involvement in the initiatives discussed."
+    },
+    {
+      "name": "United Nations Officials",
+      "category": "Political Actors",
+      "relevance_score": 0.75,
+      "justification": "United Nations officials are implied as key actors in implementing the policies and frameworks discussed, although they are less frequently mentioned than the UN itself and civil society organizations."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Gender Equality in Tech",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document's main message, which emphasizes the importance of gender equality and the empowerment of women and girls in various contexts, including technology. The document dedicates significant content to the role of women in climate action and decision-making, highlighting their contributions as agents of change."
+    },
+    {
+      "name": "Digital Rights",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Digital rights are crucial in the context of climate change and disaster risk reduction, as the document discusses the need for equitable access to technology and information. This theme is strategically important for ensuring that women and girls can participate fully in digital spaces, which is essential for achieving gender equality."
+    },
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.7,
+      "justification": "Data governance is relevant as the document highlights the importance of disaggregated data to inform policies and programs. This theme supports the overall objectives of the document by ensuring that gender-specific impacts of climate change and environmental degradation are recognized and addressed."
+    }
+  ]
+}

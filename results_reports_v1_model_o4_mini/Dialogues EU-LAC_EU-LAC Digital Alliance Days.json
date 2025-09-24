@@ -1,0 +1,177 @@
+{
+  "title": "EU-LAC Digital Alliance Days 2023: Advancing Digital Cooperation in Cartagena, Colombia",
+  "date": "2023-11-27",
+  "location": "Cartagena, Colombia",
+  "executive_summary": "The EU-LAC Digital Alliance Days will take place in Cartagena, Colombia, from November 27-29, 2023. This event, hosted by the European Union and the Spanish Agency for International Development Cooperation, marks the first high-level policy dialogue following the Joint Declaration on a Digital Alliance signed in July 2023. The initiative aims to promote a human-centric digital transformation through secure and resilient infrastructures, with an initial EU investment of €145 million. Participants, including government representatives, private sector, civil society, and academia, will focus on five key themes: data governance, e-governance, cybersecurity, connectivity, and AI. The discussions aim to establish common goals and actions in preparation for the upcoming EU-CELAC Summit in 2025. Some sessions will be live-streamed for broader engagement.",
+  "characteristics": [
+    "The EU-LAC Digital Alliance Days are scheduled for November 27-29, 2023, in Cartagena, Colombia, focusing on digital transformation.",
+    "The event is hosted by the EU and AECID, aiming to foster secure digital infrastructures based on shared values.",
+    "It follows the Joint Declaration on a Digital Alliance signed in July 2023, promoting bi-regional dialogue on digital issues.",
+    "Key themes include data governance, e-governance, cybersecurity, connectivity, and AI, with participation from government, private sector, civil society, and academia.",
+    "The outcomes will inform the agenda for the upcoming EU-CELAC Summit in 2025."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "E-Governance",
+      "Cybersecurity",
+      "Digital Access"
+    ],
+    "Technology & Innovation": [
+      "Artificial Intelligence"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "Spanish Agency for International Development Cooperation (AECID)",
+      "EU-LAC Digital Alliance"
+    ],
+    "Research and Innovation Actors": [
+      "Digital for Development Hub"
+    ]
+  },
+  "practical_applications": [
+    "The EU-LAC Digital Alliance was launched in March 2023 with an initial contribution of €145 million from the European Union and its Member States to foster the development of secure and resilient digital infrastructures.",
+    "A Joint Declaration on a Digital Alliance was signed in July 2023, outlining core principles, values, and implementation priorities for bi-regional dialogue and cooperation on digital matters.",
+    "The EU-LAC Digital Alliance Days, held from 27-29 November 2023 in Cartagena, Colombia, serve as a high-level policy dialogue to create an agenda and priority areas leading up to the EU-CELAC Summit in 2025.",
+    "The event focuses on five themes: data governance, e-governance, cybersecurity, connectivity, and AI, with the aim of identifying common goals and agreeing on actions of shared interest among participants from both regions."
+  ],
+  "commitments": [
+    "Initial contribution of €145 million from the European Union and its Member States for the EU-LAC Digital Alliance.",
+    "The EU-CELAC Summit is scheduled to be held in 2025."
+  ],
+  "score": 96,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 96,
+    "completeness": 96,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "COL",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Global Gateway"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-11-27",
+    "end_date": "2023-11-29",
+    "commitment_details": [
+      {
+        "text": "Initial contribution of €145 million from the European Union and its Member States for the EU-LAC Digital Alliance.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "The EU-CELAC Summit is scheduled to be held in 2025.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "initial contribution of €145 million from the European Union and its Member States",
+        "kpi_type": "quantitative",
+        "metric_name": "EU Contribution",
+        "target_value": 145.0,
+        "target_description": "Initial financial contribution from the EU and its Member States",
+        "unit": "million EUR",
+        "timeframe": null,
+        "measurement_method": "Financial allocation records",
+        "responsible_entity": "European Union",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "create an agenda and priority areas in the lead-up to the EU-CELAC Summit to be held in 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Agenda Creation",
+        "target_value": null,
+        "target_description": "Develop an agenda and priority areas for the EU-CELAC Summit",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Documentation of agenda and priorities",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Governance"
+      },
+      {
+        "kpi_text": "provide a forum for regular bi-regional dialogue and cooperation on digital matters",
+        "kpi_type": "qualitative",
+        "metric_name": "Bi-regional Dialogue Forum",
+        "target_value": null,
+        "target_description": "Establish a forum for ongoing dialogue and cooperation",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Meeting records and participant feedback",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Cooperation"
+      },
+      {
+        "kpi_text": "discuss five overarching themes: data governance, e-governance, cybersecurity, connectivity, and AI",
+        "kpi_type": "qualitative",
+        "metric_name": "Thematic Discussions",
+        "target_value": null,
+        "target_description": "Engage in discussions on five key digital themes",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Session summaries and outcomes",
+        "responsible_entity": "Participants of the Digital Alliance Days",
+        "sector": "Digital Policy"
+      }
+    ],
+    "country_list_iso": [
+      "COL",
+      "ESP"
+    ],
+    "responsible_entity": "European Union",
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the primary actor in the EU-LAC Digital Alliance Days, hosting the event and providing significant funding. Its role is central to the partnership and the overarching goals of digital transformation."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Digital Alliance is the framework within which the Digital Alliance Days are organized. It represents the collaboration between the EU and LAC countries, making it crucial for the discussions and initiatives outlined in the document."
+    },
+    {
+      "name": "Spanish Agency for International Development Cooperation (AECID)",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "AECID is a co-host of the event, indicating its involvement in facilitating the dialogue and cooperation between the EU and LAC. Its role in international development cooperation adds to its importance in the context of the Digital Alliance Days."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Digital Alliance is the central theme of the document, representing the partnership between the EU and LAC aimed at fostering digital transformation. It sets the context for the entire event and outlines the strategic objectives of cooperation."
+    },
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Data governance is one of the five overarching themes discussed during the Digital Alliance Days. It is crucial for establishing frameworks that ensure secure and responsible data management, which is essential for the success of digital transformation initiatives."
+    },
+    {
+      "name": "Cybersecurity",
+      "category": "Data & Governance",
+      "relevance_score": 0.75,
+      "justification": "Cybersecurity is a critical theme given the increasing reliance on digital infrastructures. It is vital for protecting data and ensuring the resilience of digital systems, making it a key area of focus for the EU-LAC Digital Alliance."
+    }
+  ]
+}

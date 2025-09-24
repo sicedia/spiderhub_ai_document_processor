@@ -1,0 +1,279 @@
+{
+  "title": "First Meeting of the Conference of the Parties to the Escazú Agreement: Decisions and Rules of Procedure",
+  "date": "2022-04-22",
+  "location": "Santiago, Chile",
+  "executive_summary": "The First Meeting of the Conference of the Parties to the Escazú Agreement, held in Santiago from April 20-22, 2022, established foundational rules and procedures for the implementation of the Agreement on access to information, public participation, and justice in environmental matters in Latin America and the Caribbean. Key decisions included the adoption of rules of procedure, the election of Uruguay as Chair and four Vice-Chairs, and the establishment of a Committee to Support Implementation and Compliance. The Conference emphasized the importance of public participation and the protection of human rights defenders in environmental matters. Future meetings were scheduled, with an extraordinary meeting planned for April 2023 and the second ordinary meeting for April 2024, to further advance the Agreement's objectives and ensure effective implementation.",
+  "characteristics": [
+    "The Conference of the Parties to the Escazú Agreement was held in Santiago from April 20-22, 2022, focusing on access to information, public participation, and justice in environmental matters in Latin America and the Caribbean.",
+    "The meeting adopted rules of procedure emphasizing public participation, with provisions for virtual meetings and significant public involvement in decision-making processes.",
+    "A Chair and four Vice-Chairs were elected to lead the Conference, with a commitment to gender balance and geographical representation.",
+    "The establishment of a Committee to Support Implementation and Compliance was agreed upon, aimed at promoting the Agreement's implementation and ensuring public participation.",
+    "Financial arrangements were discussed, including the creation of a Voluntary Fund to support the Agreement's activities, with a call for contributions from Parties and other organizations.",
+    "An open-ended working group on human rights defenders in environmental matters was established to enhance protections and develop an action plan for future meetings."
+  ],
+  "themes": {
+    "Data & Governance": [
+      "Digital Governance",
+      "Public Participation"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Social Cohesion"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Economic Commission for Latin America and the Caribbean (ECLAC)",
+      "Uruguay",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Mexico",
+      "Saint Lucia"
+    ],
+    "Civil Society Actors": [
+      "Public",
+      "Human rights defenders in environmental matters"
+    ]
+  },
+  "practical_applications": [
+    "Adoption of the Rules of Procedure for the Conference of the Parties to the Escazú Agreement, facilitating structured meetings and public participation.",
+    "Election of Presiding Officers, including Uruguay as Chair and Antigua and Barbuda, Argentina, Mexico, and Saint Lucia as Vice-Chairs, to lead the Conference of the Parties.",
+    "Establishment of the Committee to Support Implementation and Compliance, which promotes the implementation of the Escazú Agreement and supports Parties in compliance.",
+    "Creation of a Voluntary Fund to support the financing of the implementation of the Escazú Agreement, with Mexico as the first contributor.",
+    "Agreement to hold ordinary meetings of the Conference of the Parties at least once every two years, with the next ordinary meeting scheduled for April 2024.",
+    "Establishment of an open-ended ad hoc working group on human rights defenders in environmental matters to prepare an action plan and facilitate public participation.",
+    "Decision to hold an annual forum on human rights defenders in environmental matters to gather input for the action plan."
+  ],
+  "commitments": [
+    "Requests the public to designate one of its elected representatives within two months of the adoption of the present decision to be a member of the Presiding Officers.",
+    "Agrees to convene an extraordinary meeting, to be held in Argentina, tentatively on 20 and 21 April 2023.",
+    "Also agrees that the second ordinary meeting will be held, tentatively, from 22 to 24 April 2024.",
+    "Requests the Secretariat to continue exploring additional sources of funding to support the activities planned for the 2022–2024 period."
+  ],
+  "score": 96,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 96,
+    "completeness": 96,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [
+      "Legal Treaty"
+    ],
+    "legal_bindingness": "Legally-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "public",
+      "communities",
+      "persons",
+      "organizations",
+      "groups"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Persons with Disabilities",
+        "label": "Persons with Disabilities"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      }
+    ],
+    "start_date": "2022-04-20",
+    "end_date": "2022-04-22",
+    "commitment_details": [
+      {
+        "text": "Requests the public to designate one of its elected representatives within two months of the adoption of the present decision to be a member of the Presiding Officers.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Agrees to convene an extraordinary meeting, to be held in Argentina, tentatively on 20 and 21 April 2023.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Also agrees that the second ordinary meeting will be held, tentatively, from 22 to 24 April 2024.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Requests the Secretariat to continue exploring additional sources of funding to support the activities planned for the 2022–2024 period.",
+        "commitment_class": "Financed"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Ordinary meetings of the Conference of the Parties shall be held at least once every two years",
+        "kpi_type": "quantitative",
+        "metric_name": "Frequency of Ordinary Meetings",
+        "target_value": 2.0,
+        "target_description": "Hold ordinary meetings of the Conference of the Parties",
+        "unit": "years",
+        "timeframe": "every two years",
+        "measurement_method": "Meeting schedule records",
+        "responsible_entity": "Conference of the Parties",
+        "sector": "Environmental Governance"
+      },
+      {
+        "kpi_text": "Requests the public to designate one of its elected representatives, within two months of the adoption of the present decision",
+        "kpi_type": "qualitative",
+        "metric_name": "Public Representative Designation",
+        "target_value": null,
+        "target_description": "Designate an elected representative from the public",
+        "unit": "qualitative milestone",
+        "timeframe": "within two months",
+        "measurement_method": "Public designation records",
+        "responsible_entity": "Public and Conference of the Parties",
+        "sector": "Public Participation"
+      },
+      {
+        "kpi_text": "Requests the Secretariat to continue exploring additional sources of funding to support the activities planned for the 2022–2024 period",
+        "kpi_type": "qualitative",
+        "metric_name": "Funding Exploration for Activities",
+        "target_value": null,
+        "target_description": "Explore additional funding sources for planned activities",
+        "unit": "qualitative milestone",
+        "timeframe": "for the 2022–2024 period",
+        "measurement_method": "Funding proposals and reports",
+        "responsible_entity": "Secretariat",
+        "sector": "Financial Management"
+      },
+      {
+        "kpi_text": "The Committee shall hold in-person meetings at least once a year",
+        "kpi_type": "quantitative",
+        "metric_name": "Annual In-Person Meetings of the Committee",
+        "target_value": 1.0,
+        "target_description": "Hold in-person meetings of the Committee",
+        "unit": "meetings",
+        "timeframe": "at least once a year",
+        "measurement_method": "Meeting records",
+        "responsible_entity": "Committee",
+        "sector": "Environmental Governance"
+      },
+      {
+        "kpi_text": "The term of office of Committee members shall be four years, renewable for another four years",
+        "kpi_type": "qualitative",
+        "metric_name": "Committee Member Term Duration",
+        "target_value": null,
+        "target_description": "Establish a four-year term for Committee members",
+        "unit": "qualitative milestone",
+        "timeframe": "four years, renewable",
+        "measurement_method": "Committee member records",
+        "responsible_entity": "Conference of the Parties",
+        "sector": "Governance"
+      },
+      {
+        "kpi_text": "Requests the Secretariat to submit, at each meeting of the Conference of the Parties, a consolidated report on the finances and implementation of the activities financed by the Fund",
+        "kpi_type": "qualitative",
+        "metric_name": "Consolidated Financial Reporting",
+        "target_value": null,
+        "target_description": "Submit consolidated financial reports at each meeting",
+        "unit": "qualitative milestone",
+        "timeframe": "at each meeting",
+        "measurement_method": "Financial report submissions",
+        "responsible_entity": "Secretariat",
+        "sector": "Financial Management"
+      },
+      {
+        "kpi_text": "Agrees to convene an extraordinary meeting, to be held in Argentina, tentatively on 20 and 21 April 2023",
+        "kpi_type": "quantitative",
+        "metric_name": "Extraordinary Meeting Scheduling",
+        "target_value": 1.0,
+        "target_description": "Hold an extraordinary meeting in Argentina",
+        "unit": "meetings",
+        "timeframe": "on 20 and 21 April 2023",
+        "measurement_method": "Meeting schedule records",
+        "responsible_entity": "Conference of the Parties",
+        "sector": "Environmental Governance"
+      },
+      {
+        "kpi_text": "Agrees that the Voluntary Fund shall be constituted as a trust fund in accordance with the Financial Regulations and Rules of the United Nations",
+        "kpi_type": "qualitative",
+        "metric_name": "Establishment of Voluntary Fund",
+        "target_value": null,
+        "target_description": "Constitute the Voluntary Fund as a trust fund",
+        "unit": "qualitative milestone",
+        "timeframe": "upon agreement",
+        "measurement_method": "Fund establishment records",
+        "responsible_entity": "Secretariat",
+        "sector": "Financial Management"
+      },
+      {
+        "kpi_text": "The Committee shall provide a report to the Conference of the Parties on its activities, including its observations in cases of non-compliance",
+        "kpi_type": "qualitative",
+        "metric_name": "Committee Activity Reporting",
+        "target_value": null,
+        "target_description": "Provide reports on activities and non-compliance observations",
+        "unit": "qualitative milestone",
+        "timeframe": "periodically",
+        "measurement_method": "Committee reports",
+        "responsible_entity": "Committee",
+        "sector": "Environmental Governance"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "ATG",
+      "BOL",
+      "MEX",
+      "URY",
+      "SLU"
+    ],
+    "responsible_entity": "Secretariat",
+    "sdg_alignment": [
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Economic Commission for Latin America and the Caribbean",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "ECLAC serves as the Secretariat for the Conference of the Parties, playing a crucial role in facilitating meetings, managing communications, and ensuring the implementation of the Escazú Agreement."
+    },
+    {
+      "name": "Uruguay",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Uruguay is elected as the Chair of the Conference of the Parties, which positions it at the forefront of decision-making and leadership in the implementation of the Escazú Agreement."
+    },
+    {
+      "name": "Public",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.8,
+      "justification": "The public is emphasized as a key participant in the Conference, with significant roles in providing input, making statements, and influencing decisions, highlighting the importance of public participation in environmental matters."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Public Participation",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Public participation is central to the Escazú Agreement, emphasizing the importance of involving the public in environmental decision-making processes. The document dedicates significant content to rules and procedures that facilitate public engagement, reflecting its strategic importance in achieving the Agreement's objectives."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.7,
+      "justification": "Digital governance is relevant as it relates to the mechanisms for communication and participation in the context of the Escazú Agreement. The document outlines procedures for virtual meetings and public access to information, highlighting the role of digital tools in enhancing governance and participation."
+    },
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.5,
+      "justification": "Digital inclusion is important as it ensures that all stakeholders, including marginalized groups, can participate in the processes established by the Escazú Agreement. While it is less emphasized than public participation, it supports the overarching goal of inclusive governance."
+    }
+  ]
+}

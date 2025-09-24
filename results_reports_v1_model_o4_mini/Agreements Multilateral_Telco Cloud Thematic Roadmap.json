@@ -1,0 +1,325 @@
+{
+  "title": "European Telco Cloud Thematic Roadmap: Strategies for Digital Sovereignty and Infrastructure Development",
+  "date": "2024-07-10",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The \"New Telco Cloud Thematic Roadmap\" outlines a strategic framework for advancing Europe's cloud and edge computing capabilities, emphasizing the need for investment in next-generation technologies. It highlights the importance of collaboration among European industries to enhance digital sovereignty, ensuring that data processing remains secure and compliant with EU regulations. The roadmap identifies key priorities, including the establishment of open standards, fostering interoperability, and promoting sustainable practices in data center operations. It also addresses the challenges posed by market fragmentation and the dominance of non-European providers, advocating for a unified approach to develop a competitive European cloud ecosystem. The initiative aims to support various sectors, including telecommunications, healthcare, and smart cities, by leveraging innovative technologies and fostering a collaborative environment for data sharing and application development.",
+  "characteristics": [
+    "The Telco Cloud Thematic Roadmap emphasizes the development of a converged network and computing infrastructure to enhance the European telecommunications sector's cloud capabilities.",
+    "It advocates for strategic investments in next-generation cloud and edge technologies, focusing on digital sovereignty, sustainability, and interoperability.",
+    "The roadmap outlines the importance of open standards and specifications to foster collaboration among European cloud service providers and ensure competitive offerings.",
+    "It highlights the need for a robust cybersecurity framework to protect sensitive data and maintain trust in cloud services.",
+    "The document stresses the significance of local data processing and the establishment of data spaces to enhance data control and privacy for European citizens and businesses."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Infrastructure",
+      "Digital Platforms"
+    ],
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "AI Ethics"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Data Protection",
+      "Data Privacy"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "European Commission",
+      "EU Member States",
+      "European Council",
+      "European Parliament"
+    ],
+    "Research and Innovation Actors": [
+      "European Institute of Innovation and Technology",
+      "Digital Innovation Hubs",
+      "Universities",
+      "Researchers"
+    ],
+    "Economic Actors": [
+      "Telecommunication Companies",
+      "Digital Companies",
+      "Private Sector Representatives"
+    ]
+  },
+  "practical_applications": [
+    "The European Alliance for Industrial Data, Edge and Cloud has established a thematic roadmap focusing on the development and implementation of next-generation European cloud and edge technologies.",
+    "The European Commission's Code of Conduct for Energy Efficiency in Data Centres aims to inform and encourage data centre operators to reduce energy consumption through best practices.",
+    "The Climate Neutral Data Centre Pact is a self-regulatory initiative targeting climate neutrality for data centres by 2030.",
+    "The IPCEI on Next-Generation Cloud Infrastructure and Services (IPCEI-CIS) aims to create innovations for the computing continuum from edge to cloud, supporting the development of European cloud and edge technologies.",
+    "The Data Spaces Support Centre project is working to create building blocks for technology and business-related topics in data spaces.",
+    "The Catena-X initiative focuses on creating a data space for the automotive sector to foster data sharing along the supply chain.",
+    "The European Open Science Cloud (EOSC) initiative aims to provide a collaborative environment for scientific research data sharing.",
+    "The GAIA-X initiative is working towards establishing a federated data infrastructure in Europe.",
+    "The establishment of the European Cloud Industrial Alliance (EUCLIDIA) aims to promote the development of cloud services and data spaces.",
+    "The development of open source reference implementations and APIs is being promoted to enhance interoperability and reduce vendor lock-in in cloud services.",
+    "The creation of a Federated Cloud Marketplace is underway to provide a one-stop shop for cloud-edge applications and infrastructure from compliant providers.",
+    "The establishment of a European Competence Centre for Open Source is proposed to support the development and adoption of open source technologies across the EU.",
+    "The implementation of a roadmap for EU innovative data encryption technologies, including quantum-safe and privacy-enhancing encryptions, is being pursued to protect sensitive data.",
+    "The development of a dynamic application lifecycle orchestration engine is being prioritized to manage applications across the edge-to-cloud continuum effectively.",
+    "The promotion of serverless computing models is being encouraged to enhance application development efficiency and reduce infrastructure management burdens."
+  ],
+  "commitments": [
+    "By 2030, deploy 10,000 climate-neutral, highly secure edge nodes across the EU.",
+    "Achieve a reduction of greenhouse gas emissions by 55% by 2030.",
+    "By 2025, 80% of all generated data is expected to be processed at the edge.",
+    "By 2030, ensure that 100% of key public services for citizens and businesses are available online.",
+    "By 2030, ensure that 100% of European citizens have access to electronic health records.",
+    "By 2030, ensure that 80% of citizens have access to a digital ID solution."
+  ],
+  "score": 58,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 70,
+    "completeness": 70,
+    "accuracy": 90,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "EUU",
+    "agreement_type": [
+      "Roadmap",
+      "Roadmap"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Digital Decade",
+      "Horizon Europe",
+      "EU Cyber Strategy"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "business",
+      "citizen",
+      "industry",
+      "public administration",
+      "researcher"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Large Corporations",
+        "label": "Industry"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Researchers"
+      }
+    ],
+    "start_date": "2024-07-10",
+    "end_date": "2024-07-10",
+    "commitment_details": [
+      {
+        "text": "By 2030, deploy 10,000 climate-neutral, highly secure edge nodes across the EU.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Achieve a reduction of greenhouse gas emissions by 55% by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2025, 80% of all generated data is expected to be processed at the edge.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, ensure that 100% of key public services for citizens and businesses are available online.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "By 2030, ensure that 100% of European citizens have access to electronic health records.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "By 2030, ensure that 80% of citizens have access to a digital ID solution.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Deploy 10,000 climate-neutral, highly secure edge nodes across the EU by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Edge Node Deployment",
+        "target_value": 10000.0,
+        "target_description": "Deploy climate-neutral edge nodes to enhance digital infrastructure.",
+        "unit": "nodes",
+        "timeframe": "by 2030",
+        "measurement_method": "Count of deployed edge nodes",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Reduce greenhouse gas emissions by 55% by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Emissions Reduction",
+        "target_value": 55.0,
+        "target_description": "Achieve a significant reduction in GHG emissions across sectors.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Comparison of emissions data",
+        "responsible_entity": "European Union Member States",
+        "sector": "Environmental Policy"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Create a comprehensive framework to protect critical infrastructures.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "European Commission",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Increase the market share of European cloud providers from 13% to 20% by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Cloud Provider Market Share",
+        "target_value": 20.0,
+        "target_description": "Boost the market share of EU cloud providers to enhance competitiveness.",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Market analysis and share reporting",
+        "responsible_entity": "European Cloud Alliance",
+        "sector": "Cloud Computing"
+      },
+      {
+        "kpi_text": "Implement regulations to ensure data protection and privacy by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Data Protection Regulations Implementation",
+        "target_value": null,
+        "target_description": "Establish comprehensive regulations for data protection and privacy.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Regulatory framework establishment",
+        "responsible_entity": "European Union",
+        "sector": "Data Protection"
+      },
+      {
+        "kpi_text": "Achieve 80% of EU enterprises using cloud services by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Cloud Service Adoption Rate",
+        "target_value": 80.0,
+        "target_description": "Increase the adoption of cloud services among EU enterprises.",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Enterprise surveys and cloud usage statistics",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Economy"
+      },
+      {
+        "kpi_text": "Develop capabilities for 100% of key public services to be available online by 2030.",
+        "kpi_type": "qualitative",
+        "metric_name": "Public Service Digital Availability",
+        "target_value": null,
+        "target_description": "Ensure all key public services are accessible online.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Assessment of public service availability",
+        "responsible_entity": "Member States",
+        "sector": "Public Administration"
+      },
+      {
+        "kpi_text": "Train 1 million people in digital skills by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Training",
+        "target_value": 1000000.0,
+        "target_description": "Enhance digital skills among the workforce.",
+        "unit": "people",
+        "timeframe": "by 2025",
+        "measurement_method": "Training program enrollment statistics",
+        "responsible_entity": "European Commission",
+        "sector": "Education and Training"
+      },
+      {
+        "kpi_text": "Establish a European open hardware ecosystem by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Open Hardware Ecosystem Establishment",
+        "target_value": null,
+        "target_description": "Create a collaborative environment for open hardware development.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Ecosystem establishment and partnerships",
+        "responsible_entity": "European Commission",
+        "sector": "Technology Development"
+      },
+      {
+        "kpi_text": "Launch 5 major EU-funded projects on AI and data sharing by 2024.",
+        "kpi_type": "quantitative",
+        "metric_name": "AI and Data Sharing Projects",
+        "target_value": 5.0,
+        "target_description": "Initiate significant projects to advance AI and data sharing.",
+        "unit": "projects",
+        "timeframe": "by 2024",
+        "measurement_method": "Project initiation and funding reports",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "European Commission",
+    "sdg_alignment": [
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Commission is prominently mentioned throughout the text as a key player in the development and implementation of the Telco Cloud Thematic Roadmap, overseeing initiatives and policies that shape the digital landscape in Europe."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "EU Member States are frequently referenced in the context of collaboration and commitment to the European digital strategy, playing a crucial role in the implementation of policies and initiatives outlined in the roadmap."
+    },
+    {
+      "name": "Telecommunication Companies",
+      "category": "Economic Actors",
+      "relevance_score": 0.8,
+      "justification": "Telecommunication companies are essential stakeholders in the roadmap, as they are directly involved in the deployment of cloud and edge technologies, influencing the economic landscape and technological advancements in the sector."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Data governance is central to the document's focus on ensuring data sovereignty and compliance with EU regulations, making it a critical theme for the success of the digital strategy."
+    },
+    {
+      "name": "Digital Infrastructure",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "Digital infrastructure is essential for enabling the edge-to-cloud continuum and supports the overall digital transformation strategy outlined in the roadmap."
+    },
+    {
+      "name": "Data Protection",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Data protection is vital for maintaining user trust and compliance with regulations like GDPR, which are emphasized throughout the document as key objectives."
+    }
+  ]
+}

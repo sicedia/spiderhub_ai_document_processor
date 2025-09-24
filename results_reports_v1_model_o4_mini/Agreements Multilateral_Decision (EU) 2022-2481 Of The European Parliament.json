@@ -1,0 +1,334 @@
+{
+  "title": "Europe's Digital Decade: Policy Programme and Objectives for 2030",
+  "date": "2022-12-14",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The Digital Decade Policy Programme 2030, established by the European Parliament and Council on December 14, 2022, aims to guide the EU's digital transformation by promoting a human-centric, sustainable digital society. It sets measurable targets across four key areas: connectivity, digital skills, digital business, and digital public services. The programme emphasizes inclusivity, ensuring that all citizens, including those in remote areas, can access digital opportunities. It introduces a monitoring mechanism to track progress and encourages multi-country projects to pool resources for large-scale initiatives. The framework aligns with the European Declaration on Digital Rights and Principles, reinforcing EU values in the digital realm. Annual reports will assess advancements towards these objectives, fostering cooperation among Member States to achieve a digitally empowered Europe by 2030.",
+  "characteristics": [
+    "The Digital Decade Policy Programme 2030 aims to empower citizens and businesses through digital transformation, emphasizing digital sovereignty, inclusion, and sustainability.",
+    "It establishes measurable targets in four key areas: connectivity, digital skills, digital business, and digital public services, with annual progress reports by the Commission.",
+    "Multi-country projects are encouraged to pool resources for large-scale initiatives, enhancing cooperation among Member States.",
+    "The framework promotes a human-centric digital society, ensuring that digital rights and principles align with European values, fostering accessibility and fairness for all citizens."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Decade",
+      "Digital Skills Development",
+      "Digital Infrastructure",
+      "Digital Platforms"
+    ],
+    "Data & Governance": [
+      "Digital Rights",
+      "Digital Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Member States",
+      "European Parliament",
+      "European Commission"
+    ],
+    "Research and Innovation Actors": [
+      "Digital Innovation Hubs"
+    ],
+    "Civil Society Actors": [
+      "European Digital Rights"
+    ]
+  },
+  "practical_applications": [
+    "Establishment of the Digital Decade Policy Programme 2030, which sets measurable targets for connectivity, digital skills, digital business, and digital public services.",
+    "Annual reporting mechanism by the European Commission to monitor progress towards the Digital Decade targets.",
+    "Implementation of multi-country projects that allow Member States to pool investments and launch large-scale, cross-border initiatives.",
+    "Adoption of the European Declaration on Digital Rights and Principles, which reflects EU values in the digital world.",
+    "National digital decade strategic roadmaps required from each Member State by 9 October 2023, detailing policies, measures, and actions to achieve the Digital Decade objectives.",
+    "Integration of the Digital Economy and Society Index (DESI) to assess and monitor the digital transformation progress across Member States.",
+    "Commitment to ensure that by 2030, at least 80% of individuals aged 16-74 have at least basic digital skills and that 20 million ICT specialists are employed within the EU.",
+    "Target for all end users at a fixed location to be covered by a gigabit network and for all populated areas to have access to next-generation wireless high-speed networks by 2030."
+  ],
+  "commitments": [
+    "By 2030, at least 80% of individuals aged 16-74 should have at least basic digital skills.",
+    "By 2030, at least 20 million ICT specialists should be employed within the EU.",
+    "By 2030, all end users at a fixed location should be covered by a gigabit network up to the network termination point.",
+    "By 2030, all populated areas should be covered by next-generation wireless high-speed networks with performance at least equivalent to that of 5G.",
+    "By 2030, the production of cutting-edge semiconductors in the EU should be at least 20% of world production in value.",
+    "By 2030, at least 10,000 climate-neutral highly secure edge nodes should be deployed in the EU.",
+    "By 2025, the EU should have its first computer with quantum acceleration.",
+    "By 2030, at least 75% of EU enterprises should have taken up one or more of cloud computing services, big data, or artificial intelligence.",
+    "By 2030, more than 90% of EU SMEs should reach at least a basic level of digital intensity.",
+    "By 2030, there should be 100% online accessible provision of key public services.",
+    "By 2030, 100% of EU citizens should have access to their electronic health records.",
+    "By 2030, 100% of EU citizens should have access to secure electronic identification (eID) means recognized throughout the EU.",
+    "By 9 October 2023, each Member State shall submit to the Commission its national roadmap."
+  ],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 81,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "EUU",
+    "agreement_type": [
+      "Legal Treaty",
+      "Roadmap"
+    ],
+    "legal_bindingness": "Legally-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Digital Decade"
+    ],
+    "review_schedule": "Annual",
+    "beneficiary_group_raw": [
+      "citizen",
+      "business",
+      "woman",
+      "SME",
+      "community"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      }
+    ],
+    "start_date": "2022-12-14",
+    "end_date": "2030-01-01",
+    "commitment_details": [
+      {
+        "text": "By 2030, at least 80% of individuals aged 16-74 should have at least basic digital skills.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, at least 20 million ICT specialists should be employed within the EU.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, all end users at a fixed location should be covered by a gigabit network up to the network termination point.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, all populated areas should be covered by next-generation wireless high-speed networks with performance at least equivalent to that of 5G.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, the production of cutting-edge semiconductors in the EU should be at least 20% of world production in value.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, at least 10,000 climate-neutral highly secure edge nodes should be deployed in the EU.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2025, the EU should have its first computer with quantum acceleration.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, at least 75% of EU enterprises should have taken up one or more of cloud computing services, big data, or artificial intelligence.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, more than 90% of EU SMEs should reach at least a basic level of digital intensity.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, there should be 100% online accessible provision of key public services.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, 100% of EU citizens should have access to their electronic health records.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, 100% of EU citizens should have access to secure electronic identification (eID) means recognized throughout the EU.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 9 October 2023, each Member State shall submit to the Commission its national roadmap.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "At least 80 % of those aged 16-74 have at least basic digital skills",
+        "kpi_type": "quantitative",
+        "metric_name": "Basic Digital Skills",
+        "target_value": 80.0,
+        "target_description": "Percentage of population aged 16-74 with at least basic digital skills",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Surveys and assessments of digital skills",
+        "responsible_entity": "Member States",
+        "sector": "Digital Skills"
+      },
+      {
+        "kpi_text": "At least 20 million ICT specialists are employed within the Union",
+        "kpi_type": "quantitative",
+        "metric_name": "ICT Specialists Employment",
+        "target_value": 20000000.0,
+        "target_description": "Total number of employed ICT specialists in the EU",
+        "unit": "number of specialists",
+        "timeframe": "by 2030",
+        "measurement_method": "Labor market statistics",
+        "responsible_entity": "Member States",
+        "sector": "Digital Skills"
+      },
+      {
+        "kpi_text": "All end users at a fixed location are covered by a gigabit network up to the network termination point",
+        "kpi_type": "quantitative",
+        "metric_name": "Gigabit Network Coverage",
+        "target_value": null,
+        "target_description": "Coverage of gigabit networks for all end users",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Network infrastructure assessments",
+        "responsible_entity": "Telecommunications providers and Member States",
+        "sector": "Connectivity"
+      },
+      {
+        "kpi_text": "All populated areas are covered by next-generation wireless high-speed networks with performance at least equivalent to that of 5G",
+        "kpi_type": "quantitative",
+        "metric_name": "5G Network Coverage",
+        "target_value": null,
+        "target_description": "Coverage of next-generation wireless networks in populated areas",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Network infrastructure assessments",
+        "responsible_entity": "Telecommunications providers and Member States",
+        "sector": "Connectivity"
+      },
+      {
+        "kpi_text": "At least 75 % of Union enterprises have taken up one or more of the following: cloud computing services, big data, artificial intelligence",
+        "kpi_type": "quantitative",
+        "metric_name": "Enterprise Digital Adoption",
+        "target_value": 75.0,
+        "target_description": "Percentage of enterprises using advanced digital technologies",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Business surveys and reports",
+        "responsible_entity": "Member States",
+        "sector": "Digital Business"
+      },
+      {
+        "kpi_text": "More than 90 % of Union SMEs reach at least a basic level of digital intensity",
+        "kpi_type": "quantitative",
+        "metric_name": "SME Digital Intensity",
+        "target_value": 90.0,
+        "target_description": "Percentage of SMEs achieving basic digital intensity",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Surveys and assessments of SME digital practices",
+        "responsible_entity": "Member States",
+        "sector": "Digital Business"
+      },
+      {
+        "kpi_text": "100 % online accessible provision of key public services",
+        "kpi_type": "qualitative",
+        "metric_name": "Public Services Digital Accessibility",
+        "target_value": null,
+        "target_description": "All key public services available online",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Public service accessibility assessments",
+        "responsible_entity": "Member States",
+        "sector": "Digital Public Services"
+      },
+      {
+        "kpi_text": "100 % of Union citizens have access to their electronic health records",
+        "kpi_type": "qualitative",
+        "metric_name": "Electronic Health Records Access",
+        "target_value": null,
+        "target_description": "Access to electronic health records for all citizens",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Health service accessibility assessments",
+        "responsible_entity": "Member States",
+        "sector": "Digital Public Services"
+      },
+      {
+        "kpi_text": "100 % of Union citizens have access to secure electronic identification means recognized throughout the Union",
+        "kpi_type": "qualitative",
+        "metric_name": "Secure eID Access",
+        "target_value": null,
+        "target_description": "Access to secure electronic identification for all citizens",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "eID accessibility assessments",
+        "responsible_entity": "Member States",
+        "sector": "Digital Public Services"
+      }
+    ],
+    "country_list_iso": [
+      "DEU",
+      "SWE"
+    ],
+    "responsible_entity": "the Commission",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the overarching entity responsible for establishing the Digital Decade Policy Programme, making it central to the document's objectives and initiatives."
+    },
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Commission plays a crucial role in proposing, implementing, and monitoring the Digital Decade initiatives, making it a key actor in the digital transformation efforts outlined in the text."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "Member States are essential for the implementation of the Digital Decade objectives and are involved in multi-country projects, thus significantly influencing the success of the initiatives."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Decade (Digital Transformation & Strategy)",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 1.0,
+      "justification": "The Digital Decade is the central theme of the document, outlining the EU's vision and strategic framework for digital transformation by 2030. It encompasses all other themes and is crucial for achieving the overall objectives."
+    },
+    {
+      "name": "Digital Skills Development (Digital Transformation & Strategy)",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "Digital skills development is essential for empowering citizens and businesses to effectively engage with digital technologies. It is a key objective within the Digital Decade framework, ensuring that the workforce is equipped for the digital economy."
+    },
+    {
+      "name": "Digital Infrastructure (Digital Transformation & Strategy)",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "Digital infrastructure is vital for enabling connectivity and access to digital services across the EU. It supports the implementation of the Digital Decade objectives and is necessary for bridging the digital divide."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Regional Forum on the Ethics of Artificial Intelligence",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "AI Ethics"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 75,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 30,
+    "completeness": 75,
+    "accuracy": 85,
+    "issues": [
+      "Internal inconsistencies detected across data sections"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": null,
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "AI Ethics",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.9,
+      "justification": "AI Ethics is central to the document's main message, focusing on the ethical implications and responsibilities associated with the development and deployment of artificial intelligence technologies. The content dedicated to this theme is substantial, reflecting its strategic importance in guiding ethical standards and practices in AI."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.8,
+      "justification": "Artificial Intelligence as a theme is crucial as it encompasses the technology itself, which is the subject of the discussions in the document. While it is a significant theme, the focus on ethical considerations elevates the importance of AI Ethics in the context of responsible innovation."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "title": "Digital Agenda for Latin America and the Caribbean (eLAC2026) at the Ninth Ministerial Conference on the Information Society",
+  "date": "2024-11-08",
+  "location": "Santiago, Chile",
+  "executive_summary": "The Ninth Ministerial Conference on the Information Society in Latin America and the Caribbean, held on November 7-8, 2024, focused on the Digital Agenda for Latin America and the Caribbean (eLAC2026). This agenda aims to leverage digital technologies to address economic, social, and governance challenges in the region. It comprises three main axes: enhancing connectivity and digital infrastructure, improving governance and digital security, and fostering innovation through emerging technologies and artificial intelligence. Strategic objectives include universal access to digital services, strengthening data protection, and promoting digital skills. The conference emphasized the need for collaboration among governments, private sectors, and civil society to ensure effective implementation and monitoring of these initiatives, with specific targets set for 2026, such as increasing broadband penetration and improving e-Government rankings. ECLAC serves as the technical secretariat to support these efforts.",
+  "characteristics": [
+    "The Digital Agenda for Latin America and the Caribbean (eLAC2026) aims to enhance digital transformation through three axes: connectivity and infrastructure, governance and security, and innovation for sustainable development.",
+    "It emphasizes the importance of digital technologies in addressing economic, social, and institutional challenges in the region, particularly in promoting inclusion and transparency.",
+    "The agenda includes strategic objectives such as universal access to digital infrastructure, strengthening digital security, and fostering ethical frameworks for artificial intelligence.",
+    "It outlines specific targets for 2026, including increased broadband penetration, improved e-Government rankings, and enhanced digital skills among the population.",
+    "The follow-up mechanism involves coordination among various stakeholders, including a technical secretariat and working groups to monitor progress and implement initiatives."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Agenda",
+      "Digital Infrastructure"
+    ],
+    "Data & Governance": [
+      "E-Governance"
+    ],
+    "Technology & Innovation": [
+      "Artificial Intelligence"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations",
+      "Economic Commission for Latin America and the Caribbean (ECLAC)"
+    ],
+    "Research and Innovation Actors": [
+      "Digital Innovation Hubs",
+      "EU-LAC Digital Alliance"
+    ],
+    "Civil Society Actors": [
+      "Digital Skills Development Platforms"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the Digital Agenda for Latin America and the Caribbean (eLAC2026) focusing on three axes: meaningful connectivity and digital infrastructure, governance and digital security, and innovation, emerging technologies, and artificial intelligence for sustainable development.",
+    "Deployment of telecommunications infrastructure in rural and underserved areas to support universal access, leveraging universal access funds and regulatory frameworks.",
+    "Investment in resilient digital infrastructure, including high-speed broadband networks and mobile networks, to expand and improve digital connectivity.",
+    "Development and implementation of policies and standards for online child safety in accordance with international law and human rights.",
+    "Establishment of frameworks for data protection to safeguard privacy and security of personal information.",
+    "Promotion of digital transformation in health through telemedicine and electronic health records to improve access and quality of healthcare.",
+    "Support for the integration of digital technologies in education systems, including teacher training in digital skills and the development of inclusive platforms.",
+    "Establishment of national strategies on digital skills and competencies to adapt curricula for the digital era.",
+    "Promotion of open government and open data to enhance transparency and accountability in public services.",
+    "Creation of the Digital Development Observatory to monitor and evaluate progress in digital transformation in the region.",
+    "Establishment of the Policy Lab for the Digital Transformation to develop new digital transformation policies and foster regional collaborative projects."
+  ],
+  "commitments": [
+    "Double the population covered by 5G networks from 36% (2023) to 72% by 2026.",
+    "Achieve 70% fixed broadband penetration in households, up from 66% (2023) by 2026.",
+    "Reach an average fixed broadband connection speed of 100 Mbps (downstream) for the region, up from 85 Mbps (2024) by 2026.",
+    "Attain an average mobile broadband connection speed of 33 Mbps (downstream), up from 28 Mbps (2024) by 2026.",
+    "Improve the ranking of 20 countries in the e-Government Development Index (EGDI) of the United Nations, from 13 countries (2022–2024) by 2026.",
+    "Increase the percentage of companies with e-commerce operations to 52%, up from 50% (2023) by 2026.",
+    "Ensure that 50% of the population has basic digital skills, up from 45% (2022) by 2026.",
+    "Raise the percentage of the population with advanced digital skills to 20%, up from 14% (2022) by 2026.",
+    "Have 30 countries in the region with a national cybersecurity strategy, up from 17 of 33 countries (2023) by 2026.",
+    "Rank 6 countries as pioneers in the Latin American artificial intelligence index (ILIA), up from 3 countries listed as pioneers (2023) by 2026."
+  ],
+  "score": 88,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 88,
+    "completeness": 88,
+    "accuracy": 70,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [
+      "Ministerial Communiqué"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "women",
+      "children",
+      "adolescents",
+      "young people",
+      "persons with disabilities"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Children"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      }
+    ],
+    "start_date": "2024-11-07",
+    "end_date": "2024-11-08",
+    "commitment_details": [
+      {
+        "text": "Double the population covered by 5G networks from 36% (2023) to 72% by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Achieve 70% fixed broadband penetration in households, up from 66% (2023) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Reach an average fixed broadband connection speed of 100 Mbps (downstream) for the region, up from 85 Mbps (2024) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Attain an average mobile broadband connection speed of 33 Mbps (downstream), up from 28 Mbps (2024) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Improve the ranking of 20 countries in the e-Government Development Index (EGDI) of the United Nations, from 13 countries (2022–2024) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Increase the percentage of companies with e-commerce operations to 52%, up from 50% (2023) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Ensure that 50% of the population has basic digital skills, up from 45% (2022) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Raise the percentage of the population with advanced digital skills to 20%, up from 14% (2022) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Have 30 countries in the region with a national cybersecurity strategy, up from 17 of 33 countries (2023) by 2026.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Rank 6 countries as pioneers in the Latin American artificial intelligence index (ILIA), up from 3 countries listed as pioneers (2023) by 2026.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Double the population covered by 5G networks",
+        "kpi_type": "quantitative",
+        "metric_name": "5G Network Coverage",
+        "target_value": 70.0,
+        "target_description": "Increase the percentage of the total population covered by 5G networks",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Percentage of population covered by 5G networks",
+        "responsible_entity": "Member States",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "70% fixed broadband penetration in households",
+        "kpi_type": "quantitative",
+        "metric_name": "Fixed Broadband Penetration",
+        "target_value": 70.0,
+        "target_description": "Achieve the percentage of fixed broadband penetration in households",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Percentage of households with fixed broadband",
+        "responsible_entity": "Member States",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "100 Mbps as average fixed broadband connection speed (downstream) for the region",
+        "kpi_type": "quantitative",
+        "metric_name": "Average Fixed Broadband Speed",
+        "target_value": 100.0,
+        "target_description": "Achieve average fixed broadband connection speed for the region",
+        "unit": "Mbps",
+        "timeframe": "by 2026",
+        "measurement_method": "Average speed measurement of fixed broadband connections",
+        "responsible_entity": "Member States",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "20 countries improve their ranking in the e-Government Development Index (EGDI) of the United Nations",
+        "kpi_type": "quantitative",
+        "metric_name": "e-Government Development Index Improvement",
+        "target_value": 20.0,
+        "target_description": "Number of countries improving their ranking in the e-Government Development Index",
+        "unit": "countries",
+        "timeframe": "by 2026",
+        "measurement_method": "Tracking changes in the e-Government Development Index",
+        "responsible_entity": "Member States",
+        "sector": "Governance"
+      },
+      {
+        "kpi_text": "52% of companies with e-commerce operations",
+        "kpi_type": "quantitative",
+        "metric_name": "E-commerce Operations",
+        "target_value": 52.0,
+        "target_description": "Percentage of companies that receive orders online",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Percentage of companies engaged in e-commerce",
+        "responsible_entity": "Member States",
+        "sector": "Economy"
+      },
+      {
+        "kpi_text": "50% of the population has basic digital skills",
+        "kpi_type": "quantitative",
+        "metric_name": "Basic Digital Skills",
+        "target_value": 50.0,
+        "target_description": "Percentage of the population with basic digital skills",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Surveys measuring digital skills among the population",
+        "responsible_entity": "Member States",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "30 countries of the region have a national cybersecurity strategy",
+        "kpi_type": "quantitative",
+        "metric_name": "National Cybersecurity Strategy",
+        "target_value": 30.0,
+        "target_description": "Number of countries in the region with a national cybersecurity strategy",
+        "unit": "countries",
+        "timeframe": "by 2026",
+        "measurement_method": "Count of countries with established cybersecurity strategies",
+        "responsible_entity": "Member States",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "6 countries ranked as pioneers in the Latin American artificial intelligence index (ILIA)",
+        "kpi_type": "quantitative",
+        "metric_name": "AI Pioneers",
+        "target_value": 6.0,
+        "target_description": "Number of countries ranked as pioneers in the Latin American artificial intelligence index",
+        "unit": "countries",
+        "timeframe": "by 2026",
+        "measurement_method": "Ranking in the Latin American artificial intelligence index",
+        "responsible_entity": "Member States",
+        "sector": "Artificial Intelligence"
+      },
+      {
+        "kpi_text": "Establish guidelines and regulations for the development and use of artificial intelligence",
+        "kpi_type": "qualitative",
+        "metric_name": "AI Development Guidelines",
+        "target_value": null,
+        "target_description": "Create ethical and responsible frameworks for AI development and use",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2026",
+        "measurement_method": "Assessment of established guidelines and regulations",
+        "responsible_entity": "Member States",
+        "sector": "Artificial Intelligence"
+      },
+      {
+        "kpi_text": "Promote the publication and use of open data to improve accountability and transparency",
+        "kpi_type": "qualitative",
+        "metric_name": "Open Data Promotion",
+        "target_value": null,
+        "target_description": "Encourage the use of open data for better governance",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2026",
+        "measurement_method": "Evaluation of open data initiatives and their impact",
+        "responsible_entity": "Member States",
+        "sector": "Governance"
+      }
+    ],
+    "country_list_iso": [
+      "DOM",
+      "GTM",
+      "MEX",
+      "PER",
+      "URY",
+      "USA"
+    ],
+    "responsible_entity": "ECLAC",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 3: Good Health and Well-being",
+      "SDG 10: Reduced Inequalities",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Economic Commission for Latin America and the Caribbean (ECLAC)",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "ECLAC plays a central role in the document as it serves as the technical secretariat for the Digital Agenda and is responsible for coordinating efforts to address digital transformation challenges in Latin America and the Caribbean."
+    },
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The UN is prominently mentioned as a key player in promoting digital cooperation and setting global commitments, which are foundational to the initiatives discussed in the document."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.6,
+      "justification": "The EU-LAC Digital Alliance is relevant as it represents collaboration between Europe and Latin America in digital initiatives, which is crucial for the region's digital transformation efforts."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Agenda",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "The Digital Agenda is central to the document as it outlines the strategic framework for digital transformation in Latin America and the Caribbean, addressing key objectives and commitments for the region's development."
+    },
+    {
+      "name": "Digital Infrastructure",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "Digital Infrastructure is crucial for enabling connectivity and access to digital services, which is a foundational element of the Digital Agenda and is extensively discussed in the document."
+    },
+    {
+      "name": "E-Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.75,
+      "justification": "E-Governance is important for improving transparency and efficiency in public administration, aligning with the document's focus on governance and the role of digital technologies in enhancing institutional capacities."
+    }
+  ]
+}

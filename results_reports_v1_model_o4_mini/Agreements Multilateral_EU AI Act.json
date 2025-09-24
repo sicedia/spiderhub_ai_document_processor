@@ -1,0 +1,45 @@
+{
+  "title": null,
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {},
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 6,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 30,
+    "accuracy": 0,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [
+      "Legal Treaty"
+    ],
+    "legal_bindingness": null,
+    "coverage_scope": null,
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": []
+}

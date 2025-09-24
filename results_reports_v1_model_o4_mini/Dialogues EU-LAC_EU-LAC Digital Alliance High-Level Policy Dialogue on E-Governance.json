@@ -1,0 +1,299 @@
+{
+  "title": "EU-LAC Digital Alliance Advances E-Governance Cooperation and Interoperability",
+  "date": "2024-05-17",
+  "location": "San José, Costa Rica",
+  "executive_summary": "The EU-LAC Digital Alliance convened a High-Level Policy Dialogue on E-Governance in San José, Costa Rica, from May 15-17, 2024, to enhance cooperation in digital public services. The meeting aimed to develop an action plan for improving interoperability among digital services in Latin America and the Caribbean (LAC) and the European Union (EU). Key initiatives discussed included the Central American Digital Trade Platform, which aims to streamline trade operations and reduce costs, and a project in El Salvador to modernize its civil registry system. The dialogue also emphasized the importance of closing the gender gap in technology through initiatives like GovStack, which empowers women in digital governance. The discussions set the groundwork for a bi-regional agenda leading up to the 2025 EU-CELAC Summit, reinforcing the commitment to regular cooperation on digital matters for the benefit of citizens.",
+  "characteristics": [
+    "The EU-LAC Digital Alliance aims to enhance eGovernance through improved cooperation and interoperability between digital public services in the EU and Latin America & the Caribbean.",
+    "A key focus is on establishing a digital civil registry in El Salvador to ensure legal identity and access to public services for all citizens.",
+    "The initiative promotes women's participation in GovTech, equipping them with skills to drive digital transformation in public administration.",
+    "The dialogue serves as a platform for sharing best practices and experiences, contributing to a roadmap for bi-regional cooperation on digital governance.",
+    "The Central American Digital Trade Platform exemplifies successful interoperability, facilitating trade and reducing costs for over 10,000 companies."
+  ],
+  "themes": {
+    "Data & Governance": [
+      "E-Governance",
+      "Digital Governance",
+      "Data Protection"
+    ],
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Gender Equality in Tech"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "Costa Rica",
+      "Guatemala",
+      "Estonia",
+      "Paula Bogantes",
+      "Edie Cux",
+      "Felice Zaccheo",
+      "Ana Maria Busoniu",
+      "Hannes Astok",
+      "Sealtiel Álvarez Sánchez"
+    ],
+    "Research and Innovation Actors": [
+      "GovStack",
+      "ITU-International Telecommunication Union",
+      "DIAL-Digital Impact Alliance",
+      "EU-LAC Digital Alliance"
+    ],
+    "Economic Actors": [
+      "EU Global Gateway",
+      "Inter-American Development Bank",
+      "World Bank"
+    ]
+  },
+  "practical_applications": [
+    "The EU-LAC Digital Alliance is implementing a roadmap for bi-regional cooperation on eGovernance, which includes an action plan for increasing interoperability among digital public services in LAC countries and the EU.",
+    "The Central American Digital Trade Platform is operational, facilitating cross-border interactions with government authorities and simplifying trade for users from six Central American countries, benefiting over 10,000 exporting companies.",
+    "The EU Global Gateway has provided EUR 8 million for the design and implementation of the Central American Digital Trade Platform, with a second phase of funding amounting to EUR 5 million aimed at boosting cybersecurity and enhancing platform functionalities.",
+    "An agreement has been signed between the EU and the government of El Salvador for the project \"Strengthening the Digital Civil Register System of El Salvador,\" aimed at updating and automating the birth and death registration system.",
+    "The GovStack initiative, supported by Germany, Estonia, ITU, and DIAL, has launched a cohort for women in GovTech in LAC, focusing on developing skills for citizen-centric digital government services.",
+    "A Joint Declaration was issued by participating countries during the EU-CELAC Summit in July 2023, committing to regular bi-regional dialogue and cooperation on digital matters."
+  ],
+  "commitments": [
+    "The EU Global Gateway contributed EUR 8 million for the design and implementation of the Central American Digital Trade Platform in 2023.",
+    "The second phase of the Central American Digital Trade Platform project will have an overall funding of EUR 5 million to boost cybersecurity and strengthen the platform’s functionalities.",
+    "The Central American Digital Trade Platform is estimated to reduce trade costs by 3.2%.",
+    "The EU has signed an agreement with the government of El Salvador for the implementation of the project \"Strengthening the Digital Civil Register System of El Salvador,\" which aims to fully automate and make the birth and death registration system interoperable.",
+    "A roadmap for bi-regional cooperation on eGovernance is to be co-developed ahead of the 2025 EU-CELAC Summit."
+  ],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 81,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "CRI",
+    "agreement_type": [
+      "Ministerial Communiqué"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [
+      "Global Gateway"
+    ],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "citizen",
+      "business",
+      "woman",
+      "government",
+      "community"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      }
+    ],
+    "start_date": "2024-05-15",
+    "end_date": "2024-05-17",
+    "commitment_details": [
+      {
+        "text": "The EU Global Gateway contributed EUR 8 million for the design and implementation of the Central American Digital Trade Platform in 2023.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "The second phase of the Central American Digital Trade Platform project will have an overall funding of EUR 5 million to boost cybersecurity and strengthen the platform’s functionalities.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "The Central American Digital Trade Platform is estimated to reduce trade costs by 3.2%.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU has signed an agreement with the government of El Salvador for the implementation of the project \"Strengthening the Digital Civil Register System of El Salvador,\" which aims to fully automate and make the birth and death registration system interoperable.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "A roadmap for bi-regional cooperation on eGovernance is to be co-developed ahead of the 2025 EU-CELAC Summit.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "The EU Global Gateway contributed EUR 8 million for the design and implementation of the platform in 2023.",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Trade Platform Funding",
+        "target_value": 8.0,
+        "target_description": "Funding for the design and implementation of the digital trade platform.",
+        "unit": "million EUR",
+        "timeframe": "in 2023",
+        "measurement_method": "Financial allocation records",
+        "responsible_entity": "EU Global Gateway",
+        "sector": "Digital Governance"
+      },
+      {
+        "kpi_text": "The second phase of the project with an overall funding of EUR 5 million will boost cybersecurity and strengthen the platform’s functionalities.",
+        "kpi_type": "quantitative",
+        "metric_name": "Cybersecurity Project Funding",
+        "target_value": 5.0,
+        "target_description": "Funding for the second phase of the project to enhance cybersecurity.",
+        "unit": "million EUR",
+        "timeframe": "Phase two funding",
+        "measurement_method": "Financial allocation records",
+        "responsible_entity": "EU Global Gateway",
+        "sector": "Digital Governance"
+      },
+      {
+        "kpi_text": "It is estimated that it will reduce trade costs by 3.2%.",
+        "kpi_type": "quantitative",
+        "metric_name": "Trade Cost Reduction",
+        "target_value": 3.2,
+        "target_description": "Reduction in trade costs due to the implementation of the digital trade platform.",
+        "unit": "percentage",
+        "timeframe": "Post-implementation",
+        "measurement_method": "Cost analysis reports",
+        "responsible_entity": "Central American Trade Authorities",
+        "sector": "Trade and Commerce"
+      },
+      {
+        "kpi_text": "More than 10,000 Central American exporting companies are projected to benefit from the platform.",
+        "kpi_type": "quantitative",
+        "metric_name": "Beneficiary Companies",
+        "target_value": 10000.0,
+        "target_description": "Number of exporting companies benefiting from the digital trade platform.",
+        "unit": "companies",
+        "timeframe": "Post-implementation",
+        "measurement_method": "User registration and impact assessment",
+        "responsible_entity": "Central American Trade Authorities",
+        "sector": "Trade and Commerce"
+      },
+      {
+        "kpi_text": "The project will contribute to a fully-fledged digital civil registry framed by a regulation that enhances access to public services and citizens’ rights.",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Civil Registry Implementation",
+        "target_value": null,
+        "target_description": "Establish a fully-fledged digital civil registry in El Salvador.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing until completion",
+        "measurement_method": "Project implementation reports",
+        "responsible_entity": "Government of El Salvador",
+        "sector": "Public Administration"
+      },
+      {
+        "kpi_text": "Closing the gender gap is key to closing the digital divide.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Gap Closure in Digital Skills",
+        "target_value": null,
+        "target_description": "Implement initiatives to close the gender gap in digital skills.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Program evaluation and impact assessment",
+        "responsible_entity": "GovStack Initiative",
+        "sector": "Digital Governance"
+      },
+      {
+        "kpi_text": "The leading projects will be showcased at the World Summit on the Information Society (WSIS) 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Showcasing Digital Projects",
+        "target_value": null,
+        "target_description": "Showcase successful digital projects at WSIS 2024.",
+        "unit": "qualitative milestone",
+        "timeframe": "By 2024",
+        "measurement_method": "Event participation records",
+        "responsible_entity": "GovStack Initiative",
+        "sector": "Digital Governance"
+      },
+      {
+        "kpi_text": "The discussions were intended to co-develop a roadmap for bi-regional cooperation on eGovernance.",
+        "kpi_type": "qualitative",
+        "metric_name": "Bi-Regional Cooperation Roadmap",
+        "target_value": null,
+        "target_description": "Develop a roadmap for cooperation on eGovernance between EU and LAC.",
+        "unit": "qualitative milestone",
+        "timeframe": "By 2025",
+        "measurement_method": "Roadmap documentation and agreements",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Governance"
+      }
+    ],
+    "country_list_iso": [
+      "CRI",
+      "DEU",
+      "EST",
+      "GTM",
+      "HND",
+      "NIC",
+      "PAN",
+      "SLV",
+      "ESP"
+    ],
+    "responsible_entity": "EU-LAC Digital Alliance",
+    "sdg_alignment": [
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Digital Alliance is central to the document, as it is the main initiative discussed regarding eGovernance and interoperability between the EU and LAC, highlighting its role in improving digital public services."
+    },
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.85,
+      "justification": "The European Commission is a key political actor in the dialogue, co-chairing the event and playing a significant role in the EU's digital strategy and funding initiatives."
+    },
+    {
+      "name": "Paula Bogantes",
+      "category": "Political Actors",
+      "relevance_score": 0.75,
+      "justification": "As the Minister of Science, Innovation, Technology and Telecommunications of Costa Rica, Paula Bogantes is a prominent figure in the dialogue, representing the host country and contributing to discussions on digital governance."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "E-Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "E-Governance is central to the document's main message, focusing on improving public services through digital transformation and interoperability, which is a key objective of the EU-LAC Digital Alliance."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.85,
+      "justification": "The EU-LAC Digital Alliance is a foundational theme of the document, representing the collaborative framework for enhancing digital governance and cooperation between the EU and LAC regions."
+    },
+    {
+      "name": "Data Protection",
+      "category": "Data & Governance",
+      "relevance_score": 0.75,
+      "justification": "Data Protection is crucial for ensuring citizens' rights and trust in digital services, which is emphasized in the context of the digital civil registry project in El Salvador and the overall digital transformation efforts."
+    }
+  ]
+}

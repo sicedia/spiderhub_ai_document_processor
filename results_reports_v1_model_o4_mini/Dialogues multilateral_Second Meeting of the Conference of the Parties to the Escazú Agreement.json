@@ -1,0 +1,76 @@
+{
+  "title": "Second Meeting of the Conference of the Parties to the Escazú Agreement",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 44,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 44,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "CRI",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The United Nations is a key player in multilateral dialogues and agreements, particularly in the context of the Escazú Agreement, which focuses on environmental rights and access to information. Their involvement signifies their influence and authority in international policy-making."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document's main message, emphasizing the importance of collaboration across borders in the digital realm. The content dedicated to this theme is substantial, reflecting its strategic importance in achieving global objectives related to digital governance and cooperation."
+    },
+    {
+      "name": "Environmental Sustainability",
+      "category": "Sustainable Development",
+      "relevance_score": 0.8,
+      "justification": "This theme is crucial as it aligns with the commitments made during the Conference of the Parties to the Escazú Agreement, focusing on environmental protection and sustainable practices. The amount of content dedicated to this theme indicates its significance in the context of global environmental challenges."
+    },
+    {
+      "name": "Human Rights and Access to Information",
+      "category": "Social Justice",
+      "relevance_score": 0.7,
+      "justification": "This theme is important as it relates to the fundamental rights of individuals in the digital age, particularly regarding access to information and transparency. The strategic importance of this theme is highlighted by its connection to key objectives of the Escazú Agreement, which aims to promote the rights of individuals in environmental matters."
+    }
+  ]
+}

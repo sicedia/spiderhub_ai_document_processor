@@ -1,0 +1,176 @@
+{
+  "title": "Informal Meeting of European Council Leaders in Prague: Key Discussions on Ukraine, Energy, and Economic Challenges (7 October 2022)",
+  "date": "2022-10-07",
+  "location": "Prague, Czech Republic",
+  "executive_summary": "On October 7, 2022, EU leaders convened in Prague for an informal meeting, hosted by Czech Prime Minister Petr Fiala and chaired by President Charles Michel. The agenda focused on three critical issues: Russia's war in Ukraine, the energy crisis, and the economic situation in the EU. Leaders discussed strategies for supporting Ukraine amidst escalating aggression from Russia, including military and financial aid, and measures to protect critical infrastructure. They also addressed the urgent need to ensure energy security and affordability for households and businesses, evaluating existing decisions and proposing coordinated actions. Additionally, the meeting aimed to foster cooperation among European nations on shared challenges, including peace, security, and economic stability, following the inaugural European Political Community meeting the previous day.",
+  "characteristics": [
+    "The informal meeting of the European Council took place in Prague on 7 October 2022, hosted by Czech Prime Minister Petr Fiala and chaired by President Charles Michel.",
+    "Key discussion topics included Russia's war in Ukraine, energy security, and the economic situation in the EU.",
+    "Leaders aimed to coordinate responses to high energy prices and ensure support for vulnerable populations.",
+    "The meeting followed the inaugural session of the European Political Community on 6 October, focusing on cooperation among European nations."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Cybersecurity"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Policy"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Council",
+      "Prime Minister Petr Fiala",
+      "President Charles Michel"
+    ],
+    "European Union": [
+      "European Council"
+    ]
+  },
+  "practical_applications": [
+    "Established the European Political Community (EPC) to foster cooperation among European leaders on issues such as peace and security, economic situation, energy and climate, and migration and mobility.",
+    "Implemented emergency measures to reduce energy prices in response to the energy crisis, coordinated at the EU level.",
+    "Ongoing discussions among EU leaders to provide strong economic, military, political, and financial support to Ukraine in light of Russia's aggression."
+  ],
+  "commitments": [],
+  "score": 90,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 90,
+    "completeness": 90,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "CZE",
+    "agreement_type": [
+      "Ministerial Communiqué"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2022-10-06",
+    "end_date": "2022-10-07",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Leaders will discuss EU’s response and how to continue providing strong economic, military, political and financial support to Ukraine.",
+        "kpi_type": "qualitative",
+        "metric_name": "Support to Ukraine",
+        "target_value": null,
+        "target_description": "Continue providing strong economic, military, political, and financial support to Ukraine.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of support measures implemented",
+        "responsible_entity": "European Council",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "Leaders’ primary focus is on how to guarantee security of supply and affordable energy for households and businesses.",
+        "kpi_type": "qualitative",
+        "metric_name": "Energy Security and Affordability",
+        "target_value": null,
+        "target_description": "Guarantee security of supply and affordable energy for households and businesses.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of energy supply and pricing policies",
+        "responsible_entity": "European Council",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Council agrees on emergency measures to reduce energy prices.",
+        "kpi_type": "qualitative",
+        "metric_name": "Emergency Energy Price Measures",
+        "target_value": null,
+        "target_description": "Implement emergency measures to reduce energy prices.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Review of implemented measures and their impact on energy prices",
+        "responsible_entity": "European Council",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Leaders will address high prices for households and businesses and how the EU can support growth and jobs while protecting the vulnerable who suffer the most from high energy bills.",
+        "kpi_type": "qualitative",
+        "metric_name": "Support for Vulnerable Populations",
+        "target_value": null,
+        "target_description": "Support growth and jobs while protecting vulnerable populations from high energy bills.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of policies aimed at supporting vulnerable populations",
+        "responsible_entity": "European Council",
+        "sector": "Economic Policy"
+      },
+      {
+        "kpi_text": "The ambition is to bring leaders together on the European continent and to foster their cooperation on issues of common interest.",
+        "kpi_type": "qualitative",
+        "metric_name": "European Cooperation",
+        "target_value": null,
+        "target_description": "Foster cooperation among leaders on common interest issues.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of cooperation initiatives and outcomes",
+        "responsible_entity": "European Council",
+        "sector": "International Relations"
+      }
+    ],
+    "country_list_iso": [
+      "RUS",
+      "UKR"
+    ],
+    "responsible_entity": "European Council",
+    "sdg_alignment": [
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "President Charles Michel",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "As the President of the European Council, Charles Michel plays a crucial role in chairing the meeting and leading discussions on significant topics such as the war in Ukraine, energy security, and economic challenges. His prominence in the text and leadership position make him highly relevant."
+    },
+    {
+      "name": "Prime Minister Petr Fiala",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "Petr Fiala, as the host of the informal meeting and the Prime Minister of the Czech Republic, is central to the event's organization and discussions. His role in facilitating the meeting and his involvement in the European Political Community highlight his importance."
+    },
+    {
+      "name": "European Council",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The European Council is the main body convening the meeting, and its members are key decision-makers in the EU. The discussions revolve around critical issues affecting the EU, making the Council itself a significant actor in the context of the document."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Energy Situation",
+      "category": "Economic and Security Issues",
+      "relevance_score": 0.9,
+      "justification": "The energy situation is a central theme of the document, as it directly addresses the urgent need for EU leaders to ensure security of supply and affordable energy amidst the ongoing crisis, making it a top priority for discussion."
+    },
+    {
+      "name": "Russia’s War in Ukraine",
+      "category": "Geopolitical Issues",
+      "relevance_score": 0.85,
+      "justification": "The discussion on Russia's war in Ukraine is crucial as it shapes the EU's geopolitical stance and response, influencing both military and economic support strategies, thus holding significant importance in the context of the meeting."
+    },
+    {
+      "name": "Economic Situation",
+      "category": "Economic and Social Issues",
+      "relevance_score": 0.8,
+      "justification": "The economic situation is vital as it encompasses the broader implications of high prices and the need for growth and job support, reflecting the EU's commitment to protecting vulnerable populations during the energy crisis."
+    }
+  ]
+}

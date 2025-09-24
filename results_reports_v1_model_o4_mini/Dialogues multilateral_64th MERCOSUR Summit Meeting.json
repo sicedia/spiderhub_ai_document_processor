@@ -1,0 +1,54 @@
+{
+  "title": "64th MERCOSUR Summit Meeting Summary",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 18,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 30,
+    "accuracy": 25,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "ARG",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it likely addresses the collaborative efforts among MERCOSUR member states to enhance digital cooperation, which is crucial for regional integration and development."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "title": "1st Global Forum on the Ethics of AI",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "AI Ethics"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 31,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 31,
+    "accuracy": 33,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "YYYY-01-01",
+    "end_date": "YYYY-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Establish a robust ethical framework for AI governance by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ethical Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish a robust ethical framework for AI governance",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "AI Governance Committee",
+        "sector": "Technology"
+      },
+      {
+        "kpi_text": "Increase public awareness of AI ethics by 40% by 2026 through educational campaigns.",
+        "kpi_type": "quantitative",
+        "metric_name": "Public Awareness Increase",
+        "target_value": 40.0,
+        "target_description": "Increase public awareness of AI ethics",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Surveys and assessments of public awareness",
+        "responsible_entity": "Public Relations Office",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Train 500 policymakers on AI ethics by 2024.",
+        "kpi_type": "quantitative",
+        "metric_name": "Policymaker Training",
+        "target_value": 500.0,
+        "target_description": "Train policymakers on AI ethics",
+        "unit": "people",
+        "timeframe": "by 2024",
+        "measurement_method": "Training completion records",
+        "responsible_entity": "Training Department",
+        "sector": "Policy"
+      },
+      {
+        "kpi_text": "Develop international cooperation agreements on AI ethics with at least 10 countries by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "International Cooperation Agreements",
+        "target_value": null,
+        "target_description": "Develop international cooperation agreements on AI ethics",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Number of signed agreements",
+        "responsible_entity": "International Relations Office",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "Publish an annual report on AI ethics compliance by 2023.",
+        "kpi_type": "qualitative",
+        "metric_name": "Annual Compliance Report",
+        "target_value": null,
+        "target_description": "Publish an annual report on AI ethics compliance",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Publication of the report",
+        "responsible_entity": "Compliance Department",
+        "sector": "Regulation"
+      },
+      {
+        "kpi_text": "Reduce AI-related incidents by 30% by 2026.",
+        "kpi_type": "quantitative",
+        "metric_name": "AI Incident Reduction",
+        "target_value": 30.0,
+        "target_description": "Reduce AI-related incidents",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Incident reports analysis",
+        "responsible_entity": "Safety and Risk Management",
+        "sector": "Safety"
+      },
+      {
+        "kpi_text": "Enhance transparency in AI algorithms by implementing disclosure standards by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Transparency Standards Implementation",
+        "target_value": null,
+        "target_description": "Implement disclosure standards for AI algorithms",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Standards implementation review",
+        "responsible_entity": "Standards Committee",
+        "sector": "Technology"
+      },
+      {
+        "kpi_text": "Establish a public consultation process on AI ethics by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Public Consultation Process",
+        "target_value": null,
+        "target_description": "Establish a public consultation process on AI ethics",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Consultation process documentation",
+        "responsible_entity": "Public Engagement Office",
+        "sector": "Community Engagement"
+      },
+      {
+        "kpi_text": "Allocate €50 million for AI ethics research by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "AI Ethics Research Funding",
+        "target_value": 50.0,
+        "target_description": "Allocate funding for AI ethics research",
+        "unit": "million EUR",
+        "timeframe": "by 2025",
+        "measurement_method": "Budget allocation records",
+        "responsible_entity": "Finance Department",
+        "sector": "Research"
+      },
+      {
+        "kpi_text": "Create a certification program for ethical AI developers by 2026.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ethical AI Developer Certification",
+        "target_value": null,
+        "target_description": "Create a certification program for ethical AI developers",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2026",
+        "measurement_method": "Program development and launch",
+        "responsible_entity": "Certification Board",
+        "sector": "Education"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The United Nations is a key player in global discussions on ethics, particularly in the context of AI, as it often facilitates international dialogue and sets frameworks for ethical standards."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "AI Ethics",
+      "category": "Technology & Innovation",
+      "relevance_score": 1.0,
+      "justification": "AI Ethics is the central theme of the document, as it directly addresses the ethical considerations and implications of artificial intelligence, which is the primary focus of the forum."
+    }
+  ]
+}

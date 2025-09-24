@@ -1,0 +1,175 @@
+{
+  "title": "Special Declaration on Cybercrime by MERCOSUR Leaders",
+  "date": "2022-12-06",
+  "location": "Montevideo, Uruguay",
+  "executive_summary": "On December 6, 2022, during the LXI MERCOSUR Summit in Montevideo, leaders from Argentina, Paraguay, Uruguay, and Brazil acknowledged the growing threat of cybercrime as a transnational issue. They recognized the potential of information and communication technologies for development, while also noting the increased complexity and volume of digital crimes. The declaration emphasizes the need for enhanced cooperation among states, including technical assistance to improve national legislation and capabilities against cybercrime. It highlights the importance of international legal cooperation, referencing the Budapest Convention on Cybercrime, and calls for ongoing dialogue within the UN framework to align regional objectives. The leaders committed to strengthening coordination and collaboration among MERCOSUR member and associated states to combat cybercrime effectively.",
+  "characteristics": [
+    "The declaration was made by leaders of MERCOSUR countries, emphasizing the potential and risks of information and communication technologies.",
+    "It acknowledges the transnational nature of cybercrime and the increasing complexity of digital crimes.",
+    "There is a call for improved coordination and cooperation among states to combat cybercrime effectively.",
+    "The importance of international legal cooperation and existing instruments like the Budapest Convention is highlighted.",
+    "The declaration stresses the need for ongoing dialogue and collaboration within MERCOSUR to address cybercrime challenges."
+  ],
+  "themes": {
+    "Data & Governance": [
+      "Cybersecurity",
+      "Digital Governance"
+    ],
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Alberto Fernández",
+      "Mario Abdo Benítez",
+      "Luis Lacalle Pou",
+      "Hamilton Mourão"
+    ],
+    "Southern Common Market": [
+      "MERCOSUR"
+    ]
+  },
+  "practical_applications": [
+    "Established a Special Declaration on Cybercrime among MERCOSUR member states (Argentina, Paraguay, Uruguay, and Brazil) to enhance cooperation and coordination in combating cybercrime.",
+    "Recognized the need for technical assistance among countries to improve national legislation and frameworks to address cybercrime.",
+    "Emphasized the importance of international legal cooperation in criminal matters to tackle cybercrime, referencing the Budapest Convention on Cybercrime (2001).",
+    "Agreed to strengthen coordination and cooperation among MERCOSUR member states to effectively combat cybercrime."
+  ],
+  "commitments": [],
+  "score": 94,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 94,
+    "completeness": 94,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "URY",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2022-12-06",
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "mejorar la coordinación y la cooperación entre los Estados en la lucha contra la utilización de las tecnologías de la información y las comunicaciones con fines delictivos",
+        "kpi_type": "qualitative",
+        "metric_name": "Coordinación y Cooperación en Ciberdelincuencia",
+        "target_value": null,
+        "target_description": "Mejorar la coordinación y cooperación entre los Estados en la lucha contra la ciberdelincuencia",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de la efectividad de la cooperación y coordinación",
+        "responsible_entity": "Estados Partes y Estados Asociados del MERCOSUR",
+        "sector": "Ciberdelincuencia"
+      },
+      {
+        "kpi_text": "fortalecer la capacidad de sus autoridades nacionales para hacer frente al fenómeno de la ciberdelincuencia en todas sus formas",
+        "kpi_type": "qualitative",
+        "metric_name": "Fortalecimiento de Capacidades Nacionales",
+        "target_value": null,
+        "target_description": "Reforzar la capacidad de las autoridades nacionales para enfrentar la ciberdelincuencia",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de la capacidad de respuesta de las autoridades",
+        "responsible_entity": "Autoridades nacionales de los Estados Partes",
+        "sector": "Ciberdelincuencia"
+      },
+      {
+        "kpi_text": "continuar fortaleciendo la coordinación y cooperación entre los Estados Partes y Estados Asociados del MERCOSUR para hacer frente a la ciberdelincuencia",
+        "kpi_type": "qualitative",
+        "metric_name": "Fortalecimiento de la Coordinación y Cooperación",
+        "target_value": null,
+        "target_description": "Continuar fortaleciendo la coordinación y cooperación en la lucha contra la ciberdelincuencia",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Revisión de acuerdos y colaboraciones establecidas",
+        "responsible_entity": "Estados Partes y Estados Asociados del MERCOSUR",
+        "sector": "Ciberdelincuencia"
+      },
+      {
+        "kpi_text": "mejorar su legislación y sus marcos nacionales",
+        "kpi_type": "qualitative",
+        "metric_name": "Mejora de Legislación y Marcos Nacionales",
+        "target_value": null,
+        "target_description": "Mejorar la legislación y marcos nacionales para combatir la ciberdelincuencia",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de cambios legislativos y marcos implementados",
+        "responsible_entity": "Gobiernos de los Estados Partes",
+        "sector": "Ciberdelincuencia"
+      },
+      {
+        "kpi_text": "proteger los derechos y hacer cumplir los deberes pertinentes en la utilización y el desarrollo de las tecnologías de la información",
+        "kpi_type": "qualitative",
+        "metric_name": "Protección de Derechos en Tecnologías de Información",
+        "target_value": null,
+        "target_description": "Proteger derechos y deberes en el uso de tecnologías de información",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de políticas de protección de derechos",
+        "responsible_entity": "Gobiernos de los Estados Partes",
+        "sector": "Ciberdelincuencia"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "BRA",
+      "PRY"
+    ],
+    "responsible_entity": "MERCOSUR",
+    "sdg_alignment": [
+      "SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "MERCOSUR",
+      "category": "Southern Common Market",
+      "relevance_score": 1.0,
+      "justification": "MERCOSUR is the central entity facilitating the cooperation and coordination among the member states in addressing cybercrime, making it crucial to the document's context."
+    },
+    {
+      "name": "Alberto Fernández",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "As the President of Argentina, he is a prominent figure in the declaration, representing one of the key member states and actively participating in the discussions."
+    },
+    {
+      "name": "Mario Abdo Benítez",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "As the President of Paraguay, he is also a significant actor in the declaration, contributing to the collective stance against cybercrime among the member states."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Cybersecurity",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Cybersecurity is central to the document's main message, as it addresses the increasing threat of cybercrime and emphasizes the need for improved national capacities to combat it."
+    },
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.85,
+      "justification": "The document highlights the importance of cooperation among states to effectively address cybercrime, making this theme crucial for achieving the stated objectives."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.75,
+      "justification": "Digital governance is relevant as it relates to the legal frameworks and policies needed to manage and mitigate cybercrime, which is a key focus of the declaration."
+    }
+  ]
+}

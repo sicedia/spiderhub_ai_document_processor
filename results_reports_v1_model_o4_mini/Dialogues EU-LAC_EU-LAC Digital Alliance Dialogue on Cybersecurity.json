@@ -1,0 +1,200 @@
+{
+  "title": "EU-LAC Digital Alliance Enhances Cybersecurity Cooperation",
+  "date": "2024-02-14",
+  "location": "Santo Domingo, Dominican Republic",
+  "executive_summary": "The EU-LAC Digital Alliance convened a high-level policy dialogue on cybersecurity from February 14-16, 2024, in Santo Domingo, Dominican Republic, marking a significant step in enhancing cooperation between Europe and Latin America and the Caribbean. Over 150 representatives from government, civil society, academia, and the private sector discussed critical cybersecurity issues, including cyberdiplomacy, capacity building, and the protection of critical infrastructure. The dialogue emphasized a multi-stakeholder approach and identified four key pillars for action: workforce capacity building, cooperation, strengthened cyber ecosystems, and secure connectivity. This initiative aims to bolster national and regional cybersecurity frameworks, addressing the rising threat of cyber-attacks and fostering a resilient digital environment. The outcomes will contribute to the roadmap leading to the 2025 EU-CELAC Summit, reinforcing shared values and collaborative efforts in the digital domain.",
+  "characteristics": [
+    "The EU-LAC Digital Alliance held a high-level policy dialogue on cybersecurity in February 2024, focusing on cooperation to combat cyber threats.",
+    "Over 150 representatives from government, civil society, academia, and the private sector participated, emphasizing a multi-stakeholder approach.",
+    "Key discussion topics included cyberdiplomacy, capacity building, and the protection of critical infrastructure.",
+    "The dialogue established four pillars for cybersecurity: workforce capacity building, multi-stakeholder cooperation, strengthened cyber ecosystems, and secure connectivity.",
+    "The initiative aims to enhance global cybersecurity and align shared values between the EU and LAC in multilateral forums."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ],
+    "Data & Governance": [
+      "Cybersecurity"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Member States",
+      "European Commission",
+      "Community of Latin American and Caribbean States",
+      "Dominican Republic"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "practical_applications": [
+    "The EU-LAC Digital Alliance held a high-level policy dialogue on cybersecurity from February 14-16, 2024, in Santo Domingo, Dominican Republic, focusing on key issues such as cyberdiplomacy, resilient ecosystems, capacity building, and the protection of critical infrastructure.",
+    "The dialogue developed a comprehensive approach to cybersecurity based on four key pillars: workforce capacity building, multi-stakeholder cooperation, strengthened cyber ecosystems, and secure connectivity.",
+    "A roadmap was set by the EU-LAC Digital Alliance, launched in March 2023, which includes commitments to regular bi-regional dialogue and cooperation on digital matters, as outlined in a Joint Declaration from the EU-CELAC Summit in July 2023.",
+    "The dialogue aims to produce a set of concrete steps leading up to the 2025 EU-CELAC Summit, enhancing global cybersecurity and contributing to a free, open, safe, and secure cyberspace."
+  ],
+  "commitments": [],
+  "score": 92,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 92,
+    "completeness": 92,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "DOM",
+    "agreement_type": [
+      "Roadmap"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [
+      "Global Gateway",
+      "EU Cyber Strategy"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "government",
+      "civil society",
+      "academia",
+      "private sector",
+      "citizen"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Public Sector / Governments",
+        "label": "Ministries"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Academic Institutions"
+      },
+      {
+        "category": "Private Sector Organizations",
+        "label": "Private Sector Organizations"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      }
+    ],
+    "start_date": "2024-02-14",
+    "end_date": "2024-02-16",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Over 150 senior government representatives from Latin America and the Caribbean (LAC), the European Union (EU) and its Member States, as well as civil society, academia, and private sector, gathered in Santo Domingo, Dominican Republic on 14-16 February 2024.",
+        "kpi_type": "quantitative",
+        "metric_name": "Senior Government Representatives Participation",
+        "target_value": 150.0,
+        "target_description": "Gather senior government representatives for the dialogue",
+        "unit": "individuals",
+        "timeframe": "by February 2024",
+        "measurement_method": "Count of participants at the event",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "The dialogue was focused on key issues of cybersecurity, such as cyberdiplomacy, resilient ecosystems, capacity building and the protection of critical infrastructure.",
+        "kpi_type": "qualitative",
+        "metric_name": "Focus Areas of Cybersecurity Dialogue",
+        "target_value": null,
+        "target_description": "Address key issues of cybersecurity in the dialogue",
+        "unit": "qualitative milestone",
+        "timeframe": "during the dialogue",
+        "measurement_method": "Review of dialogue agenda and discussions",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "The outcome of the EU-LAC Dialogue on Cybersecurity and other upcoming digital dialogues will be a set of concrete steps on the way towards the 2025 EU-CELAC Summit.",
+        "kpi_type": "qualitative",
+        "metric_name": "Concrete Steps Towards 2025 EU-CELAC Summit",
+        "target_value": null,
+        "target_description": "Develop a set of concrete steps for future cooperation",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Documentation of agreed steps and actions",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Strengthening of critical infrastructure is essential to ensure the reliability and sustainability of services and data.",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Critical Infrastructure",
+        "target_value": null,
+        "target_description": "Enhance the resilience of critical infrastructure against cyber threats",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Assessment of infrastructure resilience",
+        "responsible_entity": "National Governments",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Collaboration between both regions is essential to enhance global cybersecurity.",
+        "kpi_type": "qualitative",
+        "metric_name": "Enhancing Global Cybersecurity Collaboration",
+        "target_value": null,
+        "target_description": "Foster collaboration between EU and LAC for cybersecurity",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluation of collaborative initiatives and agreements",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity"
+      }
+    ],
+    "country_list_iso": [
+      "BLZ",
+      "COL",
+      "DOM"
+    ],
+    "responsible_entity": "EU-LAC Digital Alliance",
+    "sdg_alignment": [
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 4: Quality Education",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Union is a central actor in the dialogue, representing a significant political entity that drives the cooperation on cybersecurity between Europe and Latin America & the Caribbean."
+    },
+    {
+      "name": "Dominican Republic",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "As the host country for the dialogue, the Dominican Republic plays a crucial role in facilitating discussions and is represented by high-level officials, making it a key player in the context of the event."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.7,
+      "justification": "The EU-LAC Digital Alliance is instrumental in promoting cooperation and setting the agenda for the dialogue, focusing on cybersecurity initiatives and fostering collaboration between the two regions."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Cybersecurity",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Cybersecurity is the central theme of the document, as it discusses the cooperation between the EU and LAC to tackle cyber threats, which are described as one of the main threats of our time. The document dedicates significant content to various aspects of cybersecurity, including capacity building, resilient ecosystems, and the protection of critical infrastructure."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.8,
+      "justification": "The EU-LAC Digital Alliance serves as the framework for the cooperation discussed in the document. It highlights the importance of bi-regional dialogue and collaboration in enhancing cybersecurity, aligning shared values, and addressing emerging challenges. The theme is crucial for understanding the strategic partnership between the two regions."
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "title": "EU-CELAC 2021-2023 Strategic Roadmap for Research and Innovation Collaboration",
+  "date": "2021-04-30",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The EU-CELAC 2021-2023 Strategic Roadmap aims to enhance research and innovation collaboration between the European Union and the Community of Latin American and Caribbean States. It emphasizes addressing global challenges such as health, climate change, and digital transformation through a Common Research Area. Key pillars include researcher mobility, cooperation in research infrastructures, and a focus on innovation as a vital component for sustainable development. The roadmap highlights the importance of open science, data sharing, and the role of social sciences in tackling these challenges. It encourages leveraging the Horizon Europe program to strengthen ties and support initiatives that foster interregional collaboration. The document underscores the need for a strategic, action-oriented approach to build resilient research networks and promote knowledge transfer between the regions.",
+  "characteristics": [
+    "The EU-CELAC 2021-2023 Strategic Roadmap aims to enhance research and innovation collaboration between the European Union and Latin American and Caribbean states, focusing on shared global challenges.",
+    "It emphasizes the importance of academic mobility, cooperation in research infrastructures, and addressing health, environmental, and digital transformation issues.",
+    "The roadmap introduces an 'Innovation' pillar, highlighting the need for systemic approaches to foster innovation and sustainable development.",
+    "Open science principles are prioritized, promoting open access to research data and publications to facilitate knowledge sharing.",
+    "The document underscores the significance of public policies in education and health, particularly in the context of the COVID-19 pandemic."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership",
+      "Global Digital Cooperation"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Infrastructure",
+      "Digital Policy",
+      "Digital Research"
+    ],
+    "Technology & Innovation": [
+      "ICT Innovation",
+      "Innovation in Computing"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Digital Governance",
+      "Cybersecurity"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "Community of Latin American and Caribbean States",
+      "European Union"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Foundation",
+      "Universities",
+      "Research Performing Organisations",
+      "Academic Institutions",
+      "European Institute of Innovation and Technology"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the EU-CELAC Common Research Area to enhance collaboration in research and innovation between the EU and CELAC countries.",
+    "Active participation in the EU-LAC RESInfra project, funded by Horizon 2020, to support the development of research infrastructures and collaboration.",
+    "Extension of the Euraxess mobility portal to the entire CELAC region to facilitate researcher mobility and knowledge transfer.",
+    "Ongoing collaboration in global health research initiatives, including support for CEPI and GAVI to ensure equitable access to vaccines.",
+    "Development of joint research efforts on environmental challenges, including the All-Atlantic Ocean Research Alliance to enhance cooperation on ocean-related issues.",
+    "Pilot actions testing the smart specialisation approach in Latin America and the Caribbean, supported by the EU Regional Facility for Development in Transition.",
+    "Promotion of open science initiatives, including the development of open access repositories and data management practices in CELAC states.",
+    "Encouragement of participation in Horizon Europe to strengthen links between CELAC and EU research communities."
+  ],
+  "commitments": [],
+  "score": 82,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 82,
+    "completeness": 82,
+    "accuracy": 57,
+    "issues": [
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "EUU",
+    "agreement_type": [
+      "Roadmap"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Horizon Europe"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "citizen",
+      "researcher",
+      "student",
+      "community",
+      "stakeholder"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Researchers"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Students"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Public"
+      }
+    ],
+    "start_date": "2021-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize investment for digital infrastructure",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Investment mobilization reports",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish robust cybersecurity framework for critical infrastructure",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "EU-CELAC Working Group",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Strengthen regional research networks, including on the link between health and environment",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Regional Research Networks",
+        "target_value": null,
+        "target_description": "Strengthen networks focusing on health and environmental links",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Network collaboration reports",
+        "responsible_entity": "EU-CELAC Participants",
+        "sector": "Health and Environment"
+      },
+      {
+        "kpi_text": "Develop common approaches to complex challenges facing both continents",
+        "kpi_type": "qualitative",
+        "metric_name": "Common Approaches Development",
+        "target_value": null,
+        "target_description": "Develop common approaches to address global challenges",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Policy development assessments",
+        "responsible_entity": "EU-CELAC Participants",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Enhance cooperation in the areas of health, environmental aspects, and digital transformation",
+        "kpi_type": "qualitative",
+        "metric_name": "Cooperation Enhancement",
+        "target_value": null,
+        "target_description": "Enhance cooperation in key thematic areas",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Cooperation agreements and initiatives",
+        "responsible_entity": "EU-CELAC Participants",
+        "sector": "Health, Environment, Digital"
+      },
+      {
+        "kpi_text": "Increase the number of state-of-the-art interregional research teams",
+        "kpi_type": "quantitative",
+        "metric_name": "Interregional Research Teams",
+        "target_value": 50.0,
+        "target_description": "Increase the number of advanced research teams across regions",
+        "unit": "teams",
+        "timeframe": "by 2023",
+        "measurement_method": "Research team formation reports",
+        "responsible_entity": "EU-CELAC Working Group",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Support the operation of the Working Group on Research Infrastructures",
+        "kpi_type": "qualitative",
+        "metric_name": "Working Group Support",
+        "target_value": null,
+        "target_description": "Ensure continued support for the Working Group's operations",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Operational support assessments",
+        "responsible_entity": "EU-CELAC Participants",
+        "sector": "Research Infrastructures"
+      },
+      {
+        "kpi_text": "Develop capacity and retain knowledge in the networks of National Contact Points",
+        "kpi_type": "qualitative",
+        "metric_name": "Capacity Development in National Contact Points",
+        "target_value": null,
+        "target_description": "Enhance capacity and knowledge retention in National Contact Points",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Capacity development evaluations",
+        "responsible_entity": "EU-CELAC Participants",
+        "sector": "Human Capital Development"
+      },
+      {
+        "kpi_text": "Encourage collaboration in chronic, metabolic and infectious diseases",
+        "kpi_type": "qualitative",
+        "metric_name": "Collaboration in Health Research",
+        "target_value": null,
+        "target_description": "Foster collaboration on health-related research topics",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Collaboration agreements and research outputs",
+        "responsible_entity": "EU-CELAC Participants",
+        "sector": "Health Research"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "EUROPEAN COMMISSION",
+    "sdg_alignment": [
+      "SDG 3: Good Health and Well-being",
+      "SDG 13: Climate Action",
+      "SDG 2: Zero Hunger",
+      "SDG 4: Quality Education",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Commission is the primary political actor mentioned throughout the document, responsible for the approval and implementation of the EU-CELAC Strategic Roadmap. Its role is central to the governance and coordination of the initiatives discussed."
+    },
+    {
+      "name": "Community of Latin American and Caribbean States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "As a key political entity representing the interests of Latin American and Caribbean countries, CELAC is crucial for fostering collaboration and dialogue with the EU, making it a significant player in the strategic roadmap."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The European Union is a foundational entity for the initiatives discussed in the document, providing the framework for cooperation and funding opportunities, particularly through programs like Horizon Europe."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-CELAC Digital Partnership",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it outlines the collaborative framework between the EU and CELAC, emphasizing the importance of partnerships in addressing global challenges and enhancing research and innovation."
+    },
+    {
+      "name": "Digital Infrastructure",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "The document dedicates significant content to the development of digital infrastructure, which is crucial for enabling research collaboration and knowledge exchange between the regions, thus supporting the overall strategic goals."
+    },
+    {
+      "name": "Cybersecurity",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Cybersecurity is highlighted as a vital element for building trust in digital environments, which is essential for the success of digital initiatives and cooperation between the EU and CELAC, making it strategically important."
+    }
+  ]
+}

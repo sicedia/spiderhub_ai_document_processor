@@ -1,0 +1,76 @@
+{
+  "title": "8th Meeting of the Forum of the Countries of Latin America and the Caribbean on Sustainable Development",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Sustainable Digital Development"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Authorities from Latin American and Caribbean States"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 44,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 44,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Authorities from Latin American and Caribbean States",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "This actor is the primary focus of the document, indicating their central role in discussions about sustainable development in the region. Their prominence suggests they are key decision-makers and influencers in the initiatives discussed."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Sustainable Digital Development",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document's focus on sustainable development in Latin America and the Caribbean, highlighting the importance of digital inclusion as a means to achieve broader social development goals."
+    },
+    {
+      "name": "Inclusion",
+      "category": "Social Development",
+      "relevance_score": 0.8,
+      "justification": "Inclusion is a critical aspect of sustainable development, ensuring that marginalized communities are considered in policy-making and implementation, which aligns with the document's objectives."
+    },
+    {
+      "name": "Social Development",
+      "category": "Development Goals",
+      "relevance_score": 0.7,
+      "justification": "Social development is a key objective of the Forum, emphasizing the need for equitable growth and access to resources, which is essential for achieving sustainable development in the region."
+    }
+  ]
+}

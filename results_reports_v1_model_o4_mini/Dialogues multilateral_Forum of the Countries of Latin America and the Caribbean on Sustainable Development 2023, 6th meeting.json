@@ -1,0 +1,182 @@
+{
+  "title": "Forum of the Countries of Latin America and the Caribbean on Sustainable Development 2023: 6th Meeting Summary",
+  "date": "2023-04-25",
+  "location": "Santiago, Chile",
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Sustainable Digital Development"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 89,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 89,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "CHL",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-04-25",
+    "end_date": "2023-04-28",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize public and private investment for digital infrastructure",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Investment mobilization reports",
+        "responsible_entity": "Government and private sector",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Reduce greenhouse gas emissions by 50% by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Greenhouse Gas Emissions Reduction",
+        "target_value": 50.0,
+        "target_description": "Achieve a 50% reduction in greenhouse gas emissions",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Emission inventory and reporting",
+        "responsible_entity": "Environmental agencies",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Establish a regional framework for sustainable development by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Sustainable Development Framework Establishment",
+        "target_value": null,
+        "target_description": "Create a comprehensive framework for sustainable development",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and stakeholder engagement",
+        "responsible_entity": "Regional governing bodies",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "Train 1000 people in sustainable agricultural practices by 2026",
+        "kpi_type": "quantitative",
+        "metric_name": "Sustainable Agriculture Training",
+        "target_value": 1000.0,
+        "target_description": "Provide training in sustainable agricultural practices",
+        "unit": "people",
+        "timeframe": "by 2026",
+        "measurement_method": "Training program completion reports",
+        "responsible_entity": "Agricultural training institutions",
+        "sector": "Agriculture"
+      },
+      {
+        "kpi_text": "Increase access to clean water for 10 million people by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Clean Water Access",
+        "target_value": 10.0,
+        "target_description": "Provide access to clean water for underserved populations",
+        "unit": "million people",
+        "timeframe": "by 2030",
+        "measurement_method": "Water access surveys and reports",
+        "responsible_entity": "Water supply authorities",
+        "sector": "Water and Sanitation"
+      },
+      {
+        "kpi_text": "Enhance regional cooperation on climate change adaptation strategies by 2024",
+        "kpi_type": "qualitative",
+        "metric_name": "Climate Change Adaptation Cooperation",
+        "target_value": null,
+        "target_description": "Strengthen collaboration among countries on climate adaptation",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Cooperation agreements and joint initiatives",
+        "responsible_entity": "Regional climate bodies",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "Implement new regulations for waste management by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Waste Management Regulations Implementation",
+        "target_value": null,
+        "target_description": "Adopt and enforce new waste management regulations",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Regulatory compliance assessments",
+        "responsible_entity": "Environmental regulatory agencies",
+        "sector": "Waste Management"
+      },
+      {
+        "kpi_text": "Achieve a 30% increase in renewable energy usage by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Renewable Energy Usage Increase",
+        "target_value": 30.0,
+        "target_description": "Increase the share of renewable energy in the energy mix",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Energy consumption reports",
+        "responsible_entity": "Energy authorities",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Develop a regional biodiversity strategy by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Biodiversity Strategy Development",
+        "target_value": null,
+        "target_description": "Create a strategy to protect and enhance biodiversity",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Strategy documentation and stakeholder consultations",
+        "responsible_entity": "Biodiversity conservation agencies",
+        "sector": "Biodiversity"
+      },
+      {
+        "kpi_text": "Increase public awareness campaigns on sustainable practices by 2026",
+        "kpi_type": "qualitative",
+        "metric_name": "Public Awareness Campaigns",
+        "target_value": null,
+        "target_description": "Launch campaigns to educate the public on sustainability",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2026",
+        "measurement_method": "Campaign reach and engagement metrics",
+        "responsible_entity": "Public information offices",
+        "sector": "Public Awareness"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "Sustainable Digital Development",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document's main message, focusing on the integration of sustainable practices in digital development, which is crucial for achieving social equity and inclusion in the region."
+    },
+    {
+      "name": "Inclusion",
+      "category": "Social Development",
+      "relevance_score": 0.8,
+      "justification": "Inclusion is a key objective of the Forum, emphasizing the need for equitable access to resources and opportunities, which aligns with the strategic goals of sustainable development in Latin America and the Caribbean."
+    },
+    {
+      "name": "Social Development",
+      "category": "Sustainable Development",
+      "relevance_score": 0.7,
+      "justification": "Social development is a broad theme that encompasses various aspects of community well-being and is essential for the overall success of sustainable initiatives discussed in the document."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "High Level Dialogue between the EU and Bolivia",
+  "date": null,
+  "location": "Bolivia",
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Delegations"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 78,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 70,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "BOL",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Union is the primary actor in the dialogue, representing a significant political entity involved in bilateral discussions with Bolivia."
+    },
+    {
+      "name": "EU Delegations",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "EU Delegations play a crucial role in facilitating communication and negotiations between the EU and Bolivia, making them important for the dialogue's implementation."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Digital Alliance is central to the document as it represents a key framework for cooperation between the EU and Bolivia, highlighting the strategic importance of digital collaboration in enhancing bilateral relations."
+    },
+    {
+      "name": "Bilateral Relations",
+      "category": "Diplomatic Engagement",
+      "relevance_score": 0.7,
+      "justification": "Bilateral relations are crucial for understanding the context of the dialogue, as they set the stage for discussions on cooperation and mutual interests between the EU and Bolivia."
+    },
+    {
+      "name": "Sustainable Development Goals (SDGs)",
+      "category": "Global Objectives",
+      "relevance_score": 0.5,
+      "justification": "The alignment with Sustainable Development Goals is important as it reflects the commitment of both parties to address global challenges and promote sustainable development through their partnership."
+    }
+  ]
+}

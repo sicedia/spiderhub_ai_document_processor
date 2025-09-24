@@ -1,0 +1,328 @@
+{
+  "title": "Commission Work Programme 2023: A United Response to Crises and Future Challenges",
+  "date": "2022-10-18",
+  "location": "Strasbourg, France",
+  "executive_summary": "The European Commission's 2023 Work Programme emphasizes unity in addressing multiple crises, including the ongoing war in Ukraine and its economic repercussions. It outlines three key priorities: collective action to tackle challenges, accelerated transformation for resilience and competitiveness, and urgent responses to immediate needs. The programme focuses on energy security, economic stability, and support for Ukraine, with significant financial commitments and humanitarian aid. It also aims to enhance the EU's green and digital transitions, promote social equity, and strengthen democratic values. Key initiatives include the European Green Deal, digital economy advancements, and a renewed focus on citizen engagement following the Conference on the Future of Europe. The Commission will prioritize legislative actions to ensure effective implementation of policies, aiming for a resilient and prosperous Union that upholds its core values and responds effectively to global challenges.",
+  "characteristics": [
+    "The Commission's work program for 2023 emphasizes unity and collective action in response to crises, particularly the war in Ukraine and its economic impacts.",
+    "It prioritizes a radical transformation towards sustainability, resilience, and competitiveness, addressing climate change and energy dependency.",
+    "The program includes initiatives to support citizens, enhance social protections, and ensure economic stability amid high uncertainty.",
+    "It aims to strengthen democracy and uphold fundamental rights, with a focus on media freedom and combating disinformation.",
+    "The Commission plans to implement better regulation and enforcement of EU laws to maximize benefits for citizens and businesses."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Multilateralism"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Data Protection"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Policy",
+      "Digital Economy"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Ursula von der Leyen"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the RepowerEU plan to reduce dependence on Russian energy imports, including gas savings plans and emergency energy market intervention measures.",
+    "Activation of the Temporary Protection Directive to ensure access to jobs, housing, education, and healthcare for Ukrainian refugees.",
+    "Mobilization of over EUR 19 billion in financial support for Ukraine, including EUR 3.1 billion for military support under the European Peace Facility.",
+    "Provision of EUR 100 million for the rehabilitation of damaged Ukrainian schools.",
+    "Establishment of 'Solidarity Lanes' to facilitate Ukraine's export of grain and other products and import of necessary goods.",
+    "Mobilization of EUR 600 million from the European Development Fund to support food security in African, Caribbean, and Pacific countries.",
+    "Adoption of a pioneering proposal to halve pesticide use by 2030 and restore Europe’s damaged ecosystems by 2050.",
+    "Creation of a new European Hydrogen Bank to invest EUR 3 billion into kick-starting a hydrogen market in the EU.",
+    "Launch of the European Year of Skills in 2023 to promote reskilling and upskilling of the workforce.",
+    "Proposal for a Council Recommendation on developing social economy framework conditions to support social economy entities.",
+    "Proposal for a digital euro to ensure the common currency is fit for the digital age.",
+    "Implementation of the Beating Cancer Plan as part of the European Health Union.",
+    "Development of a European Health Data Space to strengthen healthcare quality and continuity.",
+    "Proposal for a revision of the Directive on combatting child sexual abuse to address new challenges brought about by technological change."
+  ],
+  "commitments": [
+    "Provide EUR 100 million for the rehabilitation of damaged Ukrainian schools.",
+    "Mobilise EUR 600 million from the European Development Fund to increase support for food security in African, Caribbean, and Pacific countries.",
+    "Create a new European Hydrogen Bank to invest EUR 3 billion into kick-starting a hydrogen market in the EU.",
+    "Propose a comprehensive reform of the EU electricity market in early 2023.",
+    "Set food waste reduction targets as part of measures to reduce waste and environmental impact in 2023.",
+    "Declare 2023 as the European Year of Skills to deliver necessary reskilling and upskilling of the workforce.",
+    "Present a proposal for a second basket of new own resources in 2023.",
+    "Carry out a mid-term review of the multiannual financial framework (MFF) 2021-2027 in 2023.",
+    "Propose a defence of democracy package in 2023 to promote free and fair elections and combat disinformation.",
+    "Ensure all new rules related to elections are in place in time for the next European Parliament elections in 2024.",
+    "Double firefighting capacities ahead of the 2023 forest fire season and add 10 light amphibious aircraft and 3 helicopters to the fleet."
+  ],
+  "score": 90,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 90,
+    "completeness": 90,
+    "accuracy": 80,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "FRA",
+    "agreement_type": [
+      "Communication"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Digital Decade",
+      "Horizon Europe",
+      "EU Cyber Strategy"
+    ],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "citizen",
+      "business",
+      "youth",
+      "women",
+      "community"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      }
+    ],
+    "start_date": "2022-10-18",
+    "end_date": "2023-01-01",
+    "commitment_details": [
+      {
+        "text": "Provide EUR 100 million for the rehabilitation of damaged Ukrainian schools.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Mobilise EUR 600 million from the European Development Fund to increase support for food security in African, Caribbean, and Pacific countries.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Create a new European Hydrogen Bank to invest EUR 3 billion into kick-starting a hydrogen market in the EU.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Propose a comprehensive reform of the EU electricity market in early 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Set food waste reduction targets as part of measures to reduce waste and environmental impact in 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Declare 2023 as the European Year of Skills to deliver necessary reskilling and upskilling of the workforce.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Present a proposal for a second basket of new own resources in 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Carry out a mid-term review of the multiannual financial framework (MFF) 2021-2027 in 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Propose a defence of democracy package in 2023 to promote free and fair elections and combat disinformation.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Ensure all new rules related to elections are in place in time for the next European Parliament elections in 2024.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "Double firefighting capacities ahead of the 2023 forest fire season and add 10 light amphibious aircraft and 3 helicopters to the fleet.",
+        "commitment_class": "Implemented"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilise over EUR 19 billion to strengthen Ukraine’s economic, social and financial resilience.",
+        "kpi_type": "quantitative",
+        "metric_name": "Support to Ukraine",
+        "target_value": 19.0,
+        "target_description": "Mobilise financial resources to support Ukraine's resilience.",
+        "unit": "billion EUR",
+        "timeframe": null,
+        "measurement_method": "Financial mobilization tracking",
+        "responsible_entity": "European Union",
+        "sector": "International Aid"
+      },
+      {
+        "kpi_text": "Provide EUR 100 million for the rehabilitation of damaged Ukrainian schools.",
+        "kpi_type": "quantitative",
+        "metric_name": "Rehabilitation of Schools in Ukraine",
+        "target_value": 100.0,
+        "target_description": "Financial support for the rehabilitation of schools.",
+        "unit": "million EUR",
+        "timeframe": null,
+        "measurement_method": "Funding allocation and project completion reports",
+        "responsible_entity": "European Union",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Mobilise EUR 600 million from the European Development Fund to increase support to food security to African, Caribbean and Pacific countries.",
+        "kpi_type": "quantitative",
+        "metric_name": "Food Security Support",
+        "target_value": 600.0,
+        "target_description": "Financial support for food security initiatives.",
+        "unit": "million EUR",
+        "timeframe": null,
+        "measurement_method": "Funding allocation and impact assessment",
+        "responsible_entity": "European Union",
+        "sector": "Food Security"
+      },
+      {
+        "kpi_text": "Halve pesticide use by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Pesticide Use Reduction",
+        "target_value": 50.0,
+        "target_description": "Reduce pesticide use in agriculture.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Agricultural monitoring and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Agriculture"
+      },
+      {
+        "kpi_text": "Restore Europe’s damaged ecosystems by 2050.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ecosystem Restoration",
+        "target_value": null,
+        "target_description": "Implement measures to restore ecosystems across Europe.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2050",
+        "measurement_method": "Ecosystem health assessments",
+        "responsible_entity": "European Commission",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Establish a comprehensive framework for sustainable food systems in the EU.",
+        "kpi_type": "qualitative",
+        "metric_name": "Sustainable Food Systems Framework",
+        "target_value": null,
+        "target_description": "Create a framework that integrates sustainability into food policies.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "European Commission",
+        "sector": "Food Policy"
+      },
+      {
+        "kpi_text": "Launch the European Year of Skills to deliver necessary reskilling and upskilling of our workforce.",
+        "kpi_type": "qualitative",
+        "metric_name": "European Year of Skills",
+        "target_value": null,
+        "target_description": "Promote reskilling and upskilling initiatives across Europe.",
+        "unit": "qualitative milestone",
+        "timeframe": "2023",
+        "measurement_method": "Program implementation and participation metrics",
+        "responsible_entity": "European Commission",
+        "sector": "Education and Employment"
+      },
+      {
+        "kpi_text": "Propose a Council Recommendation on developing social economy framework conditions.",
+        "kpi_type": "qualitative",
+        "metric_name": "Social Economy Framework Development",
+        "target_value": null,
+        "target_description": "Develop policies to support social economy entities.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Policy proposal tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Social Economy"
+      },
+      {
+        "kpi_text": "Implement the Joint Roadmap on the Pact on Migration and Asylum.",
+        "kpi_type": "qualitative",
+        "metric_name": "Migration and Asylum Implementation",
+        "target_value": null,
+        "target_description": "Ensure progress on the migration and asylum roadmap.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Implementation progress reports",
+        "responsible_entity": "European Commission",
+        "sector": "Migration"
+      },
+      {
+        "kpi_text": "Present a proposal for a second basket of new own resources.",
+        "kpi_type": "qualitative",
+        "metric_name": "New Own Resources Proposal",
+        "target_value": null,
+        "target_description": "Develop a proposal for new funding sources for the EU.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Proposal submission and legislative tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Finance"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "European Commission",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Ursula von der Leyen",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "As the President of the European Commission, Ursula von der Leyen is prominently mentioned throughout the document, particularly in relation to key initiatives and responses to crises, such as the war in Ukraine and the energy crisis. Her leadership role and direct involvement in shaping the Commission's work programme make her the most relevant actor."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Economy",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "The digital economy is central to the document's main message as it emphasizes the need for Europe to enhance its economic resilience and competitiveness through digital solutions, which are crucial for addressing current challenges and future growth."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.85,
+      "justification": "Digital governance is highlighted as a key aspect of ensuring ethical and transparent digital transformation, which is essential for maintaining trust and security in the digital age, aligning with the document's objectives of promoting a safe and inclusive digital environment."
+    },
+    {
+      "name": "Data Protection",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Data protection is critical in the context of digital transformation, as it underpins citizens' rights and privacy, which are fundamental to the EU's democratic values and the overall success of digital initiatives outlined in the document."
+    }
+  ]
+}

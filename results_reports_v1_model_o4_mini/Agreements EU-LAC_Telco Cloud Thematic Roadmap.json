@@ -1,0 +1,393 @@
+{
+  "title": "European Cloud-Edge Technology Investment Roadmap: Strategic Priorities for 2021-2025",
+  "date": "2021-05",
+  "location": null,
+  "executive_summary": "The European Cloud-Edge Technology Investment Roadmap outlines strategic priorities for enhancing Europe's cloud and edge computing capabilities by 2025. It emphasizes the need for Europe to lead in energy efficiency, cybersecurity, and interoperability, addressing the growing demand for integrated and trustworthy cloud services. The roadmap identifies key investment areas, including climate-neutral infrastructures, advanced cybersecurity measures, and the development of a federated European cloud marketplace. It highlights the importance of leveraging existing initiatives like GAIA-X and fostering public-private partnerships to drive innovation and competitiveness. The report calls for significant investments to build a robust cloud-edge ecosystem that meets the diverse needs of European industries while ensuring data sovereignty and environmental sustainability. By 2030, the vision includes a fully integrated, adaptive cloud-edge infrastructure that supports advanced applications and contributes to the EU's climate goals.",
+  "characteristics": [
+    "**Strategic Investment Focus**: The roadmap emphasizes investments in climate neutrality, cybersecurity, interoperability, and next-generation data center infrastructure to enhance Europe's cloud-edge capabilities by 2025.",
+    "**Technological Leadership**: Aims for Europe to lead in energy-efficient, secure, and interoperable cloud services, leveraging local expertise and addressing sector-specific needs.",
+    "**Infrastructure Development**: Calls for increased density of cloud and edge facilities, supported by advanced network management and ubiquitous connectivity, to meet growing demand.",
+    "**Sovereign Data Services**: Promotes the creation of sovereign, sector-specific services that ensure data privacy and compliance with EU regulations, enhancing trust among users.",
+    "**Collaborative Ecosystem**: Encourages synergies with existing initiatives like GAIA-X and emphasizes the importance of public-private partnerships to drive innovation and investment in cloud technologies."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Infrastructure",
+      "Digital Platforms"
+    ],
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "AI Ethics"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Data Protection"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "European Union",
+      "EU Member States"
+    ],
+    "Research and Innovation Actors": [
+      "European Institute of Innovation and Technology",
+      "Digital Innovation Hubs",
+      "Universities"
+    ],
+    "Economic Actors": [
+      "Private Sector Representatives",
+      "Telecommunication Companies",
+      "Digital Companies"
+    ]
+  },
+  "practical_applications": [
+    "Development of a federated European cloud marketplace to facilitate access to cloud and edge services that comply with EU regulations and standards.",
+    "Implementation of the GAIA-X initiative to establish common frameworks for federated cloud services, ensuring interoperability and data sovereignty.",
+    "Launch of the Climate Neutral Data Centre Pact to promote energy-efficient data center operations and support the EU's climate neutrality goals by 2030.",
+    "Establishment of a pan-European data sharing platform to enable seamless data exchange between public and private organizations, enhancing data-driven business opportunities.",
+    "Investment in low carbon digital infrastructures, including AI and cooling technologies, to optimize energy and resource efficiency in cloud and edge services.",
+    "Development of zero trust identity management solutions powered by AI to enhance cybersecurity across cloud and edge environments.",
+    "Creation of automated Security Operation Centres (SOC) for faster detection and response to cyberattacks, leveraging AI and machine learning technologies.",
+    "Deployment of advanced IaaS/PaaS services to provide scalable and flexible cloud solutions tailored to European market needs.",
+    "Implementation of a Multi-Provider and Cloud-Edge Control-Plane (MPCP) and API Framework to simplify management of multi-cloud environments.",
+    "Investment in the development of open standard/open source cloud software stacks to reduce dependency on non-EU providers and enhance technological sovereignty.",
+    "Establishment of a European Telecom Cloud reference implementation to support the deployment of cloud-native 5G technologies and services.",
+    "Launch of initiatives to retrofitting existing data center facilities for improved energy efficiency and performance.",
+    "Development of edge-compatible supply chain management platforms to enhance operational efficiency in industrial sectors.",
+    "Creation of AI-enabled platforms for healthcare to improve diagnostics and patient care through federated data sources.",
+    "Investment in advanced data center infrastructure management tools to optimize operational efficiency and energy consumption.",
+    "Implementation of middleware and runtime capabilities to support the rapid development and deployment of applications in cloud and edge environments."
+  ],
+  "commitments": [
+    "Achieve a reduction of greenhouse gas emissions by 55% by 2030.",
+    "Deploy 10,000 climate-neutral and secure edge nodes across the EU by 2030.",
+    "Increase the use of advanced cloud services by 75% by 2030 compared to 2018 levels.",
+    "Required investment of €200 million by 2025 for low carbon digital infrastructures.",
+    "Required investment of €100 million by 2025 for cross-industry decarbonization data platforms.",
+    "Required investment of €500 million by 2025 for zero trust identity management solution powered by AI.",
+    "Required investment of €500 million by 2025 for innovative data encryption technologies including quantum safe encryption.",
+    "Required investment of €250 million by 2025 for automated Security Operation Centres (SOC).",
+    "Required investment of €270 million by 2025 for edge cybersecurity (Secure Access Service Edge).",
+    "Required investment of €50 million by 2025 for European cloud services standards.",
+    "Required investment of €150 million by 2025 for Multi-Provider and Cloud-Edge Control-Plane (MPCP) and API Framework.",
+    "Required investment of €100 million by 2025 for a federated European cloud marketplace.",
+    "Required investment of €500 million by 2025 for a reference implementation for cloud and edge deployment.",
+    "Required investment of €2.9 billion by 2025 for cloud data centre infrastructure.",
+    "Required investment of €600 million by 2025 for retrofitting of data centre facilities for improved energy efficiency and performance.",
+    "Required investment of €200 million by 2025 for advanced data centre infrastructure management.",
+    "Required investment of €130 million by 2025 for end-to-end data pipelines and platforms.",
+    "Required investment of €120 million by 2025 for middleware and runtime capabilities.",
+    "Required investment of €150 million by 2025 for application services enabling development of edge use cases."
+  ],
+  "score": 93,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 93,
+    "completeness": 93,
+    "accuracy": 90,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "FRA",
+    "agreement_type": [
+      "Roadmap"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Digital Decade",
+      "Horizon Europe",
+      "EU Cyber Strategy"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "SME",
+      "citizen",
+      "business",
+      "public administration",
+      "industry"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      },
+      {
+        "category": "Large Corporations",
+        "label": "Industry Leaders"
+      }
+    ],
+    "start_date": "2020-12-16",
+    "end_date": "2025-01-01",
+    "commitment_details": [
+      {
+        "text": "Achieve a reduction of greenhouse gas emissions by 55% by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Deploy 10,000 climate-neutral and secure edge nodes across the EU by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Increase the use of advanced cloud services by 75% by 2030 compared to 2018 levels.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Required investment of €200 million by 2025 for low carbon digital infrastructures.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €100 million by 2025 for cross-industry decarbonization data platforms.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €500 million by 2025 for zero trust identity management solution powered by AI.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €500 million by 2025 for innovative data encryption technologies including quantum safe encryption.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €250 million by 2025 for automated Security Operation Centres (SOC).",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €270 million by 2025 for edge cybersecurity (Secure Access Service Edge).",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €50 million by 2025 for European cloud services standards.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €150 million by 2025 for Multi-Provider and Cloud-Edge Control-Plane (MPCP) and API Framework.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €100 million by 2025 for a federated European cloud marketplace.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €500 million by 2025 for a reference implementation for cloud and edge deployment.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €2.9 billion by 2025 for cloud data centre infrastructure.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €600 million by 2025 for retrofitting of data centre facilities for improved energy efficiency and performance.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €200 million by 2025 for advanced data centre infrastructure management.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €130 million by 2025 for end-to-end data pipelines and platforms.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €120 million by 2025 for middleware and runtime capabilities.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Required investment of €150 million by 2025 for application services enabling development of edge use cases.",
+        "commitment_class": "Financed"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Reduce greenhouse gas emissions by 55% by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Greenhouse Gas Emissions Reduction",
+        "target_value": 55.0,
+        "target_description": "Achieve a reduction in greenhouse gas emissions",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Emission tracking and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Deploy 10,000 climate-neutral and secure edge nodes across the EU by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Edge Node Deployment",
+        "target_value": 10000.0,
+        "target_description": "Establish climate-neutral and secure edge nodes",
+        "unit": "nodes",
+        "timeframe": "by 2030",
+        "measurement_method": "Deployment tracking and verification",
+        "responsible_entity": "Member States",
+        "sector": "Technology"
+      },
+      {
+        "kpi_text": "Achieve European software and operational sovereignty by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Software and Operational Sovereignty",
+        "target_value": null,
+        "target_description": "Ensure that software and operations can be sourced from European players",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Assessment of software sourcing and operational capabilities",
+        "responsible_entity": "European Commission",
+        "sector": "Technology"
+      },
+      {
+        "kpi_text": "Invest €200 million in low carbon digital infrastructures by 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Investment in Low Carbon Infrastructures",
+        "target_value": 200.0,
+        "target_description": "Mobilize funds for low carbon digital infrastructures",
+        "unit": "million EUR",
+        "timeframe": "by 2025",
+        "measurement_method": "Financial tracking and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "Develop a robust cybersecurity framework for critical infrastructure protection",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Development",
+        "target_value": null,
+        "target_description": "Establish a comprehensive cybersecurity framework",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "Member States",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Increase the density of edge and cloud facilities to support innovative technologies",
+        "kpi_type": "qualitative",
+        "metric_name": "Infrastructure Density Improvement",
+        "target_value": null,
+        "target_description": "Enhance the number of edge and cloud facilities",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Infrastructure assessment and reporting",
+        "responsible_entity": "Telecom Operators",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "Achieve a 75% increase in the use of advanced cloud services by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Advanced Cloud Services Usage Increase",
+        "target_value": 75.0,
+        "target_description": "Increase the adoption of advanced cloud services",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Usage statistics and surveys",
+        "responsible_entity": "European Commission",
+        "sector": "Technology"
+      },
+      {
+        "kpi_text": "Launch initiatives towards reaching hardware sovereignty by 2030",
+        "kpi_type": "qualitative",
+        "metric_name": "Hardware Sovereignty Initiatives",
+        "target_value": null,
+        "target_description": "Establish initiatives to achieve hardware sovereignty",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Initiative tracking and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Technology"
+      },
+      {
+        "kpi_text": "Develop a federated European cloud marketplace by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Federated Cloud Marketplace Development",
+        "target_value": null,
+        "target_description": "Create a marketplace for cloud services across Europe",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Marketplace establishment and user engagement",
+        "responsible_entity": "European Commission",
+        "sector": "E-commerce"
+      },
+      {
+        "kpi_text": "Establish a pan-European data sharing platform by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Data Sharing Platform Establishment",
+        "target_value": null,
+        "target_description": "Create a platform for data sharing across Europe",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Platform development and user engagement",
+        "responsible_entity": "European Commission",
+        "sector": "Data Management"
+      }
+    ],
+    "country_list_iso": [
+      "DEU",
+      "FRA",
+      "GBR",
+      "ITA",
+      "NLD",
+      "ESP"
+    ],
+    "responsible_entity": "European Commission",
+    "sdg_alignment": [
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Commission is frequently mentioned as a key player in shaping the cloud and edge technology landscape in Europe, driving initiatives, and setting regulatory frameworks that influence the entire sector."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.85,
+      "justification": "The European Union is central to the document's discussions on policy, regulation, and strategic investment, highlighting its role in fostering collaboration and setting overarching goals for cloud and edge technologies."
+    },
+    {
+      "name": "Telecommunication Companies",
+      "category": "Economic Actors",
+      "relevance_score": 0.8,
+      "justification": "Telecommunication companies are crucial for the deployment of cloud and edge services, as they provide the necessary infrastructure and connectivity, making them vital to the success of the initiatives outlined in the roadmap."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Infrastructure",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.95,
+      "justification": "Digital infrastructure is central to the document's main message, emphasizing the need for robust cloud and edge services to support Europe's digital economy and sustainability goals. A significant portion of the content is dedicated to outlining the necessary investments and strategies for enhancing digital infrastructure."
+    },
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Data governance is crucial for ensuring compliance with EU regulations and fostering trust in data management practices. The document highlights the importance of establishing frameworks for data sharing and protection, which are essential for achieving the strategic objectives of digital sovereignty and security."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.85,
+      "justification": "Artificial intelligence is highlighted as a key technology for driving innovation and efficiency in cloud and edge services. The document discusses the role of AI in enhancing data processing capabilities and supporting various applications, making it strategically important for Europe's technological advancement."
+    }
+  ]
+}

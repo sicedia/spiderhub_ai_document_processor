@@ -1,0 +1,76 @@
+{
+  "title": "Signing of the Memorandum of Understanding between Brazil and Ecuador",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "Artificial Intelligence"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "E-Governance"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [
+    "Signing of a Memorandum of Understanding (MoU) between Brazil and Ecuador to establish collaborative initiatives."
+  ],
+  "commitments": [],
+  "score": 54,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 54,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "ECU",
+    "agreement_type": [
+      "MoU"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [
+      "BRA",
+      "ECU"
+    ],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "E-Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "E-Governance is central to the document as it likely outlines the framework for digital interactions and agreements between Brazil and Ecuador, which is crucial for effective governance and collaboration."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Digital Governance supports the overarching theme of E-Governance by providing the necessary policies and structures for managing digital interactions, making it strategically important for the implementation of the MoU."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.6,
+      "justification": "While important, Artificial Intelligence is less central to the document's main message compared to E-Governance and Digital Governance, as it may serve as a tool or enhancement rather than the primary focus of the MoU."
+    }
+  ]
+}

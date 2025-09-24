@@ -1,0 +1,171 @@
+{
+  "title": "2030 Digital Compass: EU Publication Overview",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 79,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 79,
+    "accuracy": 66,
+    "issues": [
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2030-01-01",
+    "end_date": "2030-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Increase the number of digital skills graduates by 20 million by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Graduates",
+        "target_value": 20.0,
+        "target_description": "Increase the number of graduates with digital skills.",
+        "unit": "million",
+        "timeframe": "by 2030",
+        "measurement_method": "Count of graduates reported by educational institutions.",
+        "responsible_entity": "Member States and educational institutions",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Achieve 100% coverage of 5G networks in urban areas by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "5G Network Coverage",
+        "target_value": 100.0,
+        "target_description": "Ensure all urban areas have access to 5G networks.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Network coverage assessments and reports.",
+        "responsible_entity": "Telecommunications providers",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "Reduce the digital divide by increasing internet access to 100% of households by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Household Internet Access",
+        "target_value": 100.0,
+        "target_description": "Ensure all households have internet access.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Surveys and infrastructure reports.",
+        "responsible_entity": "Member States and internet service providers",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "Establish a European Digital Identity framework by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "European Digital Identity Framework",
+        "target_value": null,
+        "target_description": "Create a framework for a secure and interoperable digital identity.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Framework establishment and implementation reports.",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Identity"
+      },
+      {
+        "kpi_text": "Enhance cybersecurity resilience across the EU by implementing the Cybersecurity Act by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Resilience Enhancement",
+        "target_value": null,
+        "target_description": "Implement measures outlined in the Cybersecurity Act.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Compliance and implementation assessments.",
+        "responsible_entity": "Member States and EU institutions",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Increase the number of SMEs adopting digital technologies by 50% by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "SMEs Adopting Digital Technologies",
+        "target_value": 50.0,
+        "target_description": "Encourage small and medium enterprises to adopt digital solutions.",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Surveys and reports on SME technology adoption.",
+        "responsible_entity": "Member States and business associations",
+        "sector": "Business and Economy"
+      },
+      {
+        "kpi_text": "Develop a comprehensive digital education strategy by 2023.",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Education Strategy Development",
+        "target_value": null,
+        "target_description": "Create a strategy to enhance digital education across the EU.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Strategy documentation and stakeholder feedback.",
+        "responsible_entity": "European Commission and Member States",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Implement a framework for data governance by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Data Governance Framework Implementation",
+        "target_value": null,
+        "target_description": "Establish a framework to manage and govern data usage.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and compliance checks.",
+        "responsible_entity": "European Commission",
+        "sector": "Data Governance"
+      },
+      {
+        "kpi_text": "Achieve a 30% reduction in greenhouse gas emissions from the digital sector by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Greenhouse Gas Emissions Reduction",
+        "target_value": 30.0,
+        "target_description": "Reduce emissions from digital technologies and services.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Emission reports and assessments.",
+        "responsible_entity": "Digital sector companies",
+        "sector": "Environment"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the only actor mentioned in the text, indicating its central role in the context of the 2030 Digital Compass initiative."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "This theme is central to the document's main message, which focuses on fostering collaboration among nations to achieve digital transformation goals outlined in the 2030 Digital Compass."
+    }
+  ]
+}

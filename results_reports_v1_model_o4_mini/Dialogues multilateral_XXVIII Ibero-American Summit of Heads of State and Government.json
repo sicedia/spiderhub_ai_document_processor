@@ -1,0 +1,65 @@
+{
+  "title": "XXVIII Ibero-American Summit of Heads of State and Government Summary",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 44,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 44,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Digital Alliance is central to the document's main message, emphasizing the importance of digital cooperation between Europe and Latin America. It aligns with key objectives of enhancing connectivity and fostering innovation, making it a strategic priority."
+    },
+    {
+      "name": "Sustainable Development Goals",
+      "category": "Global Development",
+      "relevance_score": 0.8,
+      "justification": "The commitment to the Sustainable Development Goals (SDGs) is crucial as it reflects the broader agenda of the summit, focusing on social, economic, and environmental sustainability. This theme is significant due to its alignment with global commitments and the need for collaborative efforts."
+    },
+    {
+      "name": "Climate Change Mitigation",
+      "category": "Environmental Policy",
+      "relevance_score": 0.75,
+      "justification": "Climate change mitigation is a vital theme as it addresses urgent global challenges. The document dedicates substantial content to this issue, highlighting the strategic importance of cooperation in environmental policies and the commitment to sustainable practices."
+    }
+  ]
+}

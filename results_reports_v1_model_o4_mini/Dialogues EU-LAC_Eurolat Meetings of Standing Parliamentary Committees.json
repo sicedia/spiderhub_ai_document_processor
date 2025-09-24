@@ -1,0 +1,268 @@
+{
+  "title": "Euro-Latin American Parliamentary Assembly's Declaration on Ukraine and Global Challenges",
+  "date": "2022-11-30",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The Euro-Latin American Parliamentary Assembly (EuroLat) condemned Russia's invasion of Ukraine and called for an immediate cessation of military activities, emphasizing the need for humanitarian aid and respect for Ukraine's sovereignty. The assembly highlighted the economic and social repercussions of the conflict, particularly in the context of post-COVID recovery. It welcomed the EU's 'Road to 2023' strategy to strengthen ties with Latin America and called for renewed high-level political dialogue. The assembly urged the finalization of trade agreements with Mexico and Mercosur, and stressed the importance of sustainable development, energy diversification, and social inclusion. It also addressed issues of gender equality, media freedom, and food security, advocating for cooperative initiatives to tackle global challenges and enhance multilateralism.",
+  "characteristics": [
+    "The Euro-Latin American Parliamentary Assembly (EuroLat) condemns Russia's invasion of Ukraine and calls for immediate cessation of military activities and respect for Ukraine's sovereignty.",
+    "Emphasizes the need for revitalizing EU-Latin America relations through strategic partnerships to address global challenges, including economic recovery post-COVID-19.",
+    "Advocates for sustainable development, energy diversification, and social inclusion, particularly for vulnerable populations affected by rising costs and inequalities.",
+    "Stresses the importance of gender equality, protection of human rights, and combating hate speech against marginalized groups, including LGBTQIA+ individuals.",
+    "Calls for enhanced cooperation in food security and sustainable supply chains to mitigate the impacts of global crises on vulnerable populations."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership",
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation"
+    ],
+    "Inclusion & Social Development": [
+      "Gender Equality in Tech",
+      "Digital Inclusion",
+      "Digital Education"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Data Protection",
+      "Cybersecurity"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Óscar Darío Pérez",
+      "Javi López",
+      "European Union",
+      "Community of Latin American and Caribbean States",
+      "Southern Common Market",
+      "Pacific Alliance",
+      "United Nations"
+    ]
+  },
+  "practical_applications": [
+    "Adoption of the ‘Road to 2023’ strategy by the EU to revitalize the strategic partnership between the EU and Latin America and the Caribbean.",
+    "Holding of the EU-CELAC Ministerial Meeting on 27 October in Buenos Aires to resume high-level political dialogue and prepare for a Bi-regional EU-CELAC Summit in 2023.",
+    "Ongoing negotiations for the EU-Mexico Global Agreement to enhance political and trade relations, with a focus on simplifying administrative procedures and protecting sensitive products.",
+    "Call for the finalization of the EU-Mercosur agreement and the swift renewal of the EU-Chile agreement to ensure high standards of human rights and sustainable development.",
+    "Initiatives to harmonize rules on tourist visas and visa waivers, including priority negotiations for a Schengen visa waiver for Ecuadorian citizens.",
+    "Policies aimed at avoiding energy dependence and promoting diversification of energy resources, including public and private investment in energy efficiency and renewable energy transition.",
+    "Emphasis on strengthening universal education systems to enhance social inclusion and labor market participation.",
+    "Promotion of multilateral cooperation to implement international humanitarian law provisions, particularly regarding women's participation in leadership positions in strategic sectors.",
+    "Initiatives to foster a free and safe environment for journalists and media workers to strengthen democracy and sustainable development.",
+    "Joint initiatives in international fora to address food security and ensure access to food for vulnerable populations."
+  ],
+  "commitments": [],
+  "score": 92,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 92,
+    "completeness": 92,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "BEL",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "woman",
+      "child",
+      "indigenous people",
+      "elderly",
+      "young person"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Children"
+      },
+      {
+        "category": "Indigenous Peoples & Ethnic Groups",
+        "label": "Indigenous Communities"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Youth"
+      }
+    ],
+    "start_date": "2022-11-30",
+    "end_date": "2022-12-02",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Call for a rapid solution including dialogue and diplomacy leading to peace and respect for the basic principles of the sovereignty and territorial integrity of states.",
+        "kpi_type": "qualitative",
+        "metric_name": "Peace and Diplomacy Initiatives",
+        "target_value": null,
+        "target_description": "Achieve a rapid solution through dialogue and diplomacy.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of diplomatic engagements and peace initiatives",
+        "responsible_entity": "Euro-Latin American Parliamentary Assembly",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "Stress the need to fully resume high-level political dialogue between the EU and Latin America and the Caribbean.",
+        "kpi_type": "qualitative",
+        "metric_name": "High-Level Political Dialogue Resumption",
+        "target_value": null,
+        "target_description": "Fully resume high-level political dialogue.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of political dialogue meetings and outcomes",
+        "responsible_entity": "EU and Latin American governments",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "Hope that the EU and Mexico will swiftly reach an agreement on the legal architecture of the EU-Mexico Global Agreement.",
+        "kpi_type": "qualitative",
+        "metric_name": "EU-Mexico Global Agreement Progress",
+        "target_value": null,
+        "target_description": "Reach an agreement on the legal architecture.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of negotiation progress and agreement finalization",
+        "responsible_entity": "EU and Mexico",
+        "sector": "Trade and Diplomacy"
+      },
+      {
+        "kpi_text": "Call for the finalisation of the EU-Mercosur agreement once the additional commitments have been agreed.",
+        "kpi_type": "qualitative",
+        "metric_name": "EU-Mercosur Agreement Finalization",
+        "target_value": null,
+        "target_description": "Finalize the EU-Mercosur agreement.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Tracking the completion of agreement negotiations",
+        "responsible_entity": "EU and Mercosur countries",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "Stress the need to strengthen universal education systems that enable all people to have more options for social inclusion and labour market participation.",
+        "kpi_type": "qualitative",
+        "metric_name": "Universal Education System Strengthening",
+        "target_value": null,
+        "target_description": "Strengthen education systems for social inclusion.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of education system reforms and inclusivity measures",
+        "responsible_entity": "Governments of EU and Latin America",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Call on the governments of both regions to afford special attention to these sectors of the population.",
+        "kpi_type": "qualitative",
+        "metric_name": "Vulnerable Population Support",
+        "target_value": null,
+        "target_description": "Provide special attention to vulnerable populations.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of policies and programs targeting vulnerable groups",
+        "responsible_entity": "Governments of EU and Latin America",
+        "sector": "Social Policy"
+      },
+      {
+        "kpi_text": "Stress the importance of making the UN system more representative and inclusive.",
+        "kpi_type": "qualitative",
+        "metric_name": "UN System Inclusivity",
+        "target_value": null,
+        "target_description": "Enhance the representation and inclusivity of the UN system.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of UN reforms and inclusivity initiatives",
+        "responsible_entity": "UN member states",
+        "sector": "International Governance"
+      },
+      {
+        "kpi_text": "Emphasise that public and private stakeholders must adopt initiatives and measures and make investments that allow for the continued reconstruction of our economic, social, health-care and food systems.",
+        "kpi_type": "qualitative",
+        "metric_name": "Economic and Social Reconstruction Initiatives",
+        "target_value": null,
+        "target_description": "Adopt initiatives for reconstruction of systems.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of initiatives and investments made",
+        "responsible_entity": "Public and private stakeholders",
+        "sector": "Economic Development"
+      },
+      {
+        "kpi_text": "Call on governments in both regions to take concrete measures to foster a free and safe environment for journalists and media workers.",
+        "kpi_type": "qualitative",
+        "metric_name": "Journalist Safety Measures",
+        "target_value": null,
+        "target_description": "Implement measures for journalist safety.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of safety measures and incidents reported",
+        "responsible_entity": "Governments of EU and Latin America",
+        "sector": "Media and Freedom of Expression"
+      }
+    ],
+    "country_list_iso": [
+      "BEL",
+      "COL",
+      "RUS",
+      "UKR"
+    ],
+    "responsible_entity": "ASAMBLEA PARLAMENTARIA EURO-LATINOAMERICANA",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Óscar Darío Pérez",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "As one of the Co-Presidents of the Euro-Latin American Parliamentary Assembly, he plays a crucial role in the document, leading the condemnation of Russia's actions and advocating for international cooperation."
+    },
+    {
+      "name": "Javi López",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Also a Co-President of the Euro-Latin American Parliamentary Assembly, he shares equal prominence with Óscar Darío Pérez in the document, emphasizing the importance of multilateralism and cooperation between the EU and Latin America."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The EU is a central actor in the discussions, particularly regarding the strategic partnership with Latin America and the Caribbean, and its initiatives to address global challenges, making it highly relevant to the document's themes."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Bi-regional Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it emphasizes the importance of collaboration between the EU and Latin America, which is a key focus of the EuroLat Assembly's objectives."
+    },
+    {
+      "name": "Gender Equality in Tech",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "This theme is significant as it aligns with the document's commitment to promoting gender equality and addressing social inequalities, which are critical in the context of both regions."
+    },
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.7,
+      "justification": "Digital inclusion is vital for ensuring equitable access to technology and education, which is a recurring theme in the document, highlighting the need for inclusive growth and development."
+    }
+  ]
+}

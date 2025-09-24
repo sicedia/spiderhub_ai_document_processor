@@ -1,0 +1,302 @@
+{
+  "title": "EuroLat Declaration on Shared Prosperity and Regional Cooperation in Santo Domingo, October 2023",
+  "date": "2023-10-30",
+  "location": "Santo Domingo, República Dominicana",
+  "executive_summary": "The EuroLat Assembly's Standing Parliamentary Committees convened in Santo Domingo from October 30 to November 2, 2023, to address shared challenges and enhance cooperation between the EU and CELAC. They welcomed the outcomes of the III EU-CELAC Summit held in July 2023, emphasizing the need for a renewed partnership and the implementation of strategies outlined in the summit's declaration. Key topics included the importance of judicial independence, political pluralism, and freedom of expression as democratic pillars. The committees expressed concern over rising migration and called for comprehensive policies respecting human rights. They also highlighted the urgency of addressing climate change, promoting digital transformation, and ensuring human rights protections, particularly for vulnerable groups. Additionally, they condemned recent terrorist attacks in the Middle East, advocating for humanitarian support and a two-state solution for Israel and Palestine.",
+  "characteristics": [
+    "The EuroLat Assembly emphasizes the importance of the EU-CELAC summit held in July 2023, aiming for deeper cooperation and addressing global challenges.",
+    "It highlights the need for political actors to implement strategies from the summit's declaration and enhance dialogue and cooperation between regions.",
+    "The Assembly expresses concern over migration issues, advocating for comprehensive policies that respect human rights and address root causes.",
+    "It stresses the urgency of addressing climate change and biodiversity loss, calling for international cooperation and financial mechanisms to support these efforts.",
+    "The document condemns terrorism and emphasizes the need for humanitarian support in conflict areas, particularly in the context of the recent violence in the Middle East."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership",
+      "Global Digital Cooperation"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Agenda",
+      "Digital Acceleration"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Cybersecurity"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Sustainable Digital Development"
+    ],
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "Cybersecurity"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Community of Latin American and Caribbean States",
+      "Southern Common Market",
+      "European Union",
+      "EU Member States",
+      "European Council",
+      "European Parliament",
+      "European Commission",
+      "United Nations"
+    ],
+    "Civil Society Actors": [
+      "Non-governmental Institutions",
+      "Civil Society Organisations"
+    ]
+  },
+  "practical_applications": [
+    "Established the Global Gateway investment program by the European Union for Latin America and the Caribbean, with a budget of up to €45 billion until 2027, focusing on sustainable and inclusive development.",
+    "Implemented the COPOLAD cooperation program between Latin America-Caribbean and the EU on drug policies, complemented by bilateral agreements between EU countries and Latin America.",
+    "Launched the Digital Alliance EU-ALC in March 2023, aimed at enhancing digital transformation, artificial intelligence, and cybersecurity.",
+    "Proposed the creation of a Common Space for Higher Education, Science, Technology, and Innovation as part of the Birregional Strategic Partnership, with a framework for academic integration between CELAC and the EU.",
+    "Supported the EUROCLIMA+ program and the Amazon Basin Project as part of the EU's commitment to climate change adaptation and environmental cooperation.",
+    "Advocated for the activation of the Temporary Protection Directive by the EU in response to the humanitarian crisis caused by the war in Ukraine.",
+    "Promoted the establishment of mechanisms for monitoring and following up on investment programs under the Global Gateway initiative."
+  ],
+  "commitments": [
+    "Pledged funding of up to 45 billion euros for the Global Gateway investment program in Latin America and the Caribbean by 2027.",
+    "Commitment to hold a new bi-regional summit in 2025 in the CELAC region.",
+    "Urgent call to complete the ratification of the Association Agreement between the European Union and Central America as soon as possible.",
+    "Urgent call to ratify the Association Agreement between the EU and Mercosur, which will encompass a population of 780 million people.",
+    "Commitment to double financing for climate change adaptation by 2025."
+  ],
+  "score": 62,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 85,
+    "completeness": 85,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "DOM",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Global Gateway"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "mujeres",
+      "comunidades",
+      "pueblos",
+      "grupos",
+      "sociedades"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women in Tech"
+      },
+      {
+        "category": "Indigenous Peoples & Ethnic Groups",
+        "label": "Indigenous Communities"
+      },
+      {
+        "category": "Indigenous Peoples & Ethnic Groups",
+        "label": "Minority Groups"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      }
+    ],
+    "start_date": "2023-10-30",
+    "end_date": "2023-11-02",
+    "commitment_details": [
+      {
+        "text": "Pledged funding of up to 45 billion euros for the Global Gateway investment program in Latin America and the Caribbean by 2027.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "Commitment to hold a new bi-regional summit in 2025 in the CELAC region.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Urgent call to complete the ratification of the Association Agreement between the European Union and Central America as soon as possible.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Urgent call to ratify the Association Agreement between the EU and Mercosur, which will encompass a population of 780 million people.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Commitment to double financing for climate change adaptation by 2025.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Establecer una instancia de coordinación consultiva y la celebración de una nueva cumbre birregional en 2025 en la región de la CELAC",
+        "kpi_type": "qualitative",
+        "metric_name": "Establecimiento de Coordinación Consultiva",
+        "target_value": null,
+        "target_description": "Establecer una instancia de coordinación consultiva y celebrar una nueva cumbre birregional",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Cumbre celebrada y coordinación establecida",
+        "responsible_entity": "Mesa Directiva de EuroLat",
+        "sector": "Política Internacional"
+      },
+      {
+        "kpi_text": "Programa de inversiones Global Gateway de la Unión Europea establecido para América Latina y el Caribe, por un importe de hasta 45.000 millones de euros hasta 2027",
+        "kpi_type": "quantitative",
+        "metric_name": "Inversión Global Gateway",
+        "target_value": 45.0,
+        "target_description": "Inversión en desarrollo sostenible e inclusivo en América Latina y el Caribe",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Monitoreo de inversiones realizadas",
+        "responsible_entity": "Unión Europea",
+        "sector": "Desarrollo Sostenible"
+      },
+      {
+        "kpi_text": "Concluir, a la mayor brevedad posible, el proceso de ratificación del Acuerdo de Asociación entre la Unión Europea y Centroamérica",
+        "kpi_type": "qualitative",
+        "metric_name": "Ratificación del Acuerdo de Asociación",
+        "target_value": null,
+        "target_description": "Completar el proceso de ratificación del Acuerdo de Asociación",
+        "unit": "qualitative milestone",
+        "timeframe": "as soon as possible",
+        "measurement_method": "Ratificación completada",
+        "responsible_entity": "Gobiernos de la UE y Centroamérica",
+        "sector": "Relaciones Internacionales"
+      },
+      {
+        "kpi_text": "Incrementar la cooperación y el diálogo internacional con el fin de prevenir y combatir el tráfico ilícito de migrantes y la trata de personas",
+        "kpi_type": "qualitative",
+        "metric_name": "Cooperación Internacional en Migración",
+        "target_value": null,
+        "target_description": "Aumentar la cooperación y el diálogo para combatir el tráfico ilícito de migrantes",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluación de acuerdos y cooperación internacional",
+        "responsible_entity": "Gobiernos de la CELAC y la UE",
+        "sector": "Migración"
+      },
+      {
+        "kpi_text": "Desarrollar políticas públicas integrales que fortalezcan la inclusión social de los migrantes con independencia de su condición migratoria",
+        "kpi_type": "qualitative",
+        "metric_name": "Inclusión Social de Migrantes",
+        "target_value": null,
+        "target_description": "Fortalecer la inclusión social de migrantes en acceso a educación y sanidad",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluación de políticas implementadas",
+        "responsible_entity": "Gobiernos de la CELAC",
+        "sector": "Migración"
+      },
+      {
+        "kpi_text": "Duplicar la financiación para la adaptación al cambio climático de aquí a 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Financiación para Adaptación al Cambio Climático",
+        "target_value": null,
+        "target_description": "Duplicar la financiación para la adaptación al cambio climático",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Monitoreo de financiación asignada",
+        "responsible_entity": "Países desarrollados",
+        "sector": "Cambio Climático"
+      },
+      {
+        "kpi_text": "Crear un Espacio Común de Educación Superior, Ciencia, Tecnología e Innovación",
+        "kpi_type": "qualitative",
+        "metric_name": "Espacio Común de Educación",
+        "target_value": null,
+        "target_description": "Establecer un marco institucional para la cooperación académica",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluación de acuerdos de cooperación",
+        "responsible_entity": "Asociación Estratégica Birregional",
+        "sector": "Educación"
+      },
+      {
+        "kpi_text": "Reforzar la ciberseguridad y garantizar un uso fiable y seguro de la tecnología digital y de la inteligencia artificial",
+        "kpi_type": "qualitative",
+        "metric_name": "Reforzamiento de Ciberseguridad",
+        "target_value": null,
+        "target_description": "Aumentar la seguridad en el uso de tecnología digital",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluación de políticas de ciberseguridad",
+        "responsible_entity": "Gobiernos de la CELAC y la UE",
+        "sector": "Tecnología"
+      },
+      {
+        "kpi_text": "Promover marcos legislativos que permitan alcanzar vidas libres de violencia",
+        "kpi_type": "qualitative",
+        "metric_name": "Legislación contra la Violencia de Género",
+        "target_value": null,
+        "target_description": "Adoptar marcos legislativos para combatir feminicidios y crímenes de género",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluación de leyes aprobadas",
+        "responsible_entity": "Gobiernos de la CELAC",
+        "sector": "Derechos Humanos"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "Asamblea Parlamentaria Euro-Latinoamericana (EuroLat)",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is central to the document, being mentioned multiple times in relation to key initiatives, agreements, and the overall context of cooperation with Latin America and the Caribbean."
+    },
+    {
+      "name": "Community of Latin American and Caribbean States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "CELAC is highlighted as a significant regional actor in the context of the EU-CELAC summit and discussions on cooperation, migration, and development, indicating its importance in the dialogue."
+    },
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The UN is referenced in relation to humanitarian issues and international law, emphasizing its role in global governance and the importance of its resolutions in the context of the document."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-CELAC Digital Partnership",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it emphasizes the importance of collaboration between the EU and CELAC, which is a key objective of the EuroLat meetings. The document dedicates significant content to this partnership, highlighting its strategic importance for future cooperation."
+    },
+    {
+      "name": "Digital Agenda",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "The Digital Agenda is crucial for outlining the strategic direction for digital transformation in both regions. The document discusses various aspects of digital strategy, indicating its importance in achieving broader goals of cooperation and development."
+    },
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "Digital Inclusion is vital for ensuring equitable access to digital resources and opportunities, which aligns with the document's commitment to social development. The emphasis on inclusion reflects the need to address disparities and promote sustainable development across both regions."
+    }
+  ]
+}

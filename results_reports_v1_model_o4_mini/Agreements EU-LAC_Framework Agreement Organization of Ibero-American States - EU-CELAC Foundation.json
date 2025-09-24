@@ -1,0 +1,192 @@
+{
+  "title": "Cooperation Agreement Between OEI and EU-LAC Foundation for Education, Science, and Culture",
+  "date": "2020-10-22",
+  "location": "Madrid, Spain; Hamburg, Germany",
+  "executive_summary": "On October 22, 2020, the Organization of Ibero-American States (OEI) and the EU-LAC Foundation signed a framework agreement to enhance cooperation in education, science, and culture between Europe and Latin America. This agreement aims to establish a shared space for higher education and research, promote cultural and creative industries, and strengthen historical ties between the regions. Key commitments include increasing mobility, internationalization, and supporting research networks. The agreement was signed virtually by leaders from both organizations, reinforcing their dedication to fostering transatlantic relations and mutual understanding. The OEI, established in 1949, and the EU-LAC Foundation, created in 2010, both play crucial roles in promoting collaboration and visibility between their respective regions.",
+  "characteristics": [
+    "The agreement between the OEI and the EU-LAC Foundation focuses on enhancing cooperation in education, science, and culture within the Euro-Latin American and Caribbean regions.",
+    "It aims to create a shared space for higher education and research, promoting mobility and internationalization.",
+    "The agreement emphasizes the development of cultural and creative industries and the promotion of Ibero-American cultural diversity.",
+    "It seeks to strengthen transatlantic relations between the EU, Latin America, and the Caribbean through joint events and knowledge management.",
+    "The OEI has been active since 1949, while the EU-LAC Foundation was established in 2010 to foster strategic partnerships between the regions."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Education"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Organisation of Ibero-American States"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Foundation"
+    ]
+  },
+  "practical_applications": [
+    "Establishment of a framework agreement between the Organization of Ibero-American States (OEI) and the EU-CELAC Foundation to promote cooperation in education, science, and culture.",
+    "Development of programs and activities focused on enhancing higher education and research, including increasing mobility and internationalization.",
+    "Support for research networks and initiatives aimed at fostering the relationship between culture and economy, promoting cultural and creative industries, and enhancing cultural diversity in the Ibero-American context.",
+    "Organization of joint events, discussions, and workshops to manage knowledge and improve the quality of higher education systems."
+  ],
+  "commitments": [],
+  "score": 88,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 88,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "ESP",
+    "agreement_type": [
+      "MoU"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "comunidad",
+      "cultura",
+      "educación",
+      "ciencia",
+      "industria"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Scientific Community"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Academic Institutions"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Business Associations"
+      },
+      {
+        "category": "Large Corporations",
+        "label": "Industry Leaders"
+      }
+    ],
+    "start_date": "2020-10-22",
+    "end_date": "2011-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "fomento de la construcción de un espacio compartido de educación superior e investigación",
+        "kpi_type": "qualitative",
+        "metric_name": "Shared Higher Education and Research Space",
+        "target_value": null,
+        "target_description": "Promote the construction of a shared space for higher education and research",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of collaborative projects and initiatives",
+        "responsible_entity": "OEI and Fundación EU-LAC",
+        "sector": "Education, Science, Culture"
+      },
+      {
+        "kpi_text": "aumento de la movilidad y la internacionalización",
+        "kpi_type": "qualitative",
+        "metric_name": "Mobility and Internationalization Enhancement",
+        "target_value": null,
+        "target_description": "Increase mobility and internationalization in higher education",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Tracking mobility programs and international partnerships",
+        "responsible_entity": "OEI and Fundación EU-LAC",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "fomento de las industrias culturales y creativas",
+        "kpi_type": "qualitative",
+        "metric_name": "Cultural and Creative Industries Promotion",
+        "target_value": null,
+        "target_description": "Promote cultural and creative industries",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of initiatives supporting cultural industries",
+        "responsible_entity": "OEI and Fundación EU-LAC",
+        "sector": "Culture"
+      },
+      {
+        "kpi_text": "mejora de la calidad de los sistemas de educación superior y su medición",
+        "kpi_type": "qualitative",
+        "metric_name": "Quality Improvement of Higher Education Systems",
+        "target_value": null,
+        "target_description": "Improve the quality of higher education systems and their measurement",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Quality assessments and feedback mechanisms",
+        "responsible_entity": "OEI and Fundación EU-LAC",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "fortalecer los lazos históricos existentes entre ambas regiones",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Historical Ties",
+        "target_value": null,
+        "target_description": "Strengthen historical ties between the EU and Latin America and the Caribbean",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring collaborative events and initiatives",
+        "responsible_entity": "OEI and Fundación EU-LAC",
+        "sector": "International Relations"
+      }
+    ],
+    "country_list_iso": [
+      "DEU",
+      "ESP"
+    ],
+    "responsible_entity": "La Organización de Estados Iberoamericanos (OEI)",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Organisation of Ibero-American States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The Organisation of Ibero-American States (OEI) is a key player in the document, being one of the main organizations involved in the agreement. It is mentioned multiple times and plays a crucial role in fostering cooperation in education, science, and culture."
+    },
+    {
+      "name": "EU-LAC Foundation",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.9,
+      "justification": "The EU-LAC Foundation is equally prominent in the text, as it is the other main organization involved in the agreement. Its role in promoting strategic partnerships and visibility between Europe and Latin America is central to the document's themes."
+    },
+    {
+      "name": "Adrián Bonilla",
+      "category": "Individuals",
+      "relevance_score": 0.7,
+      "justification": "Adrián Bonilla, as the executive director of the EU-LAC Foundation, is significant due to his direct involvement in the signing of the agreement. His position indicates influence over the initiatives discussed in the document."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-CELAC Digital Partnership",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it outlines the collaboration between the OEI and the EU-LAC Foundation, emphasizing the importance of strengthening transatlantic relations and cooperation in education, science, and culture."
+    },
+    {
+      "name": "Digital Education",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "The document dedicates significant content to the development of a shared space for higher education and research, highlighting the commitment to improving educational systems and fostering inclusivity in the region."
+    }
+  ]
+}

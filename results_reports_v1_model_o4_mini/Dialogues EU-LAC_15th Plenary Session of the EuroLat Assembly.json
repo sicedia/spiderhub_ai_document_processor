@@ -1,0 +1,262 @@
+{
+  "title": "15th Plenary Session of the EuroLat Assembly in Madrid, July 2023",
+  "date": "2023-07-24",
+  "location": "Madrid, Spain",
+  "executive_summary": "The 15th plenary session of the EuroLat Assembly took place in Madrid from July 24-27, 2023, garnering significant media attention with 115 news pieces, including 7 on TV and 108 online. An agreement with EFE Agency enhanced visibility in Spain and Latin America, leading to impactful interviews and extensive social media engagement, with over 150 posts using the hashtag #EuroLatMadrid. Key discussions included cooperation against drug trafficking, gender equality, and the EU-Mercosur agreement. Notable coverage came from major Spanish news agencies and international outlets, highlighting the assembly's focus on strengthening ties between Europe and Latin America. The event featured interviews with prominent parliamentarians and was marked by a royal audience with King Felipe VI.",
+  "characteristics": [
+    "The 15th plenary session of the EuroLat Assembly took place in Madrid from July 24-27, 2023, featuring extensive media coverage with 115 news pieces and over 150 social media posts using the hashtag #EuroLatMadrid.",
+    "An agreement with EFE Agency enhanced media visibility, resulting in significant coverage in both Spain and Latin America, including interviews with key parliamentarians.",
+    "The assembly focused on various issues, including cooperation against drug trafficking, gender equality, and ecological transitions, with calls for action on these topics.",
+    "Notable media coverage included interviews and reports from major Spanish news agencies and public broadcasters, highlighting the assembly's discussions and outcomes.",
+    "The event was attended by European and Latin American parliamentarians, emphasizing the importance of strengthening ties between the two regions."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ],
+    "Inclusion & Social Development": [
+      "Gender Equality in Tech",
+      "Digital Inclusion"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Javi López",
+      "Óscar Darío Pérez",
+      "Amado Cerrud",
+      "Beatriz Argimón",
+      "Julia Argentina Perié",
+      "Samira Rafaela",
+      "José Manuel Albares",
+      "Meritxell Batet",
+      "Inma Rodríguez-Piñero",
+      "Faride Raful",
+      "Marybel Villegas",
+      "César Luena",
+      "H.M. the King Felipe VI"
+    ],
+    "Economic Actors": [
+      "Inter-American Development Bank",
+      "World Bank"
+    ]
+  },
+  "practical_applications": [
+    "Agreement signed between EPLO Spain and EFE Agency to enhance media coverage and visibility of EuroLat Assembly in Spain and Latin America.",
+    "Promotion of a \"Pact of Care\" between Latin America and Europe to address inequality.",
+    "Economic Committee of EuroLat calling for action on gender equality.",
+    "Advocacy for increased education to reduce social inequalities between Europe and Latin America.",
+    "Discussions on ensuring that ecological transitions do not create further disparities.",
+    "EuroLat Assembly approved reports on health, security, trade, environment, and the right to water."
+  ],
+  "commitments": [],
+  "score": 94,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 90,
+    "completeness": 94,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "ESP",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "woman",
+      "community",
+      "parliamentarian",
+      "society",
+      "education"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Academic Institutions"
+      }
+    ],
+    "start_date": "2023-07-24",
+    "end_date": "2023-07-27",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "EPLO Spain has compiled the press coverage of the assembly, which resulted in a total of 115 news pieces (7 impacts on TV and 108 on online media).",
+        "kpi_type": "quantitative",
+        "metric_name": "Press Coverage",
+        "target_value": 115.0,
+        "target_description": "Total number of news pieces covering the assembly",
+        "unit": "news pieces",
+        "timeframe": "during the assembly",
+        "measurement_method": "Count of news articles and media impacts",
+        "responsible_entity": "EPLO Spain",
+        "sector": "Media/Communications"
+      },
+      {
+        "kpi_text": "More than 150 posts were published in social networks (Instagram and Twitter) with the hashtag #EuroLatMadrid.",
+        "kpi_type": "quantitative",
+        "metric_name": "Social Media Engagement",
+        "target_value": 150.0,
+        "target_description": "Total number of social media posts with the specified hashtag",
+        "unit": "posts",
+        "timeframe": "during the assembly",
+        "measurement_method": "Count of posts on social media platforms",
+        "responsible_entity": "Social Media Team",
+        "sector": "Media/Communications"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish robust cybersecurity framework for critical infrastructure",
+        "unit": "qualitative milestone",
+        "timeframe": "by the end of 2024",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "Cybersecurity Task Force",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Promote a pact of care between Latin America and Europe to address inequality.",
+        "kpi_type": "qualitative",
+        "metric_name": "Pact of Care Promotion",
+        "target_value": null,
+        "target_description": "Promote collaboration to address social inequalities",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Partnership agreements and initiatives",
+        "responsible_entity": "EuroLat Assembly",
+        "sector": "Social Policy"
+      },
+      {
+        "kpi_text": "The committee demands to move to action on gender equality.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Equality Action",
+        "target_value": null,
+        "target_description": "Initiate actions to promote gender equality",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Implementation of gender equality initiatives",
+        "responsible_entity": "Gender Equality Committee",
+        "sector": "Social Policy"
+      },
+      {
+        "kpi_text": "Request for more education to reduce social inequalities between Europe and Latin America.",
+        "kpi_type": "qualitative",
+        "metric_name": "Education for Inequality Reduction",
+        "target_value": null,
+        "target_description": "Enhance educational initiatives to address social inequalities",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2026",
+        "measurement_method": "Educational program development and implementation",
+        "responsible_entity": "Education Committee",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Debate on the need for ecological transition not to create more gaps.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ecological Transition Debate",
+        "target_value": null,
+        "target_description": "Engage in discussions to ensure ecological transition is equitable",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Conducting debates and discussions",
+        "responsible_entity": "Environmental Committee",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Encourage cooperation against drug trafficking and regulate AI.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cooperation Against Drug Trafficking",
+        "target_value": null,
+        "target_description": "Foster collaboration to combat drug trafficking and regulate AI",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Partnerships and regulatory frameworks",
+        "responsible_entity": "Security Committee",
+        "sector": "Security"
+      },
+      {
+        "kpi_text": "Increase media visibility of EuroLat both in Spain and Latin American countries.",
+        "kpi_type": "qualitative",
+        "metric_name": "Media Visibility Enhancement",
+        "target_value": null,
+        "target_description": "Enhance the visibility of EuroLat in media outlets",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Media coverage analysis",
+        "responsible_entity": "Media Relations Team",
+        "sector": "Media/Communications"
+      }
+    ],
+    "country_list_iso": [
+      "DOM",
+      "MEX",
+      "URY"
+    ],
+    "responsible_entity": "EPLO Spain",
+    "sdg_alignment": [
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 4: Quality Education",
+      "SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Javi López",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Javi López is mentioned multiple times as a co-chair of EuroLat and is central to the media coverage, indicating his significant role in the assembly."
+    },
+    {
+      "name": "Óscar Darío Pérez",
+      "category": "Political Actors",
+      "relevance_score": 0.85,
+      "justification": "Óscar Darío Pérez is also a co-chair and is frequently referenced in interviews and discussions, highlighting his influence in the assembly's initiatives."
+    },
+    {
+      "name": "José Manuel Albares",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "As the Spanish Foreign Minister, Albares plays a crucial role in reinforcing relations between the EU and Latin America, making him a key figure in the context of the assembly."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it highlights the collaboration between Europe and Latin America, which is the primary focus of the EuroLat Assembly. The extensive media coverage and discussions around this theme indicate its strategic importance in fostering international relations."
+    },
+    {
+      "name": "Gender Equality in Tech",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.75,
+      "justification": "This theme is significant as it addresses social development goals that are increasingly prioritized in international dialogues. The emphasis on gender equality reflects a commitment to inclusivity, which is a key objective of the EuroLat Assembly."
+    },
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.7,
+      "justification": "Digital inclusion is relevant as it aligns with the broader goals of technological advancement and social equity. The discussions around this theme contribute to the overall objectives of enhancing cooperation and development between the EU and Latin America."
+    }
+  ]
+}

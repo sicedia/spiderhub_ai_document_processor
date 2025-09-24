@@ -1,0 +1,73 @@
+{
+  "title": "Women4Ethical AI Conference: Advancing Gender Equity in Artificial Intelligence",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "AI Ethics"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 86,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 70,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "women"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      }
+    ],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": [
+      "SDG 5: Gender Equality",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "AI Ethics",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.9,
+      "justification": "AI Ethics is central to the document's main message, focusing on the ethical implications of AI technologies. The content is heavily dedicated to discussions around ethical frameworks, guidelines, and commitments, making it a strategic priority for the conference."
+    },
+    {
+      "name": "Gender Inclusion in AI",
+      "category": "Social Impact",
+      "relevance_score": 0.8,
+      "justification": "Gender Inclusion in AI is crucial as it addresses the need for diverse perspectives in AI development. The document emphasizes the importance of including women and marginalized groups in AI discussions, aligning with key objectives of promoting equity and representation."
+    },
+    {
+      "name": "Responsible AI Development",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.75,
+      "justification": "Responsible AI Development is highlighted as a key commitment in the document, focusing on creating AI systems that are safe, transparent, and accountable. This theme is vital for ensuring public trust and aligning with ethical standards in technology."
+    }
+  ]
+}

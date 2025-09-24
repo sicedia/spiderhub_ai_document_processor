@@ -1,0 +1,235 @@
+{
+  "title": "EU-LAC Multi-Stakeholder Forum on Cybersecurity and Secure Connectivity Summary",
+  "date": "2024-10-23",
+  "location": "Madrid, Spain",
+  "executive_summary": "The EU-LAC Multi-Stakeholder Forum on Cybersecurity and Secure Connectivity took place in Madrid from October 23-25, 2024, as part of the EU-LAC Digital Alliance. The forum aimed to enhance bi-regional cooperation among government, private sector, civil society, and academia, building on the outcomes of the 2023 Cybersecurity High-Level Dialogue. Key discussions focused on increasing digital infrastructure investments in the LAC region, strengthening cyber-resilience, and establishing secure connectivity standards. Participants included high-level representatives from EU and LAC governments, multilateral banks, and civil-society networks. The forum resulted in commitments to draft a roadmap for investment and capacity-building in cybersecurity, launch thematic working groups, and ensure that forum insights inform the upcoming Connectivity Policy Dialogue in Chile. Next steps include finalizing the roadmap by Q2 2025 and reporting progress at the EU-CELAC Summit in 2025.",
+  "characteristics": [
+    "The forum took place in Madrid from October 23-25, 2024, focusing on cybersecurity and secure connectivity within the EU-LAC Digital Alliance framework.",
+    "It aimed to enhance bi-regional cooperation by involving diverse stakeholders, including government, private sector, and civil society.",
+    "Key discussions included digital infrastructure investments, cyber-resilience ecosystems, and capacity-building tools.",
+    "Outcomes included a commitment to draft a roadmap for investment and capacity-building in cybersecurity ahead of the EU-CELAC Summit 2025.",
+    "The forum recognized RedCLARA and BELLA II as vital for inter-regional research networks and established thematic working groups for best practices."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ],
+    "Data & Governance": [
+      "Cybersecurity",
+      "Digital Governance"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Infrastructure"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "EU Member States",
+      "LAC governments",
+      "European Commission",
+      "European Commission DG INTPA",
+      "European Commission DG CONNECT"
+    ],
+    "Economic Actors": [
+      "Telefónica",
+      "Nokia",
+      "Ericsson",
+      "multilateral banks",
+      "IDB",
+      "development agencies",
+      "AECID",
+      "AFD"
+    ],
+    "Civil Society Actors": [
+      "RedCLARA",
+      "APC"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Digital Alliance",
+      "LAC4"
+    ]
+  },
+  "practical_applications": [
+    "Agreement to draft an investment & capacity-building roadmap on cybersecurity and secure connectivity ahead of the EU-CELAC Summit 2025.",
+    "Launch of thematic working groups to consolidate best practices on risk management, critical-infrastructure protection, and regulatory alignment.",
+    "Recognition of RedCLARA and BELLA II as strategic enablers for resilient inter-regional research networks.",
+    "Confirmation that Forum inputs will inform the upcoming Connectivity Policy Dialogue in Chile."
+  ],
+  "commitments": [
+    "Finalise roadmap for investment mobilisation and skills programmes by Q2 2025.",
+    "Report progress to ministers at the EU-LAC Connectivity Dialogue in Chile in November 2024 and at the EU-CELAC Summit in 2025."
+  ],
+  "score": 89,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 89,
+    "completeness": 89,
+    "accuracy": 77,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "ESP",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "government",
+      "private sector",
+      "civil society",
+      "academia",
+      "development-finance"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Public Sector / Governments",
+        "label": "Ministries"
+      },
+      {
+        "category": "Private Sector Organizations",
+        "label": "Private Sector Organizations"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Academic Institutions"
+      },
+      {
+        "category": "Investors & Financial Actors",
+        "label": "Development Banks"
+      }
+    ],
+    "start_date": "2024-10-23",
+    "end_date": "2024-10-25",
+    "commitment_details": [
+      {
+        "text": "Finalise roadmap for investment mobilisation and skills programmes by Q2 2025.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Report progress to ministers at the EU-LAC Connectivity Dialogue in Chile in November 2024 and at the EU-CELAC Summit in 2025.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Agreement to draft an investment & capacity-building roadmap on cybersecurity / secure connectivity ahead of the EU-CELAC Summit 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Investment and Capacity-Building Roadmap",
+        "target_value": null,
+        "target_description": "Draft a roadmap for investment and capacity-building in cybersecurity and secure connectivity.",
+        "unit": "qualitative milestone",
+        "timeframe": "ahead of the EU-CELAC Summit 2025",
+        "measurement_method": "Completion of the roadmap document",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity and Connectivity"
+      },
+      {
+        "kpi_text": "Finalise roadmap (Q2 2025) with concrete milestones for investment mobilisation and skills programmes.",
+        "kpi_type": "qualitative",
+        "metric_name": "Roadmap Finalization",
+        "target_value": null,
+        "target_description": "Finalize the roadmap with specific milestones for investment and skills development.",
+        "unit": "qualitative milestone",
+        "timeframe": "Q2 2025",
+        "measurement_method": "Review of finalized roadmap",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity and Connectivity"
+      },
+      {
+        "kpi_text": "Report progress to ministers at the EU-LAC Connectivity Dialogue (Chile, Nov 2024) and the EU-CELAC Summit 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Progress Reporting",
+        "target_value": null,
+        "target_description": "Report on the progress of initiatives to ministers at specified events.",
+        "unit": "qualitative milestone",
+        "timeframe": "November 2024 and 2025",
+        "measurement_method": "Submission of progress reports",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity and Connectivity"
+      },
+      {
+        "kpi_text": "Launch of thematic working groups to consolidate best practices on risk management, critical-infrastructure protection and regulatory alignment.",
+        "kpi_type": "qualitative",
+        "metric_name": "Thematic Working Groups Launch",
+        "target_value": null,
+        "target_description": "Establish working groups focused on best practices in cybersecurity.",
+        "unit": "qualitative milestone",
+        "timeframe": "Post-Forum",
+        "measurement_method": "Formation and operation of working groups",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Strengthening national and regional cyber-resilience ecosystems (policy & regulatory frameworks).",
+        "kpi_type": "qualitative",
+        "metric_name": "Cyber-Resilience Ecosystem Strengthening",
+        "target_value": null,
+        "target_description": "Enhance the resilience of national and regional cybersecurity frameworks.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Assessment of policy and regulatory frameworks",
+        "responsible_entity": "LAC governments and EU Member States",
+        "sector": "Cybersecurity"
+      }
+    ],
+    "country_list_iso": [
+      "CRI",
+      "DOM",
+      "MEX",
+      "ESP"
+    ],
+    "responsible_entity": null,
+    "sdg_alignment": [
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Commission is a key political actor in the EU-LAC Digital Alliance, facilitating dialogue and cooperation on cybersecurity and connectivity, and is mentioned multiple times in the context of the forum."
+    },
+    {
+      "name": "LAC governments",
+      "category": "Political Actors",
+      "relevance_score": 0.85,
+      "justification": "LAC governments are crucial for implementing policies discussed at the forum, and specific countries like the Dominican Republic, Mexico, and Costa Rica are highlighted, indicating their active participation."
+    },
+    {
+      "name": "Telefónica",
+      "category": "Economic Actors",
+      "relevance_score": 0.8,
+      "justification": "As a major telecommunications company, Telefónica plays a significant role in discussions about digital infrastructure and secure connectivity, making it a vital economic actor in the context of the forum."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Cybersecurity",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Cybersecurity is a central theme of the document, as the forum specifically focuses on advancing bi-regional cooperation in this area. It is directly tied to the objectives of the forum and the outcomes, including the roadmap for investment and capacity-building."
+    },
+    {
+      "name": "Digital Infrastructure",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.8,
+      "justification": "Digital infrastructure is crucial for enabling secure connectivity and is a key topic discussed in the forum. The emphasis on unlocking investments in this area highlights its strategic importance for the LAC region's digital resilience."
+    },
+    {
+      "name": "Bi-regional Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.7,
+      "justification": "Bi-regional cooperation is a foundational aspect of the forum's objectives, aiming to bring together various stakeholders to enhance collaboration between the EU and LAC. This theme underpins the overall goal of the forum and its commitment to fostering partnerships."
+    }
+  ]
+}

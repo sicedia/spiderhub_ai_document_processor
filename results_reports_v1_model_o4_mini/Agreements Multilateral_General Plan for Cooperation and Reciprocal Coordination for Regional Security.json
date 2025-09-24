@@ -1,0 +1,191 @@
+{
+  "title": "General Plan for Cooperation and Reciprocal Coordination for Regional Security",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Multilateralism"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Community of Latin American and Caribbean States",
+      "Southern Common Market",
+      "Pacific Alliance",
+      "European Union",
+      "Ibero-American General Secretariat",
+      "Organisation of Ibero-American States",
+      "United Nations"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 54,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 54,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Enhance regional cooperation to address security challenges by establishing joint task forces.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regional Cooperation Enhancement",
+        "target_value": null,
+        "target_description": "Establish joint task forces to address security challenges.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Formation and operational status of joint task forces",
+        "responsible_entity": "Regional Security Council",
+        "sector": "Security"
+      },
+      {
+        "kpi_text": "Reduce cross-border crime by 30% within the next three years.",
+        "kpi_type": "quantitative",
+        "metric_name": "Cross-Border Crime Reduction",
+        "target_value": 30.0,
+        "target_description": "Achieve a 30% reduction in cross-border crime incidents.",
+        "unit": "percentage",
+        "timeframe": "within 3 years",
+        "measurement_method": "Crime statistics and reports",
+        "responsible_entity": "National Law Enforcement Agencies",
+        "sector": "Law Enforcement"
+      },
+      {
+        "kpi_text": "Increase intelligence sharing among member states by implementing a secure communication platform.",
+        "kpi_type": "qualitative",
+        "metric_name": "Intelligence Sharing Improvement",
+        "target_value": null,
+        "target_description": "Implement a secure communication platform for intelligence sharing.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Platform implementation and usage metrics",
+        "responsible_entity": "Intelligence Community",
+        "sector": "Intelligence"
+      },
+      {
+        "kpi_text": "Train 500 law enforcement personnel in counter-terrorism strategies by 2026.",
+        "kpi_type": "quantitative",
+        "metric_name": "Counter-Terrorism Training",
+        "target_value": 500.0,
+        "target_description": "Provide counter-terrorism training to 500 personnel.",
+        "unit": "people",
+        "timeframe": "by 2026",
+        "measurement_method": "Training completion records",
+        "responsible_entity": "Training Institute",
+        "sector": "Counter-Terrorism"
+      },
+      {
+        "kpi_text": "Establish a regional database for tracking security incidents by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Security Incident Database Establishment",
+        "target_value": null,
+        "target_description": "Create a regional database for tracking and analyzing security incidents.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Database operational status and data entry",
+        "responsible_entity": "Regional Security Agency",
+        "sector": "Data Management"
+      },
+      {
+        "kpi_text": "Achieve a 20% increase in public awareness of security measures by 2027.",
+        "kpi_type": "quantitative",
+        "metric_name": "Public Awareness Increase",
+        "target_value": 20.0,
+        "target_description": "Increase public awareness of security measures by 20%.",
+        "unit": "percentage",
+        "timeframe": "by 2027",
+        "measurement_method": "Public surveys and awareness campaigns",
+        "responsible_entity": "Public Relations Office",
+        "sector": "Public Awareness"
+      },
+      {
+        "kpi_text": "Strengthen legal frameworks for combating organized crime by adopting new legislation.",
+        "kpi_type": "qualitative",
+        "metric_name": "Legal Framework Strengthening",
+        "target_value": null,
+        "target_description": "Adopt new legislation to combat organized crime effectively.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Legislation adoption records",
+        "responsible_entity": "Legislative Assembly",
+        "sector": "Legal"
+      },
+      {
+        "kpi_text": "Increase the number of joint military exercises by 50% over the next five years.",
+        "kpi_type": "quantitative",
+        "metric_name": "Joint Military Exercises Increase",
+        "target_value": 50.0,
+        "target_description": "Increase the number of joint military exercises conducted.",
+        "unit": "percentage",
+        "timeframe": "over the next 5 years",
+        "measurement_method": "Exercise records and reports",
+        "responsible_entity": "Military Command",
+        "sector": "Defense"
+      },
+      {
+        "kpi_text": "Develop a regional strategy for disaster response by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Disaster Response Strategy Development",
+        "target_value": null,
+        "target_description": "Create a comprehensive regional strategy for disaster response.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Strategy document and implementation",
+        "responsible_entity": "Disaster Management Agency",
+        "sector": "Disaster Response"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The United Nations plays a crucial role in international cooperation and security, making it highly relevant in discussions about regional security agreements."
+    },
+    {
+      "name": "Community of Latin American and Caribbean States",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "As a regional organization, it is directly involved in initiatives related to cooperation and security in Latin America and the Caribbean."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The European Union is significant in global political discussions and may influence regional security through its policies and partnerships."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "Multilateralism is the central theme of the document, as it outlines the framework for cooperation and coordination among multiple parties for regional security, making it essential for understanding the document's main message."
+    }
+  ]
+}

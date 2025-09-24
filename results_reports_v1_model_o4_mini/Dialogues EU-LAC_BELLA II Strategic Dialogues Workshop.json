@@ -1,0 +1,307 @@
+{
+  "title": "BELLA II Strategic Dialogues Workshop Outcomes Report - Panama, November 15, 2023",
+  "date": "2023-11-15",
+  "location": "Panama City, Panama",
+  "executive_summary": "The BELLA II Strategic Dialogues, held in El Salvador and Panama in late 2023, aimed to enhance the digital ecosystem in Central America through collaborative discussions among stakeholders from academia, government, and industry. The workshops focused on addressing challenges in digital transformation, fostering innovation, and developing a strategic vision for the role of universities and National Research and Education Networks (NRENs) in the digital economy. Key outcomes included the identification of public policy needs, funding strategies, and the importance of human talent development. The dialogues emphasized the necessity of ongoing collaboration and the establishment of a robust digital infrastructure to bridge the digital divide in the region. The BELLA II project, part of the EU-LAC Digital Alliance, seeks to create a sustainable, interconnected digital ecosystem that drives socioeconomic growth and innovation across Latin America and the Caribbean.",
+  "characteristics": [
+    "The BELLA II project aims to enhance the digital ecosystem in Latin America and the Caribbean through strategic dialogues, focusing on collaboration among academia, industry, and government.",
+    "Workshops in El Salvador and Panama emphasize co-designing national digital ecosystems for education, research, and innovation, fostering meaningful connectivity.",
+    "The dialogues address challenges in digital transformation, including public policy, funding access, human talent development, and innovation.",
+    "Participants include diverse stakeholders, such as universities, research centers, and financial organizations, promoting interdisciplinary collaboration.",
+    "The outcomes aim to create a strategic vision and roadmap for sustainable socio-economic development through digital transformation initiatives."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Ecosystem",
+      "Digital Skills Development"
+    ],
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Digital & Technological Partnerships"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Delegations"
+    ],
+    "Research and Innovation Actors": [
+      "RedCLARA",
+      "National Research and Education Networks",
+      "Universities",
+      "EU-LAC Digital Alliance"
+    ],
+    "Economic Actors": [
+      "Inter-American Development Bank",
+      "World Bank"
+    ]
+  },
+  "practical_applications": [
+    "**BELLA II Open Strategic Dialogues**: Ongoing dialogues in El Salvador and Panama aimed at consolidating the digital ecosystem and promoting meaningful connectivity among stakeholders in education, research, and innovation.",
+    "**Workshop on National Digital Ecosystem**: Conducted in El Salvador on October 9-10, 2023, focusing on co-designing the national digital ecosystem with participation from academia, industry, government, and civil society.",
+    "**TICAL2023 Conference**: Hosted in Panama on November 15, 2023, as part of the BELLA II project, bringing together representatives from Central America to discuss the regional digital ecosystem and digital transformation.",
+    "**Funding Mechanism**: BELLA II project is co-funded by the European Union through the Neighbourhood Development and International Cooperation Instrument (NDICI), with an agreement signed in December 2022.",
+    "**Development of Digital Skills Strategic Axis**: Aimed at training human talent and fostering research and innovation within the BELLA II project framework.",
+    "**Working Groups from Strategic Dialogues**: Five working groups were established during the Panama workshop to address public policies, access to funding sources, human talent development, public and private innovation, and the digital ecosystem.",
+    "**Creation of a Roadmap**: A roadmap was developed during the strategic dialogues to operationalize the strategic vision for universities and National Research and Education Networks (NRENs) in the digital economy.",
+    "**Collaboration with RedCLARA**: The BELLA II project is coordinated by RedCLARA, which plays a crucial role in connecting universities and research centers across Latin America and the Caribbean.",
+    "**Pilot Projects**: Initiatives for pilot projects were discussed, focusing on leveraging regional resources and capabilities to address specific challenges in the digital landscape.",
+    "**Networking Initiatives**: Promotion of ideathons and hackathons to generate innovative ideas and solutions for the digital economy, fostering collaboration between universities, NRENs, and the private sector."
+  ],
+  "commitments": [
+    "The BELLA II project is set to be implemented over a period of 48 months, starting from December 2022.",
+    "A workshop titled \"Strategic dialogues for the co-design and co-construction of the national digital ecosystem for education, research, and innovation\" will be held in El Salvador on October 9 and 10, 2023.",
+    "Another Strategic Dialogue will take place in Panama City on November 15, 2023, as part of the TICAL2023 conference.",
+    "The strategic vision aims to produce a roadmap that will allow universities and NRENs to make substantial contributions to sustainable development in the digital economy."
+  ],
+  "score": 97,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 97,
+    "completeness": 97,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "PAN",
+    "agreement_type": [
+      "Outcomes Report"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [
+      "NDICI-Global Europe",
+      "EU-LAC Digital Alliance"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "university",
+      "research center",
+      "small business",
+      "government",
+      "civil society"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Researchers & Academia",
+        "label": "Universities"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Research and Development Centers"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      }
+    ],
+    "start_date": "2023-10-09",
+    "end_date": "2023-11-15",
+    "commitment_details": [
+      {
+        "text": "The BELLA II project is set to be implemented over a period of 48 months, starting from December 2022.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "A workshop titled \"Strategic dialogues for the co-design and co-construction of the national digital ecosystem for education, research, and innovation\" will be held in El Salvador on October 9 and 10, 2023.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Another Strategic Dialogue will take place in Panama City on November 15, 2023, as part of the TICAL2023 conference.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "The strategic vision aims to produce a roadmap that will allow universities and NRENs to make substantial contributions to sustainable development in the digital economy.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize investment for digital infrastructure",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Investment tracking and reporting",
+        "responsible_entity": "European Union and member states",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish robust cybersecurity framework for critical infrastructure",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "National governments and cybersecurity agencies",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Develop a strategic vision for the role of universities and NRENs in addressing the challenges of the digital economy",
+        "kpi_type": "qualitative",
+        "metric_name": "Strategic Vision Development",
+        "target_value": null,
+        "target_description": "Formulate a strategic vision for universities and NRENs",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Vision documentation and stakeholder engagement",
+        "responsible_entity": "RedCLARA and participating universities",
+        "sector": "Education and Research"
+      },
+      {
+        "kpi_text": "Train 1000 people in digital skills by 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Training",
+        "target_value": 1000.0,
+        "target_description": "Train individuals in digital skills",
+        "unit": "people",
+        "timeframe": "by 2025",
+        "measurement_method": "Training program enrollment and completion rates",
+        "responsible_entity": "Educational institutions and training providers",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Create a portfolio of projects that drive digital transformation by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "Project Portfolio Creation",
+        "target_value": null,
+        "target_description": "Develop a portfolio of projects for digital transformation",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Project documentation and stakeholder feedback",
+        "responsible_entity": "RedCLARA and project stakeholders",
+        "sector": "Digital Transformation"
+      },
+      {
+        "kpi_text": "Increase collaboration between universities and industry by 30% by 2026",
+        "kpi_type": "quantitative",
+        "metric_name": "Collaboration Increase",
+        "target_value": 30.0,
+        "target_description": "Increase collaboration between universities and industry",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Collaboration agreements and joint projects",
+        "responsible_entity": "Universities and industry partners",
+        "sector": "Education and Industry"
+      },
+      {
+        "kpi_text": "Implement a data-driven approach to decision-making in 80% of universities by 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Data-Driven Decision-Making Implementation",
+        "target_value": 80.0,
+        "target_description": "Implement data-driven decision-making in universities",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Surveys and implementation reports",
+        "responsible_entity": "Universities and educational authorities",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Foster partnerships with at least 50 organizations by 2024",
+        "kpi_type": "quantitative",
+        "metric_name": "Partnership Development",
+        "target_value": 50.0,
+        "target_description": "Foster partnerships with organizations",
+        "unit": "organizations",
+        "timeframe": "by 2024",
+        "measurement_method": "Partnership agreements and collaboration reports",
+        "responsible_entity": "RedCLARA and partner organizations",
+        "sector": "Collaboration"
+      },
+      {
+        "kpi_text": "Enhance transparency in project funding and allocation processes",
+        "kpi_type": "qualitative",
+        "metric_name": "Transparency Enhancement",
+        "target_value": null,
+        "target_description": "Improve transparency in funding processes",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Transparency audits and stakeholder feedback",
+        "responsible_entity": "Funding agencies and project managers",
+        "sector": "Governance"
+      },
+      {
+        "kpi_text": "Conduct annual assessments of the digital ecosystem's impact on socio-economic development",
+        "kpi_type": "qualitative",
+        "metric_name": "Impact Assessment",
+        "target_value": null,
+        "target_description": "Assess the impact of the digital ecosystem annually",
+        "unit": "qualitative milestone",
+        "timeframe": "annually",
+        "measurement_method": "Impact assessment reports",
+        "responsible_entity": "RedCLARA and evaluation teams",
+        "sector": "Impact Evaluation"
+      }
+    ],
+    "country_list_iso": [
+      "BLZ",
+      "CRI",
+      "DOM",
+      "GTM",
+      "PAN",
+      "SLV"
+    ],
+    "responsible_entity": "RedCLARA",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "RedCLARA",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 1.0,
+      "justification": "RedCLARA is central to the BELLA II project and the EU-LAC Digital Alliance, coordinating efforts among various stakeholders and driving the digital ecosystem's development in Latin America and the Caribbean."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Union provides funding and strategic direction for the BELLA II project, making it a key player in shaping policies and initiatives related to digital transformation in the region."
+    },
+    {
+      "name": "National Research and Education Networks",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.8,
+      "justification": "NRENs are crucial for implementing the BELLA II project, facilitating collaboration among universities and research institutions, and addressing the digital divide in the region."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Ecosystem",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "The digital ecosystem is central to the document's main message, emphasizing the need for a cohesive digital infrastructure that supports innovation and socio-economic development. A significant portion of the content discusses the role of universities and NRENs in building this ecosystem."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.85,
+      "justification": "The EU-LAC Digital Alliance is crucial for fostering collaboration between Europe and Latin America, as highlighted throughout the document. It serves as a framework for the BELLA II project, which aims to bridge the digital divide and enhance regional cooperation."
+    },
+    {
+      "name": "Digital Skills Development",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.8,
+      "justification": "Digital skills development is emphasized as a key component for enabling the workforce to adapt to the digital economy. The document outlines the importance of training human talent to meet the demands of digital transformation, making it a strategic priority."
+    }
+  ]
+}

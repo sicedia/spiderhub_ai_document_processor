@@ -1,0 +1,214 @@
+{
+  "title": "EU-Central America Dialogues on Sustainable Food Systems: Building Strategic Partnerships for Resilience and Sustainability",
+  "date": "2022-03-22",
+  "location": null,
+  "executive_summary": "The European Union (EU) and Central America are collaborating to transition towards sustainable food systems, recognizing the significant impact of food systems on climate change and biodiversity loss. The dialogues aim to foster constructive exchanges and develop bi-regional strategies, focusing on key issues such as healthy soils, sustainable pesticide use, and food loss and waste. The first online workshop took place on March 22-23, 2022, involving policymakers and representatives from both regions, highlighting the importance of strategic partnerships in addressing global food security challenges exacerbated by recent crises. The initiative includes four sub-regional workshops, culminating in a bi-regional conference, reinforcing the commitment to sustainable agricultural practices and cooperation under the existing Association Agreement.",
+  "characteristics": [
+    "The EU-LAC Dialogues focus on accelerating the transition to sustainable food systems through strategic partnerships and constructive exchanges of ideas.",
+    "The dialogues involve multiple workshops and a bi-regional conference, emphasizing collaboration between the EU and Central America.",
+    "Key topics include sustainable agriculture, food loss and waste, and the sustainable use of pesticides.",
+    "The initiative is part of the EU's broader Farm to Fork Strategy and Green Deal, addressing climate change and environmental degradation.",
+    "The dialogues aim to strengthen cooperation and identify common priorities between the EU and Central American countries."
+  ],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Sustainable Digital Development"
+    ],
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "EU-CELAC Digital Partnership"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "Secretariat for Central American Economic Integration",
+      "Ministries of Agriculture of the Central American governments",
+      "European Commission"
+    ],
+    "Economic Actors": [
+      "Central American Bank for Economic Integration"
+    ]
+  },
+  "practical_applications": [
+    "Ongoing EU-Latin America and the Caribbean Dialogues on Sustainable Food Systems, which include a series of workshops and a bi-regional conference aimed at promoting collaboration and sharing best practices.",
+    "Established policy dialogues between the EU and Central America focusing on sustainable agriculture and food systems, with participation from EU representatives, Central American governments, and the private sector.",
+    "Implementation of the EU Farm to Fork Strategy as part of the Green Deal, which addresses the sustainability of food systems and their impact on climate change and biodiversity.",
+    "Active discussions on key elements such as healthy soils, sustainable use of pesticides, and food loss and waste during the workshops, aimed at developing bi-regional strategies for sustainable food systems.",
+    "A decade-long Association Agreement between the EU and Central America that facilitates cooperation and exchange in building sustainable food systems."
+  ],
+  "commitments": [
+    "Conduct a total of four sub-regional workshops on Sustainable Food Systems.",
+    "Hold a bi-regional conference expected to take place at the end of 2022."
+  ],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "EUU",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "farmer",
+      "consumer",
+      "environment",
+      "community",
+      "sector"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Farmers & Primary Producers",
+        "label": "Farmers"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Consumers"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      }
+    ],
+    "start_date": "2022-01-01",
+    "end_date": "2022-12-31",
+    "commitment_details": [
+      {
+        "text": "Conduct a total of four sub-regional workshops on Sustainable Food Systems.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Hold a bi-regional conference expected to take place at the end of 2022.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "These Dialogues will consist of a total of four sub-regional workshops, being this first edition with Central America, and concluding with a bi-regional conference expected to take place at the end of 2022.",
+        "kpi_type": "qualitative",
+        "metric_name": "Sub-regional Workshops and Conference",
+        "target_value": null,
+        "target_description": "Conduct four sub-regional workshops and a bi-regional conference",
+        "unit": "qualitative milestone",
+        "timeframe": "by the end of 2022",
+        "measurement_method": "Completion of workshops and conference",
+        "responsible_entity": "EU and Central American policymakers",
+        "sector": "Sustainable Food Systems"
+      },
+      {
+        "kpi_text": "According to the Intergovernmental Panel on Climate Change (IPCC), food systems are currently responsible globally for about one-third of total greenhouse gas emissions.",
+        "kpi_type": "quantitative",
+        "metric_name": "Greenhouse Gas Emissions from Food Systems",
+        "target_value": 33.0,
+        "target_description": "Reduce the contribution of food systems to total greenhouse gas emissions",
+        "unit": "percentage",
+        "timeframe": "ongoing",
+        "measurement_method": "Monitoring of greenhouse gas emissions",
+        "responsible_entity": "EU and Central American governments",
+        "sector": "Climate Change and Food Systems"
+      },
+      {
+        "kpi_text": "The Agreement has made it possible to increase exchanges and strengthen cooperation between the two regions.",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Cooperation",
+        "target_value": null,
+        "target_description": "Enhance cooperation and exchanges between EU and Central America",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Assessment of cooperation initiatives",
+        "responsible_entity": "EU and Central American governments",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "The need to work together on the global transition towards Sustainable Food Systems.",
+        "kpi_type": "qualitative",
+        "metric_name": "Global Transition Collaboration",
+        "target_value": null,
+        "target_description": "Collaborate on the transition to Sustainable Food Systems",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluation of collaborative projects",
+        "responsible_entity": "EU and Central American policymakers",
+        "sector": "Sustainable Food Systems"
+      },
+      {
+        "kpi_text": "Discussing the issues of healthy soils, sustainable use of pesticides, and food loss and waste as decisive parameters of sustainable food systems.",
+        "kpi_type": "qualitative",
+        "metric_name": "Key Parameters Discussion",
+        "target_value": null,
+        "target_description": "Engage in discussions on healthy soils, pesticide use, and food loss and waste",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Documentation of discussions and outcomes",
+        "responsible_entity": "EU and Central American policymakers",
+        "sector": "Sustainable Agriculture"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "COL",
+      "CRI",
+      "ECU",
+      "CHL",
+      "PER"
+    ],
+    "responsible_entity": "European Union (EU)",
+    "sdg_alignment": [
+      "SDG 2: Zero Hunger",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 15: Life on Land"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the primary actor in the dialogues, driving the agenda for sustainable food systems and is mentioned frequently throughout the text."
+    },
+    {
+      "name": "Secretariat for Central American Economic Integration",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "This organization plays a crucial role in facilitating cooperation between the EU and Central America, and is specifically mentioned as a participant in the dialogues."
+    },
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The European Commission, represented by Sandra Gallina, is pivotal in the dialogues, emphasizing the EU's commitment to sustainable food systems and influencing policy discussions."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Sustainable Food Systems",
+      "category": "Environmental Sustainability",
+      "relevance_score": 1.0,
+      "justification": "This theme is central to the document's main message, which focuses on the collaboration between the EU and Central America to promote sustainable food systems. The majority of the content is dedicated to discussing strategies, dialogues, and workshops aimed at achieving sustainability in food production and consumption."
+    },
+    {
+      "name": "EU-Latin America and Caribbean Dialogues",
+      "category": "International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is crucial as it represents the framework through which the dialogues and workshops are organized. It highlights the strategic partnerships necessary for addressing food system challenges and reflects the commitment of both regions to work together on sustainability."
+    },
+    {
+      "name": "Climate Change and Environmental Impact",
+      "category": "Global Challenges",
+      "relevance_score": 0.8,
+      "justification": "This theme is significant as it addresses the broader context of climate change and its impact on food systems. The document emphasizes the need for cooperation to mitigate these effects, making it a key objective in the discussions and strategies outlined."
+    }
+  ]
+}

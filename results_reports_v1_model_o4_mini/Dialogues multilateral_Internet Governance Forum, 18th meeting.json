@@ -1,0 +1,77 @@
+{
+  "title": "Internet Governance Forum: 18th Meeting Summary",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Data & Governance": [
+      "Internet Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 24,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 30,
+    "accuracy": 33,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The United Nations is a key player in global governance discussions, particularly in the context of the Internet Governance Forum, which focuses on international cooperation and policy-making regarding internet governance."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Internet Governance",
+      "category": "Data & Governance",
+      "relevance_score": 1.0,
+      "justification": "This theme is central to the document's main message, as it addresses the overarching framework and principles guiding the governance of the internet, which is the primary focus of the Internet Governance Forum."
+    },
+    {
+      "name": "Multilateral Dialogues",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "The theme of multilateral dialogues is crucial as it highlights the collaborative efforts and discussions among various stakeholders, which are essential for effective internet governance and policy-making."
+    },
+    {
+      "name": "Commitments to Internet Policies",
+      "category": "Data & Governance",
+      "relevance_score": 0.7,
+      "justification": "This theme relates to the strategic importance of commitments made by participants in the forum, reflecting their dedication to advancing internet governance and addressing key challenges in the digital landscape."
+    }
+  ]
+}

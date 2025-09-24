@@ -1,0 +1,306 @@
+{
+  "title": "Economic Partnership, Political Coordination and Cooperation Agreement between the European Community and Mexico",
+  "date": "2000-10-28",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The Economic Partnership, Political Coordination and Cooperation Agreement between the European Community and Mexico aims to strengthen bilateral relations through enhanced political dialogue, trade liberalization, and cooperation across various sectors. Key objectives include the progressive and reciprocal liberalization of trade in goods and services, capital movements, and public procurement, while ensuring adherence to democratic principles and human rights. The agreement establishes a Joint Council to oversee its implementation and facilitate cooperation in areas such as industrial development, environmental protection, and cultural exchange. It emphasizes the importance of sustainable development and aims to create a stable environment for investment. The agreement is intended to replace the previous Framework Agreement for Cooperation and is set to remain in force indefinitely, with provisions for future expansions and adaptations.",
+  "characteristics": [
+    "The agreement aims to strengthen political dialogue and economic relations between the European Community and Mexico, emphasizing mutual respect for democratic principles and human rights.",
+    "It establishes a framework for the liberalization of trade in goods and services, capital movements, and payments, adhering to WTO rules.",
+    "The Joint Council is created to oversee the implementation of the agreement, facilitating cooperation across various sectors including trade, investment, and environmental protection.",
+    "The agreement promotes cooperation in areas such as education, culture, technology, and combating drug trafficking, enhancing bilateral relations.",
+    "It includes provisions for dispute resolution and data protection, ensuring compliance with international standards."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ],
+    "Data & Governance": [
+      "Data Protection",
+      "Digital Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Community",
+      "United Mexican States",
+      "EU Member States",
+      "European Union",
+      "European Commission"
+    ],
+    "Economic Actors": [
+      "Organisation for Economic Cooperation and Development",
+      "World Bank"
+    ]
+  },
+  "practical_applications": [
+    "Institutionalized political dialogue between the European Community and Mexico, covering bilateral and international matters of mutual interest.",
+    "Established a Joint Council to supervise the implementation of the Economic Partnership, Political Coordination and Cooperation Agreement.",
+    "Framework for the progressive and reciprocal liberalization of trade in goods and services, including tariff and non-tariff barriers.",
+    "Cooperation on capital movements and payments to encourage liberalization between Mexico and the European Community.",
+    "Gradual and mutual opening of government procurement markets on a reciprocal basis.",
+    "Mechanisms for cooperation and coordination on competition laws to prevent distortions affecting trade.",
+    "Established measures for the protection of intellectual property rights in accordance with international standards.",
+    "Regular dialogue on economic matters to stimulate trade and investments.",
+    "Promotion of industrial cooperation through conferences, seminars, and trade fairs to identify business opportunities.",
+    "Support for small and medium-sized enterprises through joint investments and information networks.",
+    "Cooperation in the financial services sector to enhance productivity and competitiveness.",
+    "Joint projects in science and technology, including exchanges of information and training of scientists.",
+    "Cooperation on environmental issues, including sustainable management of natural resources and joint research projects.",
+    "Initiatives to combat drug trafficking and money laundering through coordinated programs and information exchange.",
+    "Cooperation on health, focusing on research, preventive medicine, and improving health conditions.",
+    "Development of joint training programs in education and vocational training, particularly for disadvantaged groups.",
+    "Cultural cooperation to promote mutual understanding and cultural exchanges.",
+    "Cooperation on consumer protection, including the exchange of information and training schemes.",
+    "Cooperation on data protection to improve personal data protection standards and facilitate trade."
+  ],
+  "commitments": [],
+  "score": 61,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 85,
+    "completeness": 85,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "BEL",
+    "agreement_type": [
+      "Legal Treaty"
+    ],
+    "legal_bindingness": "Legally-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "enterprise",
+      "woman",
+      "community",
+      "operator",
+      "population"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Female Entrepreneurs"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Rural & Remote Communities",
+        "label": "Rural Populations"
+      }
+    ],
+    "start_date": "2000-10-28",
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "The objective of this Title is to establish a framework to encourage the development of trade in goods and services, including a bilateral and preferential, progressive and reciprocal liberalisation of trade in goods and services.",
+        "kpi_type": "qualitative",
+        "metric_name": "Trade Development Framework",
+        "target_value": null,
+        "target_description": "Establish a framework for the development of trade in goods and services.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "Joint Council",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "The Joint Council shall decide on the arrangements and timetable for a bilateral, progressive and reciprocal liberalisation of tariff and non-tariff barriers to trade in goods.",
+        "kpi_type": "qualitative",
+        "metric_name": "Tariff and Non-Tariff Barrier Liberalisation",
+        "target_value": null,
+        "target_description": "Decide on arrangements and timetable for liberalisation of trade barriers.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Timetable and arrangements established",
+        "responsible_entity": "Joint Council",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "The Parties shall agree to the gradual and mutual opening of agreed government procurement markets on a reciprocal basis.",
+        "kpi_type": "qualitative",
+        "metric_name": "Government Procurement Market Opening",
+        "target_value": null,
+        "target_description": "Gradual and mutual opening of government procurement markets.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Agreements on procurement markets",
+        "responsible_entity": "Joint Council",
+        "sector": "Public Procurement"
+      },
+      {
+        "kpi_text": "The objective of this Title is to establish a framework to encourage the progressive and reciprocal liberalisation of capital movements and payments between Mexico and the Community.",
+        "kpi_type": "qualitative",
+        "metric_name": "Capital Movements Liberalisation",
+        "target_value": null,
+        "target_description": "Establish a framework for liberalisation of capital movements.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "Joint Council",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "The Parties shall promote a favourable environment for the development of small and medium-sized enterprises.",
+        "kpi_type": "qualitative",
+        "metric_name": "SME Development Environment",
+        "target_value": null,
+        "target_description": "Promote a favorable environment for SMEs.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Policies and initiatives for SME support",
+        "responsible_entity": "Joint Council",
+        "sector": "Small and Medium Enterprises"
+      },
+      {
+        "kpi_text": "The Parties shall conduct a dialogue on all aspects of the social agenda of interest to one or other Party.",
+        "kpi_type": "qualitative",
+        "metric_name": "Social Agenda Dialogue",
+        "target_value": null,
+        "target_description": "Conduct dialogue on social agenda aspects.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Dialogue sessions held",
+        "responsible_entity": "Joint Council",
+        "sector": "Social Affairs"
+      },
+      {
+        "kpi_text": "The Parties shall take the appropriate measures for cooperation and liaison, that they consider appropriate, to intensify their actions for the prevention and reduction of production, distribution and illegal consumption of drugs.",
+        "kpi_type": "qualitative",
+        "metric_name": "Drug Prevention Cooperation",
+        "target_value": null,
+        "target_description": "Intensify actions for drug prevention and reduction.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Cooperation measures implemented",
+        "responsible_entity": "Joint Council",
+        "sector": "Drug Control"
+      },
+      {
+        "kpi_text": "The Parties shall promote development and cooperation in the agricultural, agro-industrial and rural sectors.",
+        "kpi_type": "qualitative",
+        "metric_name": "Agricultural Cooperation",
+        "target_value": null,
+        "target_description": "Promote development in agricultural sectors.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Development initiatives launched",
+        "responsible_entity": "Joint Council",
+        "sector": "Agriculture"
+      },
+      {
+        "kpi_text": "The Parties shall promote cooperation in the financial services sector, in conformity with their laws, regulations and policies.",
+        "kpi_type": "qualitative",
+        "metric_name": "Financial Services Cooperation",
+        "target_value": null,
+        "target_description": "Promote cooperation in financial services.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Cooperation agreements established",
+        "responsible_entity": "Joint Council",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "The Parties shall develop cooperation to prevent degradation of the environment; to promote the conservation and sustainable management of natural resources.",
+        "kpi_type": "qualitative",
+        "metric_name": "Environmental Cooperation",
+        "target_value": null,
+        "target_description": "Develop cooperation for environmental conservation.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Environmental initiatives implemented",
+        "responsible_entity": "Joint Council",
+        "sector": "Environment"
+      }
+    ],
+    "country_list_iso": [
+      "AUT",
+      "BEL",
+      "DNK",
+      "FIN",
+      "FRA",
+      "DEU",
+      "GRC",
+      "IRL",
+      "ITA",
+      "LUX",
+      "MEX",
+      "NLD",
+      "ESP",
+      "SWE",
+      "GBR"
+    ],
+    "responsible_entity": "Joint Council",
+    "sdg_alignment": [
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals",
+      "SDG 4: Quality Education",
+      "SDG 3: Good Health and Well-being",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 2: Zero Hunger",
+      "SDG 1: No Poverty",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 13: Climate Action",
+      "SDG 15: Life on Land"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Community",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Community is a primary party in the agreement, representing the collective interests of its member states and playing a crucial role in establishing the framework for political dialogue and economic cooperation with Mexico."
+    },
+    {
+      "name": "United Mexican States",
+      "category": "Political Actors",
+      "relevance_score": 0.85,
+      "justification": "As the other main party in the agreement, Mexico's role is essential for the bilateral relations and cooperation outlined in the document, making it a key actor in the political and economic discussions."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The individual EU Member States are integral to the agreement as they collectively represent the European Community's interests and are involved in the decision-making processes outlined in the document."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Data Protection",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Data protection is a critical theme as it underpins the agreement's commitment to safeguarding personal data, which is essential for fostering trust in international cooperation and trade."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.85,
+      "justification": "Digital governance is central to the agreement's objectives, as it addresses the regulatory frameworks necessary for effective digital cooperation and trade between the EU and Mexico."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.8,
+      "justification": "The EU-LAC Digital Alliance is significant as it represents a strategic partnership aimed at enhancing digital cooperation, which is vital for economic and technological development in the context of the agreement."
+    }
+  ]
+}

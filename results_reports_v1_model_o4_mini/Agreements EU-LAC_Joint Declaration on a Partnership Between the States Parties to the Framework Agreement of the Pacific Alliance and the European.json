@@ -1,0 +1,188 @@
+{
+  "title": "EU Technical Assistance Programme for Mexico and Central America (2021-2025)",
+  "date": "2021-05-15",
+  "location": "Mexico",
+  "executive_summary": "The EU Policy & Outreach Partnership's Technical Assistance Programme in Mexico and Central America (2021-2025) aims to enhance the EU's public-diplomacy outreach and partnerships in the region. Funded by the European Union and implemented by the Organization of Ibero-American States (OEI), the program focuses on engaging diverse audiences, including business communities, decision-makers, influencers, and civil society. Key objectives include increasing the visibility of EU priorities, fostering mutual understanding, and establishing a robust stakeholder network for ongoing policy dialogue. Activities include forums on democracy and climate, cultural events, and workshops for various stakeholders. The project is aligned with Sustainable Development Goal 17, emphasizing partnerships.",
+  "characteristics": [
+    "**Project Duration**: The technical assistance program runs from May 15, 2021, to May 14, 2025, lasting nearly 48 months.",
+    "**Funding and Implementation**: Funded by the European Union and implemented by the Organization of Ibero-American States (OEI).",
+    "**Objectives**: Aims to enhance EU public diplomacy and partnerships in Mexico and Central America, focusing on engagement with diverse audiences.",
+    "**Target Groups**: Engages business communities, decision-makers, influencers, and civil society actors to strengthen EU outreach.",
+    "**Expected Outcomes**: Seeks to improve visibility of EU priorities, foster mutual understanding, and establish a network for ongoing policy dialogue.",
+    "**Activities**: Includes forums, cultural events, workshops, and academic exchanges to promote shared values and collaboration."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "Organisation of Ibero-American States"
+    ],
+    "Civil Society Actors": [
+      "Civil-society and cultural actors"
+    ]
+  },
+  "practical_applications": [
+    "EU Policy & Outreach Partnership - Technical Assistance Programme in Mexico & Central America (2021-2025) implemented by the Organization of Ibero-American States (OEI) with financing from the European Union.",
+    "The programme aims to strengthen EU public-diplomacy outreach and partnerships in Mexico and Central America, supporting the implementation of EU policies and priorities.",
+    "Activities include forums on democracy, digital transformation, climate, and inclusive growth; cultural events showcasing shared values; workshops for journalists, policy-makers, and civil-society leaders; and academic exchanges and think-tank research collaboration.",
+    "The project has a duration of 47 months and is expected to directly benefit over 1,000 individuals, aligning with SDG 17 - Partnerships."
+  ],
+  "commitments": [],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 85,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "MEX",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "business",
+      "decision-maker",
+      "influencer",
+      "civil-society",
+      "cultural-actor"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      }
+    ],
+    "start_date": "2021-05-15",
+    "end_date": "2025-05-14",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Direct beneficiaries: >1 000 individuals",
+        "kpi_type": "quantitative",
+        "metric_name": "Direct Beneficiaries",
+        "target_value": 1000.0,
+        "target_description": "Number of individuals directly benefiting from the program",
+        "unit": "individuals",
+        "timeframe": "by 2025",
+        "measurement_method": "Count of individuals engaged in the program",
+        "responsible_entity": "OEI",
+        "sector": "Public Diplomacy"
+      },
+      {
+        "kpi_text": "Support the implementation of EU policies and priorities by bolstering the EU's capacity to engage diverse audiences",
+        "kpi_type": "qualitative",
+        "metric_name": "EU Policy Implementation Support",
+        "target_value": null,
+        "target_description": "Enhance EU's capacity for public engagement and outreach",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Assessment of outreach activities and engagement levels",
+        "responsible_entity": "OEI",
+        "sector": "Public Diplomacy"
+      },
+      {
+        "kpi_text": "Greater visibility of EU priorities via outreach campaigns and cultural diplomacy.",
+        "kpi_type": "qualitative",
+        "metric_name": "Visibility of EU Priorities",
+        "target_value": null,
+        "target_description": "Increase in visibility of EU priorities through campaigns",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Evaluation of outreach campaign effectiveness",
+        "responsible_entity": "OEI",
+        "sector": "Public Diplomacy"
+      },
+      {
+        "kpi_text": "Deeper mutual understanding and trust between the EU and regional stakeholders.",
+        "kpi_type": "qualitative",
+        "metric_name": "Mutual Understanding and Trust",
+        "target_value": null,
+        "target_description": "Enhance trust and understanding between EU and stakeholders",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Surveys and feedback from stakeholders",
+        "responsible_entity": "OEI",
+        "sector": "Public Diplomacy"
+      },
+      {
+        "kpi_text": "Consolidated stakeholder network for sustained policy dialogue.",
+        "kpi_type": "qualitative",
+        "metric_name": "Stakeholder Network Consolidation",
+        "target_value": null,
+        "target_description": "Establish a network for ongoing policy dialogue",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Network formation and engagement metrics",
+        "responsible_entity": "OEI",
+        "sector": "Public Diplomacy"
+      }
+    ],
+    "country_list_iso": [
+      "MEX"
+    ],
+    "responsible_entity": "Organization of Ibero-American States (OEI)",
+    "sdg_alignment": [
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the primary financier and overarching entity behind the technical assistance program, making it central to the document's objectives and initiatives."
+    },
+    {
+      "name": "Organisation of Ibero-American States",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The OEI is the implementer of the program, playing a crucial role in executing the EU's policies and facilitating partnerships in Mexico and Central America."
+    },
+    {
+      "name": "Civil-society and cultural actors",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.6,
+      "justification": "These actors are identified as key target groups for engagement, highlighting their importance in fostering mutual understanding and trust between the EU and regional stakeholders."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU Policy & Outreach Partnership",
+      "category": "International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it outlines the main initiative funded by the EU to enhance its diplomatic outreach in Mexico and Central America, directly aligning with the project's objectives."
+    },
+    {
+      "name": "Technical Assistance Programme",
+      "category": "Capacity Building",
+      "relevance_score": 0.85,
+      "justification": "The document details the technical assistance provided to strengthen EU engagement, making it a key focus area with significant content dedicated to its implementation and expected outcomes."
+    },
+    {
+      "name": "Cultural Diplomacy and Engagement",
+      "category": "Cultural Exchange",
+      "relevance_score": 0.8,
+      "justification": "Cultural activities are highlighted as a means to foster mutual understanding and trust, which is crucial for achieving the project's goals and enhancing EU visibility in the region."
+    }
+  ]
+}

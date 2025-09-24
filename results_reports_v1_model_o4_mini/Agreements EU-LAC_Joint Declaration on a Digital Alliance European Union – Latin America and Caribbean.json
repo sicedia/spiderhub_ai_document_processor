@@ -1,0 +1,282 @@
+{
+  "title": "EU-LAC Joint Declaration on a Digital Alliance: Framework for Digital Cooperation",
+  "date": "2023-07-17",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The EU-LAC Digital Alliance, established on July 17, 2023, aims to enhance cooperation between the European Union and Latin American and Caribbean countries in the digital sector. This informal framework promotes dialogue on digital policies, internet governance, data protection, and emerging technologies, fostering a human-centric digital economy. Key initiatives include the BELLA fibre-optic cable extension, regional Copernicus data centers, and the establishment of a Digital Accelerator to support joint ventures. The Alliance emphasizes inclusivity, aiming to close digital gaps and empower citizens, particularly women and youth, through education and digital literacy. Regular meetings will facilitate the identification of joint priorities and the adaptation of strategies to evolving needs. The partnership is underpinned by shared values of human rights, transparency, and sustainability, ensuring that digitalization benefits all citizens.",
+  "characteristics": [
+    "The EU-LAC Digital Alliance is a collaborative framework for digital cooperation between the European Union and Latin American and Caribbean countries, promoting shared values and human rights.",
+    "It focuses on various digital issues, including internet governance, data protection, cybersecurity, and digital skills development, aiming to enhance connectivity and innovation.",
+    "The Alliance encourages participation from multiple stakeholders, including governments, private sectors, and civil society, fostering a bi-regional dialogue and investment agenda.",
+    "It emphasizes closing digital gaps, promoting social inclusion, and ensuring that digitalization benefits all citizens, particularly marginalized groups.",
+    "The initiative includes specific projects like the BELLA fibre-optic cable and Copernicus data centres to enhance digital infrastructure and collaboration."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Policy",
+      "Digital Infrastructure",
+      "Digital Skills Development"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Cybersecurity",
+      "Data Protection"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Gender Equality in Tech",
+      "Digital Education"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Member States",
+      "Community of Latin American and Caribbean States"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Digital Alliance",
+      "Digital4Development Hub",
+      "LAC Space Agencies"
+    ],
+    "Economic Actors": [
+      "Inter-American Development Bank",
+      "World Bank"
+    ],
+    "Civil Society Actors": [
+      "Digital Literacy Initiatives",
+      "Digital Skills Development Platforms"
+    ]
+  },
+  "practical_applications": [
+    "Establishment of the EU-LAC Digital Alliance, a framework for cooperation on digital matters among EU and Latin American and Caribbean countries.",
+    "Ongoing cooperation through the BELLA programme, which includes the extension of the BELLA fibre-optic cable to enhance digital connectivity.",
+    "Implementation of a regional Copernicus Strategy, which includes the establishment of two regional Copernicus data centres in Panama and Chile.",
+    "Creation of an EU-LAC Digital Accelerator aimed at fostering collaboration between EU and LAC corporations, SMEs, and innovative start-ups, with a goal of facilitating at least 40 joint ventures for bi-regional innovation and digital transformation.",
+    "Regular bi-regional dialogue and cooperation on digital policy, including data protection, cybersecurity, and interoperability, involving governments, NGOs, and private stakeholders.",
+    "Development of a bi-regional Investment Agenda in the digital domain underpinned by the Global Gateway initiative."
+  ],
+  "commitments": [
+    "Facilitate and accelerate at least 40 joint ventures for bi-regional innovation and digital transformation by the establishment of an EU-LAC Digital Accelerator.",
+    "Extend the BELLA fibre-optic cable to interested countries in 2023.",
+    "Implement a regional Copernicus Strategy including two regional Copernicus data centres in Panama and Chile in 2023.",
+    "Review progress on an annual basis."
+  ],
+  "score": 94,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 94,
+    "completeness": 94,
+    "accuracy": 90,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "EUU",
+    "agreement_type": [
+      "Declaration",
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Global Gateway",
+      "Digital Decade"
+    ],
+    "review_schedule": "Annual",
+    "beneficiary_group_raw": [
+      "citizen",
+      "woman",
+      "girl",
+      "youth",
+      "SME"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      }
+    ],
+    "start_date": "2023-07-17",
+    "end_date": null,
+    "commitment_details": [
+      {
+        "text": "Facilitate and accelerate at least 40 joint ventures for bi-regional innovation and digital transformation by the establishment of an EU-LAC Digital Accelerator.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Extend the BELLA fibre-optic cable to interested countries in 2023.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "Implement a regional Copernicus Strategy including two regional Copernicus data centres in Panama and Chile in 2023.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "Review progress on an annual basis.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Facilitate and accelerate at least 40 joint ventures for bi-regional innovation and digital transformation.",
+        "kpi_type": "quantitative",
+        "metric_name": "Joint Ventures for Innovation",
+        "target_value": 40.0,
+        "target_description": "Facilitate and accelerate joint ventures between EU and LAC for innovation.",
+        "unit": "joint ventures",
+        "timeframe": "by 2023",
+        "measurement_method": "Count of joint ventures established",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Economy"
+      },
+      {
+        "kpi_text": "Provide secure, universal, and meaningful digital connectivity to every citizen.",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Connectivity",
+        "target_value": null,
+        "target_description": "Ensure every citizen has access to secure and meaningful digital connectivity.",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Assessment of connectivity access and quality",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Establish an EU-LAC Digital Accelerator aiming to foster multi-stakeholder collaboration.",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Accelerator Establishment",
+        "target_value": null,
+        "target_description": "Create a platform for collaboration between EU and LAC stakeholders.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Completion of the Digital Accelerator setup",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Innovation"
+      },
+      {
+        "kpi_text": "Implement a regional Copernicus Strategy including two regional Copernicus data centres in Panama and Chile.",
+        "kpi_type": "qualitative",
+        "metric_name": "Copernicus Data Centres Implementation",
+        "target_value": null,
+        "target_description": "Establish two data centres to support Copernicus activities.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Operational status of data centres",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Space and Data Services"
+      },
+      {
+        "kpi_text": "Support the digital projects of our Investment Agenda, which are to be agreed upon by the two regions.",
+        "kpi_type": "qualitative",
+        "metric_name": "Investment Agenda Support",
+        "target_value": null,
+        "target_description": "Facilitate the development of digital projects under the Investment Agenda.",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Tracking of supported projects",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Digital Investment"
+      },
+      {
+        "kpi_text": "Review progress on an annual basis.",
+        "kpi_type": "qualitative",
+        "metric_name": "Annual Progress Review",
+        "target_value": null,
+        "target_description": "Conduct annual reviews to assess progress of the Digital Alliance.",
+        "unit": "qualitative milestone",
+        "timeframe": "annually",
+        "measurement_method": "Documentation of review outcomes",
+        "responsible_entity": "EU-LAC Digital Alliance",
+        "sector": "Governance"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "BHS",
+      "BLZ",
+      "BRA",
+      "CHL",
+      "COL",
+      "CRI",
+      "DOM",
+      "ECU",
+      "SLV",
+      "GTM",
+      "GUY",
+      "HND",
+      "JAM",
+      "MEX",
+      "PAN",
+      "PRY",
+      "PER",
+      "SUR",
+      "TTO",
+      "URY"
+    ],
+    "responsible_entity": "European Union",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is a central actor in the document, leading the initiative for the EU-LAC Digital Alliance and playing a pivotal role in shaping the digital cooperation framework between Europe and Latin America."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "EU Member States are crucial participants in the EU-LAC Digital Alliance, contributing to the collective efforts and resources necessary for the implementation of digital initiatives and policies."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.8,
+      "justification": "The EU-LAC Digital Alliance is the primary framework for cooperation discussed in the document, facilitating dialogue and collaboration on various digital issues, making it a key focus of the text."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "The EU-LAC Digital Alliance is the central theme of the document, representing the primary framework for cooperation between the EU and Latin America and the Caribbean. It encapsulates the overall purpose of the declaration and is foundational to the commitments made."
+    },
+    {
+      "name": "Digital Policy",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "Digital policy is crucial as it outlines the strategic framework for cooperation on digital matters, including governance, security, and infrastructure. The document dedicates significant content to this theme, emphasizing its importance in achieving the alliance's objectives."
+    },
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "Digital inclusion is a key objective of the alliance, focusing on ensuring equitable access to digital technologies for all citizens. The document highlights commitments to close digital gaps and promote social cohesion, making this theme strategically important for the alliance's success."
+    }
+  ]
+}

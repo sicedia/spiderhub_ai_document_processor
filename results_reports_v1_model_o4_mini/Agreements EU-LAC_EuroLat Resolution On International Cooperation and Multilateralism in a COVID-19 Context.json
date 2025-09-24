@@ -1,0 +1,267 @@
+{
+  "title": "EuroLat Resolution on International Cooperation and Multilateralism in the Context of COVID-19",
+  "date": "2023-07-27",
+  "location": "Madrid, Spain",
+  "executive_summary": "The Euro-Latin American Parliamentary Assembly's resolution, adopted on July 27, 2023, emphasizes the need for enhanced international cooperation and multilateralism in response to the COVID-19 pandemic. It highlights the pandemic's impact on global interdependence, revealing the necessity for coordinated global solutions to address health, economic, and social challenges. The resolution calls for a renewed commitment to multilateralism, advocating for equitable access to vaccines, strengthening public health systems, and promoting sustainable development. It urges the EU and Latin American countries to deepen their cooperation, particularly in health, environmental protection, and addressing poverty and inequality exacerbated by the pandemic. The document also stresses the importance of ratifying association agreements and enhancing South-South cooperation to foster resilience and recovery in the region.",
+  "characteristics": [
+    "Emphasizes the need for renewed commitment to multilateralism in response to global challenges exacerbated by COVID-19.",
+    "Highlights the importance of international cooperation in addressing health, economic, and social issues, particularly in the context of vaccine distribution and pandemic preparedness.",
+    "Calls for enhanced collaboration between the EU and Latin America to tackle shared challenges and promote sustainable development.",
+    "Recognizes the rise of nationalism and its impact on global cooperation, advocating for a balance between national interests and multilateral efforts.",
+    "Stresses the significance of addressing poverty and inequality as part of the recovery process from the pandemic."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Multilateralism",
+      "Digital & Technological Partnerships"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Data Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Fernando Arce (Parlatino, Panama)",
+      "Leopoldo López Gil (European Parliament)",
+      "European Union",
+      "EU Member States",
+      "European Parliament",
+      "European Commission",
+      "United Nations",
+      "Organisation of American States"
+    ],
+    "Economic Actors": [
+      "Organisation for Economic Cooperation and Development",
+      "Inter-American Development Bank",
+      "World Bank"
+    ]
+  },
+  "practical_applications": [
+    "Established the EIC Accelerator and COVAX mechanism to ensure fair and equitable access to COVID-19 treatments and vaccines.",
+    "Ongoing negotiations at the WHO to establish a Pandemic Treaty for better preparedness for future pandemics.",
+    "Support for the immediate ratification of association agreements between the EU and Mercosur, Chile, and Mexico to promote bi-regional alliances.",
+    "Initiatives for regional health cooperation, including the establishment of a transnational institute for infectious diseases.",
+    "Urging governments and the OAS to consider special drawing rights as a funding source for social and economic recovery post-COVID-19.",
+    "Commitment to adapt EU development aid policy to address the new health, economic, and social challenges created by the COVID-19 pandemic."
+  ],
+  "commitments": [],
+  "score": 93,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 93,
+    "completeness": 93,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "ESP",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [
+      "NDICI-Global Europe"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "citizens",
+      "women",
+      "migrants",
+      "refugees",
+      "communities"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Migrants & Refugees",
+        "label": "Migrants"
+      },
+      {
+        "category": "Migrants & Refugees",
+        "label": "Refugees"
+      },
+      {
+        "category": "Rural & Remote Communities",
+        "label": "Underserved Communities"
+      }
+    ],
+    "start_date": "2023-07-27",
+    "end_date": "2023-07-27",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "increase research and production capacity and diversifying production sites for medical equipment, medicines and vaccines",
+        "kpi_type": "qualitative",
+        "metric_name": "Research and Production Capacity",
+        "target_value": null,
+        "target_description": "Increase research and production capacity and diversify production sites for medical equipment, medicines, and vaccines.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of production capacity and site diversification",
+        "responsible_entity": "Governments and public administrations",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "reduce barriers to trade in essential health care products, including vaccines and their ingredients",
+        "kpi_type": "qualitative",
+        "metric_name": "Trade Barriers Reduction",
+        "target_value": null,
+        "target_description": "Reduce barriers to trade in essential health care products.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of trade policies and regulations",
+        "responsible_entity": "Governments and trade organizations",
+        "sector": "Trade/Health"
+      },
+      {
+        "kpi_text": "support the ongoing negotiations at the WHO to establish a Pandemic Treaty",
+        "kpi_type": "qualitative",
+        "metric_name": "Pandemic Treaty Support",
+        "target_value": null,
+        "target_description": "Support negotiations for a Pandemic Treaty to prepare for future pandemics.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of negotiation progress and outcomes",
+        "responsible_entity": "EU and Latin American and Caribbean countries",
+        "sector": "Health/International Cooperation"
+      },
+      {
+        "kpi_text": "promote the technological and energy transitions with a view to progressive decarbonisation",
+        "kpi_type": "qualitative",
+        "metric_name": "Decarbonisation Efforts",
+        "target_value": null,
+        "target_description": "Promote technological and energy transitions for decarbonisation.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of technological and energy transition initiatives",
+        "responsible_entity": "Governments and international organizations",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "achieve the 17 Sustainable Development Goals by the planned deadline",
+        "kpi_type": "qualitative",
+        "metric_name": "Sustainable Development Goals Achievement",
+        "target_value": null,
+        "target_description": "Cooperate to meet the 17 Sustainable Development Goals.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of progress towards the SDGs",
+        "responsible_entity": "All public and private stakeholders",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "increase international cooperation on defending peace and global security",
+        "kpi_type": "qualitative",
+        "metric_name": "International Cooperation on Peace",
+        "target_value": null,
+        "target_description": "Strengthen international cooperation on peace and global security.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of international cooperation initiatives",
+        "responsible_entity": "Governments",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "reduce poverty and sovereign debt as key elements of the global recovery",
+        "kpi_type": "qualitative",
+        "metric_name": "Poverty and Debt Reduction",
+        "target_value": null,
+        "target_description": "Focus on reducing poverty and sovereign debt for global recovery.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring of poverty and debt levels",
+        "responsible_entity": "Governments and international organizations",
+        "sector": "Economic Development"
+      },
+      {
+        "kpi_text": "adapt national health plans and support primary health care systems",
+        "kpi_type": "qualitative",
+        "metric_name": "Health Plan Adaptation",
+        "target_value": null,
+        "target_description": "Adapt national health plans to support primary health care systems.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of health plan adaptations",
+        "responsible_entity": "National governments",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "integrate gender equality in the negotiation, implementation and monitoring of partnership agreements",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Equality Integration",
+        "target_value": null,
+        "target_description": "Ensure gender equality is integrated into partnership agreements.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of partnership agreements for gender equality",
+        "responsible_entity": "Governments and organizations involved in partnerships",
+        "sector": "Gender Equality"
+      }
+    ],
+    "country_list_iso": [
+      "PAN",
+      "ESP",
+      "MEX",
+      "CHL"
+    ],
+    "responsible_entity": "European Union",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 3: Good Health and Well-being",
+      "SDG 10: Reduced Inequalities",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is central to the resolution, being a key actor in international cooperation and multilateralism, particularly in the context of the COVID-19 pandemic. It is mentioned multiple times and plays a significant role in the initiatives discussed."
+    },
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The United Nations is frequently referenced in relation to global cooperation and health responses during the pandemic. Its reports and frameworks are foundational to the resolution's arguments, highlighting its importance in international governance."
+    },
+    {
+      "name": "Leopoldo López Gil",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "As a co-rapporteur of the resolution, Leopoldo López Gil represents the European Parliament and is directly involved in the political discourse surrounding international cooperation and multilateralism, making him a significant figure in the document."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "Multilateralism is central to the document's main message, emphasizing the need for coordinated global responses to challenges like COVID-19. The resolution repeatedly highlights the importance of multilateral frameworks for addressing international issues."
+    },
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.75,
+      "justification": "Global Digital Cooperation is significant as it relates to the digital transformations accelerated by the pandemic. The document discusses the role of technology in international cooperation, making it a key theme in the context of post-pandemic recovery."
+    },
+    {
+      "name": "Digital & Technological Partnerships",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.65,
+      "justification": "Digital & Technological Partnerships are important for fostering collaboration in technological development and innovation, which are crucial for addressing global challenges. The document emphasizes the need for partnerships to enhance resilience and recovery efforts."
+    }
+  ]
+}

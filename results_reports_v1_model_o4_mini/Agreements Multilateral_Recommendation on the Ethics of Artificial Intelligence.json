@@ -1,0 +1,272 @@
+{
+  "title": "UNESCO Recommendation on the Ethics of Artificial Intelligence (2021)",
+  "date": "2021-11-23",
+  "location": "Paris, France",
+  "executive_summary": "The \"Recommendation on the Ethics of Artificial Intelligence,\" adopted by UNESCO on November 23, 2021, outlines a comprehensive framework for the ethical governance of AI technologies. It emphasizes the importance of human rights, dignity, and environmental sustainability throughout the AI system life cycle. The document advocates for multi-stakeholder engagement, promoting inclusivity, transparency, and accountability in AI development and deployment. Key policy areas include ethical impact assessments, data governance, and international cooperation, particularly focusing on the needs of low- and middle-income countries. The recommendation aims to ensure that AI serves humanity positively while mitigating risks associated with discrimination, bias, and environmental harm. Member States are encouraged to implement these guidelines voluntarily, fostering a global dialogue on AI ethics to promote equitable access and benefit-sharing.",
+  "characteristics": [
+    "**Human Rights Focus**: Emphasizes the respect, protection, and promotion of human rights and fundamental freedoms throughout the AI system life cycle, ensuring that AI technologies enhance human dignity.",
+    "**Environmental Considerations**: Advocates for the protection and promotion of environmental and ecosystem health, urging AI actors to minimize their ecological footprint and comply with environmental laws.",
+    "**Inclusivity and Diversity**: Stresses the importance of diversity and inclusiveness in AI development, ensuring participation from marginalized groups and addressing gender disparities in technology.",
+    "**Ethical Governance**: Calls for multi-stakeholder governance frameworks that are transparent, inclusive, and capable of addressing the ethical implications of AI technologies.",
+    "**Accountability and Oversight**: Highlights the need for clear accountability mechanisms for AI actors, ensuring that ethical and legal responsibilities are upheld throughout the AI system life cycle.",
+    "**Education and Awareness**: Promotes AI literacy and ethical education to empower individuals and communities, fostering informed engagement with AI technologies."
+  ],
+  "themes": {
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "AI Ethics"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations",
+      "United Nations Officials"
+    ],
+    "Research and Innovation Actors": [
+      "Universities",
+      "Researchers",
+      "Academic Institutions"
+    ],
+    "Civil Society Actors": [
+      "Civil Society Organisations"
+    ]
+  },
+  "practical_applications": [
+    "Member States are encouraged to introduce frameworks for ethical impact assessments to identify and assess benefits, concerns, and risks of AI systems, including impacts on human rights and fundamental freedoms.",
+    "Member States should develop due diligence and oversight mechanisms to prevent, mitigate, and account for the impact of AI systems on human rights and inclusive societies.",
+    "Member States are encouraged to develop national and regional AI strategies, including certification mechanisms for AI systems that adhere to ethical guidelines.",
+    "Member States should establish mechanisms for the active participation of all Member States, especially LMICs, in international discussions concerning AI governance.",
+    "Member States should implement policies to ensure that AI actors respect and promote human rights and fundamental freedoms throughout the AI system life cycle.",
+    "Member States should promote open data and consider reviewing their policies to support the safe, fair, legal, and ethical sharing of data.",
+    "Member States should ensure that the potential for digital technologies and AI to contribute to achieving gender equality is maximized, including dedicated funds for gender-responsive schemes.",
+    "Member States should promote AI education and digital training for artists and creative professionals to assess the suitability of AI technologies for their profession.",
+    "Member States should work with international organizations and educational institutions to provide adequate AI literacy education to the public.",
+    "Member States should develop guidelines for human-robot interactions and their impact on human relationships, particularly in health care and education.",
+    "Member States should implement policies to raise awareness about the anthropomorphization of AI technologies and their ethical implications."
+  ],
+  "commitments": [],
+  "score": 92,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 92,
+    "completeness": 92,
+    "accuracy": 85,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "FRA",
+    "agreement_type": [
+      "Recommendation"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "woman",
+      "community",
+      "country",
+      "enterprise",
+      "society"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women in Tech"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "Public Sector / Governments",
+        "label": "Public Institutions"
+      }
+    ],
+    "start_date": "2021-11-23",
+    "end_date": "2022-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Member States should introduce frameworks for impact assessments, such as ethical impact assessment, to identify and assess benefits, concerns and risks of AI systems.",
+        "kpi_type": "qualitative",
+        "metric_name": "Ethical Impact Assessment Frameworks",
+        "target_value": null,
+        "target_description": "Introduce frameworks for ethical impact assessments to evaluate AI systems.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "Member States",
+        "sector": "AI Ethics"
+      },
+      {
+        "kpi_text": "Member States should ensure that the potential for digital technologies and artificial intelligence to contribute to achieving gender equality is fully maximized.",
+        "kpi_type": "qualitative",
+        "metric_name": "Maximizing Gender Equality through AI",
+        "target_value": null,
+        "target_description": "Ensure AI technologies contribute to gender equality.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of AI impact on gender equality",
+        "responsible_entity": "Member States",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "Member States should promote the acquisition of 'prerequisite skills' for AI education, such as basic literacy, numeracy, coding and digital skills.",
+        "kpi_type": "qualitative",
+        "metric_name": "Prerequisite Skills for AI Education",
+        "target_value": null,
+        "target_description": "Promote acquisition of essential skills for AI education.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of educational programs",
+        "responsible_entity": "Member States",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Member States should ensure that AI actors respect and promote freedom of expression as well as access to information with regard to automated content generation, moderation and curation.",
+        "kpi_type": "qualitative",
+        "metric_name": "Promotion of Freedom of Expression",
+        "target_value": null,
+        "target_description": "Ensure AI actors promote freedom of expression and access to information.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring compliance with freedom of expression standards",
+        "responsible_entity": "Member States",
+        "sector": "Communication and Information"
+      },
+      {
+        "kpi_text": "Member States should assess and address the impact of AI systems on labour markets and its implications for education requirements.",
+        "kpi_type": "qualitative",
+        "metric_name": "Assessment of AI Impact on Labour Markets",
+        "target_value": null,
+        "target_description": "Evaluate the impact of AI on labor markets and education.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Labour market analysis and educational assessment",
+        "responsible_entity": "Member States",
+        "sector": "Economy and Labour"
+      },
+      {
+        "kpi_text": "Member States should develop guidelines for human-robot interactions and their impact on human-human relationships.",
+        "kpi_type": "qualitative",
+        "metric_name": "Guidelines for Human-Robot Interactions",
+        "target_value": null,
+        "target_description": "Establish guidelines for safe human-robot interactions.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Development and dissemination of guidelines",
+        "responsible_entity": "Member States",
+        "sector": "Health and Social Well-Being"
+      },
+      {
+        "kpi_text": "Member States should ensure that the development and deployment of AI systems related to health in general and mental health in particular, is regulated to the effect that they are safe, effective, efficient, scientifically and medically proven.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regulation of AI in Health",
+        "target_value": null,
+        "target_description": "Ensure AI systems in health are safe and effective.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Regulatory compliance checks",
+        "responsible_entity": "Member States",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "Member States should implement policies to ensure that the actions of AI actors are consistent with international human rights law, standards and principles throughout the life cycle of AI systems.",
+        "kpi_type": "qualitative",
+        "metric_name": "Compliance with Human Rights in AI",
+        "target_value": null,
+        "target_description": "Ensure AI actions comply with human rights standards.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring and evaluation of AI compliance",
+        "responsible_entity": "Member States",
+        "sector": "Human Rights"
+      },
+      {
+        "kpi_text": "Member States should develop, review and adapt, as appropriate, regulatory frameworks to achieve accountability and responsibility for the content and outcomes of AI systems at the different phases of their life cycle.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regulatory Frameworks for AI Accountability",
+        "target_value": null,
+        "target_description": "Establish regulatory frameworks for AI accountability.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Review and adaptation of regulatory frameworks",
+        "responsible_entity": "Member States",
+        "sector": "Regulation"
+      },
+      {
+        "kpi_text": "Member States should ensure that users can easily identify whether they are interacting with a living being, or with an AI system imitating human or animal characteristics.",
+        "kpi_type": "qualitative",
+        "metric_name": "Transparency in AI Interactions",
+        "target_value": null,
+        "target_description": "Ensure users can identify AI interactions.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "User feedback and compliance checks",
+        "responsible_entity": "Member States",
+        "sector": "AI Ethics"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "UNESCO",
+    "sdg_alignment": [
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The United Nations is the primary body responsible for the adoption of the Recommendation on the Ethics of Artificial Intelligence, highlighting its central role in establishing global ethical standards for AI."
+    },
+    {
+      "name": "Universities",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.8,
+      "justification": "Universities are crucial for research and innovation in AI ethics, contributing to the development of knowledge and frameworks that guide ethical AI practices."
+    },
+    {
+      "name": "Civil Society Organisations",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.7,
+      "justification": "Civil society organizations play a vital role in advocating for ethical standards and ensuring that diverse perspectives are included in the discussions surrounding AI ethics."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "AI Ethics",
+      "category": "Technology & Innovation",
+      "relevance_score": 1.0,
+      "justification": "AI Ethics is the central theme of the document, as it outlines the ethical considerations and frameworks necessary for the responsible development and deployment of AI technologies. The document dedicates significant content to defining ethical principles, values, and policy actions related to AI, making it crucial for guiding future AI practices."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.9,
+      "justification": "Artificial Intelligence is the primary subject of the document, which discusses its implications, benefits, and risks. The extensive content on AI technologies highlights their transformative potential and the need for ethical governance, making it a key theme."
+    },
+    {
+      "name": "Human Rights and Fundamental Freedoms",
+      "category": "Social Justice",
+      "relevance_score": 0.8,
+      "justification": "The document emphasizes the importance of human rights and fundamental freedoms in the context of AI, advocating for their protection throughout the AI system life cycle. This theme is strategically important as it aligns with global commitments to uphold human dignity and equality in the face of technological advancements."
+    }
+  ]
+}

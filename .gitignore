@@ -3,7 +3,6 @@
 reports/
 charts/
 pdfs_test/
-documents/
 ### dotenv ###
 .env
 

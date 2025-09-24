@@ -1,0 +1,341 @@
+{
+  "title": "Pact for the Future: Global Digital Compact and Declaration on Future Generations",
+  "date": "2024-09-22",
+  "location": "New York, United States",
+  "executive_summary": "The \"Pact for the Future, Global Digital Compact, and Declaration on Future Generations,\" established during the September 2024 Summit of the Future, outlines a comprehensive framework for addressing global challenges through sustainable development, international cooperation, and the promotion of human rights. It emphasizes urgent actions to eradicate poverty, combat climate change, and ensure gender equality while fostering inclusive societies. The document includes 56 specific actions across various domains, including sustainable development financing, peace and security, and digital cooperation. It also introduces a Global Digital Compact aimed at closing digital divides and enhancing the benefits of digital technologies for all. The Declaration on Future Generations highlights the responsibility of current generations to safeguard the interests of future ones, advocating for intergenerational dialogue and sustainable practices. Overall, the pact seeks to transform global governance and strengthen multilateralism to create a just, equitable, and sustainable future for all.",
+  "characteristics": [
+    "**Global Cooperation**: Emphasizes the necessity of international collaboration to address interconnected global challenges, ensuring that no one is left behind, particularly vulnerable populations.",
+    "**Sustainable Development Goals (SDGs)**: Reaffirms commitment to the 2030 Agenda, focusing on eradicating poverty, achieving gender equality, and addressing climate change as central to sustainable development.",
+    "**Digital Inclusion**: Advocates for closing digital divides and promoting equitable access to technology, recognizing its role in advancing sustainable development and human rights.",
+    "**Intergenerational Responsibility**: Highlights the importance of safeguarding the needs and interests of future generations through responsible decision-making and sustainable practices.",
+    "**Human Rights Framework**: Commits to upholding human rights in all actions, ensuring that digital technologies respect and promote fundamental freedoms.",
+    "**Transforming Global Governance**: Calls for reforming multilateral institutions to be more representative, effective, and accountable, addressing contemporary global challenges."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Agenda",
+      "Digital Policy",
+      "Digital Economy",
+      "Digital Skills Development"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Data Privacy",
+      "Digital Rights"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Gender Equality in Tech",
+      "Digital Education"
+    ],
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations",
+      "United Nations Officials"
+    ],
+    "Civil Society Actors": [
+      "Civil Society Organisations"
+    ]
+  },
+  "practical_applications": [
+    "Commitment to implement 56 actions in areas such as sustainable development, international peace and security, science, technology and innovation, youth engagement, and transforming global governance.",
+    "Establishment of a Global Digital Compact aimed at closing digital divides and enhancing international governance of artificial intelligence.",
+    "Commitment to mobilize significant additional financing for sustainable development, particularly for developing countries.",
+    "Ongoing efforts to address the Sustainable Development Goal financing gap through the Secretary-General’s proposal for a Sustainable Development Goal stimulus.",
+    "Commitment to strengthen the role of the United Nations in supporting international cooperation in science, technology, and innovation.",
+    "Initiatives to promote gender equality and the empowerment of women and girls as part of sustainable development efforts.",
+    "Commitment to enhance international cooperation for the exploration and use of outer space for peaceful purposes.",
+    "Establishment of a framework for measures of progress on sustainable development that complement and go beyond gross domestic product.",
+    "Commitment to strengthen the Peacebuilding Commission to enhance national and international peacebuilding efforts.",
+    "Commitment to ensure the effective enjoyment of all human rights and respond to new and emerging challenges.",
+    "Commitment to strengthen partnerships to deliver on existing commitments and address new and emerging challenges.",
+    "Commitment to invest in the social and economic development of children and young people to help them reach their full potential."
+  ],
+  "commitments": [
+    "By 2030, scale up support from all sources for investment in increasing productive capacities, inclusive and sustainable industrialization, infrastructure, and structural economic transformation in developing countries.",
+    "By 2030, achieve universal access to affordable, reliable, sustainable, and modern energy for all, including efforts for resilient and secure cross-border energy infrastructure, and increase substantially the share of renewable energy.",
+    "By 2030, significantly increase investments to close the gender gap, including in the care and support economy.",
+    "By 2025, secure an ambitious outcome at the Fourth International Conference on Financing for Development to close the Sustainable Development Goal financing gap and accelerate the implementation of the 2030 Agenda.",
+    "By 2027, protect everyone on Earth through universal coverage of multi-hazard early warning systems.",
+    "By 2030, aim for a 50% increase in the data available to monitor the Sustainable Development Goals, disaggregated by income, sex, age, race, ethnicity, migration status, disability, and geographical location.",
+    "By 2025, develop a new quota formula for the International Monetary Fund to improve the voice and representation of developing countries.",
+    "By 2030, develop and implement national digital skills strategies to maximize coverage of basic digital skills for as many as possible.",
+    "By 2027, hold a fourth United Nations Conference on the Peaceful Exploration of Outer Space (UNISPACE IV).",
+    "By 2030, develop a framework on measures of progress on sustainable development that complements and goes beyond gross domestic product."
+  ],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 80,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "USA",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "woman",
+      "youth",
+      "child",
+      "community",
+      "generation"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Children"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      }
+    ],
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31",
+    "commitment_details": [
+      {
+        "text": "By 2030, scale up support from all sources for investment in increasing productive capacities, inclusive and sustainable industrialization, infrastructure, and structural economic transformation in developing countries.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "By 2030, achieve universal access to affordable, reliable, sustainable, and modern energy for all, including efforts for resilient and secure cross-border energy infrastructure, and increase substantially the share of renewable energy.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "By 2030, significantly increase investments to close the gender gap, including in the care and support economy.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "By 2025, secure an ambitious outcome at the Fourth International Conference on Financing for Development to close the Sustainable Development Goal financing gap and accelerate the implementation of the 2030 Agenda.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2027, protect everyone on Earth through universal coverage of multi-hazard early warning systems.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "By 2030, aim for a 50% increase in the data available to monitor the Sustainable Development Goals, disaggregated by income, sex, age, race, ethnicity, migration status, disability, and geographical location.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2025, develop a new quota formula for the International Monetary Fund to improve the voice and representation of developing countries.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "By 2030, develop and implement national digital skills strategies to maximize coverage of basic digital skills for as many as possible.",
+        "commitment_class": "Implemented"
+      },
+      {
+        "text": "By 2027, hold a fourth United Nations Conference on the Peaceful Exploration of Outer Space (UNISPACE IV).",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "By 2030, develop a framework on measures of progress on sustainable development that complements and goes beyond gross domestic product.",
+        "commitment_class": "Programmatic"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "We will take bold, ambitious, accelerated, just and transformative actions to implement the 2030 Agenda, achieve the Sustainable Development Goals and leave no one behind.",
+        "kpi_type": "qualitative",
+        "metric_name": "Implementation of the 2030 Agenda",
+        "target_value": null,
+        "target_description": "Achieve the Sustainable Development Goals by 2030.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Progress towards the Sustainable Development Goals",
+        "responsible_entity": "Heads of State and Government",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "We will ensure that the multilateral trading system continues to be an engine for sustainable development.",
+        "kpi_type": "qualitative",
+        "metric_name": "Sustainable Development in Trade",
+        "target_value": null,
+        "target_description": "Maintain a rules-based, non-discriminatory, open, fair, inclusive, equitable and transparent multilateral trading system.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of trade policies and practices",
+        "responsible_entity": "Member States",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "We will close the Sustainable Development Goal financing gap in developing countries.",
+        "kpi_type": "qualitative",
+        "metric_name": "Closing Financing Gap",
+        "target_value": null,
+        "target_description": "Mobilize sustainable, affordable, accessible, transparent and predictable development finance.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring financing flows to developing countries",
+        "responsible_entity": "International Financial Institutions",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "We will achieve gender equality and the empowerment of all women and girls as a crucial contribution to progress across all the Sustainable Development Goals and targets.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Equality and Empowerment",
+        "target_value": null,
+        "target_description": "Ensure full and equal enjoyment of all human rights and fundamental freedoms by all women and girls.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Gender equality assessments and reports",
+        "responsible_entity": "Member States",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "We will strengthen our actions to address climate change.",
+        "kpi_type": "qualitative",
+        "metric_name": "Climate Change Action",
+        "target_value": null,
+        "target_description": "Accelerate meeting obligations under the United Nations Framework Convention on Climate Change and the Paris Agreement.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Climate action progress reports",
+        "responsible_entity": "Member States",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "We will invest in the social and economic development of children and young people so that they can reach their full potential.",
+        "kpi_type": "qualitative",
+        "metric_name": "Investment in Youth Development",
+        "target_value": null,
+        "target_description": "Ensure equitable access to essential services for all children and young people.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring investment in youth services",
+        "responsible_entity": "Member States",
+        "sector": "Youth Development"
+      },
+      {
+        "kpi_text": "We will strengthen our efforts to build peaceful, just and inclusive societies for sustainable development.",
+        "kpi_type": "qualitative",
+        "metric_name": "Building Peaceful Societies",
+        "target_value": null,
+        "target_description": "Provide access to justice for all and build effective, accountable and inclusive institutions.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of justice and governance systems",
+        "responsible_entity": "Member States",
+        "sector": "Peace and Security"
+      },
+      {
+        "kpi_text": "We will strengthen our partnerships to deliver on existing commitments and address new and emerging challenges.",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Partnerships",
+        "target_value": null,
+        "target_description": "Enhance cooperation with stakeholders to address global challenges.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Partnership engagement assessments",
+        "responsible_entity": "Member States",
+        "sector": "Partnerships"
+      },
+      {
+        "kpi_text": "We will ensure the effective enjoyment by all of all human rights and respond to new and emerging challenges.",
+        "kpi_type": "qualitative",
+        "metric_name": "Human Rights Enjoyment",
+        "target_value": null,
+        "target_description": "Promote and protect all human rights and fundamental freedoms.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Human rights monitoring and reporting",
+        "responsible_entity": "Member States",
+        "sector": "Human Rights"
+      },
+      {
+        "kpi_text": "We will accelerate reform of the international financial architecture to address the challenges of today and tomorrow.",
+        "kpi_type": "qualitative",
+        "metric_name": "Reform of Financial Architecture",
+        "target_value": null,
+        "target_description": "Ensure the international financial architecture is efficient and equitable.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of financial architecture reforms",
+        "responsible_entity": "International Financial Institutions",
+        "sector": "Finance"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "the Secretary-General",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The United Nations is the central actor in the document, driving the agenda for global cooperation, sustainable development, and peace. It is mentioned extensively throughout the text, highlighting its pivotal role in shaping international policies and frameworks."
+    },
+    {
+      "name": "United Nations Officials",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "United Nations Officials are crucial for implementing the initiatives and commitments outlined in the document. Their roles in decision-making and execution of policies are emphasized, reflecting their importance in the context of global governance."
+    },
+    {
+      "name": "Civil Society Organisations",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.6,
+      "justification": "Civil Society Organisations are recognized as essential stakeholders in promoting human rights and sustainable development. Their involvement is critical for ensuring that diverse voices are heard and that initiatives are inclusive, although they are mentioned less frequently than the UN and its officials."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.95,
+      "justification": "Digital inclusion is central to the document's main message of ensuring equitable access to digital technologies and opportunities for all, particularly marginalized groups. A significant portion of the content is dedicated to strategies for closing digital divides and promoting access, making it a key objective."
+    },
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Data governance is crucial for ensuring that data is used responsibly and ethically, which aligns with the document's emphasis on human rights and sustainable development. The extensive discussion on data privacy, security, and interoperability highlights its strategic importance."
+    },
+    {
+      "name": "Digital Skills Development",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "Digital skills development is vital for empowering individuals to effectively engage with digital technologies. The document outlines commitments to enhance digital literacy and skills, which are essential for achieving broader goals of digital transformation and inclusion."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "title": "Community Leaders Forum Meeting Summary - November 2023",
+  "date": "2023-11-15",
+  "location": null,
+  "executive_summary": "The Community Leaders Forum (CLF) held on November 15, 2023, focused on updates and discussions regarding research software initiatives. Key topics included the European Virtual Institute for Research Software Excellence (EVERSE), which aims to enhance research software quality, and the Australian Research Data Commons (ARDC) report on research software visibility. The meeting also highlighted the publication of a guide on Research Software Engineers (RSEs) and the establishment of the Helmholtz Incubator Software Award in Germany. The forum emphasized the importance of community engagement and strategic investments in research software, with plans for future meetings in 2024. Participants were encouraged to share their organizational updates and contribute to ongoing discussions about research software policies and practices.",
+  "characteristics": [
+    "The Community Leaders Forum (CLF) is a collaborative meeting focused on research software, held on November 15, 2023, via Zoom.",
+    "The agenda includes sector news updates, discussions on research software policies, and the introduction of new initiatives and awards in the field.",
+    "Key topics include the European Virtual Institute for Research Software Excellence and the Australian Research Data Commons' report on research software visibility.",
+    "The forum emphasizes community engagement and aims to accommodate diverse time zones for future meetings.",
+    "Resources such as slides and notes are provided for participants to enhance understanding and collaboration."
+  ],
+  "themes": {
+    "Data & Governance": [
+      "Digital Governance",
+      "Data Governance"
+    ],
+    "Technology & Innovation": [
+      "ICT Innovation",
+      "Cloud Computing"
+    ]
+  },
+  "actors": {
+    "Research and Innovation Actors": [
+      "Research Software Alliance",
+      "Australian Research Data Commons",
+      "University of Manchester",
+      "University of Illinois Urbana-Champaign",
+      "Imperial College London",
+      "Argonne National Laboratory"
+    ]
+  },
+  "practical_applications": [
+    "The European Virtual Institute for Research Software Excellence (EVERSE) aims to create a framework for research software and code excellence, with a kickoff planned for March 2024.",
+    "The Australian Research Data Commons (ARDC) has released a report on research software visibility, supporting the national research software agenda, and is funded by the Australian Federal Department of Education through the National Collaborative Research Infrastructure Strategy (NCRIS).",
+    "A draft strategy for National Digital Research Infrastructure has been put out for consultation by ARDC, which includes a focus on Research Software.",
+    "The US-RSE and the IEEE Computer Society published \"Research Software Engineers: Creating a Career Path—and a Career,\" providing guidance on skills and career development for Research Software Engineers.",
+    "The Helmholtz Association initiated the “Helmholtz Incubator Software Award,” which will be awarded in 2024.",
+    "The PRO4RS Working Group on Policies in Research Organisations for Research Software has been proposed, with resources available for joining and participating in the group.",
+    "The Software authorship Task Force has a GitHub repository for collaboration on software authorship contributions.",
+    "An International RSE meetup is scheduled, providing a platform for community engagement.",
+    "The OpenForum Academy Symposium 2023 on Open Source Software is set for November 28, 2023."
+  ],
+  "commitments": [
+    "Kick off for the European Virtual Institute for Research Software Excellence (EVERSE) is scheduled for March 2024.",
+    "Submissions for the draft strategy for National Digital Research Infrastructure consultation close on November 20, 2023.",
+    "The Helmholtz Incubator Software Award will be given out in 2024."
+  ],
+  "score": 92,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 92,
+    "completeness": 92,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "community",
+      "engineer",
+      "research",
+      "software",
+      "organisation"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Researchers"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Private Sector Organizations"
+      }
+    ],
+    "start_date": "2023-11-15",
+    "end_date": "2023-11-20",
+    "commitment_details": [
+      {
+        "text": "Kick off for the European Virtual Institute for Research Software Excellence (EVERSE) is scheduled for March 2024.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Submissions for the draft strategy for National Digital Research Infrastructure consultation close on November 20, 2023.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The Helmholtz Incubator Software Award will be given out in 2024.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Kick off is in March 2024",
+        "kpi_type": "qualitative",
+        "metric_name": "Kick-off of EVERSE Framework",
+        "target_value": null,
+        "target_description": "Initiate the framework for research software and code excellence",
+        "unit": "qualitative milestone",
+        "timeframe": "March 2024",
+        "measurement_method": "Framework initiation and stakeholder engagement",
+        "responsible_entity": "European Virtual Institute for Research Software Excellence (EVERSE)",
+        "sector": "Research Software"
+      },
+      {
+        "kpi_text": "Submissions close November 20th",
+        "kpi_type": "qualitative",
+        "metric_name": "Consultation Submission Deadline",
+        "target_value": null,
+        "target_description": "Collect feedback on the draft strategy for National Digital Research Infrastructure",
+        "unit": "qualitative milestone",
+        "timeframe": "November 20, 2023",
+        "measurement_method": "Number of submissions received",
+        "responsible_entity": "Australian Research Data Commons (ARDC)",
+        "sector": "Research Software"
+      },
+      {
+        "kpi_text": "Establishing a national research software award",
+        "kpi_type": "qualitative",
+        "metric_name": "National Research Software Award Establishment",
+        "target_value": null,
+        "target_description": "Create a framework for recognizing excellence in research software",
+        "unit": "qualitative milestone",
+        "timeframe": "TBD",
+        "measurement_method": "Award framework development and implementation",
+        "responsible_entity": "Isabelle Blanc Catala et al.",
+        "sector": "Research Software"
+      },
+      {
+        "kpi_text": "Research Software Engineers: Creating a Career Path",
+        "kpi_type": "qualitative",
+        "metric_name": "Career Path Development for Research Software Engineers",
+        "target_value": null,
+        "target_description": "Provide a guide to needed skills and career engagement for Research Software Engineers",
+        "unit": "qualitative milestone",
+        "timeframe": "TBD",
+        "measurement_method": "Publication and community feedback",
+        "responsible_entity": "US-RSE and IEEE Computer Society",
+        "sector": "Research Software"
+      },
+      {
+        "kpi_text": "Helmholtz Incubator Software Award as a new prize which will be given out in 2024",
+        "kpi_type": "qualitative",
+        "metric_name": "Helmholtz Software Award Establishment",
+        "target_value": null,
+        "target_description": "Introduce a new award to recognize outstanding contributions in research software",
+        "unit": "qualitative milestone",
+        "timeframe": "2024",
+        "measurement_method": "Award criteria and selection process",
+        "responsible_entity": "Helmholtz Association",
+        "sector": "Research Software"
+      }
+    ],
+    "country_list_iso": [
+      "AUS",
+      "DEU",
+      "FRA",
+      "NLD",
+      "USA"
+    ],
+    "responsible_entity": "Research Software Alliance (ReSA)",
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Research Software Alliance",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 1.0,
+      "justification": "The Research Software Alliance is the chair of the Community Leaders Forum and is central to the agenda, indicating its leading role in the discussions and initiatives related to research software."
+    },
+    {
+      "name": "Australian Research Data Commons",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.8,
+      "justification": "The ARDC is mentioned multiple times regarding significant initiatives and reports that impact the visibility and infrastructure of research software, showcasing its influence in the ecosystem."
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.6,
+      "justification": "The University of Illinois Urbana-Champaign is represented by a key contributor to the discussion on Research Software Engineers, highlighting its involvement in shaping career paths and skills in the research software community."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Data Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.9,
+      "justification": "Data Governance is central to the document as it discusses the visibility and infrastructure needed for research software, which directly relates to how data is managed and governed within research organizations."
+    },
+    {
+      "name": "Digital Governance",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Digital Governance is important as it encompasses the policies and frameworks that guide the use of digital tools and data in research, which is a recurring theme in the discussions about research software and its strategic importance."
+    },
+    {
+      "name": "ICT Innovation",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.7,
+      "justification": "ICT Innovation is relevant as it relates to the technological advancements and initiatives discussed in the document, particularly in the context of enhancing research software capabilities and fostering collaboration among research communities."
+    }
+  ]
+}

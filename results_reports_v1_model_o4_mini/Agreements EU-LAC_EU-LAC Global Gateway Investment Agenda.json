@@ -1,0 +1,278 @@
+{
+  "title": "EU-LAC Global Gateway Investment Agenda: Promoting Sustainable Development and Investment in Latin America and the Caribbean",
+  "date": "2023-07-17",
+  "location": "Luxembourg",
+  "executive_summary": "The EU-LAC Global Gateway Investment Agenda, presented in July 2023, outlines strategic investment initiatives aimed at addressing the needs of Latin America and the Caribbean (LAC). With a commitment of over €45 billion until 2027, the agenda focuses on fostering green, digital, and fair transitions through public-private partnerships. It encompasses more than 130 projects across the region, including expanding telecom networks in Brazil, deploying 5G in Jamaica, and promoting green hydrogen in Chile. Key pillars include human development, health resilience, and tackling inequalities. The initiative also emphasizes sustainable supply chains for critical raw materials and aims to enhance social cohesion through the “Inclusive Societies” program, mobilizing €60 million for social inclusion efforts. Overall, the agenda seeks to leverage investments to promote innovation, job creation, and environmental sustainability in LAC.",
+  "characteristics": [
+    "The EU-LAC Global Gateway Investment Agenda aims to address investment needs in Latin America and the Caribbean, focusing on green, digital, and fair transitions.",
+    "It includes over 130 projects across the region, promoting joint value chains, innovation, and local growth.",
+    "Team Europe has committed over €45 billion for partnerships until 2027, involving public-private collaborations.",
+    "Key initiatives include expanding telecom networks, renewable energy projects, and health resilience programs.",
+    "The agenda emphasizes tackling inequalities and enhancing social cohesion through various EU-funded programs."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "EU-CELAC Digital Partnership",
+      "Digital & Technological Partnerships"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Infrastructure",
+      "Digital Acceleration",
+      "Digital Sustainability"
+    ],
+    "Inclusion & Social Development": [
+      "Social Cohesion",
+      "Digital Inclusion"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Member States",
+      "European Commission"
+    ],
+    "Economic Actors": [
+      "European Investment Bank (EIB)",
+      "Private Sector Representatives",
+      "Inter-American Development Bank",
+      "World Bank"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "practical_applications": [
+    "The EU has committed over €45 billion to support the partnership with Latin America and the Caribbean until 2027, focusing on green, digital, and fair transitions.",
+    "Collaboration with the Brazilian government and EU private sector to expand telecoms networks in the Amazon region.",
+    "Deployment of 5G in Jamaica to achieve island-wide broadband access.",
+    "Upgrade of the electricity network in Paraguay with support to the Administración Nacional de Electricidad.",
+    "Joint project in Panama to ensure universal access to energy.",
+    "Development of a Team Europe Initiative (TEI) on Green Hydrogen (GH2) in Chile to promote investment opportunities.",
+    "Construction of a metro line in Colombia.",
+    "Electrification of public transport in Costa Rica, including the conversion of 40 public buses to electric, reducing CO2 emissions by 5000 kilotons per year.",
+    "Collaboration on Critical Raw Materials in Argentina and Chile to strengthen sustainable supply chains.",
+    "Establishment of the Team Europe Initiative ‘Brazil Tropical Forests’ and contribution to the Amazon Fund.",
+    "Launch of the EU programme “Inclusive Societies” with €60 million to tackle inequalities and enhance social cohesion in Latin America and the Caribbean.",
+    "Extension of the BELLA cable and creation of two regional Copernicus centres for disaster risk reduction and climate monitoring as part of EU-LAC digital cooperation.",
+    "Development of the LAC-Global Green Bonds Initiative to mobilize capital for a sustainable transition.",
+    "Support for local medicines and vaccine manufacturing through the LAC-Health Resilience initiative, including regulatory frameworks."
+  ],
+  "commitments": [
+    "Team Europe has committed over €45 billion to support the partnership with Latin America and the Caribbean until 2027.",
+    "The EU will contribute €60 million from the EU budget to enhance social cohesion and tackle inequalities in Latin America and the Caribbean.",
+    "The conversion of the urban bus fleet to electric in Costa Rica will contribute to a reduction of 5000 CO2 kilotons per year."
+  ],
+  "score": 89,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 89,
+    "completeness": 89,
+    "accuracy": 72,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "EUU",
+    "agreement_type": [
+      "Investment Programme"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [
+      "Global Gateway"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "community",
+      "sector",
+      "society",
+      "region",
+      "country"
+    ],
+    "beneficiary_group": [],
+    "start_date": "2023-07-01",
+    "end_date": "2027-01-01",
+    "commitment_details": [
+      {
+        "text": "Team Europe has committed over €45 billion to support the partnership with Latin America and the Caribbean until 2027.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "The EU will contribute €60 million from the EU budget to enhance social cohesion and tackle inequalities in Latin America and the Caribbean.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "The conversion of the urban bus fleet to electric in Costa Rica will contribute to a reduction of 5000 CO2 kilotons per year.",
+        "commitment_class": "Implemented"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Team Europe has committed over €45 billion to support the reinforced partnership with Latin America and the Caribbean until 2027.",
+        "kpi_type": "quantitative",
+        "metric_name": "Financial Commitment to LAC",
+        "target_value": 45.0,
+        "target_description": "Commitment of financial resources to support partnership with LAC",
+        "unit": "billion EUR",
+        "timeframe": "until 2027",
+        "measurement_method": "Financial tracking and reporting",
+        "responsible_entity": "Team Europe",
+        "sector": "Investment"
+      },
+      {
+        "kpi_text": "Conversion of urban bus fleet to electric: 40 public e-vehicles contributing to a reduction of 5000 CO2 kilotons per year.",
+        "kpi_type": "quantitative",
+        "metric_name": "Electric Bus Fleet Conversion",
+        "target_value": 5000.0,
+        "target_description": "Reduction of CO2 emissions through the conversion of urban bus fleet to electric vehicles",
+        "unit": "kilotons",
+        "timeframe": "annual reduction",
+        "measurement_method": "Emission tracking and reporting",
+        "responsible_entity": "Local government and EU partners",
+        "sector": "Transport"
+      },
+      {
+        "kpi_text": "€60 million from the EU budget to be mobilised preparing a Team Europe platform to enhance social cohesion and tackle inequalities in Latin America and the Caribbean.",
+        "kpi_type": "quantitative",
+        "metric_name": "Social Cohesion Financial Mobilization",
+        "target_value": 60.0,
+        "target_description": "Mobilization of funds to enhance social cohesion and tackle inequalities",
+        "unit": "million EUR",
+        "timeframe": "not specified",
+        "measurement_method": "Financial tracking and reporting",
+        "responsible_entity": "EU Commission",
+        "sector": "Social Development"
+      },
+      {
+        "kpi_text": "Deployment of 5G to reach island-wide broadband access.",
+        "kpi_type": "qualitative",
+        "metric_name": "Broadband Access Deployment",
+        "target_value": null,
+        "target_description": "Achieve island-wide broadband access through 5G deployment",
+        "unit": "qualitative milestone",
+        "timeframe": "not specified",
+        "measurement_method": "Assessment of broadband coverage",
+        "responsible_entity": "EU and Jamaican government",
+        "sector": "Telecommunications"
+      },
+      {
+        "kpi_text": "The EU will work with LAC partners on Critical Raw Materials (such as lithium and others) in the region to strengthen sustainable supply chains.",
+        "kpi_type": "qualitative",
+        "metric_name": "Sustainable Supply Chain Development",
+        "target_value": null,
+        "target_description": "Strengthen sustainable supply chains for critical raw materials",
+        "unit": "qualitative milestone",
+        "timeframe": "not specified",
+        "measurement_method": "Partnership agreements and project assessments",
+        "responsible_entity": "EU and LAC partners",
+        "sector": "Raw Materials"
+      },
+      {
+        "kpi_text": "The EU will help with the electrification of public transport.",
+        "kpi_type": "qualitative",
+        "metric_name": "Public Transport Electrification",
+        "target_value": null,
+        "target_description": "Support the transition to electric public transport systems",
+        "unit": "qualitative milestone",
+        "timeframe": "not specified",
+        "measurement_method": "Project implementation and evaluation",
+        "responsible_entity": "EU and local governments",
+        "sector": "Transport"
+      },
+      {
+        "kpi_text": "Establish the Team Europe Initiative ‘Brazil Tropical Forests’ to jointly establish the Amazon Fund.",
+        "kpi_type": "qualitative",
+        "metric_name": "Amazon Fund Establishment",
+        "target_value": null,
+        "target_description": "Establish the Amazon Fund through the Team Europe Initiative",
+        "unit": "qualitative milestone",
+        "timeframe": "not specified",
+        "measurement_method": "Fund establishment and operational reports",
+        "responsible_entity": "EU and Brazilian government",
+        "sector": "Environmental Protection"
+      },
+      {
+        "kpi_text": "Fostering the development of the green bond market in LAC, thus mobilising capital for financing a sustainable transition.",
+        "kpi_type": "qualitative",
+        "metric_name": "Green Bond Market Development",
+        "target_value": null,
+        "target_description": "Develop the green bond market to mobilize capital for sustainability",
+        "unit": "qualitative milestone",
+        "timeframe": "not specified",
+        "measurement_method": "Market analysis and reporting",
+        "responsible_entity": "EU and financial institutions",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "Supporting the development of local medicines and vaccine manufacturing and health systems resilience.",
+        "kpi_type": "qualitative",
+        "metric_name": "Health Systems Resilience",
+        "target_value": null,
+        "target_description": "Enhance local medicine and vaccine manufacturing capabilities",
+        "unit": "qualitative milestone",
+        "timeframe": "not specified",
+        "measurement_method": "Health system assessments and reports",
+        "responsible_entity": "EU and health authorities in LAC",
+        "sector": "Health"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "BRA",
+      "CHL",
+      "COL",
+      "CRI",
+      "JAM",
+      "PAN",
+      "PRY"
+    ],
+    "responsible_entity": "The EU",
+    "sdg_alignment": [
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 13: Climate Action",
+      "SDG 15: Life on Land"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the primary actor driving the EU-LAC Global Gateway Investment Agenda, highlighting its central role in promoting investment and collaboration between Europe and Latin America."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "EU Member States are crucial partners in the initiatives outlined in the agenda, contributing to funding and collaborative efforts, thus playing a significant role in the success of the investment projects."
+    },
+    {
+      "name": "European Investment Bank (EIB)",
+      "category": "Economic Actors",
+      "relevance_score": 0.8,
+      "justification": "The EIB is mentioned as a key development financing institution involved in the investment agenda, indicating its importance in providing financial support for the projects aimed at fostering growth and sustainability in the region."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Social Cohesion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "Social cohesion is a central theme in the document, emphasizing the need to tackle inequalities and enhance social inclusion in Latin America and the Caribbean. It aligns with the strategic objectives of the EU-LAC partnership and is a key focus of the proposed initiatives."
+    },
+    {
+      "name": "Digital Infrastructure",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.85,
+      "justification": "Digital infrastructure is crucial for enabling the digital transformation of the region. The document highlights specific projects aimed at expanding telecom networks and broadband access, which are essential for bridging the digital divide and fostering economic growth."
+    },
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.8,
+      "justification": "The EU-LAC Digital Alliance represents a significant commitment to regional cooperation in digital transformation. It encompasses various initiatives aimed at enhancing digital capabilities and resilience, which are vital for achieving the broader goals of the Investment Agenda."
+    }
+  ]
+}

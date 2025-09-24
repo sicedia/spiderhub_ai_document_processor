@@ -1,0 +1,266 @@
+{
+  "title": "\"Follow-Up Actions and Proposals from the Conference on the Future of Europe\"",
+  "date": "2022-06-17",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The \"Conference on the Future of Europe,\" initiated in May 2021, engaged citizens across the EU in a deliberative democracy exercise, culminating in 49 proposals and 326 specific measures addressing key issues such as climate change, health, and digital transformation. The European Commission's follow-up communication outlines a commitment to implement these proposals, emphasizing the need for participative democracy in EU policymaking. It highlights the importance of citizen engagement through initiatives like Citizens' Panels and a new online consultation platform. The Commission aims to enhance democratic resilience and public space, responding to rising authoritarianism. The follow-up process is a shared responsibility among EU institutions, with a focus on transparent communication to maintain citizen trust and momentum. A feedback event is planned for autumn 2022 to report on progress and ensure alignment with the Conference's outcomes.",
+  "characteristics": [
+    "The Conference on the Future of Europe was a significant participatory democracy initiative, engaging citizens across Europe to discuss and propose solutions on various pressing issues.",
+    "It resulted in 49 proposals and 326 specific measures across nine themes, including climate change, health, economy, and digital transformation.",
+    "The initiative emphasized the importance of citizen involvement in shaping EU policies and aimed to create a more inclusive European public space.",
+    "The European Commission committed to following up on the proposals, assessing their feasibility, and integrating them into future legislative actions.",
+    "Innovations from the Conference, such as Citizens' Panels and a multilingual digital platform, aimed to enhance democratic engagement and ensure diverse citizen representation.",
+    "The Conference highlighted the need for a stronger, more independent Europe capable of addressing contemporary challenges, while also considering potential treaty changes for future reforms."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Transformation"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Digital Education"
+    ],
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Global Digital Cooperation"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "European Parliament",
+      "European Council"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the European Climate Law to enshrine EU climate targets into law.",
+    "Establishment of the Health Emergency Preparedness and Response Authority (HERA) to better prepare for cross-border health threats.",
+    "Adoption of the Digital Services Act to ensure a safe online environment.",
+    "Initiatives to strengthen Europe’s international partnerships through the Global Gateway strategy.",
+    "Launch of the European Citizens' Panels, involving randomly selected citizens to deliberate and make recommendations on key proposals.",
+    "Development of the Have Your Say portal as a one-stop-shop for online citizen engagement, integrating features from the Conference's multilingual digital platform.",
+    "Proposals under the European Democracy Action Plan to strengthen European political parties and protect election integrity.",
+    "Support for the European Parliament in reforming EU electoral law, including proposals for transnational lists in European elections."
+  ],
+  "commitments": [],
+  "score": 49,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 85,
+    "completeness": 90,
+    "accuracy": 62,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "BEL",
+    "agreement_type": [
+      "Communication"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Global Gateway"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "citizen",
+      "youth",
+      "woman",
+      "community",
+      "business"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      }
+    ],
+    "start_date": "2021-05-09",
+    "end_date": "2022-05-09",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize investment for digital infrastructure",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Investment mobilization tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish robust cybersecurity framework for critical infrastructure",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "European Commission",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Ensure that 800 randomly selected citizens participate in deliberative sessions",
+        "kpi_type": "quantitative",
+        "metric_name": "Citizen Participation in Deliberative Sessions",
+        "target_value": 800.0,
+        "target_description": "Engage citizens in deliberative sessions",
+        "unit": "participants",
+        "timeframe": null,
+        "measurement_method": "Tracking participation numbers",
+        "responsible_entity": "European Commission",
+        "sector": "Democracy"
+      },
+      {
+        "kpi_text": "Launch the first of the new generation of Citizens Panels in the context of the 2022 State of the Union address",
+        "kpi_type": "qualitative",
+        "metric_name": "Citizens Panels Launch",
+        "target_value": null,
+        "target_description": "Launch new generation of Citizens Panels",
+        "unit": "qualitative milestone",
+        "timeframe": "by September 2022",
+        "measurement_method": "Monitoring launch and participation",
+        "responsible_entity": "European Commission",
+        "sector": "Democracy"
+      },
+      {
+        "kpi_text": "Achieve 5 million individual visitors on the Multilingual Digital Platform by May 2022",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Platform Visitor Count",
+        "target_value": 5.0,
+        "target_description": "Reach visitor count on the digital platform",
+        "unit": "million visitors",
+        "timeframe": "by May 2022",
+        "measurement_method": "Website analytics",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Engagement"
+      },
+      {
+        "kpi_text": "Organize a Conference Feedback Event in autumn 2022",
+        "kpi_type": "qualitative",
+        "metric_name": "Conference Feedback Event Organization",
+        "target_value": null,
+        "target_description": "Organize feedback event to communicate progress",
+        "unit": "qualitative milestone",
+        "timeframe": "autumn 2022",
+        "measurement_method": "Event organization and attendance tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Democracy"
+      },
+      {
+        "kpi_text": "Integrate a 'citizen report' in the impact assessment for key proposals",
+        "kpi_type": "qualitative",
+        "metric_name": "Citizen Report Integration",
+        "target_value": null,
+        "target_description": "Integrate citizen feedback into impact assessments",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Review of impact assessments",
+        "responsible_entity": "European Commission",
+        "sector": "Policy Making"
+      },
+      {
+        "kpi_text": "Propose measures to strengthen European political parties and enable cross-border campaigning",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Political Parties",
+        "target_value": null,
+        "target_description": "Propose measures for political party strengthening",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Proposal tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Political Engagement"
+      },
+      {
+        "kpi_text": "Support the European Parliament in securing an agreement on the electoral law in the Council",
+        "kpi_type": "qualitative",
+        "metric_name": "Electoral Law Agreement Support",
+        "target_value": null,
+        "target_description": "Support agreement on electoral law",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Tracking legislative progress",
+        "responsible_entity": "European Commission",
+        "sector": "Electoral Reform"
+      }
+    ],
+    "country_list_iso": [
+      "DEU",
+      "RUS",
+      "UKR"
+    ],
+    "responsible_entity": "EUROPEAN COMMISSION",
+    "sdg_alignment": [
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Commission is the primary actor in the document, leading the follow-up actions from the Conference on the Future of Europe and is mentioned frequently throughout the text. It plays a crucial role in implementing proposals and shaping EU policies."
+    },
+    {
+      "name": "European Parliament",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The European Parliament is highlighted as a key institution involved in the legislative process and in proposing amendments to the Treaties. Its role in the follow-up to the Conference is significant, as it collaborates with the Commission and Council."
+    },
+    {
+      "name": "European Council",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The European Council is mentioned as a critical player in the decision-making process and in the context of Treaty changes. While it is less prominent than the Commission and Parliament, its influence on high-level policy direction is important."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Transformation",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "Digital Transformation is central to the document's main message as it addresses the need for Europe to adapt to modern challenges, particularly in the context of the COVID-19 pandemic and the digital age. It is a recurring theme throughout the document, highlighting the importance of digital strategies in shaping the future of Europe."
+    },
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "Digital Inclusion is crucial as it emphasizes the need for equitable access to digital resources and participation in the digital economy. The document discusses the importance of involving citizens from diverse backgrounds in shaping policies, making this theme strategically significant for fostering a more inclusive European society."
+    },
+    {
+      "name": "Digital Education",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.7,
+      "justification": "Digital Education is important as it relates to equipping citizens with the necessary skills to thrive in a digital world. The document highlights the role of education in fostering a European civic identity and ensuring that future generations are prepared for the challenges of a digital economy."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "title": "Joint Declaration of the Pacific Alliance and OECD",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Multilateralism"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Pacific Alliance",
+      "Organisation for Economic Cooperation and Development"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 89,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 89,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "COL",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Increase trade among member countries by 20% by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Trade Increase",
+        "target_value": 20.0,
+        "target_description": "Increase trade among member countries",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Trade volume analysis",
+        "responsible_entity": "Member countries",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "Mobilize $50 million in investment for sustainable development projects by 2024.",
+        "kpi_type": "quantitative",
+        "metric_name": "Sustainable Development Investment",
+        "target_value": 50.0,
+        "target_description": "Mobilize investment for sustainable development projects",
+        "unit": "million USD",
+        "timeframe": "by 2024",
+        "measurement_method": "Investment tracking",
+        "responsible_entity": "Member countries and private sector",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "Establish a regional cooperation framework for environmental protection by 2023.",
+        "kpi_type": "qualitative",
+        "metric_name": "Environmental Cooperation Framework",
+        "target_value": null,
+        "target_description": "Establish a framework for regional cooperation on environmental issues",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "Member countries",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Enhance capacity building initiatives for 500 public officials by 2026.",
+        "kpi_type": "quantitative",
+        "metric_name": "Capacity Building Initiatives",
+        "target_value": 500.0,
+        "target_description": "Train public officials in various sectors",
+        "unit": "officials",
+        "timeframe": "by 2026",
+        "measurement_method": "Training program evaluations",
+        "responsible_entity": "Member countries",
+        "sector": "Capacity Building"
+      },
+      {
+        "kpi_text": "Implement a joint strategy for digital transformation by 2025.",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Transformation Strategy",
+        "target_value": null,
+        "target_description": "Implement a joint strategy for enhancing digital capabilities",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Strategy implementation review",
+        "responsible_entity": "Member countries",
+        "sector": "Digital Transformation"
+      },
+      {
+        "kpi_text": "Reduce carbon emissions from transportation by 30% by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Transportation Emission Reduction",
+        "target_value": 30.0,
+        "target_description": "Reduce carbon emissions from transportation",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Emission tracking and reporting",
+        "responsible_entity": "Member countries",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Strengthen public-private partnerships in health sector by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Public-Private Partnerships in Health",
+        "target_value": null,
+        "target_description": "Strengthen collaboration between public and private sectors in health",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Partnership agreements and evaluations",
+        "responsible_entity": "Member countries",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "Achieve a 15% increase in renewable energy usage by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Renewable Energy Usage Increase",
+        "target_value": 15.0,
+        "target_description": "Increase the share of renewable energy in the energy mix",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Energy consumption reports",
+        "responsible_entity": "Member countries",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Develop a regional strategy for disaster risk reduction by 2023.",
+        "kpi_type": "qualitative",
+        "metric_name": "Disaster Risk Reduction Strategy",
+        "target_value": null,
+        "target_description": "Develop a comprehensive strategy for disaster risk management",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Strategy development and implementation review",
+        "responsible_entity": "Member countries",
+        "sector": "Disaster Management"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Pacific Alliance",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The Pacific Alliance is a key political actor in the context of the joint declaration, indicating its significant role in multilateral agreements and initiatives."
+    },
+    {
+      "name": "Organisation for Economic Cooperation and Development",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The OECD is crucial for economic cooperation and policy guidance, making it an important actor in the context of the joint declaration."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "Multilateralism is the central theme of the document, as it focuses on cooperation between multiple nations, which is essential for the objectives outlined in the Joint Declaration."
+    }
+  ]
+}

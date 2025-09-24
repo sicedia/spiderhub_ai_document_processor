@@ -1,0 +1,291 @@
+{
+  "title": "Renewing Bi-Regional Partnership: Outcomes and Roadmap from the 3rd EU-CELAC Ministerial Meeting",
+  "date": "2022-10-27",
+  "location": "Buenos Aires, Argentina",
+  "executive_summary": "The 3rd EU-CELAC Ministerial Meeting, held in Buenos Aires on October 27, 2022, marked a significant renewal of the partnership between the European Union and the Community of Latin American and Caribbean States (CELAC). Co-chaired by Argentina's Foreign Minister and the EU's High Representative, the meeting focused on fostering sustainable development and addressing global challenges such as economic recovery post-pandemic, climate change, and human rights. A roadmap for 2022-2023 was established, outlining key events leading to a summit of Heads of State and Government in 2023. The agenda emphasizes cooperation in areas like food security, digital transformation, and security governance, aiming to strengthen multilateralism and shared values between the regions.",
+  "characteristics": [
+    "The 3rd EU-CELAC Ministerial Meeting focused on renewing bi-regional partnerships to enhance peace and sustainable development, marking the first formal meeting since July 2018.",
+    "Key discussions included post-pandemic economic recovery, food security, energy, health, and strengthening trade relations.",
+    "Emphasis was placed on shared values such as human rights, democracy, and multilateralism in addressing global challenges.",
+    "The roadmap outlines various high-level events and initiatives planned for 2023, including a summit of Heads of State and Government.",
+    "Cooperation on climate change, digital transformation, and security governance were highlighted as critical areas for collaboration."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership",
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Agenda",
+      "Digital Acceleration"
+    ],
+    "Data & Governance": [
+      "Digital Governance",
+      "Data Protection"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Gender Equality in Tech"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Santiago Andres Cafiero",
+      "Josep Borrell",
+      "Community of Latin American and Caribbean States (CELAC)",
+      "European Union",
+      "EU Member States"
+    ],
+    "Research and Innovation Actors": [
+      "EU-LAC Foundation",
+      "Digital for Development Hub",
+      "EU-LAC Digital Alliance"
+    ]
+  },
+  "practical_applications": [
+    "II Course for Young Diplomats \"Strategic Partnership CELAC - European Union\" organized by EULAC Foundation and the Foreign Service Institute of the Argentine Republic (ISEN) (31 October to 4 November 2022; Buenos Aires, Argentina).",
+    "EU - Latin American Convention on Raw Materials (3-4 November 2022; Santiago, Chile).",
+    "Annual Meeting of the Assistance Programme against Transnational Organized Crime (PAcCTO) (9-10 November 2022; Buenos Aires, Argentina).",
+    "III EU-LAC Youth Days (15-16 November 2022; Prague and virtual).",
+    "II High-level event of the Digital for Development (D4D) Hub for Latin America and the Caribbean: \"Road to 2023: D4D Hub in Action for EU-CELAC Digital Cooperation\" (12 December 2022, Brussels and virtual).",
+    "Bi-regional meeting on energy cooperation within the framework of AR-Minera 2023 (22-24 May 2023; Buenos Aires, Argentina).",
+    "High-level meeting of the EU-CELAC Joint Initiative for Research and Innovation (JIRI) (date and place to be defined).",
+    "EU-CELAC Working Meeting on the CELAC Fund for Climate Adaptation and Comprehensive Disaster Response (date to be defined).",
+    "Meetings on Health Self-Sufficiency: production of vaccines, medicines and strategic medical supplies; with pharmaceutical companies from both regions; of regulatory authorities from the EU and from CELAC countries."
+  ],
+  "commitments": [
+    "III EU-CELAC Summit of Heads of State and Government to take place in 2023 (exact date to be confirmed).",
+    "Meeting of Ministers of Economy of the European Union and CELAC scheduled for September 2023 in Santiago de Compostela, Spain.",
+    "Bi-regional meeting on energy cooperation within the framework of AR-Minera 2023 from May 22-24, 2023, in Buenos Aires, Argentina."
+  ],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 81,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "ARG",
+    "agreement_type": [
+      "Ministerial Communiqué",
+      "Roadmap"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [
+      "Global Gateway"
+    ],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "woman",
+      "girl",
+      "youth",
+      "community",
+      "society"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women in Tech"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Civil Society Organizations"
+      }
+    ],
+    "start_date": "2022-10-27",
+    "end_date": "2023-01-01",
+    "commitment_details": [
+      {
+        "text": "III EU-CELAC Summit of Heads of State and Government to take place in 2023 (exact date to be confirmed).",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Meeting of Ministers of Economy of the European Union and CELAC scheduled for September 2023 in Santiago de Compostela, Spain.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Bi-regional meeting on energy cooperation within the framework of AR-Minera 2023 from May 22-24, 2023, in Buenos Aires, Argentina.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Organise a number of high-level events on shared thematic priorities including a bi-regional Summit of Heads of State and Government to take place in 2023",
+        "kpi_type": "qualitative",
+        "metric_name": "High-Level Events Organization",
+        "target_value": null,
+        "target_description": "Organize high-level events including a bi-regional Summit",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Event organization and attendance",
+        "responsible_entity": "EU and CELAC Foreign Ministers",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "II Course for Young Diplomats 'Strategic Partnership CELAC - European Union' - organized by EULAC Foundation and the Foreign Service Institute of the Argentine Republic (ISEN) (31 October to 4 November, 2022; Buenos Aires, Argentina)",
+        "kpi_type": "qualitative",
+        "metric_name": "Young Diplomats Training",
+        "target_value": null,
+        "target_description": "Conduct a training course for young diplomats",
+        "unit": "qualitative milestone",
+        "timeframe": "from 31 October to 4 November 2022",
+        "measurement_method": "Course completion and participant feedback",
+        "responsible_entity": "EULAC Foundation and ISEN",
+        "sector": "Education/Training"
+      },
+      {
+        "kpi_text": "Strengthen trade and investment relations between the two regions",
+        "kpi_type": "qualitative",
+        "metric_name": "Trade and Investment Relations Strengthening",
+        "target_value": null,
+        "target_description": "Enhance trade and investment cooperation",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Trade and investment agreements and partnerships",
+        "responsible_entity": "EU and CELAC Trade Ministers",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "High-level meeting of the EU-CELAC Joint Initiative for Research and Innovation - JIRI- (date and place to be defined)",
+        "kpi_type": "qualitative",
+        "metric_name": "Research and Innovation Initiative Meeting",
+        "target_value": null,
+        "target_description": "Conduct a high-level meeting for research and innovation",
+        "unit": "qualitative milestone",
+        "timeframe": "to be defined",
+        "measurement_method": "Meeting organization and outcomes",
+        "responsible_entity": "EU and CELAC Research and Innovation Leaders",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Bi-regional meeting on energy cooperation within the framework of AR-Minera 2023 (22-24 May 2023; Buenos Aires, Argentina)",
+        "kpi_type": "qualitative",
+        "metric_name": "Energy Cooperation Meeting",
+        "target_value": null,
+        "target_description": "Hold a meeting focused on energy cooperation",
+        "unit": "qualitative milestone",
+        "timeframe": "22-24 May 2023",
+        "measurement_method": "Meeting attendance and agreements reached",
+        "responsible_entity": "EU and CELAC Energy Ministers",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Meeting of Ministers of Economy of the European Union and CELAC - organized by the Development Bank of Latin America (CAF) (September 2023; Santiago de Compostela, Spain)",
+        "kpi_type": "qualitative",
+        "metric_name": "Economy Ministers Meeting",
+        "target_value": null,
+        "target_description": "Conduct a meeting of economy ministers",
+        "unit": "qualitative milestone",
+        "timeframe": "September 2023",
+        "measurement_method": "Meeting outcomes and agreements",
+        "responsible_entity": "EU and CELAC Economy Ministers",
+        "sector": "Economy"
+      },
+      {
+        "kpi_text": "EU-CELAC Working Meeting on the CELAC Fund for Climate Adaptation and Comprehensive Disaster Response (date to be defined)",
+        "kpi_type": "qualitative",
+        "metric_name": "Climate Adaptation Fund Meeting",
+        "target_value": null,
+        "target_description": "Hold a working meeting on climate adaptation and disaster response",
+        "unit": "qualitative milestone",
+        "timeframe": "to be defined",
+        "measurement_method": "Meeting organization and outcomes",
+        "responsible_entity": "EU and CELAC Climate Policy Leaders",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "Launch the European Union-Latin America and the Caribbean Digital Alliance and I High-Level Dialogue on digital policies (date and place to be defined)",
+        "kpi_type": "qualitative",
+        "metric_name": "Digital Alliance Launch",
+        "target_value": null,
+        "target_description": "Launch a digital alliance and hold a high-level dialogue",
+        "unit": "qualitative milestone",
+        "timeframe": "to be defined",
+        "measurement_method": "Alliance establishment and dialogue outcomes",
+        "responsible_entity": "EU and CELAC Digital Policy Leaders",
+        "sector": "Digital Policy"
+      },
+      {
+        "kpi_text": "III EU - CELAC Summit of Heads of State and Government (date to be confirmed)",
+        "kpi_type": "qualitative",
+        "metric_name": "Heads of State Summit",
+        "target_value": null,
+        "target_description": "Conduct a summit of heads of state and government",
+        "unit": "qualitative milestone",
+        "timeframe": "to be confirmed",
+        "measurement_method": "Summit organization and outcomes",
+        "responsible_entity": "EU and CELAC Heads of State",
+        "sector": "International Relations"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "CHL",
+      "ESP"
+    ],
+    "responsible_entity": "CELAC-EU Foreign Ministers Meeting",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "Santiago Andres Cafiero",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "As the Minister of Foreign Affairs of Argentina and pro tempore President of CELAC, Cafiero played a central role in chairing the meeting and shaping the agenda, making him highly relevant."
+    },
+    {
+      "name": "Josep Borrell",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "As the EU High Representative for Foreign Affairs and Security Policy, Borrell's involvement in the meeting and his position within the EU make him crucial for the bi-regional partnership."
+    },
+    {
+      "name": "Community of Latin American and Caribbean States (CELAC)",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "CELAC is a key regional organization representing Latin American and Caribbean countries, and its partnership with the EU is central to the discussions and initiatives outlined in the documents."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Bi-regional Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it encapsulates the primary objective of the EU-CELAC meeting, which is to renew and strengthen the partnership between the two regions. The document dedicates significant content to discussing cooperation on various issues, making it a key focus."
+    },
+    {
+      "name": "Digital Agenda",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.8,
+      "justification": "The Digital Agenda is crucial as it reflects the commitment to innovation and digital transformation, which are essential for post-pandemic recovery and future cooperation. The theme is well-represented in the discussions about digital policies and initiatives."
+    },
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.7,
+      "justification": "This theme is important as it highlights the need for collaboration on a global scale, particularly in the context of digital transformation and addressing global challenges. It aligns with the strategic goals of both regions to enhance their international cooperation."
+    }
+  ]
+}

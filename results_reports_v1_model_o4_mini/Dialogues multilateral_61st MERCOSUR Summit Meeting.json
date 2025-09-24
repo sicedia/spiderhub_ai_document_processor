@@ -1,0 +1,65 @@
+{
+  "title": "61st MERCOSUR Summit Meeting Summary",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Multilateralism"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Southern Common Market"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 29,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 30,
+    "completeness": 29,
+    "accuracy": 50,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "ARG",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Southern Common Market",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The Southern Common Market is the primary focus of the document, as it is directly referenced in the context of the 61st MERCOSUR Summit Meeting, indicating its central role in the discussions and decisions made during the summit."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "Multilateralism is the central theme of the document, as the 61st MERCOSUR Summit Meeting focuses on fostering cooperation among member states, making it crucial for understanding the summit's objectives and discussions."
+    }
+  ]
+}

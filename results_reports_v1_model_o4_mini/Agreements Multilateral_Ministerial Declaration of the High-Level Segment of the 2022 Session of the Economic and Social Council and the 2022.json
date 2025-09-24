@@ -1,0 +1,360 @@
+{
+  "title": "Ministerial Declaration on Building Back Better from COVID-19 and Advancing the 2030 Agenda for Sustainable Development",
+  "date": "2022-07-18",
+  "location": "New York, United States",
+  "executive_summary": "The Ministerial Declaration from the 2022 High-Level Segment of the Economic and Social Council emphasizes the urgent need for global action to recover from the COVID-19 pandemic while advancing the 2030 Agenda for Sustainable Development. It highlights the exacerbation of poverty, hunger, and inequalities due to the pandemic and calls for a commitment to leave no one behind. The declaration reaffirms the importance of international cooperation, multilateralism, and solidarity in addressing global challenges, including climate change and biodiversity loss. It stresses the necessity of gender equality and the empowerment of women and girls as critical to achieving sustainable development. The document outlines a roadmap for recovery, urging countries to adopt inclusive and resilient strategies, enhance resource mobilization, and strengthen partnerships to achieve the Sustainable Development Goals by 2030.",
+  "characteristics": [
+    "The declaration emphasizes the urgent need for global cooperation and solidarity to address the ongoing impacts of the COVID-19 pandemic and to accelerate the implementation of the 2030 Agenda for Sustainable Development.",
+    "It reaffirms the commitment to eradicate poverty, achieve food security, and ensure inclusive and equitable quality education, particularly for vulnerable populations.",
+    "The document highlights the interconnectedness of sustainable development, peace, and security, stressing that neither can be achieved without the other.",
+    "It calls for enhanced international cooperation to combat climate change, biodiversity loss, and pollution, recognizing these as critical challenges to sustainable development.",
+    "The declaration underscores the importance of gender equality and the empowerment of women and girls as essential for achieving all Sustainable Development Goals.",
+    "It advocates for innovative financing mechanisms and partnerships to mobilize resources for sustainable development, particularly in developing countries."
+  ],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Digital Education"
+    ],
+    "Data & Governance": [
+      "Digital Rights",
+      "Data Governance"
+    ],
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Multilateralism"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations",
+      "United Nations Officials"
+    ],
+    "Civil Society Actors": [
+      "Civil Society Organisations"
+    ]
+  },
+  "practical_applications": [
+    "Commitment to accelerate global action for sustainable development and the implementation of the 2030 Agenda for Sustainable Development.",
+    "Support for the Access to COVID-19 Tools Accelerator (ACT-A) and its COVID-19 Vaccine Global Access (COVAX) Facility to ensure equitable access to vaccines.",
+    "Promotion of the Quadripartite Partnership for One Health, involving FAO, WHO, WOAH, and UNEP, to strengthen health systems and address zoonotic diseases.",
+    "Implementation of the Addis Ababa Action Agenda to enhance financing for development.",
+    "Support for the establishment of the Global Crisis Response Group on Food, Energy and Finance to address the multidimensional crisis exacerbated by COVID-19.",
+    "Commitment to the United Nations Decade of Ocean Science for Sustainable Development to enhance marine scientific research and cooperation.",
+    "Engagement in the 2023 Sustainable Development Goals Summit to provide political leadership and guidance for sustainable development.",
+    "Support for the establishment of the United Nations Food Systems Coordination Hub to assist countries in developing sustainable food systems.",
+    "Commitment to the implementation of the Sendai Framework for Disaster Risk Reduction 2015-2030 to enhance resilience against disasters.",
+    "Recognition of the importance of the Global Education Cooperation Mechanism to strengthen global cooperation in education.",
+    "Support for the establishment of the African Continental Free Trade Area to enhance intra-African trade and resilience post-COVID-19.",
+    "Commitment to the implementation of the New Urban Agenda to improve urban planning and management for sustainable development."
+  ],
+  "commitments": [
+    "Urge developed countries to fulfill their official development assistance (ODA) commitments, including achieving the target of 0.7% of gross national income (GNI) for ODA and 0.15 to 0.20% of ODA/GNI to least developed countries by 2025.",
+    "Commit to reducing global carbon dioxide emissions by 45% by 2030 relative to the 2010 level and to net zero around mid-century.",
+    "Urge developed countries to at least double their collective provision of climate finance for adaptation to developing countries from 2019 levels by 2025.",
+    "Commit to ensuring that at least 30% globally of land and ocean are protected or conserved within protected areas and other effective area-based conservation measures by 2030.",
+    "Call for the third United Nations Conference on Landlocked Developing Countries (LLDCs) to be held in 2024.",
+    "Call for a fourth United Nations conference on small island developing States (SIDS) to be held in 2024.",
+    "Commit to reducing the transaction costs of migrant remittances to less than 3% and eliminating corridors with costs higher than 5% by 2030.",
+    "Commit to the operationalization of the International Monetary Fund Resilience and Sustainability Trust to provide affordable long-term financing to low-income and vulnerable middle-income countries.",
+    "Call for the convening of the second part of the Fifth United Nations Conference on the Least Developed Countries in 2023."
+  ],
+  "score": 93,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 93,
+    "completeness": 93,
+    "accuracy": 90,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "USA",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [],
+    "review_schedule": "Biennial",
+    "beneficiary_group_raw": [
+      "woman",
+      "girl",
+      "community",
+      "country",
+      "person"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Girls"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Persons"
+      }
+    ],
+    "start_date": "2022-01-01",
+    "end_date": "2022-07-18",
+    "commitment_details": [
+      {
+        "text": "Urge developed countries to fulfill their official development assistance (ODA) commitments, including achieving the target of 0.7% of gross national income (GNI) for ODA and 0.15 to 0.20% of ODA/GNI to least developed countries by 2025.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Commit to reducing global carbon dioxide emissions by 45% by 2030 relative to the 2010 level and to net zero around mid-century.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Urge developed countries to at least double their collective provision of climate finance for adaptation to developing countries from 2019 levels by 2025.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Commit to ensuring that at least 30% globally of land and ocean are protected or conserved within protected areas and other effective area-based conservation measures by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Call for the third United Nations Conference on Landlocked Developing Countries (LLDCs) to be held in 2024.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Call for a fourth United Nations conference on small island developing States (SIDS) to be held in 2024.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Commit to reducing the transaction costs of migrant remittances to less than 3% and eliminating corridors with costs higher than 5% by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "Commit to the operationalization of the International Monetary Fund Resilience and Sustainability Trust to provide affordable long-term financing to low-income and vulnerable middle-income countries.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "Call for the convening of the second part of the Fifth United Nations Conference on the Least Developed Countries in 2023.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Reduce global poverty rate by 50% by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Global Poverty Reduction",
+        "target_value": 50.0,
+        "target_description": "Reduce the global poverty rate.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Poverty rate statistics",
+        "responsible_entity": "Governments and international organizations",
+        "sector": "Social Development"
+      },
+      {
+        "kpi_text": "Ensure universal access to safe and affordable drinking water and sanitation for all by 2030.",
+        "kpi_type": "qualitative",
+        "metric_name": "Access to Water and Sanitation",
+        "target_value": null,
+        "target_description": "Achieve universal access to safe drinking water and sanitation.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Water access surveys and sanitation statistics",
+        "responsible_entity": "Governments and local authorities",
+        "sector": "Water and Sanitation"
+      },
+      {
+        "kpi_text": "Mobilize $100 billion annually for climate finance by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Climate Finance Mobilization",
+        "target_value": 100.0,
+        "target_description": "Mobilize financial resources for climate action.",
+        "unit": "billion USD",
+        "timeframe": "by 2025",
+        "measurement_method": "Financial reports and commitments",
+        "responsible_entity": "Developed countries",
+        "sector": "Climate Action"
+      },
+      {
+        "kpi_text": "Achieve gender equality and empower all women and girls by 2030.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Equality Achievement",
+        "target_value": null,
+        "target_description": "Ensure gender equality and empowerment of women and girls.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Gender equality indices and reports",
+        "responsible_entity": "Governments and NGOs",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "Increase the share of public expenditure on education to 20% by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Public Education Expenditure",
+        "target_value": 20.0,
+        "target_description": "Increase public expenditure on education.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "National budget reports",
+        "responsible_entity": "National Governments",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Ensure that at least 30% of land and ocean areas are protected by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Protected Areas Coverage",
+        "target_value": 30.0,
+        "target_description": "Increase the area of protected land and ocean.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Environmental protection statistics",
+        "responsible_entity": "National Governments",
+        "sector": "Biodiversity and Conservation"
+      },
+      {
+        "kpi_text": "Strengthen international cooperation for sustainable development by 2030.",
+        "kpi_type": "qualitative",
+        "metric_name": "International Cooperation Strengthening",
+        "target_value": null,
+        "target_description": "Enhance international cooperation for sustainable development.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Cooperation agreements and partnerships",
+        "responsible_entity": "International Organizations",
+        "sector": "International Relations"
+      },
+      {
+        "kpi_text": "Reduce food insecurity by 50% by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Food Insecurity Reduction",
+        "target_value": 50.0,
+        "target_description": "Reduce the number of people facing food insecurity.",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Food security assessments",
+        "responsible_entity": "Governments and NGOs",
+        "sector": "Food Security"
+      },
+      {
+        "kpi_text": "Achieve universal health coverage by 2030.",
+        "kpi_type": "qualitative",
+        "metric_name": "Universal Health Coverage",
+        "target_value": null,
+        "target_description": "Ensure access to quality health services for all.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Health service access statistics",
+        "responsible_entity": "National Health Authorities",
+        "sector": "Health"
+      }
+    ],
+    "country_list_iso": [
+      "AND",
+      "ARG",
+      "BLR",
+      "BWA",
+      "CMR",
+      "CIV",
+      "DJI",
+      "DMA",
+      "SLV",
+      "GNQ",
+      "ERI",
+      "SWZ",
+      "ETH",
+      "GAB",
+      "GMB",
+      "GHA",
+      "GRC",
+      "GRD",
+      "GNB",
+      "ITA",
+      "JAM",
+      "JOR",
+      "KAZ",
+      "LVA",
+      "LSO",
+      "LBR",
+      "LUX",
+      "MWI",
+      "MLI",
+      "MNE",
+      "NLD",
+      "PAK",
+      "PHL",
+      "STP",
+      "SEN",
+      "SOM",
+      "LKA",
+      "SDN",
+      "SUR",
+      "CHE",
+      "TGO",
+      "TUV",
+      "ARE",
+      "URY"
+    ],
+    "responsible_entity": "United Nations",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 14: Life Below Water",
+      "SDG 15: Life on Land",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The United Nations is the primary actor in the document, being the main body convening the high-level segment and driving the agenda for sustainable development and the implementation of the 2030 Agenda."
+    },
+    {
+      "name": "United Nations Officials",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "United Nations Officials play a crucial role in facilitating discussions, implementing decisions, and providing leadership in the context of the 2030 Agenda and COVID-19 recovery efforts."
+    },
+    {
+      "name": "Civil Society Organisations",
+      "category": "Civil Society Actors",
+      "relevance_score": 0.6,
+      "justification": "Civil Society Organisations are mentioned as important stakeholders in the implementation and monitoring of the 2030 Agenda, highlighting their role in advocating for inclusive and equitable development."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "Multilateralism is central to the document's main message, emphasizing the need for global cooperation to address challenges such as COVID-19, climate change, and sustainable development. The document dedicates significant content to the importance of international collaboration and solidarity, making it a strategic priority."
+    },
+    {
+      "name": "Digital Education (Inclusion & Social Development)",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "Digital education is crucial for achieving the Sustainable Development Goals, particularly in the context of the COVID-19 pandemic, which has exacerbated educational inequalities. The document highlights the need for inclusive and equitable access to education, making this theme highly relevant."
+    },
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.7,
+      "justification": "Global digital cooperation is important for addressing the digital divide and ensuring that all countries can benefit from technological advancements. The document discusses the role of digital technologies in achieving sustainable development, underscoring its strategic importance in the global context."
+    }
+  ]
+}

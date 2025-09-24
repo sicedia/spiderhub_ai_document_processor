@@ -1,0 +1,204 @@
+{
+  "title": "Meeting of the European Political Community",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-LAC Digital Alliance",
+      "Global Digital Cooperation",
+      "Multilateralism",
+      "EU-CELAC Digital Partnership"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU Member States",
+      "European Council",
+      "European Parliament",
+      "European Commission"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 54,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 54,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "FRA",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize investment for digital infrastructure",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Investment mobilization reports",
+        "responsible_entity": "European Commission",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Reduce greenhouse gas emissions by 55% by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Greenhouse Gas Emissions Reduction",
+        "target_value": 55.0,
+        "target_description": "Achieve a significant reduction in emissions",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Annual emissions reports",
+        "responsible_entity": "Member States",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Establish a European Health Union by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "European Health Union Establishment",
+        "target_value": null,
+        "target_description": "Create a unified health framework across Europe",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "European Commission",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "Increase renewable energy share to 40% by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Renewable Energy Share",
+        "target_value": 40.0,
+        "target_description": "Boost the proportion of renewable energy in the energy mix",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Energy production statistics",
+        "responsible_entity": "Member States",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Enhance cooperation on cybersecurity among member states",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Cooperation Enhancement",
+        "target_value": null,
+        "target_description": "Strengthen collaborative efforts in cybersecurity",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Cooperation agreements and joint exercises",
+        "responsible_entity": "Member States",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Train 1 million people in digital skills by 2025",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Training",
+        "target_value": 1000000.0,
+        "target_description": "Provide training to enhance digital skills",
+        "unit": "people",
+        "timeframe": "by 2025",
+        "measurement_method": "Training program enrollment statistics",
+        "responsible_entity": "Member States",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Implement the European Green Deal by 2025",
+        "kpi_type": "qualitative",
+        "metric_name": "European Green Deal Implementation",
+        "target_value": null,
+        "target_description": "Execute the policies outlined in the Green Deal",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Progress reports on policy implementation",
+        "responsible_entity": "European Commission",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Achieve a 30% reduction in poverty levels by 2030",
+        "kpi_type": "quantitative",
+        "metric_name": "Poverty Reduction",
+        "target_value": 30.0,
+        "target_description": "Significantly lower poverty rates across member states",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Poverty statistics and surveys",
+        "responsible_entity": "Member States",
+        "sector": "Social Policy"
+      },
+      {
+        "kpi_text": "Strengthen the EU's global leadership in climate action",
+        "kpi_type": "qualitative",
+        "metric_name": "Global Leadership in Climate Action",
+        "target_value": null,
+        "target_description": "Enhance the EU's role as a leader in international climate initiatives",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Participation in international climate agreements",
+        "responsible_entity": "European Commission",
+        "sector": "Climate Policy"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Union is the overarching political entity that encompasses all member states and institutions, making it central to discussions and decisions in the context of the meeting."
+    },
+    {
+      "name": "European Council",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The European Council plays a crucial role in setting the EU's political agenda and is instrumental in decision-making processes, particularly in high-level meetings."
+    },
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The European Commission is responsible for proposing legislation and implementing decisions, making it a key player in the discussions and initiatives that arise from the meeting."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-LAC Digital Alliance",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it represents a key partnership aimed at enhancing digital collaboration between Europe and Latin America, which is likely a primary focus of the meeting."
+    },
+    {
+      "name": "Global Digital Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.85,
+      "justification": "This theme is important as it encompasses broader efforts for digital collaboration on a global scale, aligning with key objectives of multilateral discussions and commitments to international cooperation."
+    },
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.8,
+      "justification": "Multilateralism is a foundational principle for the meeting, emphasizing the importance of collaborative approaches in addressing global challenges, which is crucial for the success of the discussed partnerships."
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "title": "Project for the Promotion and Articulation of Innovation Ecosystems in Latin America (2020-2022)",
+  "date": "2023-03-23",
+  "location": "San José, Costa Rica",
+  "executive_summary": "The Project for the Promotion and Articulation of Innovation Ecosystems in Latin America, launched by CAF and OEI in 2020, aimed to enhance collaboration between academia and SMEs across seven countries. Over three years, the project trained over 1,600 participants, including university faculty and SME representatives, and facilitated the formulation of 427 innovation challenges. Key achievements included the delivery of 15 Innovation Challenges courses and the establishment of a regional network committed to ongoing collaboration. Lessons learned emphasized the importance of co-creation and trust-building between stakeholders. Moving forward, CAF and OEI are considering a second phase to scale successful initiatives. The project concluded with a closing event in San José, Costa Rica, on March 23, 2023.",
+  "characteristics": [
+    "**Collaboration Focus**: The project aimed to strengthen partnerships between academia and businesses to address innovation challenges in Latin America.",
+    "**Capacity Building**: It emphasized building human capital and institutional capacities for open innovation within emerging ecosystems.",
+    "**Training Initiatives**: Over 1,600 participants were trained through various courses, enhancing innovation skills among university faculty and SME representatives.",
+    "**Regional Network**: The initiative established a network of universities and SMEs committed to ongoing collaboration and knowledge sharing.",
+    "**Future Prospects**: Plans for a second phase are underway to scale successful innovation challenges and expand the training model's reach."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Bi-regional Cooperation",
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Ecosystem",
+      "Digital Skills Development"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Organisation of Ibero-American States"
+    ],
+    "Research and Innovation Actors": [
+      "Universities",
+      "Academic Institutions"
+    ],
+    "Economic Actors": [
+      "Development Bank of Latin America and the Caribbean"
+    ]
+  },
+  "practical_applications": [
+    "Project for the Promotion and Articulation of Innovation Ecosystems in Latin America launched by CAF and OEI, targeting universities, SMEs, and innovation agencies across seven countries (Argentina, Colombia, Costa Rica, Ecuador, Panama, Paraguay, and Uruguay) from 2020 to 2022.",
+    "15 editions of the Innovation Challenges course delivered, designed and certified by the Polytechnic University of Valencia.",
+    "Partnership with SENA (Colombia) to co-finance pilot cohorts for training.",
+    "1,600+ participants trained, including 500 university faculty and students, and approximately 1,000 SME representatives.",
+    "661 companies received training support, and 427 innovation challenges were formulated, with several obtaining national science-agency funding.",
+    "A regional network of universities and SMEs has been consolidated for ongoing collaboration, with plans for participants to replicate the training model to widen indirect beneficiaries.",
+    "Exploration of a second phase by CAF and OEI focused on scaling successful innovation challenges."
+  ],
+  "commitments": [],
+  "score": 47,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 70,
+    "completeness": 70,
+    "accuracy": 57,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "CRI",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "university",
+      "SME",
+      "innovation agency",
+      "faculty",
+      "student"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Researchers & Academia",
+        "label": "Universities"
+      },
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "Start-ups / Innovators",
+        "label": "Innovation Agency"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Academic Institutions"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Students"
+      }
+    ],
+    "start_date": "2020-01-01",
+    "end_date": "2022-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "1,600+ participants trained (500 university faculty & students; ~1,000 SME representatives).",
+        "kpi_type": "quantitative",
+        "metric_name": "Participants Trained",
+        "target_value": 1600.0,
+        "target_description": "Train over 1,600 participants including university faculty, students, and SME representatives.",
+        "unit": "participants",
+        "timeframe": "by 2022",
+        "measurement_method": "Count of trained participants",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      },
+      {
+        "kpi_text": "15 editions of the Innovation Challenges course delivered (2021-2022).",
+        "kpi_type": "quantitative",
+        "metric_name": "Innovation Challenges Course Editions",
+        "target_value": 15.0,
+        "target_description": "Deliver 15 editions of the Innovation Challenges course.",
+        "unit": "editions",
+        "timeframe": "by 2022",
+        "measurement_method": "Count of course editions delivered",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      },
+      {
+        "kpi_text": "661 companies received training support.",
+        "kpi_type": "quantitative",
+        "metric_name": "Companies Trained",
+        "target_value": 661.0,
+        "target_description": "Provide training support to 661 companies.",
+        "unit": "companies",
+        "timeframe": "by 2022",
+        "measurement_method": "Count of companies receiving training",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Business/Innovation"
+      },
+      {
+        "kpi_text": "427 innovation challenges formulated; several obtained national science-agency funding.",
+        "kpi_type": "quantitative",
+        "metric_name": "Innovation Challenges Formulated",
+        "target_value": 427.0,
+        "target_description": "Formulate 427 innovation challenges, with some receiving funding.",
+        "unit": "challenges",
+        "timeframe": "by 2022",
+        "measurement_method": "Count of formulated challenges",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Innovation"
+      },
+      {
+        "kpi_text": "Strengthen collaboration between academia and business to tackle real-world innovation challenges.",
+        "kpi_type": "qualitative",
+        "metric_name": "Collaboration Strengthening",
+        "target_value": null,
+        "target_description": "Enhance collaboration between academia and business.",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Assessment of collaboration initiatives",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      },
+      {
+        "kpi_text": "Build human capital and institutional capacities for open innovation in emerging ecosystems.",
+        "kpi_type": "qualitative",
+        "metric_name": "Human Capital and Capacity Building",
+        "target_value": null,
+        "target_description": "Develop human capital and institutional capacities for open innovation.",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Evaluation of capacity building initiatives",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      },
+      {
+        "kpi_text": "Design scalable learning experiences that can be replicated region-wide.",
+        "kpi_type": "qualitative",
+        "metric_name": "Scalable Learning Experiences",
+        "target_value": null,
+        "target_description": "Create learning experiences that can be scaled and replicated.",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Review of learning experience designs",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      },
+      {
+        "kpi_text": "Consolidated a regional network of universities and SMEs committed to ongoing collaboration.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regional Network Consolidation",
+        "target_value": null,
+        "target_description": "Establish a network of universities and SMEs for collaboration.",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2022",
+        "measurement_method": "Assessment of network activities",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      },
+      {
+        "kpi_text": "Participants will replicate the training model to widen indirect beneficiaries.",
+        "kpi_type": "qualitative",
+        "metric_name": "Training Model Replication",
+        "target_value": null,
+        "target_description": "Encourage participants to replicate the training model.",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Tracking replication efforts",
+        "responsible_entity": "CAF & OEI",
+        "sector": "Education/Innovation"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "COL",
+      "CRI",
+      "ECU",
+      "PAN",
+      "PRY",
+      "URY"
+    ],
+    "responsible_entity": "CAF",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "CAF",
+      "category": "Economic Actors",
+      "relevance_score": 0.9,
+      "justification": "CAF is a key player in the project, providing funding and resources, and is mentioned multiple times as a driving force behind the initiative."
+    },
+    {
+      "name": "OEI",
+      "category": "Political Actors",
+      "relevance_score": 0.85,
+      "justification": "The Organization of Ibero-American States (OEI) is crucial for the project's implementation and co-financing, highlighting its importance in fostering collaboration across countries."
+    },
+    {
+      "name": "Universities",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.75,
+      "justification": "Universities are central to the project's objectives, as they are the primary beneficiaries of training and capacity-building efforts, thus playing a significant role in the innovation ecosystem."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Bi-regional Cooperation",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it highlights the collaboration between CAF and OEI across multiple Latin American countries, which is the foundation of the project. The emphasis on cooperation is critical to achieving the project's objectives."
+    },
+    {
+      "name": "Digital Ecosystem",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.8,
+      "justification": "The development of a digital ecosystem is a key focus of the project, as it aims to strengthen innovation capacities and facilitate collaboration between academia and SMEs. This theme is essential for understanding the project's impact on innovation in the region."
+    },
+    {
+      "name": "Digital Skills Development",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.7,
+      "justification": "The project includes significant efforts in training participants, which directly relates to building human capital and institutional capacities. This theme supports the project's objectives of enhancing skills necessary for innovation."
+    }
+  ]
+}

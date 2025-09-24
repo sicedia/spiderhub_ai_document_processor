@@ -1,0 +1,75 @@
+{
+  "title": "2nd Ministerial Summit on the Ethics of Artificial Intelligence",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "AI Ethics"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 75,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 30,
+    "completeness": 75,
+    "accuracy": 85,
+    "issues": [
+      "Internal inconsistencies detected across data sections"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": null,
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "SME",
+      "woman",
+      "community"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      }
+    ],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "AI Ethics",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.9,
+      "justification": "AI Ethics is central to the document's main message, as it addresses the ethical implications and responsibilities associated with the development and deployment of artificial intelligence technologies. The document likely emphasizes the need for ethical guidelines and frameworks to ensure that AI is used responsibly."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.8,
+      "justification": "Artificial Intelligence is a key theme as it represents the core technology being discussed. The document likely contains substantial content on AI technologies, their applications, and the challenges they present, making it a critical focus area."
+    }
+  ]
+}

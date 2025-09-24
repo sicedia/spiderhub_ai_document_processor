@@ -1,0 +1,103 @@
+{
+  "title": "Conclusion of MERCOSUR-European Union Partnership Agreement Negotiations",
+  "date": "2024-12-06",
+  "location": "Montevideo, Uruguay",
+  "executive_summary": "On December 6, 2024, during the 65th MERCOSUR Summit in Montevideo, Argentina, Brazil, Paraguay, and Uruguay, alongside the European Commission, announced the conclusion of negotiations for a Partnership Agreement after over two decades of discussions. Following significant progress since June 2019, the parties engaged in an intensive negotiation process starting in 2023, which included seven rounds of talks. The agreement is now set for legal review and translation, with both blocs committed to finalizing these steps in the coming months, paving the way for the signing of the agreement.",
+  "characteristics": [
+    "The joint statement was issued on December 6, 2024, during the 65th MERCOSUR Summit in Montevideo.",
+    "It announces the conclusion of negotiations for a Partnership Agreement between MERCOSUR (Argentina, Brazil, Paraguay, Uruguay) and the European Commission, after over two decades of discussions.",
+    "Since 2023, both parties engaged in seven rounds of negotiations to address contemporary challenges.",
+    "The agreement is now set for legal review and translation, with plans for signing in the coming months."
+  ],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "Republic of Argentina",
+      "Federative Republic of Brazil",
+      "Republic of Paraguay",
+      "Oriental Republic of Uruguay",
+      "European Union",
+      "Southern Common Market"
+    ]
+  },
+  "practical_applications": [
+    "Conclusion of the negotiations of a Partnership Agreement between MERCOSUR (Argentina, Brazil, Paraguay, and Uruguay) and the European Commission, ready for legal review and translation, with plans for future signing."
+  ],
+  "commitments": [],
+  "score": 87,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 85,
+    "completeness": 87,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "URY",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Multilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2024-12-06",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [
+      "ARG",
+      "BRA",
+      "PRY"
+    ],
+    "responsible_entity": "European Commission",
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Commission is central to the document as it is a signatory party to the Partnership Agreement and plays a crucial role in the negotiations and future implementation of the agreement."
+    },
+    {
+      "name": "Republic of Argentina",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Argentina is one of the key signatory states of MERCOSUR and is mentioned prominently in the context of the negotiations, indicating its significant role in the agreement."
+    },
+    {
+      "name": "Federative Republic of Brazil",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "Brazil, as another major signatory state of MERCOSUR, is equally important in the negotiations and is mentioned alongside Argentina, highlighting its influence in the agreement."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Partnership Agreement",
+      "category": "International Relations",
+      "relevance_score": 1.0,
+      "justification": "The document centers around the conclusion of the Partnership Agreement between MERCOSUR and the European Commission, which is the main focus of the statement and represents a significant milestone after two decades of negotiations."
+    },
+    {
+      "name": "MERCOSUR Signatory States",
+      "category": "Regional Cooperation",
+      "relevance_score": 0.8,
+      "justification": "The involvement of the MERCOSUR signatory states (Argentina, Brazil, Paraguay, and Uruguay) is crucial as they are the primary parties in the agreement, highlighting their role in regional cooperation and economic integration."
+    },
+    {
+      "name": "Negotiation Process",
+      "category": "Diplomatic Engagement",
+      "relevance_score": 0.7,
+      "justification": "The document details the intense negotiation process that took place over the last two years, emphasizing the commitment and efforts made by both sides to reach this agreement, which is vital for understanding the context and significance of the partnership."
+    }
+  ]
+}

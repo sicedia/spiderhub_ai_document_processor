@@ -1,0 +1,194 @@
+{
+  "title": "Special Declaration on Culture by MERCOSUR Member States and Associated States",
+  "date": "2022-12-06",
+  "location": "Montevideo, Uruguay",
+  "executive_summary": "On December 6, 2022, leaders from Argentina, Paraguay, Uruguay, and Brazil convened in Montevideo to address the cultural sector's challenges post-COVID-19. They expressed concerns over the pandemic's negative impacts, including structural weaknesses and unequal access to culture. The declaration emphasizes the need for effective policies to revitalize the cultural sector, protect heritage, and improve conditions for artists. It highlights the importance of international cooperation and a strengthened multilateral information system to measure the cultural sector's relevance. The leaders reaffirmed their commitment to regional integration, cultural rights, and the promotion of technology in cultural initiatives. They called for the decentralization of culture, support for creative industries, and measures against illicit trafficking of cultural goods, aiming to ensure cultural access for all citizens and foster sustainable cultural development in the region.",
+  "characteristics": [
+    "The declaration addresses the negative impacts of COVID-19 on the cultural sector, highlighting structural weaknesses and inequalities in access to culture.",
+    "It emphasizes the importance of international cooperation and regional efforts to support cultural industries and creative sectors post-pandemic.",
+    "The document calls for policies to protect cultural heritage, improve working conditions for artists, and promote the use of technology in cultural initiatives.",
+    "It stresses the need for cultural integration and the recognition of artists' rights to enhance educational and job opportunities.",
+    "The declaration advocates for the decentralization of culture to ensure equitable access to cultural rights for all citizens."
+  ],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Gender Equality in Tech",
+      "Digital Education"
+    ],
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "MERCOSUR"
+    ]
+  },
+  "practical_applications": [
+    "Established commitment to design and implement effective policies for the reactivation of the cultural sector, protection of cultural heritage, and formalization of artists and cultural workers.",
+    "Ongoing efforts to strengthen the multilateral information system to develop joint actions for measuring the economic, social, and environmental relevance of the cultural sector.",
+    "Initiatives to utilize technology as a tool for promoting culture, arts, knowledge, and creative industries, including cultural, collective, or community enterprises.",
+    "Commitment to work on existing regulations to promote common spaces and facilitate the exchange of cultural goods and services, as well as the mobility of artists and cultural workers, especially from ethnic, indigenous, and rural communities.",
+    "Agreement to promote the decentralization of culture in national territories to ensure access to cultural rights for all citizens.",
+    "Initiatives to enhance the trade of goods and services within cultural and creative enterprises, including popular economies and community cultural enterprises."
+  ],
+  "commitments": [],
+  "score": 96,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 96,
+    "completeness": 96,
+    "accuracy": 100,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "URY",
+    "agreement_type": [
+      "Declaration"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "artista",
+      "trabajador",
+      "comunidad",
+      "empresa",
+      "cultura"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Companies"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      }
+    ],
+    "start_date": "2022-12-06",
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Continuar aunando esfuerzos a fin de diseñar y establecer políticas eficaces y eficientes para impulsar la reactivación del sector, la protección y salvaguardia del patrimonio cultural y de los saberes, así como la formalización de los artistas y trabajadores de la cultura y mejorando las condiciones profesionales, sociales y económicas de artistas y trabajadores creativos y culturales.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cultural Sector Reactivation Policies",
+        "target_value": null,
+        "target_description": "Diseñar y establecer políticas para la reactivación del sector cultural y mejorar las condiciones de los trabajadores culturales.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de políticas implementadas y su impacto en el sector cultural.",
+        "responsible_entity": "Gobiernos de los Estados Partes del MERCOSUR",
+        "sector": "Cultura"
+      },
+      {
+        "kpi_text": "Fortalecer el sistema multilateral de información que ha permitido el desarrollo de acciones conjuntas para medir la relevancia económica, social y ambiental del sector cultural.",
+        "kpi_type": "qualitative",
+        "metric_name": "Multilateral Information System Strengthening",
+        "target_value": null,
+        "target_description": "Fortalecer el sistema de información para medir la relevancia del sector cultural.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Revisión de la efectividad del sistema de información y su uso en políticas culturales.",
+        "responsible_entity": "Estados Partes del MERCOSUR",
+        "sector": "Cultura"
+      },
+      {
+        "kpi_text": "Promover la descentralización de la cultura en los territorios nacionales del bloque, para garantizar el acceso a los derechos culturales a todos los ciudadanos.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cultural Decentralization Promotion",
+        "target_value": null,
+        "target_description": "Descentralizar la cultura para garantizar el acceso a derechos culturales.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de iniciativas de descentralización y su impacto en el acceso cultural.",
+        "responsible_entity": "Gobiernos de los Estados Partes del MERCOSUR",
+        "sector": "Cultura"
+      },
+      {
+        "kpi_text": "Dinamizar el comercio de bienes y servicios en el ámbito de las empresas culturales y creativas, las economías populares, incluidas las empresas culturales, colectivas o comunitarias.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cultural and Creative Economy Trade Enhancement",
+        "target_value": null,
+        "target_description": "Fomentar el comercio de bienes y servicios culturales y creativos.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Análisis del crecimiento en el comercio de bienes y servicios culturales.",
+        "responsible_entity": "Gobiernos de los Estados Partes del MERCOSUR",
+        "sector": "Cultura"
+      },
+      {
+        "kpi_text": "Favorecer ámbitos adecuados para la preservación del patrimonio cultural material e inmaterial y el combate al tráfico ilícito de bienes culturales de la región.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cultural Heritage Preservation and Trafficking Prevention",
+        "target_value": null,
+        "target_description": "Crear condiciones para la preservación del patrimonio cultural y prevenir el tráfico ilícito.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluación de políticas de preservación y su efectividad en la protección del patrimonio.",
+        "responsible_entity": "Gobiernos de los Estados Partes del MERCOSUR",
+        "sector": "Cultura"
+      }
+    ],
+    "country_list_iso": [
+      "ARG",
+      "BRA",
+      "PRY",
+      "URY"
+    ],
+    "responsible_entity": "MERCOSUR",
+    "sdg_alignment": [
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "MERCOSUR",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "MERCOSUR is the central actor in the document, as the declaration is made by the member states of MERCOSUR and addresses cultural policies and initiatives within the framework of this regional bloc."
+    },
+    {
+      "name": "Argentina",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "Argentina is represented by its President, Alberto Fernández, and plays a significant role in the declaration, highlighting its importance in the cultural discussions among member states."
+    },
+    {
+      "name": "Brazil",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "Brazil, represented by Vice President Hamilton Mourão, is a key member of MERCOSUR and is involved in the discussions regarding cultural policies, making it an important actor in the context of the declaration."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Inclusion",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "Digital inclusion is central to addressing the disparities highlighted in the document, particularly in the context of the cultural sector's recovery post-COVID-19. It is crucial for ensuring equitable access to cultural resources and opportunities."
+    },
+    {
+      "name": "Gender Equality in Tech",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.8,
+      "justification": "Gender equality is emphasized as a critical aspect of social development, particularly in the cultural sector, which has been affected by the pandemic. Addressing gender disparities is essential for fostering a more inclusive cultural environment."
+    },
+    {
+      "name": "Digital Education",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.7,
+      "justification": "Digital education is important for empowering artists and cultural workers, enabling them to adapt to new technologies and improve their professional skills, which is vital for the sector's reactivation and sustainability."
+    }
+  ]
+}

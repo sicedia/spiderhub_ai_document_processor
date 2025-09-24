@@ -1,0 +1,64 @@
+{
+  "title": "12th Brazil - European Union Digital Dialogue Summary",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-Brazil Digital Dialogue"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 60,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 50,
+    "completeness": 30,
+    "accuracy": 50,
+    "issues": [
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "BRA",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Union is the primary actor mentioned in the document, indicating its central role in the context of the Brazil - EU Digital Dialogue."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-Brazil Digital Dialogue",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "This theme is central to the document as it represents the primary focus of the dialogue between Brazil and the European Union, highlighting the importance of digital cooperation in their bilateral relations."
+    }
+  ]
+}

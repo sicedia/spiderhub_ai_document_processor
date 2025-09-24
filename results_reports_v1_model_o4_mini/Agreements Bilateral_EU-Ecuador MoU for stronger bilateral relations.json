@@ -1,0 +1,85 @@
+{
+  "title": "EU-Ecuador Memorandum of Understanding for Enhanced Bilateral Relations",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Union",
+      "EU-Ecuador"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 43,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 43,
+    "accuracy": 100,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "ECU",
+    "agreement_type": [
+      "MoU"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The European Union is a key actor in the context of the Memorandum of Understanding, representing the broader political and economic interests of the EU in bilateral relations."
+    },
+    {
+      "name": "EU-Ecuador",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "EU-Ecuador signifies the specific bilateral relationship being discussed, making it highly relevant to the document's focus on strengthening ties between the two entities."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-CELAC Digital Partnership",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it outlines the framework for cooperation between the EU and Ecuador, emphasizing the importance of digital partnerships in enhancing bilateral relations."
+    },
+    {
+      "name": "Bilateral Relations",
+      "category": "International Relations",
+      "relevance_score": 0.8,
+      "justification": "The document focuses on strengthening bilateral relations, making this theme crucial for understanding the overall objectives of the agreement."
+    },
+    {
+      "name": "Memorandum of Understanding (MoU)",
+      "category": "Legal Framework",
+      "relevance_score": 0.7,
+      "justification": "The MoU serves as the foundational legal document that formalizes the commitments made between the EU and Ecuador, highlighting its strategic importance."
+    }
+  ]
+}

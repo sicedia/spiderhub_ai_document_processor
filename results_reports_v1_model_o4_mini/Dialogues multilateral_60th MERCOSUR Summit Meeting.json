@@ -1,0 +1,171 @@
+{
+  "title": "60th MERCOSUR Summit Meeting Summary",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "Multilateralism"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Southern Common Market"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 74,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 70,
+    "completeness": 74,
+    "accuracy": 50,
+    "issues": [
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "ARG",
+    "agreement_type": [],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Sub-regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Increase trade among MERCOSUR countries by 20% by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Trade Increase",
+        "target_value": 20.0,
+        "target_description": "Increase trade among MERCOSUR countries",
+        "unit": "percentage",
+        "timeframe": "by 2025",
+        "measurement_method": "Trade volume analysis",
+        "responsible_entity": "MERCOSUR Trade Commission",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "Establish a common regulatory framework for digital commerce by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regulatory Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish a common regulatory framework for digital commerce",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "MERCOSUR Digital Commerce Committee",
+        "sector": "Digital Commerce"
+      },
+      {
+        "kpi_text": "Reduce tariffs on goods traded within MERCOSUR by 10% by 2026.",
+        "kpi_type": "quantitative",
+        "metric_name": "Tariff Reduction",
+        "target_value": 10.0,
+        "target_description": "Reduce tariffs on goods traded within MERCOSUR",
+        "unit": "percentage",
+        "timeframe": "by 2026",
+        "measurement_method": "Tariff schedule analysis",
+        "responsible_entity": "MERCOSUR Economic Council",
+        "sector": "Trade"
+      },
+      {
+        "kpi_text": "Enhance cooperation on environmental policies among member states.",
+        "kpi_type": "qualitative",
+        "metric_name": "Environmental Cooperation Enhancement",
+        "target_value": null,
+        "target_description": "Enhance cooperation on environmental policies",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Policy alignment and joint initiatives",
+        "responsible_entity": "MERCOSUR Environmental Committee",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Invest $50 million in renewable energy projects by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Renewable Energy Investment",
+        "target_value": 50.0,
+        "target_description": "Invest in renewable energy projects",
+        "unit": "million USD",
+        "timeframe": "by 2025",
+        "measurement_method": "Investment tracking and project reporting",
+        "responsible_entity": "MERCOSUR Energy Council",
+        "sector": "Energy"
+      },
+      {
+        "kpi_text": "Develop a regional strategy for sustainable agriculture by 2023.",
+        "kpi_type": "qualitative",
+        "metric_name": "Sustainable Agriculture Strategy Development",
+        "target_value": null,
+        "target_description": "Develop a regional strategy for sustainable agriculture",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2023",
+        "measurement_method": "Strategy documentation and stakeholder engagement",
+        "responsible_entity": "MERCOSUR Agricultural Committee",
+        "sector": "Agriculture"
+      },
+      {
+        "kpi_text": "Train 500 professionals in digital skills by 2025.",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Skills Training",
+        "target_value": 500.0,
+        "target_description": "Train professionals in digital skills",
+        "unit": "people",
+        "timeframe": "by 2025",
+        "measurement_method": "Training program enrollment and completion rates",
+        "responsible_entity": "MERCOSUR Education Committee",
+        "sector": "Education"
+      },
+      {
+        "kpi_text": "Implement a joint health initiative to combat infectious diseases by 2024.",
+        "kpi_type": "qualitative",
+        "metric_name": "Joint Health Initiative Implementation",
+        "target_value": null,
+        "target_description": "Implement a joint health initiative to combat infectious diseases",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2024",
+        "measurement_method": "Initiative rollout and health impact assessment",
+        "responsible_entity": "MERCOSUR Health Committee",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "Achieve a 15% reduction in carbon emissions from transportation by 2030.",
+        "kpi_type": "quantitative",
+        "metric_name": "Transportation Emission Reduction",
+        "target_value": 15.0,
+        "target_description": "Reduce carbon emissions from transportation",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Emission inventory and reporting",
+        "responsible_entity": "MERCOSUR Transportation Committee",
+        "sector": "Transportation"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Southern Common Market",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The Southern Common Market (MERCOSUR) is the central focus of the document, as it is the main subject of the 60th MERCOSUR Summit Meeting, indicating its prominence and importance in the context of the discussions."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Multilateralism",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 1.0,
+      "justification": "Multilateralism is the central theme of the document, as it pertains directly to the objectives and discussions of the 60th MERCOSUR Summit Meeting, emphasizing the importance of regional cooperation and collaboration among member states."
+    }
+  ]
+}

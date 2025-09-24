@@ -1,0 +1,336 @@
+{
+  "title": "Council Decision (EU) 2021/764: Establishing the Specific Programme for Horizon Europe (2021-2027) and Implementing the Strategic Research and Innovation Plan (2025-2027)",
+  "date": "2024-03-20",
+  "location": "Brussels, Belgium",
+  "executive_summary": "On March 20, 2024, the European Commission adopted the 2025-2027 strategic research and innovation plan under the Specific Programme implementing Horizon Europe. This plan aims to enhance the coherence of research activities across the EU, aligning them with both EU and national priorities. It emphasizes flexibility to address emerging challenges and opportunities. The plan is structured around key areas, including climate action, digital transformation, and sustainable development, with a budget of €83.4 billion for 2021-2027. It builds on the Council Decision (EU) 2021/764, which established the framework for Horizon Europe, focusing on fostering excellence in research, innovation, and collaboration across sectors. The strategic plan is designed to ensure that the EU remains competitive globally while addressing societal challenges effectively.",
+  "characteristics": [
+    "The Council Decision (EU) 2021/764 establishes the Specific Programme implementing Horizon Europe, focusing on research and innovation across various sectors.",
+    "It emphasizes the importance of addressing climate change, with a target of 30% of the budget supporting climate objectives.",
+    "The programme includes multiple pillars, such as Excellent Science, Global Challenges, and Innovative Europe, each with specific components and objectives.",
+    "It aims to enhance collaboration between research, innovation, and education, promoting responsible research and gender equality.",
+    "The budget for the Specific Programme is set at approximately EUR 83.4 billion for 2021-2027, with provisions for flexibility to adapt to emerging challenges.",
+    "The decision outlines the need for strategic planning and coordination with Member States to ensure effective implementation and alignment with EU priorities."
+  ],
+  "themes": {
+    "Digital Transformation & Strategy": [
+      "Digital Policy",
+      "Digital Infrastructure",
+      "Digital Economy"
+    ],
+    "Technology & Innovation": [
+      "Artificial Intelligence",
+      "AI Ethics",
+      "Tech-Driven Solutions"
+    ],
+    "Data & Governance": [
+      "Data Governance",
+      "Data Protection",
+      "Cybersecurity"
+    ],
+    "Inclusion & Social Development": [
+      "Digital Inclusion",
+      "Social Cohesion"
+    ],
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "European Council",
+      "European Parliament",
+      "EU Member States"
+    ],
+    "Research and Innovation Actors": [
+      "European Institute of Innovation and Technology",
+      "Knowledge and Innovation Communities",
+      "Researchers",
+      "Innovators",
+      "Digital Innovation Hubs"
+    ]
+  },
+  "practical_applications": [
+    "Adoption of the 2025-2027 strategic research and innovation plan under the Specific Programme implementing Horizon Europe.",
+    "Implementation of the Specific Programme for Research and Innovation, which includes operational objectives and activities for the period 2021-2027.",
+    "Allocation of EUR 8,952,000,000 for the cluster 'Food, Bioeconomy, Natural Resources, Agriculture and Environment' for the period 2021-2027.",
+    "Establishment of the European Research Council (ERC) to support frontier research across all fields.",
+    "Implementation of Marie Skłodowska-Curie Actions (MSCA) to promote researcher mobility and training.",
+    "Establishment of the European Innovation Council (EIC) to support high-risk innovations and scale-up of innovative companies.",
+    "Development of work programmes for various clusters under Horizon Europe, including Health, Climate, Energy, and Mobility, and Digital, Industry, and Space.",
+    "Implementation of the European Union Recovery Instrument to support research and innovation actions addressing the consequences of COVID-19, with specific allocations for health, digital, and climate sectors.",
+    "Establishment of a multiannual strategic plan for research and innovation activities to ensure alignment with EU and national priorities.",
+    "Support for the development of European Partnerships to enhance collaboration in research and innovation across member states.",
+    "Promotion of responsible research and innovation practices, including gender equality and public engagement in the research process."
+  ],
+  "commitments": [
+    "The 2025-2027 strategic research and innovation plan under the Specific Programme implementing Horizon Europe is adopted as of March 20, 2024.",
+    "The financial envelope for the implementation of the Specific Programme for the period from January 1, 2021, to December 31, 2027, is set at EUR 83,397,000,000 in current prices.",
+    "An additional allocation of EUR 2,790,000,000 in constant 2018 prices is provided for the Specific Programme.",
+    "At least 35% of the overall financial envelope of the Specific Programme is committed to climate objectives.",
+    "The Specific Programme aims for 30% of the Union budget expenditures to support climate objectives.",
+    "EUR 8,952,000,000 is pledged for the cluster 'Food, Bioeconomy, Natural Resources, Agriculture and Environment' for the period 2021-2027."
+  ],
+  "score": 93,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 93,
+    "completeness": 93,
+    "accuracy": 90,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "BEL",
+    "agreement_type": [
+      "Legal Treaty",
+      "Legal Treaty"
+    ],
+    "legal_bindingness": "Legally-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Horizon Europe"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "SME",
+      "woman",
+      "community",
+      "researcher",
+      "citizen"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "SMEs / Businesses",
+        "label": "Small and Medium Enterprises"
+      },
+      {
+        "category": "Women & Girls",
+        "label": "Gender Equality Initiatives"
+      },
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Researchers & Academia",
+        "label": "Researchers"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      }
+    ],
+    "start_date": "2021-05-10",
+    "end_date": "2027-12-31",
+    "commitment_details": [
+      {
+        "text": "The 2025-2027 strategic research and innovation plan under the Specific Programme implementing Horizon Europe is adopted as of March 20, 2024.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The financial envelope for the implementation of the Specific Programme for the period from January 1, 2021, to December 31, 2027, is set at EUR 83,397,000,000 in current prices.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "An additional allocation of EUR 2,790,000,000 in constant 2018 prices is provided for the Specific Programme.",
+        "commitment_class": "Financed"
+      },
+      {
+        "text": "At least 35% of the overall financial envelope of the Specific Programme is committed to climate objectives.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "The Specific Programme aims for 30% of the Union budget expenditures to support climate objectives.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "EUR 8,952,000,000 is pledged for the cluster 'Food, Bioeconomy, Natural Resources, Agriculture and Environment' for the period 2021-2027.",
+        "commitment_class": "Financed"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "Mobilize €83.397 billion in public and private investment by 2027 for research and innovation under Horizon Europe.",
+        "kpi_type": "quantitative",
+        "metric_name": "Total Investment for Research and Innovation",
+        "target_value": 83.397,
+        "target_description": "Mobilize total investment for research and innovation.",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Financial tracking and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Contribute at least 35% of the overall financial envelope of the Specific Programme to climate objectives.",
+        "kpi_type": "quantitative",
+        "metric_name": "Climate Objectives Funding",
+        "target_value": 35.0,
+        "target_description": "Percentage of financial envelope allocated to climate objectives.",
+        "unit": "percentage",
+        "timeframe": "2021-2027",
+        "measurement_method": "Budget allocation analysis",
+        "responsible_entity": "European Commission",
+        "sector": "Climate and Environment"
+      },
+      {
+        "kpi_text": "Train and retain researchers and innovators in the European Research Area, including through mobility.",
+        "kpi_type": "qualitative",
+        "metric_name": "Researcher and Innovator Training",
+        "target_value": null,
+        "target_description": "Enhance training and retention of researchers and innovators.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Surveys and assessments of training programs",
+        "responsible_entity": "Member States and Research Institutions",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection.",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Create a framework for protecting critical infrastructure.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Framework establishment and implementation reviews",
+        "responsible_entity": "European Commission",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Increase collaboration links in European R&I and across sectors and disciplines.",
+        "kpi_type": "qualitative",
+        "metric_name": "Collaboration in Research and Innovation",
+        "target_value": null,
+        "target_description": "Enhance collaboration across various sectors and disciplines.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Collaboration network analysis",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Support the implementation of Union policy priorities including in particular the SDGs and the Paris Agreement.",
+        "kpi_type": "qualitative",
+        "metric_name": "Support for Union Policy Priorities",
+        "target_value": null,
+        "target_description": "Ensure alignment with SDGs and the Paris Agreement.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Policy alignment assessments",
+        "responsible_entity": "European Commission",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "Achieve a measurable improvement in the Union's share of top 1% of most highly cited publications globally.",
+        "kpi_type": "quantitative",
+        "metric_name": "Top 1% Publications Share",
+        "target_value": null,
+        "target_description": "Increase the share of highly cited publications.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Citation analysis",
+        "responsible_entity": "European Research Council",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Foster open science and ensure visibility to the public and open access to scientific publications and research data.",
+        "kpi_type": "qualitative",
+        "metric_name": "Open Science Promotion",
+        "target_value": null,
+        "target_description": "Enhance public access to scientific knowledge.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Open access compliance tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Improve access to risk finance, including through synergies with the InvestEU Programme.",
+        "kpi_type": "qualitative",
+        "metric_name": "Access to Risk Finance",
+        "target_value": null,
+        "target_description": "Enhance access to financial resources for innovation.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Financial access assessments",
+        "responsible_entity": "European Commission",
+        "sector": "Finance and Investment"
+      },
+      {
+        "kpi_text": "Strengthen the gender dimension across the Specific Programme.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender Dimension Strengthening",
+        "target_value": null,
+        "target_description": "Ensure gender equality in research and innovation.",
+        "unit": "qualitative milestone",
+        "timeframe": "Ongoing",
+        "measurement_method": "Gender equality assessments",
+        "responsible_entity": "European Commission",
+        "sector": "Gender Equality"
+      }
+    ],
+    "country_list_iso": [],
+    "responsible_entity": "EUROPEAN COMMISSION",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 9: Industry, Innovation and Infrastructure",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 14: Life Below Water",
+      "SDG 15: Life on Land",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Commission is the primary actor in the text, responsible for proposing and implementing decisions related to Horizon Europe and its specific programmes. Its role is central to the governance and execution of research and innovation policies."
+    },
+    {
+      "name": "European Council",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "The European Council plays a significant role in shaping the overall direction of EU policies, including those related to research and innovation. Its decisions impact the strategic priorities of Horizon Europe."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "EU Member States are crucial for the implementation of Horizon Europe initiatives and policies. Their involvement is necessary for aligning national priorities with EU objectives, and they are key stakeholders in the decision-making process."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Economy",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.9,
+      "justification": "The digital economy is central to the document's focus on innovation and economic growth, reflecting the strategic importance of integrating digital technologies into various sectors."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Technology & Innovation",
+      "relevance_score": 0.85,
+      "justification": "AI is highlighted as a key driver of innovation and competitiveness, with significant content dedicated to its ethical implications and applications across sectors."
+    },
+    {
+      "name": "Cybersecurity",
+      "category": "Data & Governance",
+      "relevance_score": 0.8,
+      "justification": "Cybersecurity is crucial for protecting digital infrastructures and ensuring trust in digital services, making it a vital theme in the context of the document's objectives."
+    }
+  ]
+}

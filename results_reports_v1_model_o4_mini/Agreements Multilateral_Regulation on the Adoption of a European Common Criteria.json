@@ -1,0 +1,320 @@
+{
+  "title": "Horizon Europe Strategic Plan (2025-2027) and European Common Criteria-based Cybersecurity Certification Scheme",
+  "date": "2024-03-20",
+  "location": "Brussels, Belgium",
+  "executive_summary": "The European Commission's strategic plan for Horizon Europe (2025-2027) aims to address critical global challenges, including climate change, biodiversity loss, and digital transformation, while fostering a resilient and inclusive Europe. The plan emphasizes three key orientations: the green transition, the digital transition, and enhancing resilience and competitiveness. It commits at least 35% of its budget to climate action and 10% to biodiversity initiatives. The plan also outlines the establishment of a European Common Criteria-based cybersecurity certification scheme, enhancing cybersecurity standards and cooperation with the private sector. This comprehensive approach integrates research and innovation across various sectors, ensuring alignment with EU policies and promoting synergies with other funding programs to maximize impact and effectiveness. The strategic plan was developed through extensive stakeholder engagement, ensuring it meets the evolving needs of society and the economy.",
+  "characteristics": [
+    "The European Common Criteria-based cybersecurity certification scheme (EUCC) is established under Regulation (EU) 2019/881, focusing on roles, rules, and obligations for cybersecurity certification.",
+    "The scheme builds on the Mutual Recognition Agreement of Information Technology Security Certificates (SOG-IS) and utilizes Common Criteria procedures.",
+    "The European Cybersecurity Certification Group will oversee the scheme, ensuring cooperation with the private sector and creating specialized subgroups for effective implementation."
+  ],
+  "themes": {
+    "Data & Governance": [
+      "Cybersecurity",
+      "Digital Governance"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "European Commission",
+      "European Union",
+      "EU Member States"
+    ],
+    "Research and Innovation Actors": [
+      "European Institute of Innovation and Technology",
+      "Digital Innovation Hubs",
+      "Knowledge and Innovation Communities",
+      "Researchers"
+    ]
+  },
+  "practical_applications": [
+    "Implementation of the European Common Criteria-based cybersecurity certification scheme (EUCC) as specified in the Regulation, which builds on the Mutual Recognition Agreement of Information Technology Security Certificates of the Senior Officials Group Information Systems Security (SOG-IS).",
+    "Establishment of the European Cybersecurity Certification Group to maintain the EUCC scheme, involving cooperation with the private sector and the creation of specialized subgroups for relevant preparatory work.",
+    "Adoption of the 2025-2027 research and innovation strategic plan under Horizon Europe, focusing on key global challenges such as climate change, pollution, biodiversity loss, and the digital transition.",
+    "Commitment to allocate at least 35% of Horizon Europe’s budget to climate action and 10% to biodiversity action for the 2025-2027 period.",
+    "Identification of nine new co-programmed and co-funded European Partnerships to enhance collaboration and funding in strategic areas.",
+    "Launch of five EU Missions aimed at addressing urgent global challenges, including climate change adaptation and cancer research.",
+    "Ongoing support for the New European Bauhaus initiative, promoting sustainable and inclusive design in the built environment.",
+    "Development of synergies between Horizon Europe and other EU funding programs to maximize the impact of research and innovation outcomes."
+  ],
+  "commitments": [
+    "At least 35% of Horizon Europe’s resources are committed to be spent on climate action.",
+    "10% of Horizon Europe’s budget is committed to biodiversity action for the period 2025-2027.",
+    "A target to spend at least EUR 13 billion on core digital technologies during the period 2021-2027.",
+    "The EU aims to become the world’s first climate-neutral continent by 2050.",
+    "The EU aims to reduce net greenhouse-gas emissions by 55% by 2030.",
+    "The EU aims to achieve climate neutrality in the aviation sector by 2050.",
+    "The EU aims for zero-emission waterborne transport by 2050.",
+    "The EU aims to achieve a significant reduction in greenhouse gas emissions from the transport sector by 2030.",
+    "The EU aims to ensure that at least 10% of the Horizon Europe budget is dedicated to biodiversity and ecosystems objectives.",
+    "The EU aims to achieve a fair transition to climate neutrality and build resilience in the EU by 2050."
+  ],
+  "score": 86,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 90,
+    "completeness": 86,
+    "accuracy": 63,
+    "issues": [
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "BEL",
+    "agreement_type": [
+      "Roadmap",
+      "Legal Treaty"
+    ],
+    "legal_bindingness": "Legally-binding",
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [
+      "Horizon Europe",
+      "EU Cyber Strategy"
+    ],
+    "review_schedule": null,
+    "beneficiary_group_raw": [
+      "community",
+      "industry",
+      "society",
+      "environment",
+      "health"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Civil Society / NGOs",
+        "label": "Community Organizations"
+      },
+      {
+        "category": "Large Corporations",
+        "label": "Industry Leaders"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "General Public"
+      },
+      {
+        "category": "Health Sector",
+        "label": "Health Professionals"
+      }
+    ],
+    "start_date": "2024-01-01",
+    "end_date": "2027-01-01",
+    "commitment_details": [
+      {
+        "text": "At least 35% of Horizon Europe’s resources are committed to be spent on climate action.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "10% of Horizon Europe’s budget is committed to biodiversity action for the period 2025-2027.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "A target to spend at least EUR 13 billion on core digital technologies during the period 2021-2027.",
+        "commitment_class": "Programmatic"
+      },
+      {
+        "text": "The EU aims to become the world’s first climate-neutral continent by 2050.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU aims to reduce net greenhouse-gas emissions by 55% by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU aims to achieve climate neutrality in the aviation sector by 2050.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU aims for zero-emission waterborne transport by 2050.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU aims to achieve a significant reduction in greenhouse gas emissions from the transport sector by 2030.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU aims to ensure that at least 10% of the Horizon Europe budget is dedicated to biodiversity and ecosystems objectives.",
+        "commitment_class": "Declarative"
+      },
+      {
+        "text": "The EU aims to achieve a fair transition to climate neutrality and build resilience in the EU by 2050.",
+        "commitment_class": "Declarative"
+      }
+    ],
+    "kpi_list": [
+      {
+        "kpi_text": "At least 35% of Horizon Europe’s resources are committed to be spent on climate action",
+        "kpi_type": "quantitative",
+        "metric_name": "Climate Action Investment",
+        "target_value": 35.0,
+        "target_description": "Percentage of resources allocated to climate action",
+        "unit": "percentage",
+        "timeframe": "by 2027",
+        "measurement_method": "Budget allocation tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "10% of Horizon Europe’s budget for 2025-2027 on biodiversity action",
+        "kpi_type": "quantitative",
+        "metric_name": "Biodiversity Action Investment",
+        "target_value": 10.0,
+        "target_description": "Percentage of budget allocated to biodiversity action",
+        "unit": "percentage",
+        "timeframe": "by 2027",
+        "measurement_method": "Budget allocation tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Invest at least EUR 13 billion from Horizon Europe in core digital technologies during 2021-2027",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Technologies Investment",
+        "target_value": 13.0,
+        "target_description": "Total investment in core digital technologies",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Financial tracking and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Establish a robust cybersecurity framework for critical infrastructure protection",
+        "kpi_type": "qualitative",
+        "metric_name": "Cybersecurity Framework Establishment",
+        "target_value": null,
+        "target_description": "Establish robust cybersecurity framework for critical infrastructure",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2025",
+        "measurement_method": "Framework establishment and implementation",
+        "responsible_entity": "European Cybersecurity Certification Group",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Strengthen cooperation with the private sector in cybersecurity certification",
+        "kpi_type": "qualitative",
+        "metric_name": "Private Sector Cooperation in Cybersecurity",
+        "target_value": null,
+        "target_description": "Enhance collaboration with private sector for cybersecurity certification",
+        "unit": "qualitative milestone",
+        "timeframe": "ongoing",
+        "measurement_method": "Partnership agreements and collaborative projects",
+        "responsible_entity": "European Cybersecurity Certification Group",
+        "sector": "Cybersecurity"
+      },
+      {
+        "kpi_text": "Increase investment in biodiversity to 10% of the Horizon Europe budget for 2025-2027",
+        "kpi_type": "quantitative",
+        "metric_name": "Biodiversity Investment Target",
+        "target_value": 10.0,
+        "target_description": "Percentage of budget allocated to biodiversity initiatives",
+        "unit": "percentage",
+        "timeframe": "by 2027",
+        "measurement_method": "Budget allocation tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Research and Innovation"
+      },
+      {
+        "kpi_text": "Develop capabilities for 100% of EU citizens to have access to high-quality healthcare",
+        "kpi_type": "qualitative",
+        "metric_name": "Healthcare Access Improvement",
+        "target_value": null,
+        "target_description": "Ensure all EU citizens have access to quality healthcare",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2030",
+        "measurement_method": "Healthcare access surveys and reports",
+        "responsible_entity": "Member States",
+        "sector": "Health"
+      },
+      {
+        "kpi_text": "Reduce greenhouse gas emissions by 55% by 2030 compared to 1990 levels",
+        "kpi_type": "quantitative",
+        "metric_name": "Greenhouse Gas Emission Reduction",
+        "target_value": 55.0,
+        "target_description": "Percentage reduction in greenhouse gas emissions",
+        "unit": "percentage",
+        "timeframe": "by 2030",
+        "measurement_method": "Emission tracking and reporting",
+        "responsible_entity": "European Commission",
+        "sector": "Environment"
+      },
+      {
+        "kpi_text": "Achieve climate neutrality by 2050",
+        "kpi_type": "qualitative",
+        "metric_name": "Climate Neutrality Goal",
+        "target_value": null,
+        "target_description": "Reach net-zero greenhouse gas emissions",
+        "unit": "qualitative milestone",
+        "timeframe": "by 2050",
+        "measurement_method": "Long-term emission tracking",
+        "responsible_entity": "European Commission",
+        "sector": "Environment"
+      }
+    ],
+    "country_list_iso": [
+      "BEL",
+      "BGR",
+      "CZE",
+      "DEU",
+      "DNK",
+      "ESP",
+      "EST",
+      "FRA",
+      "GRC",
+      "HRV",
+      "HUN",
+      "IRL",
+      "ITA",
+      "LTU",
+      "LUX",
+      "LVA",
+      "NLD",
+      "POL",
+      "PRT",
+      "ROU",
+      "SVK",
+      "SVN",
+      "SWE",
+      "UKR",
+      "USA"
+    ],
+    "responsible_entity": "European Cybersecurity Certification Group",
+    "sdg_alignment": [
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 7: Affordable and Clean Energy",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 11: Sustainable Cities and Communities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 14: Life Below Water",
+      "SDG 15: Life on Land",
+      "SDG 16: Peace, Justice and Strong Institutions",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "European Commission",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The European Commission is the primary actor in shaping and implementing the Horizon Europe strategic plan, making it central to the document's discussions on research and innovation."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The European Union provides the overarching framework and policies that guide the strategic plan, influencing all aspects of research and innovation funding."
+    },
+    {
+      "name": "EU Member States",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "Member States play a crucial role in the implementation of the strategic plan, as they are involved in funding, policy alignment, and stakeholder engagement."
+    }
+  ],
+  "top_themes": []
+}

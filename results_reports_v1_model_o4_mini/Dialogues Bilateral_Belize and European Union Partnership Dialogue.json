@@ -1,0 +1,85 @@
+{
+  "title": "Belize and European Union Partnership Dialogue Summary",
+  "date": null,
+  "location": "Belize",
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Regional & International Cooperation": [
+      "EU-CELAC Digital Partnership"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "Belize",
+      "European Union"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 36,
+  "quality_breakdown": {
+    "faithfulness": 0,
+    "consistency": 50,
+    "completeness": 36,
+    "accuracy": 75,
+    "issues": [
+      "Low faithfulness - check for hallucinations in basic or strategic extra data",
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "BLZ",
+    "agreement_type": [
+      "Ministerial Communiqué"
+    ],
+    "legal_bindingness": null,
+    "coverage_scope": "Bilateral",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": null,
+    "end_date": null,
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Belize",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "Belize is a key participant in the partnership dialogue, representing its interests and engaging in discussions with the European Union."
+    },
+    {
+      "name": "European Union",
+      "category": "Political Actors",
+      "relevance_score": 0.7,
+      "justification": "The European Union is a significant actor in the dialogue, providing a platform for cooperation and influencing policies that affect Belize."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "EU-CELAC Digital Partnership",
+      "category": "Regional & International Cooperation",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document as it highlights the collaborative efforts between Belize and the European Union, focusing on digital partnerships which are crucial for enhancing regional cooperation and addressing shared challenges."
+    },
+    {
+      "name": "Partnership Dialogue",
+      "category": "Diplomatic Engagement",
+      "relevance_score": 0.8,
+      "justification": "The concept of partnership dialogue is fundamental to the document, as it represents the framework within which Belize and the EU engage in discussions, making it a key element of their diplomatic relations."
+    },
+    {
+      "name": "Bilateral Relations",
+      "category": "International Relations",
+      "relevance_score": 0.7,
+      "justification": "Bilateral relations are significant in the context of the document as they underline the importance of direct cooperation between Belize and the EU, which is essential for achieving mutual goals and commitments."
+    }
+  ]
+}

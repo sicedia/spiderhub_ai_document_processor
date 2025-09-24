@@ -1,0 +1,392 @@
+{
+  "title": "High-Level Political Forum on Sustainable Development 2022: Addressing Global Challenges and Advancing the 2030 Agenda",
+  "date": "2022-08-03",
+  "location": "New York, United States",
+  "executive_summary": "The 2022 High-Level Political Forum on Sustainable Development highlighted the significant setbacks to achieving the Sustainable Development Goals (SDGs) due to the COVID-19 pandemic, the Ukraine conflict, and climate change. Key challenges include energy and food insecurity, high inflation, and national debt. The forum emphasized the need for global solidarity, enhanced cooperation, and transformational policies to foster recovery and resilience. It called for urgent action on climate commitments and the empowerment of women and marginalized communities. Education was underscored as a fundamental right essential for achieving all SDGs. The forum also focused on the importance of financing, science, technology, and partnerships in addressing these challenges. The outcomes will inform the 2023 summit, aiming to accelerate progress towards the 2030 Agenda for Sustainable Development.",
+  "characteristics": [
+    "The 2022 High-Level Political Forum focused on challenges such as COVID-19, the Ukraine conflict, and climate change, emphasizing the need for renewed multilateral action to achieve the Sustainable Development Goals (SDGs).",
+    "Strong global solidarity and increased development financing are essential for implementing the 2030 Agenda and addressing the debt crisis.",
+    "The forum highlighted the importance of engaging local authorities and communities, particularly empowering women and youth in decision-making processes.",
+    "Education was underscored as a fundamental human right and a key area for investment to achieve SDG 4, with a focus on closing the digital divide.",
+    "The forum called for urgent action on climate commitments and sustainable management of ecosystems to combat biodiversity loss and promote resilience.",
+    "A participatory approach involving all stakeholders is crucial for the successful implementation of the SDGs, with a focus on inclusivity and addressing the needs of vulnerable groups."
+  ],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Digital Education",
+      "Gender Equality in Tech"
+    ],
+    "Data & Governance": [
+      "Digital Rights",
+      "Data Governance"
+    ],
+    "Regional & International Cooperation": [
+      "Global Digital Cooperation",
+      "Digital & Technological Partnerships"
+    ],
+    "Digital Transformation & Strategy": [
+      "Digital Policy",
+      "Digital Infrastructure"
+    ],
+    "Technology & Innovation": [
+      "ICT Innovation",
+      "Tech-Driven Solutions"
+    ]
+  },
+  "actors": {
+    "Political Actors": [
+      "United Nations",
+      "Economic and Social Council",
+      "Governments",
+      "United Nations Officials"
+    ],
+    "Civil Society Actors": [
+      "Civil Society Organisations",
+      "Non-governmental Institutions"
+    ]
+  },
+  "practical_applications": [
+    "The 2022 high-level political forum on sustainable development convened under the auspices of the Economic and Social Council, focusing on \"Building back better from the coronavirus disease (COVID-19) while advancing the full implementation of the 2030 Agenda for Sustainable Development.\"",
+    "The forum reviewed Sustainable Development Goals 4, 5, 14, 15, and 17, facilitating discussions on their implementation and interlinkages.",
+    "The 10-Year Framework of Programmes on Sustainable Consumption and Production Patterns was introduced, highlighting ongoing efforts to promote sustainable consumption and production.",
+    "Voluntary national reviews were conducted by 44 countries, including Togo, Uruguay, Latvia, the Philippines, Switzerland, Argentina, and Ghana, to assess progress towards the Sustainable Development Goals.",
+    "The political declaration from the second United Nations Ocean Conference was referenced, emphasizing commitments to accelerate implementation of Goal 14 through partnerships and collaboration.",
+    "The forum emphasized the need for increased development financing and addressing the debt crisis to support countries in special situations disproportionately affected by global challenges.",
+    "The forum highlighted the importance of engaging local authorities and communities in the implementation of the 2030 Agenda, ensuring the inclusion of vulnerable groups and marginalized communities.",
+    "The Transforming Education Summit was mentioned as an opportunity to address barriers to achieving Goal 4, focusing on innovative financial means for education and closing the digital divide.",
+    "The forum called for urgent action to implement commitments on climate change, including the Glasgow Climate Pact, to limit global warming and promote a sustainable recovery from COVID-19."
+  ],
+  "commitments": [],
+  "score": 91,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 91,
+    "completeness": 91,
+    "accuracy": 87,
+    "issues": []
+  },
+  "extra_data": {
+    "lead_country_iso": "BWA",
+    "agreement_type": [
+      "Ministerial Communiqué"
+    ],
+    "legal_bindingness": "Politically-binding",
+    "coverage_scope": "Global",
+    "eu_policy_alignment": [],
+    "review_schedule": "Annual",
+    "beneficiary_group_raw": [
+      "women",
+      "youth",
+      "communities",
+      "island",
+      "countries"
+    ],
+    "beneficiary_group": [
+      {
+        "category": "Women & Girls",
+        "label": "Women"
+      },
+      {
+        "category": "Students & Youth",
+        "label": "Youth"
+      },
+      {
+        "category": "Rural & Remote Communities",
+        "label": "Communities"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Citizens"
+      },
+      {
+        "category": "General Citizens / Consumers",
+        "label": "Countries"
+      }
+    ],
+    "start_date": "2022-07-05",
+    "end_date": "2022-07-15",
+    "commitment_details": [],
+    "kpi_list": [
+      {
+        "kpi_text": "Implement the commitments on climate change, including the Glasgow Climate Pact, to keep alive the prospects of limiting global warming to 1.5 degrees Celsius above pre-industrial levels.",
+        "kpi_type": "qualitative",
+        "metric_name": "Climate Change Commitment Implementation",
+        "target_value": null,
+        "target_description": "Implement commitments to limit global warming to 1.5 degrees Celsius.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of implementation of climate commitments",
+        "responsible_entity": "Countries and international organizations",
+        "sector": "Climate Change"
+      },
+      {
+        "kpi_text": "Increase flows of public and private finance to bridge the financing gap for the Sustainable Development Goals.",
+        "kpi_type": "qualitative",
+        "metric_name": "Financing for Sustainable Development Goals",
+        "target_value": null,
+        "target_description": "Increase financial flows to support the Sustainable Development Goals.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Monitoring financial flows and investments",
+        "responsible_entity": "Governments and financial institutions",
+        "sector": "Finance"
+      },
+      {
+        "kpi_text": "Strengthen One Health and social protection systems and promote decent jobs.",
+        "kpi_type": "qualitative",
+        "metric_name": "Strengthening Health and Social Protection",
+        "target_value": null,
+        "target_description": "Enhance health and social protection systems while promoting decent jobs.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of health and social protection systems",
+        "responsible_entity": "Governments and health organizations",
+        "sector": "Health and Employment"
+      },
+      {
+        "kpi_text": "Engage local authorities and communities for inclusive implementation of the 2030 Agenda.",
+        "kpi_type": "qualitative",
+        "metric_name": "Local Engagement in 2030 Agenda",
+        "target_value": null,
+        "target_description": "Ensure local authorities and communities are actively involved in the implementation of the 2030 Agenda.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of local engagement strategies",
+        "responsible_entity": "Local governments and community organizations",
+        "sector": "Governance"
+      },
+      {
+        "kpi_text": "Adopt gender-responsive policies and budgeting to achieve gender equality.",
+        "kpi_type": "qualitative",
+        "metric_name": "Gender-Responsive Policy Adoption",
+        "target_value": null,
+        "target_description": "Implement policies and budgets that are responsive to gender equality.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Review of policy frameworks and budgets",
+        "responsible_entity": "Governments",
+        "sector": "Gender Equality"
+      },
+      {
+        "kpi_text": "Mobilize €300 billion in public and private investment by 2027 for digital infrastructure.",
+        "kpi_type": "quantitative",
+        "metric_name": "Digital Infrastructure Investment",
+        "target_value": 300.0,
+        "target_description": "Mobilize investment for enhancing digital infrastructure.",
+        "unit": "billion EUR",
+        "timeframe": "by 2027",
+        "measurement_method": "Tracking investment flows",
+        "responsible_entity": "Governments and private sector",
+        "sector": "Digital Infrastructure"
+      },
+      {
+        "kpi_text": "Conduct 44 voluntary national reviews during the high-level political forum.",
+        "kpi_type": "quantitative",
+        "metric_name": "Voluntary National Reviews",
+        "target_value": 44.0,
+        "target_description": "Complete national reviews to assess progress on the Sustainable Development Goals.",
+        "unit": "reviews",
+        "timeframe": "during the 2022 session",
+        "measurement_method": "Count of completed reviews",
+        "responsible_entity": "Participating countries",
+        "sector": "Governance"
+      },
+      {
+        "kpi_text": "Review Goals 4, 5, 14, 15, and 17 in depth during the forum.",
+        "kpi_type": "qualitative",
+        "metric_name": "In-Depth Review of Sustainable Development Goals",
+        "target_value": null,
+        "target_description": "Conduct thorough reviews of specified Sustainable Development Goals.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Assessment of review outcomes",
+        "responsible_entity": "High-Level Political Forum",
+        "sector": "Sustainable Development"
+      },
+      {
+        "kpi_text": "Strengthen cooperation among stakeholders to ensure inclusion of vulnerable groups.",
+        "kpi_type": "qualitative",
+        "metric_name": "Stakeholder Cooperation for Inclusion",
+        "target_value": null,
+        "target_description": "Enhance collaboration to include vulnerable and marginalized communities.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Evaluation of stakeholder engagement",
+        "responsible_entity": "Governments and civil society",
+        "sector": "Social Inclusion"
+      },
+      {
+        "kpi_text": "Implement regulations to enhance transparency and accountability in financing.",
+        "kpi_type": "qualitative",
+        "metric_name": "Regulatory Implementation for Transparency",
+        "target_value": null,
+        "target_description": "Adopt and enforce regulations that promote transparency in financial flows.",
+        "unit": "qualitative milestone",
+        "timeframe": null,
+        "measurement_method": "Review of regulatory frameworks",
+        "responsible_entity": "Regulatory bodies",
+        "sector": "Finance"
+      }
+    ],
+    "country_list_iso": [
+      "ALB",
+      "AND",
+      "ARG",
+      "ARM",
+      "ATG",
+      "BGR",
+      "BHR",
+      "BWA",
+      "BLR",
+      "BLZ",
+      "BOL",
+      "BRA",
+      "BRN",
+      "BTN",
+      "CAF",
+      "CAN",
+      "CHE",
+      "CHL",
+      "CHN",
+      "COL",
+      "CRI",
+      "CUB",
+      "CYP",
+      "CZE",
+      "DEU",
+      "DJI",
+      "DOM",
+      "DZA",
+      "ECU",
+      "EGY",
+      "EL SAL",
+      "ERI",
+      "ESP",
+      "ETH",
+      "FRA",
+      "GHA",
+      "GMB",
+      "GRC",
+      "GTM",
+      "HND",
+      "HUN",
+      "IND",
+      "IRL",
+      "IRN",
+      "IRQ",
+      "ISR",
+      "ITA",
+      "JAM",
+      "JPN",
+      "KEN",
+      "KHM",
+      "KOR",
+      "KWT",
+      "LBN",
+      "LBR",
+      "LIE",
+      "LTU",
+      "LUX",
+      "MDG",
+      "MEX",
+      "MNG",
+      "MYS",
+      "NAM",
+      "NGA",
+      "NLD",
+      "NOR",
+      "OMN",
+      "PAK",
+      "PAN",
+      "PER",
+      "PHL",
+      "POL",
+      "PRT",
+      "QAT",
+      "ROU",
+      "RUS",
+      "RWA",
+      "SAU",
+      "SEN",
+      "SGP",
+      "SLE",
+      "SLV",
+      "SOM",
+      "SRB",
+      "SUR",
+      "SVK",
+      "SVN",
+      "SWE",
+      "TGO",
+      "THA",
+      "TJK",
+      "TTO",
+      "TUR",
+      "TZA",
+      "UGA",
+      "UKR",
+      "URY",
+      "VEN",
+      "VNM",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "responsible_entity": "Economic and Social Council",
+    "sdg_alignment": [
+      "SDG 1: No Poverty",
+      "SDG 2: Zero Hunger",
+      "SDG 3: Good Health and Well-being",
+      "SDG 4: Quality Education",
+      "SDG 5: Gender Equality",
+      "SDG 6: Clean Water and Sanitation",
+      "SDG 8: Decent Work and Economic Growth",
+      "SDG 10: Reduced Inequalities",
+      "SDG 12: Responsible Consumption and Production",
+      "SDG 13: Climate Action",
+      "SDG 14: Life Below Water",
+      "SDG 15: Life on Land",
+      "SDG 17: Partnerships for the Goals"
+    ]
+  },
+  "top_actors": [
+    {
+      "name": "United Nations",
+      "category": "Political Actors",
+      "relevance_score": 1.0,
+      "justification": "The United Nations is the primary body convening the High-Level Political Forum and is central to the discussions on sustainable development, making it the most prominent actor in the text."
+    },
+    {
+      "name": "Economic and Social Council",
+      "category": "Political Actors",
+      "relevance_score": 0.9,
+      "justification": "The Economic and Social Council is responsible for organizing the forum and plays a crucial role in the implementation of the 2030 Agenda, thus holding significant influence over the proceedings."
+    },
+    {
+      "name": "Governments",
+      "category": "Political Actors",
+      "relevance_score": 0.8,
+      "justification": "Governments are key participants in the forum, providing national reviews and engaging in discussions that shape policies and initiatives related to sustainable development."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "Digital Education",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "Digital education is crucial for achieving the Sustainable Development Goals, particularly Goal 4, which emphasizes inclusive and equitable quality education. The document highlights the need for innovative financial means for education and closing the digital divide, making this theme central to the overall message of recovery and sustainable development."
+    },
+    {
+      "name": "Gender Equality in Tech",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.85,
+      "justification": "The document stresses that gender equality is essential for achieving the 2030 Agenda. It points out that women and girls face multiple forms of discrimination, and empowering them in technology is vital for sustainable development. This theme is strategically important as it aligns with the commitment to leave no one behind."
+    },
+    {
+      "name": "Digital Policy",
+      "category": "Digital Transformation & Strategy",
+      "relevance_score": 0.8,
+      "justification": "Digital policy is essential for guiding the implementation of technology in achieving the Sustainable Development Goals. The document discusses the need for transformational policies and the role of digital innovation in recovery efforts, making this theme significant for strategic planning and governance."
+    }
+  ]
+}

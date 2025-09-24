@@ -1,0 +1,71 @@
+{
+  "title": "Latin American High Performance Computing Conference 2024",
+  "date": null,
+  "location": null,
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Technology & Innovation": [
+      "High-Performance Computing"
+    ]
+  },
+  "actors": {
+    "Research and Innovation Actors": [
+      "Latin American Cooperation of Advanced Networks",
+      "Universities"
+    ]
+  },
+  "practical_applications": [],
+  "commitments": [],
+  "score": 62,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 50,
+    "completeness": 62,
+    "accuracy": 33,
+    "issues": [
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": null,
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": "Regional",
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2024-01-01",
+    "end_date": "2024-01-01",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [
+    {
+      "name": "Latin American Cooperation of Advanced Networks",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.9,
+      "justification": "This actor is likely to be a key player in the context of high-performance computing in Latin America, indicating a significant role in collaboration and innovation initiatives."
+    },
+    {
+      "name": "Universities",
+      "category": "Research and Innovation Actors",
+      "relevance_score": 0.8,
+      "justification": "Universities are fundamental in research and education, contributing to the development of high-performance computing technologies and training skilled professionals in the field."
+    }
+  ],
+  "top_themes": [
+    {
+      "name": "High-Performance Computing",
+      "category": "Technology & Innovation",
+      "relevance_score": 1.0,
+      "justification": "This theme is central to the document's main message, as it focuses on advancements and discussions surrounding high-performance computing, which is the primary subject of the conference."
+    }
+  ]
+}

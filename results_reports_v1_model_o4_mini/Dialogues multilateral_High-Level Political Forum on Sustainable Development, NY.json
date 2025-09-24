@@ -1,0 +1,65 @@
+{
+  "title": "High-Level Political Forum 2023: Sustainable Development Dialogues in New York",
+  "date": null,
+  "location": "New York, USA",
+  "executive_summary": null,
+  "characteristics": [],
+  "themes": {
+    "Inclusion & Social Development": [
+      "Sustainable Digital Development"
+    ]
+  },
+  "actors": {},
+  "practical_applications": [],
+  "commitments": [],
+  "score": 57,
+  "quality_breakdown": {
+    "faithfulness": 100,
+    "consistency": 30,
+    "completeness": 57,
+    "accuracy": 25,
+    "issues": [
+      "Internal inconsistencies detected across data sections",
+      "Missing important information in extraction or strategic analysis",
+      "Potential factual errors in basic content or strategic extra data"
+    ]
+  },
+  "extra_data": {
+    "lead_country_iso": "USA",
+    "agreement_type": [],
+    "legal_bindingness": null,
+    "coverage_scope": null,
+    "eu_policy_alignment": [],
+    "review_schedule": null,
+    "beneficiary_group_raw": [],
+    "beneficiary_group": [],
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-01",
+    "commitment_details": [],
+    "kpi_list": [],
+    "country_list_iso": [],
+    "responsible_entity": null,
+    "sdg_alignment": []
+  },
+  "top_actors": [],
+  "top_themes": [
+    {
+      "name": "Sustainable Digital Development",
+      "category": "Inclusion & Social Development",
+      "relevance_score": 0.9,
+      "justification": "This theme is central to the document's main message, emphasizing the importance of integrating digital solutions in sustainable development efforts. It aligns with key objectives of promoting inclusivity and social equity."
+    },
+    {
+      "name": "Inclusion",
+      "category": "Social Development",
+      "relevance_score": 0.85,
+      "justification": "Inclusion is a critical aspect of sustainable development, ensuring that marginalized groups are considered in policy-making. The document dedicates significant content to this theme, highlighting its strategic importance."
+    },
+    {
+      "name": "Social Development",
+      "category": "Sustainable Development",
+      "relevance_score": 0.8,
+      "justification": "Social development is a foundational element of sustainable development, focusing on improving the quality of life for all. Its relevance is underscored by its connection to broader commitments and objectives outlined in the document."
+    }
+  ]
+}
